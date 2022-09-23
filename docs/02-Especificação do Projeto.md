@@ -6,17 +6,8 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+ 
+	
 
 ## Histórias de Usuários
 
@@ -49,42 +40,37 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |------|-----------------------------------------|----|
 |RF-001| O site deve conter na página inicial a funcionalidade de intermediar o contato entre o doador e o hemocentro.  | ALTA | 
 |RF-002| O site deve conter uma sessão informativa para novos doadores.    | MÉDIA |
+|RF-03 |O site deve permitir ao doador de manifestar o interesse em se tornar um doador por meio de um formulário.|Média|
+|RF-04 |O site deve possibilitar o cadastro de doadores.  |Alta |
+|RF-05 |O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar o hemocentro mais próximo da sua região. |Alta |
+|RF-06 |O site deve permitir visualizar as informações de contato dos hemocentros.  |Alta |
+|RF-07 |O site deve permitir visualizar as informações de contato dos doadores pelos Hemocentros. |Alta |
+|RF-08 |O site deve permitir o compartilhamento de notícias enviadas pelos hemocentros aos doadores.|Média |
+|RF-09 |O site deve permitir a emissão de cartão benefício para doadores do grupo Hemo Life. |Média |
+|RF-10 |	O site deve conter em sua página inicial um gráfico dinâmico POR HEMOCENTRO informando o estoque disponível para cada tipo sanguíneo. |Alta |
+|RF-11 |O site deve permitir que usuários possam comentar notícias e prestar depoimentos, bem como também os hemocentros. |Baixa |
+|RF-12 |	O site deve conter uma sessão que permite aos hemocentros enviar uma notificação a doadores que tenham manifestado interesse com base na demanda de estoque de sangue. |Alto |
 
 
 ### Requisitos não Funcionais
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender. 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001 |O site deve ser publicado no GitHub. |Alta |
+|RNF-002 |O site deverá ser responsivo permitindo a visualização em um celular, tablet e monitor de forma adequada. |Alta |
+|RNF-003 |O site deve ter um tempo médio de resposta para cada requisição de aproximadamente 5 segundos. |Média |
+|RNF-004 |O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |Alta |
+|RNF-005 |O site precisa funcionar 24 x 7 (vinte e quatro horas por dia, sete dias por semana). |Alta |
+|RNF-006 |O site deve possuir o widget do Vlibras integrado ao seu código afim de garantir acessibilidade. |Alta |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir. 
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|RE-01 |O projeto deverá ser entregue no final do semestre letivo. |
+|RE-02 |O site deve se restringir às tecnologias básicas da Web no Front-end |
+|RE-03 |A equipe não pode subcontratar o desenvolvimento do trabalho. |
