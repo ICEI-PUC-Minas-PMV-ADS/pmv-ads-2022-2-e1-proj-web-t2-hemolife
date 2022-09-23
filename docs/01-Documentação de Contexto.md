@@ -1,46 +1,43 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Com a baixa nos estoques de sangue dos Hemocentros do Brasil, principalmente após o primeiro ano de pandemia do Covid-19, notou-se a necessidade de implementação de um sistema para conectar hemocentros e doadores, instruindo-os sobre os benefícios de ser um doador e formas de agendamento. Além disso, é possível visualizar quais hemocentros estão com maiores necessidades de reposição de estoque na região do doador.  
+
+Considerando que nos hemocentros há estoque de hemocomponentes com validade reduzida - de apenas alguns dias - é necessário manter um fluxo constante de doações para evitar o desabastecimento. Algumas cirurgias eletivas, que não são urgentes, acabam sendo adiadas por falta de sangue. 
+
+No Brasil, somente 7% da população possuem o tipo sanguíneo O-, que é utilizado frequentemente em situações de emergência. Do qual, pode ser infundido em qualquer pessoa sem que ocorra rejeição do organismo. Assim, seus portadores são considerados doadores universais.  
+
+O tipo AB- sanguíneo é ainda mais difícil de ser encontrado, tendo apenas 1% dos brasileiros nesta tipagem. Seguido pelo tipo sanguíneo B- (2%), AB+ (3%), cujos portadores são considerados receptores universais, A- (6%) e B+ (9%).  
+
+Os mais comuns são os da categoria A+ e o O+, que aparecem em 36% e 37% dos brasileiros, respectivamente, mas isso não significa que a doação desses tipos sejam dispensáveis. 
+
+A OMS recomenda que um país deve ter de 3% a 5% de doadores em relação ao total da população. No entanto, no Brasil, esse percentual é de 1,9%, segundo o Ministério da Saúde. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Conforme exposto, o problema que se busca resolver com este projeto é a falta de visibilidade que os hemocentros e suas campanhas possuem, pois todos nós já nos deparamos com postagens de pedido de doação de sangue com urgência para determinada pessoa. Essa problemática atinge todas as unidades de hemocentros do Brasil, já que a maioria da população não tem o hábito de doar sangue de forma constante.  
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Como objetivos específicos, podemos ressaltar: 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+    Fornecer funcionalidades que permita que o usuário se cadastre e saiba todos os pré-requisitos para doar sangue. 
+
+    Fornecer o estoque de sangue atualizado do Hemocentro. 
+
+    Apresentar os endereços e telefones dos Hemocentros espalhados pelo Brasil. 
+
+    Apresentar todas as vantagens que um doador de sangue tem, fazendo com que os usuários tenham mais interesse em se tornar um doador de sangue assíduo.   
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Os Hemocentros tem enfrentado períodos de diminuição significativa de doações de sangue. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+O sangue não se fabrica artificialmente, portanto, não existe uma forma mais simples de salvar vidas. O organismo repõe o plasma em cerca de um dia após a doação e os demais componentes em algumas semanas. Homens podem doar sangue a cada 2 meses e mulheres a cada 3 meses.  
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O Ministério da Saúde informa que doar sangue pode salvar até 4 vidas, pois a partir de uma doação, poderão ser produzidos quatro tipos de componentes do sangue, cada um com uma determinada função. 
+
+A aplicação HemoLife permitirá o maior contato do doador e os hemocentros, permitindo assim manter os níveis regulares dos estoques de sangue. 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Temos que o público-alvo serão os maiores de 18 anos que tenham interesse em doar sangue e procuram saber de todos os requisitos e benefícios para efetuar uma doação de sangue. Desta forma, também teremos como usuários os Hemocentros, que poderão utilizar da nossa plataforma para se conectar com os doadores e impulsionar ainda mais suas campanhas de doação de sangue. 
