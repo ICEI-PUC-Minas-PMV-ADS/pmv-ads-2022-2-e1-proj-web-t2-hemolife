@@ -2,7 +2,7 @@
 
 A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi   consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros   da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas.   Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias   de usuários. 
 
-## Personas
+## Personas - Pendente
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
@@ -24,8 +24,6 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 |Tadeu Júnior| Encontrar os Hemocentros mais próximos do local onde eu me encontro.|Tornar a busca mais objetiva, sem ter que pesquisar manualmente.|
 |Tadeu Júnior| Visualizar o estoque de disponível de todos os tipos sanguíneos.|Estar atualizado quanto a quais tipos sanguíneos estão em baixa.|
 |Luiza Almeida|Gostaria de fornecer um cartão de benefícios para cada doador recorrente.|Incentivar e atrair mais doadores.|
@@ -40,15 +38,6 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |Junior D’Ávila|Quero doar e preciso de uma forma centralizada de agendamento de doação para indicar nas redes sociais.|Para meu pai prestes a realizar cirurgia cardíaca, entre outros com a mesma necessidade.|
 |Junior D’Ávila|Viajo muito e quero manter o hábito de doar na cidade em que eu estiver.|Tem dificuldade em encontrar informação acerca dos hemocentros da região.|
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
 ## Requisitos
 
 O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir. 
@@ -58,8 +47,8 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site deve conter na página inicial a funcionalidade de intermediar o contato entre o doador e o hemocentro.  | ALTA | 
+|RF-002| O site deve conter uma sessão informativa para novos doadores.    | MÉDIA |
 
 
 ### Requisitos não Funcionais
