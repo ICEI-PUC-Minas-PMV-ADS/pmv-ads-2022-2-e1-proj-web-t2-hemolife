@@ -2,10 +2,12 @@
 
 A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi   consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros   da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas.   Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias   de usuários. 
 
+
+
 ## Personas - Pendente
-
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-
+```diff
+-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+```
  
 	
 
