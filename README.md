@@ -6,7 +6,6 @@
 
 `2º/2022`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 A aplicação HemoLife aumenta o contato de doadores de sangue e os hemocentros, gerando melhor eficiência nas campanhas de doação
 Logo, a aplicação permite que os hemocentros posssam manter os níveis regulares dos estoques de sangue.
 
