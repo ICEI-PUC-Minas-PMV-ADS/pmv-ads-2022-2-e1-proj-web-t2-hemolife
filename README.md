@@ -1,23 +1,27 @@
-# TÍTULO DO PROJETO
+# Hemo Life
 
-`CURSO`
+`Tecnólogo em Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`2º/2022`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+A aplicação HemoLife aumenta o contato de doadores de sangue e os hemocentros, gerando melhor eficiência nas campanhas de doação
+Logo, a aplicação permite que os hemocentros posssam manter os níveis regulares dos estoques de sangue.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Gabriel Alisson dos Santos Oliveira
+* Israel Messias Gomes Moreira
+* Jansem Wallemberg Torquetti Maia
+* Lucas Filipe dos Reis
+* Natan Cândido da Fonseca
+* Wellington Andrade Rolim
 
 ## Orientador
 
-* Nome completo do professor 1
+* Joyce Christina de Paiva Carvalho 
 
 ## Instruções de utilização
 
