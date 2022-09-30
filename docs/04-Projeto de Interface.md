@@ -33,3 +33,14 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 > - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
 > - [Axure](https://www.axure.com/edu) (Licença Educacional)
 > - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+
+
+
+## Tela - Resultado da Pesquisa
+
+A tela dos resultados das pesquisas será dividido em duas telas, a primeira conterá todas as regiões do país, onde o usuário escolherá a sua região. A segunda apresentará todos os Estados da região selecionada pelo usuário. 
+
+![buscador hemolife](https://user-images.githubusercontent.com/111004815/193333215-d2430549-44d1-4c3e-b10d-0c1fc4db7c78.png)
+
+
+
