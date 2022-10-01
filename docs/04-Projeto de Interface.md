@@ -40,8 +40,13 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 A tela dos resultados das pesquisas será dividido em duas telas, a primeira conterá todas as regiões do país, onde o usuário escolherá a sua região e será redirecionado para a segunda tela. 
 
+
 ![buscador hemolife](https://user-images.githubusercontent.com/111004815/193333215-d2430549-44d1-4c3e-b10d-0c1fc4db7c78.png)
 
 
+A segunda tela será o resultado do filtro aplicado na tela anterior, onde o usuário terá acesso aos endereços e telefones dos hemocentros da região selecionada, como na imagem a seguir.
+
+
+![resultado das pesquisas norte](https://user-images.githubusercontent.com/111004815/193406276-002bafb3-9e29-43af-b2ef-7675c2887a85.png)
 
 
