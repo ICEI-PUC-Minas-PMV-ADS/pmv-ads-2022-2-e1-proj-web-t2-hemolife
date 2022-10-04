@@ -6,7 +6,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Personas
 
-|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/a.png" width="200" title="Tadeu Júnior">|<h2 align="right"><b>Tadeu Júnior</b></h2></br></br></br> <p align="left">Idade: 27 <br/> Ocupação: Estudante de música e violonista de uma banda sertaneja. <br/> Tipo sanguíneo: Doador de sangue recorrente do tipo A-.</p>|
+|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/a.png" width="200" title="Tadeu Júnior" align="left">|<h2 align="right"><b>Tadeu Júnior</b></h2></br></br></br> <p align="left">Idade: 27 <br/> Ocupação: Estudante de música e violonista de uma banda sertaneja. <br/> Tipo sanguíneo: Doador de sangue recorrente do tipo A-.</p>|
 |-|-|
 |<b>Motivações</b><br/>Contribuir com a melhora do sistema de saúde como doador recorrente.| Frustrações <br/> <ul><li>Dificuldade em encontrar hemocentros nas imediações.</li> <li>Falta de campanhas e divulgação para apoiar a causa.</li> <li>Falta de informação para novos doadores.</li> <li>Falta de benefícios para atrair novos doadores.</li></ul>|	
 |<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/b.png" width="200" title="Luiza Almeida">|<h2 align="right"><b>Luiza Almeida</b></h2></br></br></br> <p align="left">Idade: 41 <br/>Ocupação: Coordenadora da Divisão de Hematologia em um hemocentro da região sul de Belo Horizonte.<br/> Tipo sanguíneo: Doadora assídua do tipo O-. </p>|
