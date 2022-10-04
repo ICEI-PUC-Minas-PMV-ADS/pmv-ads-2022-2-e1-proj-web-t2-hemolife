@@ -66,3 +66,10 @@ A segunda tela será o resultado do filtro aplicado na tela anterior, onde o usu
 A tela de formulário é bem simples e objetiva no qual estará dividida em duas telas. A primeira é o formulário no qual o usuário demonstra interesse em se tornar um doador ou continuar sendo um doador recorrente através da Hemo Life, no qual temos vários campos de preenchimento para o usuário registrar seus dados pessoais com o objetivo de ser contatado por algum hemocentro mais próximo que também está em busca de reposição sanguínea.
 
 ![Formulário para doação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Formul%C3%A1rio%20Wireframe.PNG?raw=true)
+
+
+## Tela - Formulário Aprovado
+
+A segunda tela de formulário é onde está contida a sucessão do preenchimento do formulário, no qual é visível para o usuário que preencheu todos os dados corretamente em seus respectivos campos pré-determinados.
+
+![Formulário preenchido com sucesso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Formul%C3%A1rio-Aprovado%20Wireframe.PNG?raw=true)
