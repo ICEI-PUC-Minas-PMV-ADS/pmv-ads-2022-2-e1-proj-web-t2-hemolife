@@ -73,3 +73,11 @@ A tela de formulário é bem simples e objetiva no qual está dividida em duas t
 A segunda tela de formulário é onde está contida a sucessão do preenchimento do formulário, no qual é visível para o usuário que preencheu todos os dados corretamente em seus respectivos campos pré-determinados.
 
 ![Formulário preenchido com sucesso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Formul%C3%A1rio-Aprovado%20Wireframe.PNG?raw=true)
+
+
+## Tela - Campanhas
+
+A tela de campanhas do Hemo Life é o lugar no qual o usuário poderá se informar qualificadamente sobre o que é uma doação sanguínea, o porquê essa atitude é tão importante e o impacto causado por essa boa ação para uma sociedade de modo geral. Essa tela também irá informar os usuários sobre quem pode se tornar um doador sanguíneo, as condições básicas que esse doador(a) precisa atender para que o processo seja efetivado, também é informado as orientações que as pessoas devem respeitar para que o processo ocorra de forma correta e saudável. Essa tela de campanhas também é responsável por informar como serão todas as etapas do processo de doação e também os locais que são feitos as coletas através de um link que redireciona para a página de pesquisa do hemocentro.
+
+![Tela de campanhas-parte-um](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Campanhas-parte-um%20Wireframe.PNG?raw=true)
+![Tela de campanhas-parte-dois](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Campanhas-parte-dois%20Wireframe.PNG?raw=true)
