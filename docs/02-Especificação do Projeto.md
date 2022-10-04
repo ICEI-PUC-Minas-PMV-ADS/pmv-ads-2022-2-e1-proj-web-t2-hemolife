@@ -4,11 +4,17 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 
 
-## Personas - Pendente
+## Personas
 
-||Tadeu Júnior `PERSONA`|
-|-|---------------------------------------|
-|<b>Motivações</b><br/>Contribuir com a melhora do sistema de saúde como doador recorrente.| Idade: 27 <br/> Ocupação: Estudante de música e violonista de uma banda sertaneja. <br/> Tipo sanguíneo: Doador de sangue recorrente do tipo A-.|
+|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/a.png" width="200" title="Tadeu Júnior">|<h2 align="right"><b>Tadeu Júnior</b></h2></br></br></br> <p align="left">Idade: 27 <br/> Ocupação: Estudante de música e violonista de uma banda sertaneja. <br/> Tipo sanguíneo: Doador de sangue recorrente do tipo A-.</p>|
+|-|-|
+|<b>Motivações</b><br/>Contribuir com a melhora do sistema de saúde como doador recorrente.| Frustrações <br/> <ul><li>Dificuldade em encontrar hemocentros nas imediações.</li> <li>Falta de campanhas e divulgação para apoiar a causa.</li> <li>Falta de informação para novos doadores.</li> <li>Falta de benefícios para atrair novos doadores.</li></ul>|	
+|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/b.png" width="200" title="Luiza Almeida">|<h2 align="right"><b>Luiza Almeida</b></h2></br></br></br> <p align="left">Idade: 41 <br/>Ocupação: Coordenadora da Divisão de Hematologia em um hemocentro da região sul de Belo Horizonte.<br/> Tipo sanguíneo: Doadora assídua do tipo O-. </p>|
+|<b>Motivações</b><br/>Contribuir com a melhora do sistema de saúde como doador recorrente.| <br/>Frustrações <ul><li> Dificuldade extrema em atrair novos doadores.</li> <li>Ausência de um sistema eficiente que estabeleça uma comunicação entre o doador e o Hemocentro.</li> <li> Falta de campanhas.</li> </ul>|	
+|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/c.png" width="200" title="Akemi Toryama">|<h2 align="right"><b>Akemi Toryama</b></h2></br></br></br> <p align="left">Idade: 41 <br/> Ocupação: Coordenadora da Divisão de Hematologia em um hemocentro da região sul de Belo Horizonte. <br/>Tipo sanguíneo: Doadora assídua do tipo O-.</p>|	
+|<b>Motivações</b><br/>Contribuir com a melhora do sistema de saúde como doador recorrente.| Frustrações <ul><li> Dificuldade extrema em atrair novos doadores. </li><li> Ausência de um sistema eficiente que estabeleça uma comunicação entre o doador e o Hemocentro.</li> <li> Falta de campanhas. </li></ul>|	
+|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/d.jpg" width="200" title="Junior D’Ávila">|<h2 align="right"><b>Junior D’Ávila</b></h2></br></br></br> <p align="left">Idade: 48 <br/>Ocupação: trabalha com Análise de Risco na PreX que presta serviço para empresas no Brasil. <br/>Tipo sanguíneo: Doador de sangue eventual do tipo B-. </p>|
+|<b>Motivações</b><br/>Contribuir com a melhora do sistema de saúde como doador recorrente. | Frustrações <ul><li>Imprevistos </li><li>Dificuldade em encontrar Hemocentros </li></ul>
 
 
 	
