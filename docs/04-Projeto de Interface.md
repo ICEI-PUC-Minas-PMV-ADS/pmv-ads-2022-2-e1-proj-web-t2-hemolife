@@ -21,8 +21,6 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-![Exemplo de Wireframe](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Wireframe%20-%20Esbo%C3%A7o.png?raw=true)
-
 Conforme  fluxo  de  telas  do  projeto,  apresentado  no  item  anterior,  as  telas  do  sistema  são 
 apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma 
 estrutura comum que é apresentada na Figura X. Nesta estrutura, existem 3 grandes blocos, 
@@ -32,6 +30,22 @@ descritos a seguir. São eles:
  <li>Conteúdo/Body - Apresenta o conteúdo da tela em questão;</li>
  <li>Rodapé/Footer  -  Apresenta  os  elementos  de  navegação  secundária,  geralmente associados aos elementos do bloco de conteúdo.</li>
 </ul>
+
+![Exemplo de Wireframe](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Wireframe%20-%20Esbo%C3%A7o.png?raw=true)
+
+
+## Tela - Home-Page (Index)
+
+A tela inicial contém informações que abrangem todas as camadas e funcionalidades de nosso site, nas quais pela integração do usuário é possível que ele execute diversas ações, como:
+
+Na barra de navegação (cabeçalho/navbar) é possível que ele saiba quem é a Hemo Life ao clicar no botão, é possível também entrar em contato conosco, se antenar sobre as campanhas e fazer seu login.
+
+No conteúdo é onde nossos usuários poderão solicitar o seu cartão clube de benefícios, localizar o hemocentro mais próximo, verificar nossos indicadores de estoque sangúineo, receber as mais recentes notícias referentes aos fatos relacionados a doações de sangue e também solicitar através de um formulário a possibilidade de ser um doador sanguíneo.
+
+No rodapé (footer) é possível que o usuário solucione suas dúvidas, que ele também possa ajudar o projeto com incentivos financeiros tanto como publicitários, é totalmente possível que esse usuário possa se candidatar para uma vaga de trabalho, seja ela efetiva como também de forma voluntária ( sem fins lucrativos ) e por fim, contém nossos direitos autorais pelas informações prestadas e pelo funcionamento do nosso site.
+
+![Home-Page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Index%20Wireframe.png?raw=true)
+
 
 ## Tela - Resultado da Pesquisa
 
