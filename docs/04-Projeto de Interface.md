@@ -27,11 +27,11 @@ Conforme  fluxo  de  telas  do  projeto,  apresentado  no  item  anterior,  as  
 apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma 
 estrutura comum que é apresentada na Figura X. Nesta estrutura, existem 3 grandes blocos, 
 descritos a seguir. São eles:
-
-● Cabeçalho/Head  -  Local  onde  são  dispostos  elementos  fixos  de  identidade  (logo)  e a barra de navegação principal do site (menu da aplicação);
-● Conteúdo/Body - Apresenta o conteúdo da tela em questão;
-● Rodapé/Footer  -  Apresenta  os  elementos  de  navegação  secundária,  geralmente associados aos elementos do bloco de conteúdo.
- 
+<ul>
+ <li>Cabeçalho/Head  -  Local  onde  são  dispostos  elementos  fixos  de  identidade  (logo)  e a barra de navegação principal do site (menu da aplicação);</li>
+ <li>Conteúdo/Body - Apresenta o conteúdo da tela em questão;</li>
+ <li>Rodapé/Footer  -  Apresenta  os  elementos  de  navegação  secundária,  geralmente associados aos elementos do bloco de conteúdo.</li>
+</ul>
 
 ## Tela - Resultado da Pesquisa
 
