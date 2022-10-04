@@ -40,7 +40,7 @@ A tela inicial contém informações que abrangem todas as camadas e funcionalid
 
 Na barra de navegação (cabeçalho/navbar) é possível que ele saiba quem é a Hemo Life ao clicar no botão, é possível também entrar em contato conosco, se antenar sobre as campanhas e fazer seu login.
 
-No conteúdo é onde nossos usuários poderão solicitar o seu cartão clube de benefícios, localizar o hemocentro mais próximo, verificar nossos indicadores de estoque sangúineo, receber as mais recentes notícias referentes aos fatos relacionados a doações de sangue e também solicitar através de um formulário a possibilidade de ser um doador sanguíneo.
+No conteúdo (body) é onde nossos usuários poderão solicitar o seu cartão clube de benefícios, localizar o hemocentro mais próximo, verificar nossos indicadores de estoque sangúineo, receber as mais recentes notícias referentes aos fatos relacionados a doações de sangue e também solicitar através de um formulário a possibilidade de ser um doador sanguíneo.
 
 No rodapé (footer) é possível que o usuário solucione suas dúvidas, que ele também possa ajudar o projeto com incentivos financeiros tanto como publicitários, é totalmente possível que esse usuário possa se candidatar para uma vaga de trabalho, seja ela efetiva como também de forma voluntária ( sem fins lucrativos ) e por fim, contém nossos direitos autorais pelas informações prestadas e pelo funcionamento do nosso site.
 
