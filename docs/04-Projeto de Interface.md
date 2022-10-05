@@ -62,6 +62,11 @@ A tela a seguir mostra o painel de publicação de notícias que o funcionário 
 
 ![tela do hemocentro 02](https://user-images.githubusercontent.com/111004815/194045807-f06af9e2-8176-4645-80b0-26541330be30.png)
 
+Após a publicação da notícia, irá aprensetar a tela "Notícia Enviada", como forma de confirmar a publicação.
+
+![noticia enviada](https://user-images.githubusercontent.com/111004815/194046890-4a668085-d493-4355-84b8-d746cd04a9b2.png)
+
+
 ## Tela - Pesquisa de Doadores
 
 Após o login do hemocentro, o funcionário poderá acessar a aba “doadores” e encontrará a seguinte tela, com as opções de doadores cadastrados por região, facilitando a busca de determinado tipo sanguíneo próximo ao seu hemocentro.
@@ -92,7 +97,7 @@ A segunda tela será o resultado do filtro aplicado na tela anterior, onde o usu
 
 A tela de formulário é bem simples e objetiva no qual está dividida em duas telas. A primeira é o formulário no qual o usuário demonstra interesse em se tornar um doador ou continuar sendo um doador recorrente através da Hemo Life, no qual temos vários campos de preenchimento para o usuário registrar seus dados pessoais com o objetivo de ser contatado por algum hemocentro mais próximo que também está em busca de reposição sanguínea.
 
-![Formulário para doação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Formul%C3%A1rio%20Wireframe.PNG?raw=true)
+![quero ser doador](https://user-images.githubusercontent.com/111004815/194046583-e54fb8cc-bb9d-44db-b81c-6847cb507d4d.png)
 
 
 ## Tela - Formulário Aprovado
