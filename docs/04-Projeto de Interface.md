@@ -44,6 +44,23 @@ No rodapé (footer) é possível que o usuário solucione suas dúvidas, que ele
 
 ![Home-Page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Index%20Wireframe.png?raw=true)
 
+## Tela - Login
+
+A tela de login será dividida entre o tipo de conta a ser acessada, conta de doador, como também a conta do hemocentro, já que cada tipo de conta conterá informações distintas. 
+
+![tela de login](https://user-images.githubusercontent.com/111004815/194042022-68addb0c-7c79-45a4-953b-1df9a642dbf1.png)
+
+## Tela - Painel do Hemocentro
+
+Essa tela será apresentada após o funcionário do hemocentro tiver feito o cadastro, para que então o mesmo possa fazer o acompanhamento dos agendamentos de doação de sangue, atualizar o estoque atual de sangue por tipo sanguíneo, ver os doadores cadastrados e por fim, poderá publicar alguma notícia relacionada a doação de sangue. 
+
+![tela do hemocentro](https://user-images.githubusercontent.com/111004815/194042937-800a917c-3177-4f6a-a18e-9698761ddb8e.png)
+
+## Tela - Publicação de Notícias
+
+A tela a seguir mostra o painel de publicação de notícias que o funcionário do hemocentro terá acesso, com os campos já organizados para facilitar a publicação e manter um padrão nas notícias publicadas.
+
+![tela do hemocentro 02](https://user-images.githubusercontent.com/111004815/194043693-89d9698b-0409-4eee-ba77-538f6c518cff.png)
 
 ## Tela - Resultado da Pesquisa
 
