@@ -74,7 +74,7 @@ O resultado da pesquisa por doadores da região norte será apresentado como na 
 
 ![resultado da consulta de doadores](https://user-images.githubusercontent.com/111004815/194045595-7936f131-b0de-4957-8387-cc470e23e691.png)
 
-## Tela - Resultado da Pesquisa
+## Tela - Resultado da Pesquisa por Hemocentros
 
 A tela dos resultados das pesquisas será dividido em duas telas, a primeira conterá todas as regiões do país, onde o usuário escolherá a sua região e será redirecionado para a segunda tela. 
 
