@@ -91,6 +91,16 @@ A tela de cadastro de hemocentros é composta por alguns campos de preenchimento
 Logo após o preenchimento de todas as informações necessárias, o hemocentro deverá aceitar ou não os nosso termos de uso. Caso o hemocentro aceite, aparecerá para o mesmo a imagem informativa abaixo.
 
 ![Termos de uso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Hemo%20Termos-de-uso%20Wireframe.png?raw=true)
-## Tela - A HemoLife-Quem Somos
+
+Logo após aceitar os termos de uso, o hemocentro visualizará uma nova tela de cadastro efetuado com sucesso, caso há concordância em todas as informações no momento do cadastro.
+<br>
+![Cadastro efetuado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Hemo%20Cadastro-Sucesso%20Wireframe.png?raw=true)
+
+E caso há divergência nas informações prestadas no momento do cadastro, o hemocentro visualizará a tela abaixo como informativo sobre a recusa do cadastro.
+<br>
+![Cadastro negado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Hemo%20Cadastro-Negado%20Wireframe.png?raw=true)
+
+
+## Tela - A HemoLife - Quem Somos
 Nesta nela exbimos a missão da HemoLife
 ![Quem Somos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/QuemSomos.png)
