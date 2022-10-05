@@ -9,7 +9,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-![Exemplo de UserFlow]([docs/img/Fluxodeusuário-formulário.png](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/82a4e2449220eab4e61fca42afe754b39b1c27d4/docs/img/Fluxo%20de%20usu%C3%A1rio%20-%20formul%C3%A1rio.png))
+![Exemplo de UserFlow]([docs/img/Fluxodeusuário-formulário.png](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/82a4e2449220eab4e61fca42afe754b39b1c27d4/docs/img/Fluxo%20de%20usu%C3%A1rio%20-%20formul%C3%A1rio.png)
 
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
