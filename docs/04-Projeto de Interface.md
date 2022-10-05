@@ -93,3 +93,18 @@ A tela de cadastro de hemocentros é composta por alguns campos de preenchimento
 Logo após o preenchimento de todas as informações necessárias, o hemocentro deverá aceitar ou não os nosso termos de uso. Caso o hemocentro aceite, aparecerá para o mesmo a imagem informativa abaixo.
 
 ![Termos de uso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Hemo%20Termos-de-uso%20Wireframe.png?raw=true)
+
+Logo após a tela acima sobre os termos de uso, o próprio sistema verificará se esse cadastro foi concluído com sucesso ou foi negado devido a alguma divergência de informação.
+<br>
+Caso o cadastro tenha sido efetuado com sucesso, a tela a seguir será visualizada pelo hemocentro.
+![Cadastrado com sucesso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Hemo%20Cadastro-Sucesso%20Wireframe.png?raw=true)
+<br>
+Mas caso o cadastro seja negado, a tela a seguir será apresentada para o hemocentro.
+![Cadastro negado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Hemo%20Cadastro-Negado%20Wireframe.png?raw=true)
+
+
+## Tela - Login Hemocentros
+
+A tela de login de hemocentros possui apenas dois campos de preenchimento, tais como o e-mail e a senha cadastrada. Logo abaixo esses dois campos teremos o botão de login, no qual, encaminhará o hemocentro para uma nova página de acesso e também as opções de recuperar senha e de criar uma nova conta.
+
+![Login Hemocentro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Hemo%20Tela-Login%20Wireframe.png?raw=true)
