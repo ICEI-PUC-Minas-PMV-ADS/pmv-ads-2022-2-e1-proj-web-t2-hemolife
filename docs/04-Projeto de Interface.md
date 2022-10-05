@@ -60,7 +60,19 @@ Essa tela será apresentada após o funcionário do hemocentro tiver feito o cad
 
 A tela a seguir mostra o painel de publicação de notícias que o funcionário do hemocentro terá acesso, com os campos já organizados para facilitar a publicação e manter um padrão nas notícias publicadas.
 
-![tela do hemocentro 02](https://user-images.githubusercontent.com/111004815/194043693-89d9698b-0409-4eee-ba77-538f6c518cff.png)
+![tela do hemocentro 02](https://user-images.githubusercontent.com/111004815/194045807-f06af9e2-8176-4645-80b0-26541330be30.png)
+
+## Tela - Pesquisa de Doadores
+
+Após o login do hemocentro, o funcionário poderá acessar a aba “doadores” e encontrará a seguinte tela, com as opções de doadores cadastrados por região, facilitando a busca de determinado tipo sanguíneo próximo ao seu hemocentro.
+
+![consulta de doadores por hemocentro](https://user-images.githubusercontent.com/111004815/194044984-5322854c-5304-4463-a81a-8f78b0ab239e.png)
+
+## Tela - Resultado da pesquisa de Doadores
+
+O resultado da pesquisa por doadores da região norte será apresentado como na imagem abaixo, onde conterá os seguintes dados: Nome, tipo sanguíneo, idade, última doação e telefone para contato. Desta forma, o funcionário do hemocentro terá a possibilidade de entrar em contato diretamente com o doador do tipo sanguíneo especifico que eles esteja precisando. 
+
+![resultado da consulta de doadores](https://user-images.githubusercontent.com/111004815/194045595-7936f131-b0de-4957-8387-cc470e23e691.png)
 
 ## Tela - Resultado da Pesquisa
 
