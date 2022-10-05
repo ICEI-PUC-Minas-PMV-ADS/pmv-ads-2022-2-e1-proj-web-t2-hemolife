@@ -147,5 +147,7 @@ Caso o e-mail de recuperação conste em nossos sistemas, o hemocentro visualiza
 
 
 ## Tela - A HemoLife - Quem Somos
+
 Nesta nela exbimos a missão da HemoLife
+
 ![Quem Somos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/QuemSomos.png)
