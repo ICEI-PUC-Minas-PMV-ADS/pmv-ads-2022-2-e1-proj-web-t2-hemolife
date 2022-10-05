@@ -63,9 +63,9 @@ trabalhando.
 
 ● Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade  e  estão  prontos  para  ser  entregues  ao  usuário.  Não há  mais  edições  ou revisões necessárias, ele está agendado e pronto para a ação.
 
-O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL [xxxx](https://trello.com/b/Yvi5Hut1/hemo-life) e é apresentado, no estado atual, na Figura. 
+O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através do [link](https://trello.com/b/Yvi5Hut1/hemo-life) e é apresentado, no estado atual, na Figura. 
 
-<img src= ![gerenciamento_do_projeto](https://user-images.githubusercontent.com/86491370/193953213-c68e58cb-d299-4593-9f05-9e8ffc678607.PNG)
+![gerenciamento_do_projeto](https://user-images.githubusercontent.com/86491370/193953213-c68e58cb-d299-4593-9f05-9e8ffc678607.PNG)
 
 
 ### Processo
