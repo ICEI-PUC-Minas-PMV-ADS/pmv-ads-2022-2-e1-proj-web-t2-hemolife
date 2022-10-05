@@ -41,14 +41,14 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 ### Divisão de Papéis
 
-● Scrum Master: Wellington Andrade 
-● Product Owner: Natan Cândido	
-● Equipe de Desenvolvimento 
-○ Gabriel Oliveira 
-○ Jansem Maia 
-○ Israel Moreira 
-● Equipe de Design 
-○ Lucas Filipe 
+● Scrum Master: Wellington Andrade.
+● Product Owner: Natan Cândido.
+● Equipe de Desenvolvimento.
+○ Gabriel Oliveira.
+○ Jansem Maia.
+○ Israel Moreira. 
+● Equipe de Design. 
+○ Lucas Filipe.
 
 Para  organização  e  distribuição  das  tarefas  do  projeto,  a  equipe  está  utilizando  o  Trello estruturado com as seguintes listas: 
 
