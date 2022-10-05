@@ -100,6 +100,17 @@ E caso há divergência nas informações prestadas no momento do cadastro, o he
 <br>
 ![Cadastro negado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Hemo%20Cadastro-Negado%20Wireframe.png?raw=true)
 
+## Tela - Login Hemocentros
+
+A tela de login de hemocentros se caracteriza por apenas dois campos de preenchimento, no qual é requisitado apenas o e-mail e a senha de cadastro do hemocentro em questão. Logo abaixo dos dois campos, é possível notar o botão de login, no qual após clicado, o hemocentro será direcionado para uma nova página de acesso.
+![Login Hemocentro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Hemo%20Tela-Login%20Wireframe.png?raw=true)
+
+Logo abaixo do botão de login podemos observar que temos dois links, um para recuperar senha e um para criar uma nova conta, caso o hemocentro solicite recuperar senha ele será redirecionado para uma nova tela de recuperação, no qual possui apenas o campo de preenchimento com e-mail e o botão para enviar a solicitação de redefinição de senha.
+![Recuperar senha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Hemo%20Recuperar-Conta%20Wireframe.png?raw=true)
+
+Caso o e-mail de recuperação conste em nossos sistemas, o hemocentro visualizará a tela a seguir confirmando que foi encaminhado para o e-mail dele um link para redefinir a senha, conforme vemos no wireframe abaixo.
+![Recuperação efetuada](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Hemo%20Recuperar-Conta-Sucesso%20Wireframe.png?raw=true)
+
 
 ## Tela - A HemoLife - Quem Somos
 Nesta nela exbimos a missão da HemoLife
