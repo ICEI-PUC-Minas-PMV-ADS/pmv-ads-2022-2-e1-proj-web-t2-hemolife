@@ -82,3 +82,14 @@ A tela de campanhas do Hemo Life é o lugar no qual o usuário poderá se inform
 ![Tela de campanhas-parte-um](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Campanhas-parte-um%20Wireframe.PNG?raw=true)
 <br>
 ![Tela de campanhas-parte-dois](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Campanhas-parte-dois%20Wireframe.PNG?raw=true)
+
+
+## Tela - Cadastro Hemocentros
+
+A tela de cadastro de hemocentros é composta por alguns campos de preenchimentos necessários, no qual, o hemocentro preencherá respectivamente todas as informações necessárias, para que assim possamos manter a organização necessária para garantir um bom funcionamento e efetividade de nossos projetos e campanhas acerca de doações sanguíneas.
+
+![Cadastro Hemocentro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Hemo%20Criar-Conta%20Wireframe.png?raw=true)
+
+Logo após o preenchimento de todas as informações necessárias, o hemocentro deverá aceitar ou não os nosso termos de uso. Caso o hemocentro aceite, aparecerá para o mesmo a imagem informativa abaixo.
+
+![Termos de uso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Hemo%20Termos-de-uso%20Wireframe.png?raw=true)
