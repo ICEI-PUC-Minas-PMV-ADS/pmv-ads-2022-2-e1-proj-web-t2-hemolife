@@ -10,10 +10,10 @@ Diagrama que permite a modelagem física de um sistema, através da visão dos s
 
 Exemplo: 
 
-Os componentes que fazem parte da solução são apresentados na figura abaixo.
+Os componentes que fazem parte da solução são apresentados na Figura 01 abaixo.
 
 ![Diagrama de Componentes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Diagrama%20de%20componentes.png)
-<center>Figura XX - Arquitetura da Solução</center>
+<center>Figura 01 - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
