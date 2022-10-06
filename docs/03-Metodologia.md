@@ -20,17 +20,17 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
     <tr>
         <td>Documentação do projeto</td>
         <td>Google Drive</td>
-        <td>[Link](https://drive.google.com/drive/folders/1JieFsBeDr6cOTYhS3aRs5HxNYcN1jtab?usp=sharing)</td>
+        <td>(https://drive.google.com/drive/folders/1JieFsBeDr6cOTYhS3aRs5HxNYcN1jtab?usp=sharing)</td>
      </tr>
      <tr>
         <td>Projeto de Interface e Wireframes</td>
         <td>Figma</td>
-        <td>[Link](https://www.figma.com/file/ZoBrV06BXdMhKDJMMexTXO/Projeto-Hemo-LIfe-Beta-1.0?node-id=0%3A1)</td>
+        <td>(https://www.figma.com/file/ZoBrV06BXdMhKDJMMexTXO/Projeto-Hemo-LIfe-Beta-1.0?node-id=0%3A1)</td>
     </tr>
     <tr>
         <td>Gerenciamento do Projeto</td>
         <td>Trello</td>
-        <td> [link](https://trello.com/b/Yvi5Hut1/hemo-life) </td>
+        <td>(https://trello.com/b/Yvi5Hut1/hemo-life) </td>
     </tr>
 </table>
 
