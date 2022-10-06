@@ -6,7 +6,33 @@ A metodologia contempla as definições de ferramental utilizado pela equipe tan
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 
-
+<table border="1">
+    <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Profissão</th>
+    </tr>
+    <tr>
+        <td>Ted</td>
+        <td>22</td>
+        <td>Estudante</td>
+    </tr>
+    <tr>
+        <td>Ted</td>
+        <td>22</td>
+        <td>Estudante</td>
+     </tr>
+     <tr>
+        <td>Ted</td>
+        <td>22</td>
+        <td>Estudante</td>
+    </tr>
+    <tr>
+        <td>Ralf</td>
+        <td>26</td>
+        <td>Designer</td>
+    </tr>
+</table>
 
 ## Gerenciamento de Projeto
 
