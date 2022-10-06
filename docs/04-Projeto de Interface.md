@@ -48,6 +48,51 @@ No rodapé (footer) é possível que o usuário solucione suas dúvidas, que ele
 
 A tela de login será dividida entre o tipo de conta a ser acessada, conta de doador, como também a conta do hemocentro, já que cada tipo de conta conterá informações distintas. 
 
+
+## Tela - Criando Conta  como doador 
+
+
+Página de login, onde será criado o cadastro do doador e futuramente a será também a sua área de acesso. 
+
+Tela - login ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/2-Login.png)
+
+Crie a sua conta como doador , é necessário preencher o Nome completo, data de nascimento, tipo sanguíneo, E-mail, criar uma senha, confirmar a senha, 
+e concordar com todos os termos. 
+
+
+Tela - criando conta [](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/2-Login.png)
+
+formulario de cadastro ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Cadastro.png)
+
+Tela - termos de uso  ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Termos%20de%20aceite%20do%20servi%C3%A7o.png)
+
+Tela -  cadastro realizado com sucesso 
+
+Com seu cadastro feito e atendendo todos os requsitos pedidos, seu cadastro será feito com sucesso.
+
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Cadastro%20efetuado.png)
+
+Tela- Cadastro negado 
+
+Caso o seu cadastro não atender todos os criterios para ser doador, será exibida uma página com a seguinte mensagem: 
+"Infelizmente você não atende aos requisitos mínimos para se tornar um doador no momento, sentimos muito!" 
+
+
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Cadastro%20negado.png)
+
+Tela - Recuperação de senha 
+ Se o usuario ja tiver feito o cadastro mas tiver esquecido a senha será possível recuperar a mesma por um e-mail que lhe será enviado. 
+ 
+ ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Recuperar%20senha.png)
+ 
+ logo em seguida ira aparecer a seguinte mensagem 
+ 
+ ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/mensagen%20recupere%C3%A7%C3%A3o%20de%20senha.png)
+
+
+
+
+
 ![tela de login](https://user-images.githubusercontent.com/111004815/194042022-68addb0c-7c79-45a4-953b-1df9a642dbf1.png)
 
 ## Tela - Painel do Hemocentro
