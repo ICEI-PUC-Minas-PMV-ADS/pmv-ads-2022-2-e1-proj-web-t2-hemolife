@@ -44,7 +44,7 @@ No conteúdo (body) é onde nossos usuários poderão solicitar o seu cartão cl
 No rodapé (footer) é possível que o usuário solucione suas dúvidas, que ele também possa ajudar o projeto com incentivos financeiros tanto como publicitários, é totalmente possível que esse usuário possa se candidatar para uma vaga de trabalho, seja ela efetiva como também de forma voluntária ( sem fins lucrativos ) e por fim, contém nossos direitos autorais pelas informações prestadas e pelo funcionamento do nosso site.
 
 
-![Home-Page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Index%20Wireframe.png?raw=true)
+![index](https://user-images.githubusercontent.com/111004815/194533879-130ce189-0ff9-4513-99f6-1c1d30756878.png)
 
 ## Tela - Login Doador ou Hemocentro
 
@@ -57,22 +57,24 @@ A tela de login será dividida entre o tipo de conta a ser acessada, conta de do
 
 Página de login, onde será criado o cadastro do doador e futuramente a será também a sua área de acesso.
 
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/2-Login.png?raw=true)
+![faça seu login](https://user-images.githubusercontent.com/111004815/194534230-51adb078-c9cf-4db6-a310-27219b357a8d.png)
 
 Crie a sua conta como doador , é necessário preencher o Nome completo, data de nascimento, tipo sanguíneo, E-mail, criar uma senha, confirmar a senha, 
 e concordar com todos os termos. 
 
-formulario de cadastro ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Cadastro.png)
+![crie sua conta](https://user-images.githubusercontent.com/111004815/194534507-46b684c6-4cd2-4b46-8114-d458eed8b67f.png)
 
-Tela - termos de uso  ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Termos%20de%20aceite%20do%20servi%C3%A7o.png)
+formulario de cadastro
 
-Tela -  cadastro realizado com sucesso 
+## Tela - termos de uso  ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Termos%20de%20aceite%20do%20servi%C3%A7o.png)
+
+## Tela -  cadastro realizado com sucesso 
 
 Com seu cadastro feito e atendendo todos os requsitos pedidos, seu cadastro será feito com sucesso.
 
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Cadastro%20efetuado.png)
+![cadastro efetuado](https://user-images.githubusercontent.com/111004815/194539222-d9f24c50-8c94-4166-b4bb-29af28d60853.png)
 
-Tela- Cadastro negado 
+## Tela- Cadastro negado 
 
 Caso o seu cadastro não atender todos os criterios para ser doador, será exibida uma página com a seguinte mensagem: 
 "Infelizmente você não atende aos requisitos mínimos para se tornar um doador no momento, sentimos muito!" 
@@ -80,7 +82,7 @@ Caso o seu cadastro não atender todos os criterios para ser doador, será exibi
 
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Cadastro%20negado.png)
 
-Tela - Recuperação de senha 
+## Tela - Recuperação de senha 
  Se o usuario ja tiver feito o cadastro mas tiver esquecido a senha será possível recuperar a mesma por um e-mail que lhe será enviado. 
  
  ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Recuperar%20senha.png)
