@@ -60,7 +60,7 @@ Crie a sua conta como doador , é necessário preencher o Nome completo, data de
 e concordar com todos os termos. 
 
 
-Tela - criando conta [](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/2-Login.png)
+Tela - criando conta ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/2-Login.png)
 
 formulario de cadastro ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Cadastro.png)
 
