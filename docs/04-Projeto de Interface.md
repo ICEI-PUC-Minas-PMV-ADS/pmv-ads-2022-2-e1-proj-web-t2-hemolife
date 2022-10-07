@@ -44,16 +44,18 @@ No rodapé (footer) é possível que o usuário solucione suas dúvidas, que ele
 
 ![Home-Page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Index%20Wireframe.png?raw=true)
 
-## Tela - Login
+## Tela - Login Doador ou Hemocentro
 
 A tela de login será dividida entre o tipo de conta a ser acessada, conta de doador, como também a conta do hemocentro, já que cada tipo de conta conterá informações distintas. 
 
+![](https://user-images.githubusercontent.com/111004815/194042022-68addb0c-7c79-45a4-953b-1df9a642dbf1.png)
+
+
+## Tela - Login e criar conta - Doador 
+
+Página de login, onde será criado o cadastro do doador e futuramente a será também a sua área de acesso.
+
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/2-Login.png?raw=true)
-
-## Tela - Criando Conta  como doador 
-
-
-Página de login, onde será criado o cadastro do doador e futuramente a será também a sua área de acesso. 
 
 Crie a sua conta como doador , é necessário preencher o Nome completo, data de nascimento, tipo sanguíneo, E-mail, criar uma senha, confirmar a senha, 
 e concordar com todos os termos. 
