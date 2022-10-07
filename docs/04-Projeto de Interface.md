@@ -48,6 +48,7 @@ No rodapé (footer) é possível que o usuário solucione suas dúvidas, que ele
 
 A tela de login será dividida entre o tipo de conta a ser acessada, conta de doador, como também a conta do hemocentro, já que cada tipo de conta conterá informações distintas. 
 
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/2-Login.png?raw=true)
 
 ## Tela - Criando Conta  como doador 
 
