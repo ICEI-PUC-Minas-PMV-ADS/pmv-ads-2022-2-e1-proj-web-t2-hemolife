@@ -54,7 +54,8 @@ A tela de login será dividida entre o tipo de conta a ser acessada, conta de do
 
 Página de login, onde será criado o cadastro do doador e futuramente a será também a sua área de acesso. 
 
-Tela - login ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/2-Login.png)
+Tela - login 
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/2-Login.png)
 
 Crie a sua conta como doador , é necessário preencher o Nome completo, data de nascimento, tipo sanguíneo, E-mail, criar uma senha, confirmar a senha, 
 e concordar com todos os termos. 
