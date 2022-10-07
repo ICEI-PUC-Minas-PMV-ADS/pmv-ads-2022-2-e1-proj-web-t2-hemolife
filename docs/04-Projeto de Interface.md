@@ -1,7 +1,8 @@
 
 # Projeto de Interface
-
+<div align=center>
 <img align="center"  width="900px" src="https://scontent.fbhz2-2.fna.fbcdn.net/v/t1.6435-9/126265008_1822661987900135_3395850103649809237_n.png?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=id9IEvVAhhAAX9aPBSb&_nc_ht=scontent.fbhz2-2.fna&oh=00_AT8UEUy7jAs3NAq71tBufZ2I65pPrhVvNszMCNkmpoipGQ&oe=63646081">
+ </div>
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
