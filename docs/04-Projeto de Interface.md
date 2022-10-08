@@ -111,7 +111,7 @@ Caso o seu cadastro não atender todos os criterios para ser doador, será exibi
 
 
 ## Tela - Recuperação de senha 
- Se o usuario ja tiver feito o cadastro mas tiver esquecido a senha será possível recuperar a mesma por um e-mail que lhe será enviado. 
+ Se o usuário já tiver feito o cadastro mas tiver esquecido a senha será possível recuperar a mesma por um e-mail que lhe será enviado. 
  
 <div>
 <img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Recuperar%20senharecuperar%20senha-ambos.png">
