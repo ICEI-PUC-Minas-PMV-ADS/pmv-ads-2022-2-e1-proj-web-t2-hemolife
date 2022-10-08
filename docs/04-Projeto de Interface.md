@@ -191,7 +191,7 @@ A tela de login de hemocentros se caracteriza por apenas dois campos de preenchi
 <img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/2-Logindoador.png">
 </div><br>
 
-Logo abaixo do botão de login podemos observar que temos dois links, um para recuperar senha e um para criar uma nova conta, caso o hemocentro solicite recuperar senha ele será redirecionado para uma nova tela de recuperação, no qual possui apenas o campo de preenchimento com e-mail e o botão para enviar a solicitação de redefinição de senha.
+Logo abaixo do botão de login podemos observar que temos dois links, um para recuperar senha e um para criar uma conta, caso o hemocentro solicite recuperar senha ele será redirecionado para uma nova tela de recuperação, no qual possui apenas o campo de preenchimento com e-mail e o botão para enviar a solicitação de redefinição de senha.
 
 <div>
 <img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Recuperar%20senharecuperar%20senha-ambos.png">
