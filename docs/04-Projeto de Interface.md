@@ -37,7 +37,7 @@ Na barra de navegação (cabeçalho/navbar) é possível que ele saiba quem é a
 
 No conteúdo (body) é onde nossos usuários poderão solicitar o seu cartão clube de benefícios, localizar o hemocentro mais próximo, verificar nossos indicadores de estoque sanguíneo, receber as mais recentes notícias referentes aos fatos relacionados a doações de sangue e também solicitar através de um formulário a possibilidade de ser um doador sanguíneo.
 
-No rodapé (footer) é possível que o usuário solucione suas dúvidas, que ele também possa ajudar o projeto com incentivos financeiros tanto como publicitários, é totalmente possível que esse usuário possa se candidatar para uma vaga de trabalho, seja ela efetiva como também de forma voluntária ( sem fins lucrativos ) e por fim, contém nossos direitos autorais pelas informações prestadas e pelo funcionamento do nosso site.
+No rodapé (footer) é possível que o usuário solucione suas dúvidas, que ele também possa ajudar o projeto com incentivos financeiros tanto como publicitários, é totalmente possível que esse usuário possa se candidatar para uma vaga de trabalho, seja ela efetiva como também de forma voluntária (sem fins lucrativos) e por fim, contém nossos direitos autorais pelas informações prestadas e pelo funcionamento do nosso site.
 
 
 <div>
@@ -46,7 +46,7 @@ No rodapé (footer) é possível que o usuário solucione suas dúvidas, que ele
 
 ## Tela - Campanhas
 
-A tela de campanhas do Hemo Life é o lugar no qual o usuário poderá se informar qualificadamente sobre o que é uma doação sanguínea, o porquê essa atitude é tão importante e o impacto causado por essa boa ação para uma sociedade de modo geral. Essa tela também irá informar os usuários sobre quem pode se tornar um doador sanguíneo, as condições básicas que esse doador(a) precisa atender para que o processo seja efetivado, também é informado as orientações que as pessoas devem respeitar para que o processo ocorra de forma correta e saudável. Essa tela de campanhas também é responsável por informar como serão todas as etapas do processo de doação e também os locais que são feitos as coletas através de um link que redireciona para a página de pesquisa do hemocentro.
+A tela de campanhas do Hemo Life é o lugar no qual o usuário poderá se informar qualificadamente sobre o que é uma doação sanguínea, o porquê essa atitude é tão importante e o impacto causado por essa boa ação para uma sociedade de modo geral. Essa tela também informará os usuários sobre quem pode se tornar um doador sanguíneo, as condições básicas que esse doador(a) precisa atender para que o processo seja efetivado, também é informado as orientações que as pessoas devem respeitar para que o processo ocorra de forma correta e saudável. Essa tela de campanhas também é responsável por informar como serão todas as etapas do processo de doação e também os locais que são feitos as coletas através de um link que redireciona para a página de pesquisa do hemocentro.
 
 <div>
 <img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/CampanhasCampanhas.png">
@@ -54,7 +54,7 @@ A tela de campanhas do Hemo Life é o lugar no qual o usuário poderá se inform
 
 ## Tela - A HemoLife - Quem Somos
 
-Nesta nela exbimos a missão da HemoLife
+Nesta nela descrevemos a missão da HemoLife
 
 <div>
 <img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Quem%20somosquem%20somos.png">
@@ -78,7 +78,7 @@ Página de login, onde será criado o cadastro do doador e futuramente a será t
 <img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/2-Logindoador.png">
 </div><br>
 
-Crie a sua conta como doador , é necessário preencher o Nome completo, data de nascimento, tipo sanguíneo, E-mail, criar uma senha, confirmar a senha, 
+Crie a sua conta como doador, é necessário preencher o Nome completo, data de nascimento, tipo sanguíneo, E-mail, criar uma senha, confirmar a senha, 
 e concordar com todos os termos. 
 
 <div>
@@ -94,7 +94,7 @@ e concordar com todos os termos.
 
 ## Tela -  cadastro realizado com sucesso 
 
-Com seu cadastro feito e atendendo todos os requsitos pedidos, seu cadastro será feito com sucesso.
+Com seu cadastro feito e atendendo todos os requisitos pedidos, seu cadastro será feito com sucesso.
 
 <div>
 <img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/%C3%81rea%20de%20loginLogin%20doador%20efetuado.png">
