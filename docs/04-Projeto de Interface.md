@@ -156,30 +156,37 @@ A segunda tela de formulário é onde está contida a sucessão do preenchimento
 <img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Frame%2030Formul%C3%A1rio%20enviado.png">
 </div>
 
-//Painel do hemocentro
 
 ## Tela - Painel do Hemocentro
 
 Essa tela será apresentada após o funcionário do hemocentro tiver feito o cadastro, para que então o mesmo possa fazer o acompanhamento dos agendamentos de doação de sangue, atualizar o estoque atual de sangue por tipo sanguíneo, ver os doadores cadastrados e por fim, poderá publicar alguma notícia relacionada a doação de sangue. 
 
-![tela do hemocentro](https://user-images.githubusercontent.com/111004815/194042937-800a917c-3177-4f6a-a18e-9698761ddb8e.png)
+<div>
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Central%20do%20hemocentropainel%20Hemocentro.png">
+</div>
 
 ## Tela - Publicação de Notícias
 
 A tela a seguir mostra o painel de publicação de notícias que o funcionário do hemocentro terá acesso, com os campos já organizados para facilitar a publicação e manter um padrão nas notícias publicadas.
 
-![tela do hemocentro 02](https://user-images.githubusercontent.com/111004815/194045807-f06af9e2-8176-4645-80b0-26541330be30.png)
+<div>
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Central%20do%20hemocentroPublicar%20not%C3%ADcia.png">
+</div>
 
 Após a publicação da notícia, irá aprensetar a tela "Notícia Enviada", como forma de confirmar a publicação.
 
-![noticia enviada com sucesso](https://user-images.githubusercontent.com/111004815/194707385-a84ca118-8e11-43bd-a2cc-db14c143aef0.png)
+<div>
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Noticia%20publicada.png">
+</div>
 
 
 ## Tela - Pesquisa de Doadores
 
 Após o login do hemocentro, o funcionário poderá acessar a aba “doadores” e encontrará a seguinte tela, com as opções de doadores cadastrados por região, facilitando a busca de determinado tipo sanguíneo próximo ao seu hemocentro.
 
-![pesquisa doadores](https://user-images.githubusercontent.com/111004815/194707482-fe633a53-5ed3-421d-ad96-953ebd2874b5.png)
+<div>
+<img align="center"  height="500px" width="411px" src="">
+</div>
 
 ## Tela - Resultado da pesquisa de Doadores
 
