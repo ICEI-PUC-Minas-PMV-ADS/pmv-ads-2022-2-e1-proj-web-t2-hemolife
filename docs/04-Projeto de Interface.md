@@ -176,7 +176,7 @@ A tela a seguir mostra o painel de publicação de notícias que o funcionário 
 Após a publicação da notícia, irá aprensetar a tela "Notícia Enviada", como forma de confirmar a publicação.
 
 <div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Noticia%20publicada.png">
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Noticia%20publicada.png">
 </div>
 
 
@@ -185,7 +185,7 @@ Após a publicação da notícia, irá aprensetar a tela "Notícia Enviada", com
 Após o login do hemocentro, o funcionário poderá acessar a aba “doadores” e encontrará a seguinte tela, com as opções de doadores cadastrados por região, facilitando a busca de determinado tipo sanguíneo próximo ao seu hemocentro.
 
 <div>
-<img align="center"  height="500px" width="411px" src="">
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Central%20do%20hemocentroPesquisa%20de%20doadores.png">
 </div>
 
 ## Tela - Resultado da pesquisa de Doadores
