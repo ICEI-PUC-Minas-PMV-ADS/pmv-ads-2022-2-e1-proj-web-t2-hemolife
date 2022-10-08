@@ -161,7 +161,8 @@ A tela de cadastro de hemocentros é composta por alguns campos de preenchimento
 
 <div>
 <img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/CadastroCadastro%20hemocentro.png">
-</div><br>
+</div>
+<br>
 
 Logo após o preenchimento de todas as informações necessárias, o hemocentro deverá aceitar ou não os nosso termos de uso. Caso o hemocentro aceite, aparecerá para o mesmo a imagem informativa abaixo.
 
