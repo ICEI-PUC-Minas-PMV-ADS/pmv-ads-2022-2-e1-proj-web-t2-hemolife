@@ -80,14 +80,18 @@ formulario de cadastro
 
 Com seu cadastro feito e atendendo todos os requsitos pedidos, seu cadastro será feito com sucesso.
 
-![cadastro efetuado](https://user-images.githubusercontent.com/111004815/194539222-d9f24c50-8c94-4166-b4bb-29af28d60853.png)
+<div>
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/%C3%81rea%20de%20loginLogin%20doador%20efetuado.png">
+</div>
 
 ## Tela- Cadastro negado 
 
 Caso o seu cadastro não atender todos os criterios para ser doador, será exibida uma página com a seguinte mensagem: 
 "Infelizmente você não atende aos requisitos mínimos para se tornar um doador no momento, sentimos muito!" 
 
-![inflezmente voce ](https://user-images.githubusercontent.com/111004815/194707142-119d6262-cc6e-4013-a40c-082cd0eb78e1.png)
+<div>
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/%C3%81rea%20de%20loginLogin%20Doador%20rejeitado.png">
+</div>
 
 
 ## Tela - Recuperação de senha 
