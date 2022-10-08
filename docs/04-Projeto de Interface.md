@@ -40,7 +40,9 @@ No conteúdo (body) é onde nossos usuários poderão solicitar o seu cartão cl
 No rodapé (footer) é possível que o usuário solucione suas dúvidas, que ele também possa ajudar o projeto com incentivos financeiros tanto como publicitários, é totalmente possível que esse usuário possa se candidatar para uma vaga de trabalho, seja ela efetiva como também de forma voluntária ( sem fins lucrativos ) e por fim, contém nossos direitos autorais pelas informações prestadas e pelo funcionamento do nosso site.
 
 
-![index](https://user-images.githubusercontent.com/111004815/194533879-130ce189-0ff9-4513-99f6-1c1d30756878.png)
+<div>
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/1-Landin%20Page%20Hemo%20Life%20definitiva.png">
+</div>
 
 ## Tela - Login Doador ou Hemocentro
 
