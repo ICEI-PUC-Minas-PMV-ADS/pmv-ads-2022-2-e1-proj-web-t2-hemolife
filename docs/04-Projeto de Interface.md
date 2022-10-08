@@ -153,7 +153,7 @@ A tela de formulário é bem simples e objetiva no qual está dividida em duas t
 A segunda tela de formulário é onde está contida a sucessão do preenchimento do formulário, no qual é visível para o usuário que preencheu todos os dados corretamente em seus respectivos campos pré-determinados.
 
 <div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Frame%2030Formul%C3%A1rio%20enviado.png">
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Frame%2030Formul%C3%A1rio%20enviado.png">
 </div>
 
 //Painel do hemocentro
