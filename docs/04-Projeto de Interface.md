@@ -102,7 +102,7 @@ Com seu cadastro feito e atendendo todos os requsitos pedidos, seu cadastro ser�
 
 ## Tela- Cadastro negado 
 
-Caso o seu cadastro não atender todos os criterios para ser doador, será exibida uma página com a seguinte mensagem: 
+Caso o seu cadastro não atender todos os critérios para ser doador, será exibida uma página com a seguinte mensagem: 
 "Infelizmente você não atende aos requisitos mínimos para se tornar um doador no momento, sentimos muito!" 
 
 <div>
