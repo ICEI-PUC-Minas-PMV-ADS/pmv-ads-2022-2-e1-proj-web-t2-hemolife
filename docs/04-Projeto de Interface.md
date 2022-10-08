@@ -6,16 +6,12 @@
 
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
-## Fluxo de telas Doador
+## Fluxograma
 
-![Fluxo usuário 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Fluxo%20do%20usu%C3%A1rio%2C%20login%20e%20busca.png)
+O fluxograma representa o fluxo de acesso do usuário ao sistema.
+No modelo abaixo temos um fluxo que se ramifica em dois, sendo o fluxo do usuário representado pelas setas azuis e o fluxo do hemocentro representado pelas setas vermelhas.
 
-![Fluxo usuário 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Fluxo%20de%20usu%C3%A1rio%20-%20formul%C3%A1rio.png)
-
-## Fluxo de telas Hemocentro
-
-![Fluxo Hemocentro 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Fluxo%20do%20Hemocentro.png)
- 
+![Fluxo usuário 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/fluxograma.png) 
 
 
 ## Wireframes
