@@ -54,7 +54,12 @@ A tela de campanhas do Hemo Life é o lugar no qual o usuário poderá se inform
 <br>
 ![campanha 03](https://user-images.githubusercontent.com/111004815/194708264-7d70784c-f242-4b43-bf10-0a182c165d95.png)
 
-//Painel do doador
+## Tela - A HemoLife - Quem Somos
+
+Nesta nela exbimos a missão da HemoLife
+
+![quem somos](https://user-images.githubusercontent.com/111004815/194708709-ef5b3a00-d803-4cab-87c1-85c287910e1d.png)
+
 
 ## Tela - Login Doador ou Hemocentro
 
@@ -216,8 +221,4 @@ Caso o e-mail de recuperação conste em nossos sistemas, o hemocentro visualiza
 ![caso esse email conste 02](https://user-images.githubusercontent.com/111004815/194708640-b711a286-790f-4762-93ba-119e0a4e3184.png)
 
 
-## Tela - A HemoLife - Quem Somos
 
-Nesta nela exbimos a missão da HemoLife
-
-![quem somos](https://user-images.githubusercontent.com/111004815/194708709-ef5b3a00-d803-4cab-87c1-85c287910e1d.png)
