@@ -128,6 +128,11 @@ Caso o seu cadastro não atender todos os criterios para ser doador, será exibi
 
 A tela dos resultados das pesquisas será dividido em duas telas, a primeira conterá todas as regiões do país, onde o usuário escolherá a sua região e será redirecionado para a segunda tela. 
 
+<div>
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/BuscaPesquisa%20por%20hemocentros.png">
+</div>
+
+Após selecionar a região, o usuário irá acessar uma lista de hemocentros presentes na área, assim como a imagem abaixo retrata:
 
 <div>
 <img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Busca%20-%20Regi%C3%A3o%20Gen%C3%A9ricoResultado%20da%20pesquisa%20por%20hemocentro.png">
