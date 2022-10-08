@@ -256,7 +256,7 @@ Após o login do hemocentro, o funcionário poderá acessar a aba “doadores”
 O resultado da pesquisa por doadores da região norte será apresentado como na imagem abaixo, onde conterá os seguintes dados: Nome, tipo sanguíneo, idade, última doação e telefone para contato. Desta forma, o funcionário do hemocentro terá a possibilidade de entrar em contato diretamente com o doador do tipo sanguíneo especifico que eles esteja precisando. 
 
 <div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Resultado%20da%20pesquisa%20de%20doadores.png">
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Resultado%20da%20pesquisa%20de%20doadores.png">
 </div>
 
 
