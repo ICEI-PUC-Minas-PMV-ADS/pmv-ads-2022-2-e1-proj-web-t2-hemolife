@@ -26,8 +26,9 @@ descritos a seguir. São eles:
  <li>Rodapé/Footer  -  Apresenta  os  elementos  de  navegação  secundária,  geralmente associados aos elementos do bloco de conteúdo.</li>
 </ul>
 
-![Exemplo de Wireframe](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/1-Landin%20Page%20Hemo%20Life%20definitiva.png)
-
+<div>
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/1-Landin%20Page%20Hemo%20Life%20definitiva.png">
+</div>
 
 ## Tela - Home-Page (Index)
 
