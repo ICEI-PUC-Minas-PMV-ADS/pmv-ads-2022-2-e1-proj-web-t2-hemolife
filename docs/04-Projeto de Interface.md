@@ -44,6 +44,18 @@ No rodapé (footer) é possível que o usuário solucione suas dúvidas, que ele
 <img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/1-Landin%20Page%20Hemo%20Life%20definitiva.png">
 </div>
 
+## Tela - Campanhas
+
+A tela de campanhas do Hemo Life é o lugar no qual o usuário poderá se informar qualificadamente sobre o que é uma doação sanguínea, o porquê essa atitude é tão importante e o impacto causado por essa boa ação para uma sociedade de modo geral. Essa tela também irá informar os usuários sobre quem pode se tornar um doador sanguíneo, as condições básicas que esse doador(a) precisa atender para que o processo seja efetivado, também é informado as orientações que as pessoas devem respeitar para que o processo ocorra de forma correta e saudável. Essa tela de campanhas também é responsável por informar como serão todas as etapas do processo de doação e também os locais que são feitos as coletas através de um link que redireciona para a página de pesquisa do hemocentro.
+
+![campanha 01](https://user-images.githubusercontent.com/111004815/194708244-e3817fe2-1bad-42c7-85d3-c43da027ca6f.png)
+<br>
+![campanha 02](https://user-images.githubusercontent.com/111004815/194708252-594c2ac5-3399-4d02-ae79-917ad5140561.png)
+<br>
+![campanha 03](https://user-images.githubusercontent.com/111004815/194708264-7d70784c-f242-4b43-bf10-0a182c165d95.png)
+
+//Painel do doador
+
 ## Tela - Login Doador ou Hemocentro
 
 A tela de login será dividida entre o tipo de conta a ser acessada, conta de doador, como também a conta do hemocentro, já que cada tipo de conta conterá informações distintas. 
@@ -107,7 +119,14 @@ Caso o seu cadastro não atender todos os criterios para ser doador, será exibi
 <img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Recuperar%20senha2retorno%20para%20recupera%C3%A7%C3%A3o%20de%20senha-%20ambos.png">
 </div>
 
+## Tela - Resultado da Pesquisa por Hemocentros
 
+A tela dos resultados das pesquisas será dividido em duas telas, a primeira conterá todas as regiões do país, onde o usuário escolherá a sua região e será redirecionado para a segunda tela. 
+
+
+![pesquisa hemocentro](https://user-images.githubusercontent.com/111004815/194707639-52674440-4cfb-4d9a-9fde-198381686bb4.png)
+
+//Painel do hemocentro
 
 ## Tela - Painel do Hemocentro
 
@@ -121,7 +140,7 @@ A tela a seguir mostra o painel de publicação de notícias que o funcionário 
 
 ![tela do hemocentro 02](https://user-images.githubusercontent.com/111004815/194045807-f06af9e2-8176-4645-80b0-26541330be30.png)
 
-Após a publicação da notícia, irá apresentar a tela "Notícia Enviada", como forma de confirmar a publicação.
+Após a publicação da notícia, irá aprensetar a tela "Notícia Enviada", como forma de confirmar a publicação.
 
 ![noticia enviada com sucesso](https://user-images.githubusercontent.com/111004815/194707385-a84ca118-8e11-43bd-a2cc-db14c143aef0.png)
 
@@ -138,12 +157,7 @@ O resultado da pesquisa por doadores da região norte será apresentado como na 
 
 ![resultado doadores](https://user-images.githubusercontent.com/111004815/194707531-dbe7b10f-e715-46ad-ba86-73963fd8db0e.png)
 
-## Tela - Resultado da Pesquisa por Hemocentros
 
-A tela dos resultados das pesquisas será dividido em duas telas, a primeira conterá todas as regiões do país, onde o usuário escolherá a sua região e será redirecionado para a segunda tela. 
-
-
-![pesquisa hemocentro](https://user-images.githubusercontent.com/111004815/194707639-52674440-4cfb-4d9a-9fde-198381686bb4.png)
 
 
 A segunda tela será o resultado do filtro aplicado na tela anterior, onde o usuário terá acesso aos endereços e telefones dos hemocentros da região selecionada, como na imagem a seguir.
@@ -167,15 +181,7 @@ A segunda tela de formulário é onde está contida a sucessão do preenchimento
 
 ![formulario aprovado](https://user-images.githubusercontent.com/111004815/194708001-ebea3ac0-9d6a-4e22-98f3-f1db538a29df.png)
 
-## Tela - Campanhas
 
-A tela de campanhas do Hemo Life é o lugar no qual o usuário poderá se informar qualificadamente sobre o que é uma doação sanguínea, o porquê essa atitude é tão importante e o impacto causado por essa boa ação para uma sociedade de modo geral. Essa tela também irá informar os usuários sobre quem pode se tornar um doador sanguíneo, as condições básicas que esse doador(a) precisa atender para que o processo seja efetivado, também é informado as orientações que as pessoas devem respeitar para que o processo ocorra de forma correta e saudável. Essa tela de campanhas também é responsável por informar como serão todas as etapas do processo de doação e também os locais que são feitos as coletas através de um link que redireciona para a página de pesquisa do hemocentro.
-
-![campanha 01](https://user-images.githubusercontent.com/111004815/194708244-e3817fe2-1bad-42c7-85d3-c43da027ca6f.png)
-<br>
-![campanha 02](https://user-images.githubusercontent.com/111004815/194708252-594c2ac5-3399-4d02-ae79-917ad5140561.png)
-<br>
-![campanha 03](https://user-images.githubusercontent.com/111004815/194708264-7d70784c-f242-4b43-bf10-0a182c165d95.png)
 
 ## Tela - Cadastro Hemocentros
 
@@ -214,7 +220,4 @@ Caso o e-mail de recuperação conste em nossos sistemas, o hemocentro visualiza
 
 Nesta nela exbimos a missão da HemoLife
 
-<div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Quem%20somosquem%20somos.png">
-</div>
-
+![quem somos](https://user-images.githubusercontent.com/111004815/194708709-ef5b3a00-d803-4cab-87c1-85c287910e1d.png)
