@@ -121,7 +121,7 @@ A tela a seguir mostra o painel de publicação de notícias que o funcionário 
 
 ![tela do hemocentro 02](https://user-images.githubusercontent.com/111004815/194045807-f06af9e2-8176-4645-80b0-26541330be30.png)
 
-Após a publicação da notícia, irá aprensetar a tela "Notícia Enviada", como forma de confirmar a publicação.
+Após a publicação da notícia, irá apresentar a tela "Notícia Enviada", como forma de confirmar a publicação.
 
 ![noticia enviada com sucesso](https://user-images.githubusercontent.com/111004815/194707385-a84ca118-8e11-43bd-a2cc-db14c143aef0.png)
 
