@@ -239,7 +239,7 @@ O Usuário logado poderá acessar a aba de "agendamentos" onde encontrará detal
 O Usuário também terá acesso à aba "estoque", onde o mesmo poderá visualizar o estoque de sangue em tempo real e atualizá-lo conforme a demanda. 
 
 <div>
-<img align="center"  height="500px" width="411px" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/efeda7b3aea52cf6161c5cf4c9bc357856f06b67/docs/img/IMGS%20HL/Hemocentro/Estoque%20Doador.png">
+<img align="center" width="411px" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/efeda7b3aea52cf6161c5cf4c9bc357856f06b67/docs/img/IMGS%20HL/Hemocentro/Estoque%20Doador.png">
 </div>
 
 
