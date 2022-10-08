@@ -57,16 +57,23 @@ A tela de login será dividida entre o tipo de conta a ser acessada, conta de do
 
 Página de login, onde será criado o cadastro do doador e futuramente a será também a sua área de acesso.
 
-![faça seu login](https://user-images.githubusercontent.com/111004815/194534230-51adb078-c9cf-4db6-a310-27219b357a8d.png)
+<div>
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/2-Logindoador.png">
+</div>
 
 Crie a sua conta como doador , é necessário preencher o Nome completo, data de nascimento, tipo sanguíneo, E-mail, criar uma senha, confirmar a senha, 
 e concordar com todos os termos. 
 
-![crie sua conta](https://user-images.githubusercontent.com/111004815/194534507-46b684c6-4cd2-4b46-8114-d458eed8b67f.png)
+<div>
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/CadastroCriar%20conta%20doador.png">
+</div>
 
 formulario de cadastro
 
-## Tela - termos de uso  ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Termos%20de%20aceite%20do%20servi%C3%A7o.png)
+## Tela - termos de uso
+
+<div>
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Termos%20de%20aceite%20do%20servi%C3%A7o.png
 
 ## Tela -  cadastro realizado com sucesso 
 
