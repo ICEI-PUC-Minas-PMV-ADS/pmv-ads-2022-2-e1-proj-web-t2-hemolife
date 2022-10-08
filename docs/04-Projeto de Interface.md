@@ -9,7 +9,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 ## Fluxograma
 
 O fluxograma representa o fluxo de acesso do usuário ao sistema.
-No modelo abaixo temos um fluxo que se ramifica em dois, sendo o fluxo do usuário representado pelas setas azuis e o fluxo do hemocentro representado pelas setas vermelhas e nos campos com setas cinzas, temos àreas acessíveis a todos, sem a necessidade de um login prévio.
+No modelo abaixo temos um fluxo que se ramifica em dois, sendo o fluxo do usuário representado pelas setas azuis e o fluxo do hemocentro representado pelas setas vermelhas e nos campos com setas cinzas, temos àreas acessíveis a todos, sem a necessidade de um login prévio.<br>
 
 ![Fluxo usuário 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/fluxograma.png) 
 
@@ -24,7 +24,7 @@ descritos a seguir. São eles:
  <li>Cabeçalho/Head  -  Local  onde  são  dispostos  elementos  fixos  de  identidade  (logo)  e a barra de navegação principal do site (menu da aplicação);</li>
  <li>Conteúdo/Body - Apresenta o conteúdo da tela em questão;</li>
  <li>Rodapé/Footer  -  Apresenta  os  elementos  de  navegação  secundária,  geralmente associados aos elementos do bloco de conteúdo.</li>
-</ul>
+</ul><br>
 
 ![Wireframe](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Wireframe%20-%20Esbo%C3%A7o.png?raw=true)
 
@@ -76,7 +76,7 @@ Página de login, onde será criado o cadastro do doador e futuramente a será t
 
 <div>
 <img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/2-Logindoador.png">
-</div>
+</div><br>
 
 Crie a sua conta como doador , é necessário preencher o Nome completo, data de nascimento, tipo sanguíneo, E-mail, criar uma senha, confirmar a senha, 
 e concordar com todos os termos. 
@@ -85,7 +85,6 @@ e concordar com todos os termos.
 <img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Cadastro%20doador.png">
 </div>
 
-formulario de cadastro
 
 ## Tela - termos de uso
 
@@ -116,7 +115,7 @@ Caso o seu cadastro não atender todos os criterios para ser doador, será exibi
  
 <div>
 <img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Recuperar%20senharecuperar%20senha-ambos.png">
-</div>
+</div><br>
  
  logo em seguida ira aparecer a seguinte mensagem 
  
@@ -130,7 +129,7 @@ A tela dos resultados das pesquisas será dividido em duas telas, a primeira con
 
 <div>
 <img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/BuscaPesquisa%20por%20hemocentros.png">
-</div>
+</div><br>
 
 A segunda tela será o resultado do filtro aplicado na tela anterior, onde o usuário terá acesso aos endereços e telefones dos hemocentros da região selecionada, como na imagem a seguir.
 
@@ -162,7 +161,7 @@ A tela de cadastro de hemocentros é composta por alguns campos de preenchimento
 
 <div>
 <img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/CadastroCadastro%20hemocentro.png">
-</div>
+</div><br>
 
 Logo após o preenchimento de todas as informações necessárias, o hemocentro deverá aceitar ou não os nosso termos de uso. Caso o hemocentro aceite, aparecerá para o mesmo a imagem informativa abaixo.
 
@@ -189,13 +188,13 @@ A tela de login de hemocentros se caracteriza por apenas dois campos de preenchi
 
 <div>
 <img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/2-Logindoador.png">
-</div>
+</div><br>
 
 Logo abaixo do botão de login podemos observar que temos dois links, um para recuperar senha e um para criar uma nova conta, caso o hemocentro solicite recuperar senha ele será redirecionado para uma nova tela de recuperação, no qual possui apenas o campo de preenchimento com e-mail e o botão para enviar a solicitação de redefinição de senha.
 
 <div>
 <img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Recuperar%20senharecuperar%20senha-ambos.png">
-</div>
+</div><br>
 
 Caso o e-mail de recuperação conste em nossos sistemas, o hemocentro visualizará a tela a seguir confirmando que foi encaminhado para o e-mail dele um link para redefinir a senha, conforme vemos no wireframe abaixo.
 
@@ -218,7 +217,7 @@ A tela a seguir mostra o painel de publicação de notícias que o funcionário 
 
 <div>
 <img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Central%20do%20hemocentroPublicar%20not%C3%ADcia.png">
-</div>
+</div><br>
 
 Após a publicação da notícia, irá aprensetar a tela "Notícia Enviada", como forma de confirmar a publicação.
 
