@@ -97,11 +97,15 @@ Caso o seu cadastro não atender todos os criterios para ser doador, será exibi
 ## Tela - Recuperação de senha 
  Se o usuario ja tiver feito o cadastro mas tiver esquecido a senha será possível recuperar a mesma por um e-mail que lhe será enviado. 
  
-![recuperação de email](https://user-images.githubusercontent.com/111004815/194707198-821d2f29-a0c4-4234-9cd8-b580d099ee6d.png)
+<div>
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Recuperar%20senharecuperar%20senha-ambos.png">
+</div>
  
  logo em seguida ira aparecer a seguinte mensagem 
  
- ![caso esse email conste](https://user-images.githubusercontent.com/111004815/194707261-a63950bf-32e5-498b-8a74-5019b12bc6c5.png)
+<div>
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Recuperar%20senha2retorno%20para%20recupera%C3%A7%C3%A3o%20de%20senha-%20ambos.png">
+</div>
 
 
 
