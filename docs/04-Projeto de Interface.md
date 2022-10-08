@@ -220,7 +220,7 @@ A tela a seguir mostra o painel de publicação de notícias que o funcionário 
 <img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Central%20do%20hemocentroPublicar%20not%C3%ADcia.png">
 </div><br>
 
-Após a publicação da notícia, irá aprensetar a tela "Notícia Enviada", como forma de confirmar a publicação.
+Após a publicação da notícia, irá apresentar a tela "Notícia Enviada", como forma de confirmar a publicação.
 
 <div>
 <img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Noticia%20publicada.png">
