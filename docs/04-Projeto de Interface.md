@@ -130,7 +130,7 @@ A tela dos resultados das pesquisas será dividido em duas telas, a primeira con
 
 
 <div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Busca%20-%20Regi%C3%A3o%20Gen%C3%A9ricoResultado%20da%20pesquisa%20por%20hemocentro.png">
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Busca%20-%20Regi%C3%A3o%20Gen%C3%A9ricoResultado%20da%20pesquisa%20por%20hemocentro.png">
 </div>
 
 //Painel do hemocentro
