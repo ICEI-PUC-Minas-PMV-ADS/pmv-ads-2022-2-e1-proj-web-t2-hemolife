@@ -2,25 +2,23 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+Nesta seção são apresentados os detalhes técnicos da solução criada pela equipe, tratando dos componentes que fazem parte da solução e do ambiente de hospedagem da solução.
 
 ## Diagrama de componentes
 
-Os componentes que fazem parte da solução são apresentados na Figura 01 abaixo.
+Os componentes que fazem parte da solução são apresentados na Figura a seguir.
 
-![Diagrama de Componentes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Diagrama%20de%20componentes2.png)
+![Diagrama de Componentes](https://user-images.githubusercontent.com/112135152/194714113-ba517c2d-b7aa-4fda-96eb-a2de82cd6fd8.png)
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Diagrama%20de%20componentes.png?raw=true
-<center>Figura 01 - Arquitetura da Solução</center>
+<center>Figura 13 – Diagrama de Componentes</center>
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Cadastro de Hemocentro e Doador** - seções de cadastro de doares, hemocentro e formularias de doação 
-     - **Notícias e Comentários** - registro de notícias pelos hemocentros e opiniões dos usuários sobre as notícias
-     - **Estoque de sangue** - informações sobre os níveis dos estoques
- - **API** - plataforma que permite o acesso às notícias exibidas no site.
+     - **Dados de usuário** - seções de notícias apresentadas;
+     - **Reclamações** - registro de opiniões dos usuários sobre as notícias;
+     - **Comentários** - lista de notícias mantidas para leitura e acesso posterior.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
 
@@ -34,4 +32,5 @@ Linguagem: HTML, CSS, JavaScript
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
 ## Hospedagem
+O site utiliza a plataforma do Heroku como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL:
 ![GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife)
