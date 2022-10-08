@@ -48,11 +48,9 @@ No rodapé (footer) é possível que o usuário solucione suas dúvidas, que ele
 
 A tela de campanhas do Hemo Life é o lugar no qual o usuário poderá se informar qualificadamente sobre o que é uma doação sanguínea, o porquê essa atitude é tão importante e o impacto causado por essa boa ação para uma sociedade de modo geral. Essa tela também irá informar os usuários sobre quem pode se tornar um doador sanguíneo, as condições básicas que esse doador(a) precisa atender para que o processo seja efetivado, também é informado as orientações que as pessoas devem respeitar para que o processo ocorra de forma correta e saudável. Essa tela de campanhas também é responsável por informar como serão todas as etapas do processo de doação e também os locais que são feitos as coletas através de um link que redireciona para a página de pesquisa do hemocentro.
 
-![campanha 01](https://user-images.githubusercontent.com/111004815/194708244-e3817fe2-1bad-42c7-85d3-c43da027ca6f.png)
-<br>
-![campanha 02](https://user-images.githubusercontent.com/111004815/194708252-594c2ac5-3399-4d02-ae79-917ad5140561.png)
-<br>
-![campanha 03](https://user-images.githubusercontent.com/111004815/194708264-7d70784c-f242-4b43-bf10-0a182c165d95.png)
+<div>
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/CampanhasCampanhas.png">
+</div>
 
 ## Tela - A HemoLife - Quem Somos
 
