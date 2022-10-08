@@ -73,7 +73,7 @@ formulario de cadastro
 ## Tela - termos de uso
 
 <div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Termos%20de%20aceite%20do%20servi%C3%A7o.png">
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Termos%20de%20aceite%20do%20servi%C3%A7o.png">
 </div>
 
 ## Tela -  cadastro realizado com sucesso 
