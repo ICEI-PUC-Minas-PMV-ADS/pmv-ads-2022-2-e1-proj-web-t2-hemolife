@@ -161,7 +161,7 @@ A segunda tela de formulário é onde está contida a sucessão do preenchimento
 A tela de cadastro de hemocentros é composta por alguns campos de preenchimentos necessários, no qual, o hemocentro preencherá respectivamente todas as informações necessárias, para que assim possamos manter a organização necessária para garantir um bom funcionamento e efetividade de nossos projetos e campanhas acerca de doações sanguíneas.
 
 <div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/CadastroCadastro%20Hemocentro.png">
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/CadastroCadastro%20hemocentro.png">
 </div>
 
 Logo após o preenchimento de todas as informações necessárias, o hemocentro deverá aceitar ou não os nosso termos de uso. Caso o hemocentro aceite, aparecerá para o mesmo a imagem informativa abaixo.
