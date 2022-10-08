@@ -138,6 +138,24 @@ Após selecionar a região, o usuário irá acessar uma lista de hemocentros pre
 <img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Busca%20-%20Regi%C3%A3o%20Gen%C3%A9ricoResultado%20da%20pesquisa%20por%20hemocentro.png">
 </div>
 
+
+## Tela - Formulário
+
+A tela de formulário é bem simples e objetiva no qual está dividida em duas telas. A primeira é o formulário no qual o usuário demonstra interesse em se tornar um doador ou continuar sendo um doador recorrente através da Hemo Life, no qual temos vários campos de preenchimento para o usuário registrar seus dados pessoais com o objetivo de ser contatado por algum hemocentro mais próximo que também está em busca de reposição sanguínea.
+
+<div>
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Formul%C3%A1rioFOrmul%C3%A1rio%20para%20doador.png">
+</div>
+
+
+## Tela - Formulário Aprovado
+
+A segunda tela de formulário é onde está contida a sucessão do preenchimento do formulário, no qual é visível para o usuário que preencheu todos os dados corretamente em seus respectivos campos pré-determinados.
+
+<div>
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Frame%2030Formul%C3%A1rio%20enviado.png">
+</div>
+
 //Painel do hemocentro
 
 ## Tela - Painel do Hemocentro
@@ -178,20 +196,6 @@ A segunda tela será o resultado do filtro aplicado na tela anterior, onde o usu
 ![resultado hemocentro 1](https://user-images.githubusercontent.com/111004815/194707800-4da1184a-a055-49ac-a53a-c45f39c04045.png)
 <br>
 ![resultado hemocentro 2](https://user-images.githubusercontent.com/111004815/194707809-d8d394fe-cdac-402f-a271-e05a7596a48d.png)
-
-
-## Tela - Formulário
-
-A tela de formulário é bem simples e objetiva no qual está dividida em duas telas. A primeira é o formulário no qual o usuário demonstra interesse em se tornar um doador ou continuar sendo um doador recorrente através da Hemo Life, no qual temos vários campos de preenchimento para o usuário registrar seus dados pessoais com o objetivo de ser contatado por algum hemocentro mais próximo que também está em busca de reposição sanguínea.
-
-![formulario doador](https://user-images.githubusercontent.com/111004815/194707926-47896ba5-c82b-47b0-8688-6642970f6c58.png)
-
-
-## Tela - Formulário Aprovado
-
-A segunda tela de formulário é onde está contida a sucessão do preenchimento do formulário, no qual é visível para o usuário que preencheu todos os dados corretamente em seus respectivos campos pré-determinados.
-
-![formulario aprovado](https://user-images.githubusercontent.com/111004815/194708001-ebea3ac0-9d6a-4e22-98f3-f1db538a29df.png)
 
 
 
