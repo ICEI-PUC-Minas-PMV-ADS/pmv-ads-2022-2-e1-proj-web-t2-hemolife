@@ -132,7 +132,7 @@ A tela dos resultados das pesquisas será dividido em duas telas, a primeira con
 <img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/BuscaPesquisa%20por%20hemocentros.png">
 </div>
 
-Após selecionar a região, o usuário irá acessar uma lista de hemocentros presentes na área, assim como a imagem abaixo retrata:
+A segunda tela será o resultado do filtro aplicado na tela anterior, onde o usuário terá acesso aos endereços e telefones dos hemocentros da região selecionada, como na imagem a seguir.
 
 <div>
 <img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Busca%20-%20Regi%C3%A3o%20Gen%C3%A9ricoResultado%20da%20pesquisa%20por%20hemocentro.png">
@@ -154,6 +154,53 @@ A segunda tela de formulário é onde está contida a sucessão do preenchimento
 
 <div>
 <img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Frame%2030Formul%C3%A1rio%20enviado.png">
+</div>
+
+## Tela - Cadastro Hemocentros
+
+A tela de cadastro de hemocentros é composta por alguns campos de preenchimentos necessários, no qual, o hemocentro preencherá respectivamente todas as informações necessárias, para que assim possamos manter a organização necessária para garantir um bom funcionamento e efetividade de nossos projetos e campanhas acerca de doações sanguíneas.
+
+<div>
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/CadastroCadastro%20Hemocentro.png">
+</div>
+
+Logo após o preenchimento de todas as informações necessárias, o hemocentro deverá aceitar ou não os nosso termos de uso. Caso o hemocentro aceite, aparecerá para o mesmo a imagem informativa abaixo.
+
+<div>
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Component%201Termos%20de%20uso%20hemocentro.png">
+</div>
+
+Logo após aceitar os termos de uso, o hemocentro visualizará uma nova tela de cadastro efetuado com sucesso, caso há concordância em todas as informações no momento do cadastro.
+<br>
+
+<div>
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/%C3%81rea%20de%20loginLogin%20doador%20efetuado.png">
+</div>
+
+E caso há divergência nas informações prestadas no momento do cadastro, o hemocentro visualizará a tela abaixo como informativo sobre a recusa do cadastro.
+<br>
+<div>
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/%C3%81rea%20de%20loginLogin%20Doador%20rejeitado.png">
+</div>
+
+## Tela - Login Hemocentros
+
+A tela de login de hemocentros se caracteriza por apenas dois campos de preenchimento, no qual é requisitado apenas o e-mail e a senha de cadastro do hemocentro em questão. Logo abaixo dos dois campos, é possível notar o botão de login, no qual após clicado, o hemocentro será direcionado para uma nova página de acesso.
+
+<div>
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/2-Logindoador.png">
+</div>
+
+Logo abaixo do botão de login podemos observar que temos dois links, um para recuperar senha e um para criar uma nova conta, caso o hemocentro solicite recuperar senha ele será redirecionado para uma nova tela de recuperação, no qual possui apenas o campo de preenchimento com e-mail e o botão para enviar a solicitação de redefinição de senha.
+
+<div>
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Recuperar%20senharecuperar%20senha-ambos.png">
+</div>
+
+Caso o e-mail de recuperação conste em nossos sistemas, o hemocentro visualizará a tela a seguir confirmando que foi encaminhado para o e-mail dele um link para redefinir a senha, conforme vemos no wireframe abaixo.
+
+<div>
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Recuperar%20senha2retorno%20para%20recupera%C3%A7%C3%A3o%20de%20senha-%20ambos.png">
 </div>
 
 
@@ -192,51 +239,11 @@ Após o login do hemocentro, o funcionário poderá acessar a aba “doadores”
 
 O resultado da pesquisa por doadores da região norte será apresentado como na imagem abaixo, onde conterá os seguintes dados: Nome, tipo sanguíneo, idade, última doação e telefone para contato. Desta forma, o funcionário do hemocentro terá a possibilidade de entrar em contato diretamente com o doador do tipo sanguíneo especifico que eles esteja precisando. 
 
-![resultado doadores](https://user-images.githubusercontent.com/111004815/194707531-dbe7b10f-e715-46ad-ba86-73963fd8db0e.png)
+<div>
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Resultado%20da%20pesquisa%20de%20doadores.png">
+</div>
 
 
-
-
-A segunda tela será o resultado do filtro aplicado na tela anterior, onde o usuário terá acesso aos endereços e telefones dos hemocentros da região selecionada, como na imagem a seguir.
-
-
-![resultado hemocentro 1](https://user-images.githubusercontent.com/111004815/194707800-4da1184a-a055-49ac-a53a-c45f39c04045.png)
-<br>
-![resultado hemocentro 2](https://user-images.githubusercontent.com/111004815/194707809-d8d394fe-cdac-402f-a271-e05a7596a48d.png)
-
-
-
-## Tela - Cadastro Hemocentros
-
-A tela de cadastro de hemocentros é composta por alguns campos de preenchimentos necessários, no qual, o hemocentro preencherá respectivamente todas as informações necessárias, para que assim possamos manter a organização necessária para garantir um bom funcionamento e efetividade de nossos projetos e campanhas acerca de doações sanguíneas.
-
-![cadastro hemocentro](https://user-images.githubusercontent.com/111004815/194708367-27b38aac-0885-47b7-bec6-a8d922adbbfe.png)
-
-Logo após o preenchimento de todas as informações necessárias, o hemocentro deverá aceitar ou não os nosso termos de uso. Caso o hemocentro aceite, aparecerá para o mesmo a imagem informativa abaixo.
-
-![Termos de uso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Hemo%20Termos-de-uso%20Wireframe.png?raw=true)
-
-Logo após aceitar os termos de uso, o hemocentro visualizará uma nova tela de cadastro efetuado com sucesso, caso há concordância em todas as informações no momento do cadastro.
-<br>
-![cadastro hemocentro sucesso](https://user-images.githubusercontent.com/111004815/194708432-2ebb6f95-f117-4d15-8ffc-88873bb67da6.png)
-
-E caso há divergência nas informações prestadas no momento do cadastro, o hemocentro visualizará a tela abaixo como informativo sobre a recusa do cadastro.
-<br>
-![cadastro hemocentro negado](https://user-images.githubusercontent.com/111004815/194708481-cb98b7d1-a178-449a-87ec-68b203ac68f6.png)
-
-## Tela - Login Hemocentros
-
-A tela de login de hemocentros se caracteriza por apenas dois campos de preenchimento, no qual é requisitado apenas o e-mail e a senha de cadastro do hemocentro em questão. Logo abaixo dos dois campos, é possível notar o botão de login, no qual após clicado, o hemocentro será direcionado para uma nova página de acesso.
-
-![faça seu login](https://user-images.githubusercontent.com/111004815/194708541-df0bfbe6-a9c0-4c6d-b86e-8e1306189ee6.png)
-
-Logo abaixo do botão de login podemos observar que temos dois links, um para recuperar senha e um para criar uma nova conta, caso o hemocentro solicite recuperar senha ele será redirecionado para uma nova tela de recuperação, no qual possui apenas o campo de preenchimento com e-mail e o botão para enviar a solicitação de redefinição de senha.
-
-![recuperar senha](https://user-images.githubusercontent.com/111004815/194708578-3abe7605-4096-43e1-8052-e783391d83e2.png)
-
-Caso o e-mail de recuperação conste em nossos sistemas, o hemocentro visualizará a tela a seguir confirmando que foi encaminhado para o e-mail dele um link para redefinir a senha, conforme vemos no wireframe abaixo.
-
-![caso esse email conste 02](https://user-images.githubusercontent.com/111004815/194708640-b711a286-790f-4762-93ba-119e0a4e3184.png)
 
 
 
