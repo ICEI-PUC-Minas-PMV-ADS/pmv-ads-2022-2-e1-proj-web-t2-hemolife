@@ -89,10 +89,6 @@ Caso o seu cadastro não atender todos os criterios para ser doador, será exibi
 
 
 
-
-
-![tela de login](https://user-images.githubusercontent.com/111004815/194042022-68addb0c-7c79-45a4-953b-1df9a642dbf1.png)
-
 ## Tela - Painel do Hemocentro
 
 Essa tela será apresentada após o funcionário do hemocentro tiver feito o cadastro, para que então o mesmo possa fazer o acompanhamento dos agendamentos de doação de sangue, atualizar o estoque atual de sangue por tipo sanguíneo, ver os doadores cadastrados e por fim, poderá publicar alguma notícia relacionada a doação de sangue. 
