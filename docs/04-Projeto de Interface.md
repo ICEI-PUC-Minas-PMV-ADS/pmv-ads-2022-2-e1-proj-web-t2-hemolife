@@ -86,13 +86,13 @@ e concordar com todos os termos.
 </div>
 
 
-## Tela - termos de uso
+## Tela - Termos de uso
 
 <div>
 <img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Termos%20de%20aceite%20do%20servi%C3%A7o.png">
 </div>
 
-## Tela -  cadastro realizado com sucesso 
+## Tela -  Cadastro realizado com sucesso 
 
 Com seu cadastro feito e atendendo todos os requisitos pedidos, seu cadastro será feito com sucesso.
 
@@ -258,8 +258,3 @@ O resultado da pesquisa por doadores da região norte será apresentado como na 
 <div>
 <img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Resultado%20da%20pesquisa%20de%20doadores.png">
 </div>
-
-
-
-
-
