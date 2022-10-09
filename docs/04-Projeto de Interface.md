@@ -54,12 +54,19 @@ A tela de campanhas do Hemo Life é o lugar no qual o usuário poderá se inform
 
 ## Tela - A HemoLife - Quem Somos
 
-Nesta nela descrevemos a missão da HemoLife
+Nesta tela descrevemos a missão da HemoLife
 
 <div>
 <img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Quem%20somosquem%20somos.png">
 </div>
 
+## Tela - Notícias
+
+Esta tela é o modelo template de uma notícia, apenas usuários logados podem comentar nas notícias.
+
+<div>
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Tela%20de%20not%C3%ADciasPublicar%20not%C3%ADcia.png">
+</div>
 
 ## Tela - Login Doador ou Hemocentro
 
@@ -211,6 +218,13 @@ Essa tela será apresentada após o funcionário do hemocentro tiver feito o cad
 <div>
 <img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Central%20do%20hemocentropainel%20Hemocentro.png">
 </div>
+
+## Tela - Central de Notícias
+
+Nesta tela será possível criar, editar e excluir notícias.
+<div>
+<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Central%20do%20hemocentro%20-%20Central%20de%20Not%C3%ADciasPublicar%20not%C3%ADciav2.png">
+</div><br>
 
 ## Tela - Publicação de Notícias
 
