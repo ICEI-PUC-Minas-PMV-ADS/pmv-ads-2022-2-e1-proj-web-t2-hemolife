@@ -14,7 +14,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 |<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/c.png" width="200" title="Akemi Toryama">|<h2 align="right"><b>Akemi Toryama</b></h2></br></br></br> <p align="left">Idade: 41 <br/> Ocupação: Coordenadora da Divisão de Hematologia em um hemocentro da região sul de Belo Horizonte. <br/>Tipo sanguíneo: Doadora assídua do tipo O-.</p>|	
 |<b>Motivações</b><br/>Contribuir com a melhora do sistema de saúde como doador recorrente.| Frustrações <ul><li> Dificuldade extrema em atrair novos doadores. </li><li> Ausência de um sistema eficiente que estabeleça uma comunicação entre o doador e o Hemocentro.</li> <li> Falta de campanhas. </li></ul>|	
 |<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/d.jpg" width="200" title="Junior D’Ávila">|<h2 align="right"><b>Junior D’Ávila</b></h2></br></br></br> <p align="left">Idade: 48 <br/>Ocupação: trabalha com Análise de Risco na PreX que presta serviço para empresas no Brasil. <br/>Tipo sanguíneo: Doador de sangue eventual do tipo B-. </p>|
-|<b>Motivações</b><br/>Contribuir com a melhora do sistema de saúde como doador recorrente. | Frustrações <ul><li>Imprevistos </li><li>Dificuldade em encontrar Hemocentros </li></ul>
+|<b>Motivações</b><br/>Contribuir com a melhora do sistema de saúde como doador recorrente. | Frustrações <ul><li>Dificuldade em encontrar Hemocentros </li></ul>
 
 
 	
@@ -50,12 +50,12 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |------|-----------------------------------------|----|
 |RF-001| O site deve conter na página inicial a funcionalidade de intermediar o contato entre o doador e o hemocentro.  | ALTA | 
 |RF-002| O site deve conter uma sessão informativa para novos doadores.    | MÉDIA |
-|RF-03 |O site deve permitir ao doador de manifestar o interesse em se tornar um doador por meio de um formulário.|Média|
+|RF-03 |O site deve permitir ao usuário de manifestar o interesse em se tornar um doador por meio de um formulário.|Média|
 |RF-04 |O site deve possibilitar o cadastro de doadores.  |Alta |
 |RF-05 |O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar o hemocentro mais próximo da sua região. |Alta |
 |RF-06 |O site deve permitir visualizar as informações de contato dos hemocentros.  |Alta |
 |RF-07 |O site deve permitir visualizar as informações de contato dos doadores pelos Hemocentros. |Alta |
-|RF-08 |O site deve permitir o compartilhamento de notícias enviadas pelos hemocentros aos doadores.|Média |
+|RF-08 |O site deve permitir a publicação de notícias pelos hemocentros na plataforma.|Média |
 |RF-09 |O site deve permitir a emissão de cartão benefício para doadores do grupo Hemo Life. |Média |
 |RF-10 |	O site deve conter em sua página inicial um gráfico dinâmico POR HEMOCENTRO informando o estoque disponível para cada tipo sanguíneo. |Alta |
 |RF-11 |O site deve permitir que usuários possam comentar notícias e prestar depoimentos, bem como também os hemocentros. |Baixa |
