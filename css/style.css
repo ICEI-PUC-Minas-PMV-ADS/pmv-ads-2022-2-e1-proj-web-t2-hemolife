@@ -1,0 +1,315 @@
+/* Configurações Gerais */
+
+* {
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #4f091d, #dd4a48, #121212);
+  background-size: 220% 220%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+/* Navbar */
+
+nav {
+  align-items: center;
+  background-color: #f5eedc;
+  display: flex;
+  justify-content: space-around;
+  min-height: 8vh;
+}
+
+h2 {
+  color: #f5eedc;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+p {
+  color: #f5eedc;
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* Nome da empresa */
+
+.logo {
+  font-size: 28px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.logo a {
+  color: #121212;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* Links da Navbar */
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: #121212;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-decoration: none;
+  transition: 100ms ease-in;
+}
+
+.nav-links a:hover {
+  font-weight: 600;
+}
+
+/* Navbar Button */
+
+.nav-btn {
+  background-color: #dd4a48;
+  border: none;
+  border-radius: 10px;
+  color: #f5eedc;
+  cursor: pointer;
+  display: flex;
+  font-weight: 600;
+  padding: 5px 25px;
+  transition: 200ms ease-in;
+}
+
+.nav-btn:hover {
+  background-color: #4f091d;
+  color: #f5eedc;
+}
+
+/* Footer */
+
+footer {
+  background-color: #f5eedc;
+  height: auto;
+  margin-top: 60px;
+  max-height: 100vh;
+  padding: 5px 0 30px 0;
+  width: 100vw;
+}
+
+.footer-conteudo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+h3 {
+  color: #121212;
+  letter-spacing: 2px;
+}
+
+footer p {
+  color: #121212;
+}
+
+.footer-conteudo a {
+  color: #121212;
+  font-size: 14px;
+  line-height: 28px;
+  margin: 10px auto;
+  max-width: 500px;
+  text-decoration: none;
+}
+
+.footer-conteudo a:hover {
+  font-weight: 600;
+}
+
+span {
+  color: #121212;
+}
+
+.footer-bottom {
+  padding: 20px 0;
+  text-align: center;
+  width: 100vw;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  text-transform: capitalize;
+  word-spacing: 2px;
+}
+
+.footer-bottom span {
+  color: #dd4a48;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Gaveta responsiva Telas Pequenas */
+
+.burger {
+  cursor: pointer;
+  display: none;
+}
+
+.burger div {
+  background-color: #dd4a48;
+  height: 3px;
+  margin: 5px;
+  transition: all 0.5s ease;
+  width: 25px;
+}
+
+/* Conteúdo do Corpo */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  min-height: 52vh;
+  width: 100%;
+}
+
+/* Conteúdo da esquerda */
+
+.container-left {
+  margin-top: 2rem;
+  text-align: center;
+  width: 50%;
+}
+
+.left-img {
+  border-radius: 10%;
+  box-shadow: 0px 1px 15px #121212;
+  height: 70%;
+  margin-top: 2.5rem;
+  width: 60%;
+}
+
+/* Conteúdo da direita */
+
+.container-right {
+  margin-top: 2rem;
+  text-align: center;
+  width: 50%;
+}
+
+.right-img {
+  border-radius: 10%;
+  box-shadow: 0px 1px 15px #121212;
+  height: 70%;
+  margin-top: 2.5rem;
+  width: 60%;
+}
+
+/* Carrousel */
+
+/* Efeitos JavaScript + CSS Gaveta Responsiva */
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    align-items: center;
+    background: linear-gradient(135deg, #dd4a48, #dd4a48, #4f091d);
+    border-radius: 0 0 0 75px;
+    display: flex;
+    flex-direction: column;
+    height: 92vh;
+    position: absolute;
+    right: 0px;
+    top: 8vh;
+    transform: translateX(100%);
+    width: 50%;
+  }
+  .nav-links li {
+    opacity: 1;
+  }
+
+  .nav-links a {
+    color: #f5eedc;
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@media screen and (max-width: 590px) {
+  .container {
+    display: block;
+    margin-left: 25%;
+    width: 100vw;
+  }
+  .right-img {
+    width: 70%;
+  }
+  .left-img {
+    width: 70%;
+  }
+}
+
+/* Carrousel Responsivo */
+
+/* Animações */
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
