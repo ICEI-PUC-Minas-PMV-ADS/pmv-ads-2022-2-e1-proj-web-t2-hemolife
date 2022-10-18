@@ -351,3 +351,32 @@ footer p {
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
+
+/* Alinhamento do texto Quem Somos */
+.Quem-somos {
+  text-align: center;
+  padding: 1%;
+  font-size: large;
+  Display: flex;
+  align-items: center;
+  Justify-content: center;
+}
+
+.lista-equipe {
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+  padding: 1%;
+  font-size: medium;
+  color: #fafafa; 
+}
+
+.lista-equipe a {
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+
+
