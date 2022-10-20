@@ -10,7 +10,6 @@ Os componentes que fazem parte da solução são apresentados na Figura 01 abaix
 
 ![Diagrama de Componentes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Diagrama%20de%20componentes2.png)
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Diagrama%20de%20componentes.png?raw=true
 <center>Figura 01 - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
