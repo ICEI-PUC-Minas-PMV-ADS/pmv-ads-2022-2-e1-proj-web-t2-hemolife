@@ -99,7 +99,7 @@
   
   /* Navbar Button */
   
-  .nav-btn {
+  button {
     background: fafafa;
     border: none;
     border-radius: 10px;
@@ -116,7 +116,7 @@
     transition: 100ms ease;
   }
   
-  .nav-btn:hover {
+ button:hover {
     box-shadow: 0px 0px 25px #fafafa;
     transform: scale(1.2);
   }
@@ -215,6 +215,66 @@
     min-height: 52vh;
     width: 100%;
   }
+
+  #btn-login{
+    margin-top: 20px;
+    
+  }
+
+  #login{
+    margin-bottom: 12px;
+  }
+
+  /*Aba de Login*/
+
+  .limit {	
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .form-signin {
+    max-width: 380px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1); 
+    border-radius: 25px; 
+  }
+
+  .form-signin-heading, .checkbox {
+    margin-bottom: 30px;
+    color: #121212;
+  }
+
+  .form-signin-heading{
+    text-align: center;
+  }
+  
+  .checkbox {
+    font-weight: normal;
+  }
+  
+  .form-control {
+    position: relative;
+    font-size: 16px;
+    width: 99%;
+    height: auto;
+    padding: 15px;
+  }   
+  
+    input[type="text"] {
+      margin-bottom: -1px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  
+    input[type="password"] {
+      margin-bottom: 20px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+  
+  
   
   /* Conteúdo da esquerda */
   
@@ -227,7 +287,6 @@
   .left-img {
     border-radius: 10%;
     box-shadow: 0px 1px 15px #121212;
-    height: 70%;
     margin-top: 2.5rem;
     width: 60%;
   }
@@ -243,7 +302,6 @@
   .right-img {
     border-radius: 10%;
     box-shadow: 0px 1px 15px #121212;
-    height: 70%;
     margin-top: 2.5rem;
     width: 60%;
   }
