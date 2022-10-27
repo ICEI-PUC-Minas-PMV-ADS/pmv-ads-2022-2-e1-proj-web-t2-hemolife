@@ -476,9 +476,7 @@ grid-container {
   margin: 0 auto;
   border: 0px solid #fff;
   display: grid;
-  grid-template-areas:
-  "titulonivel titulonivel titulonivel titulonivel";
-  "nivel nivel nivel nivel";
+  grid-column: 1 / 5;
   grid-gap: 40px;
   grid-row-gap: 50px;
   grid-column-end 4
@@ -488,23 +486,24 @@ grid-container {
   text-align: center;
   grid-area: "titulonivel";
   grid-column: 1 / 5;
-  
 }
 /* Início Card Blood Responsivo */ /* Criado por: Jansem Wallemberg Torquetti Maia */
 @media (max-width: 1165px){
-  grid-container{
+  grid-container,{
   justify-content: center;
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
   border: 0px solid #fff;
   display: grid;
-  grid-template-areas:
-  "titulonivel titulonivel"
-  "nivel nivel";
+  grid-column: 1/3;
   grid-gap: 40px;
   grid-row-gap: 50px;
   }
+  .titulonivel {
+  text-align: center;
+  grid-area: "titulonivel";
+  grid-column: 1 / 3;}
 }
 @media (max-width: 570px){
   grid-container{
@@ -514,12 +513,14 @@ grid-container {
   margin: 0 auto;
   border: 0px solid #fff;
   display: grid;
-  grid-template-areas:
-  "titulonivel"
-  "nivel";
+  grid-column: 1;
   grid-gap: 40px;
   grid-row-gap: 50px;
   }
+  .titulonivel {
+    text-align: center;
+    grid-area: "titulonivel";
+    grid-column: 1 ;}
 }
 /* Fim Card Blood Responsivo */ /* Criado por: Jansem Wallemberg Torquetti Maia */
 
@@ -536,8 +537,7 @@ grid-container {
 /* ContainerGrid da Legenda do card*/
 .nivelleg{
   display: grid;
-  grid-template-areas: 
-  "nivel1 nivel1 nivel1";  
+  grid-column: 1 / 4;  
 }
 /* Grid da Legenda do card*/
 .nivel1 {  
