@@ -468,3 +468,91 @@
   /* line-height: 50px; */
   font-weight: bold;
 }
+/* Grid - Tabela */ /* Criado por: Jansem Wallemberg Torquetti Maia */
+grid-container {
+  justify-content: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 0px solid #fff;
+  display: grid;
+  grid-template-areas:
+  "titulonivel titulonivel titulonivel titulonivel";
+  "nivel nivel nivel nivel";
+  grid-gap: 40px;
+  grid-row-gap: 50px;
+  grid-column-end 4
+}
+/* Grid do Título */ /* Criado por: Jansem Wallemberg Torquetti Maia */
+.titulonivel {
+  text-align: center;
+  grid-area: "titulonivel";
+  grid-column: 1 / 5;
+  
+}
+/* Início Card Blood Responsivo */ /* Criado por: Jansem Wallemberg Torquetti Maia */
+@media (max-width: 1165px){
+  grid-container{
+  justify-content: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 0px solid #fff;
+  display: grid;
+  grid-template-areas:
+  "titulonivel titulonivel"
+  "nivel nivel";
+  grid-gap: 40px;
+  grid-row-gap: 50px;
+  }
+}
+@media (max-width: 570px){
+  grid-container{
+  padding: 20px;
+  max-width: 1200px;
+  min-width: 290px;
+  margin: 0 auto;
+  border: 0px solid #fff;
+  display: grid;
+  grid-template-areas:
+  "titulonivel"
+  "nivel";
+  grid-gap: 40px;
+  grid-row-gap: 50px;
+  }
+}
+/* Fim Card Blood Responsivo */ /* Criado por: Jansem Wallemberg Torquetti Maia */
+
+/* Grid das celulas dos níves */ /* Criado por: Jansem Wallemberg Torquetti Maia */
+.nivel {  
+  width: 250px;
+  height: 220px;
+  background-color: #a19595;
+  border-radius: 30px;
+  grid-area: "nivel";
+  text-align: center;
+  box-shadow: 0px 0px 10px rgb(22, 21, 21);
+}
+/* ContainerGrid da Legenda do card*/
+.nivelleg{
+  display: grid;
+  grid-template-areas: 
+  "nivel1 nivel1 nivel1";  
+}
+/* Grid da Legenda do card*/
+.nivel1 {  
+  grid-area: "nivel1";
+}
+.nivel img {
+  width:50%;
+  margin-top: 10px;
+}
+.nivel p {
+  margin-top: 10px;  
+}
+.nivel h4 {
+  margin-top: 5px;
+  color: #fff
+  
+  }
+/* Fim Grid das celulas dos níves *//* Criado por: Jansem Wallemberg Torquetti Maia */
