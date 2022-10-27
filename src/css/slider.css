@@ -6,7 +6,7 @@
 }
 /*Linha do Slider*/
 .myslider {
-  -webkit-appearance: none;
+  appearance: none;
   border: #FAFAFA;
   border-radius: 30px;
   width: 100%;
@@ -16,7 +16,7 @@
 }
 /*Botão do Slider*/
 .myslider::-webkit-slider-thumb {
-  -webkit-appearance: none;
+  appearance: none;
   cursor: pointer;
   background: #DB0000;
   width: 20px;
