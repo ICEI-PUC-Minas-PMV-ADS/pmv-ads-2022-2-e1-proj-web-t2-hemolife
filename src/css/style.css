@@ -1,0 +1,645 @@
+/* Configurações Gerais */
+
+* {
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: linear-gradient(135deg, #4f091d, #dd4a48, #121212);
+  background-size: 220% 220%;
+  animation: gradient 15s ease infinite;
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+::-webkit-scrollbar {
+  background: none;
+  width: 0;
+}
+
+/* Navbar */
+
+nav {
+  align-items: center;
+  display: flex;
+  margin: 10px 0;
+  min-height: 8vh;
+  justify-content: space-around;
+}
+
+div a img {
+  width: 45px;
+}
+
+h2 {
+  color: #fafafa;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+p {
+  color: #f5eedc;
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* Nome da empresa */
+
+.logo {
+  align-items: center;
+  display: flex;
+  font-size: 28px;
+  gap: 10px;
+  letter-spacing: 3px;
+  justify-content: center;
+}
+
+.logo a {
+  color: #fafafa;
+  display: flex;
+  font-family: "Poiret One";
+  font-size: 2.5rem;
+  font-weight: 400;
+  justify-content: center;
+  text-decoration: none;
+}
+
+/* Links da Navbar */
+
+.nav-links {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-decoration: none;
+  transition: 100ms ease-in;
+}
+
+.nav-links a:hover {
+  font-weight: 600;
+}
+
+/* Navbar Button */
+
+.nav-btn {
+  background: fafafa;
+  border: none;
+  border-radius: 10px;
+  color: #dd4a48;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  outline: none;
+  padding: 5px 25px;
+  transform: scale(1.08);
+  transition: box-shadow 0.1s;
+  transition: 100ms ease;
+}
+
+.nav-btn:hover {
+  box-shadow: 0px 0px 15px #fafafa;
+}
+
+/* Footer */
+
+footer {
+  background-color: #fafafa;
+  height: auto;
+  margin-top: 230px;
+  max-height: 100vh;
+  padding: 20px 0 0 0;
+  width: 100vw;
+}
+
+.footer-conteudo {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+h3 {
+  color: #121212;
+  letter-spacing: 2px;
+}
+
+footer p {
+  color: #121212;
+}
+
+.footer-conteudo a {
+  color: #121212;
+  font-size: 14px;
+  line-height: 28px;
+  margin: 10px 20px;
+  max-width: 500px;
+  text-decoration: none;
+  transition: 200ms ease;
+}
+
+.footer-conteudo a:hover {
+  font-weight: 600;
+}
+
+.puc {
+  color: #dd4a48;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer-bottom {
+  padding: 20px 0;
+  text-align: center;
+  width: 100vw;
+}
+
+.footer-bottom a {
+  color: #dd4a48;
+  display: flex;
+  font-size: 14px;
+  justify-content: space-evenly;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+  word-spacing: 2px;
+}
+
+/* Gaveta responsiva Telas Pequenas */
+
+.burger {
+  cursor: pointer;
+  display: none;
+}
+
+.burger div {
+  background-color: #fafafa;
+  height: 3px;
+  margin: 5px;
+  transition: all 0.5s ease;
+  width: 25px;
+}
+
+/* Conteúdo do Corpo */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+  min-height: 52vh;
+  width: 100%;
+}
+
+/* Conteúdo da esquerda */
+
+.container-left {
+  margin-top: 2rem;
+  text-align: center;
+  width: 50%;
+}
+
+.left-img {
+  border-radius: 10%;
+  box-shadow: 0px 1px 15px #121212;
+  height: 70%;
+  margin-top: 2.5rem;
+  width: 60%;
+}
+
+/* Conteúdo da direita */
+
+.container-right {
+  margin-top: 2rem;
+  text-align: center;
+  width: 50%;
+}
+
+.right-img {
+  border-radius: 10%;
+  box-shadow: 0px 1px 15px #121212;
+  height: 70%;
+  margin-top: 2.5rem;
+  width: 60%;
+}
+
+/* Carrousel */
+
+/* Efeitos JavaScript + CSS Gaveta Responsiva */
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    align-items: center;
+    background: linear-gradient(135deg, #dd4a48, #dd4a48, #4f091d);
+    border-radius: 75px 0 0 75px;
+    display: flex;
+    flex-direction: column;
+    height: 92vh;
+    overflow-x: hidden;
+    position: absolute;
+    right: 0px;
+    top: 8vh;
+    transform: translateX(100%);
+    width: 50%;
+  }
+  .nav-links li {
+    opacity: 1;
+  }
+
+  .nav-links a {
+    color: #fafafa;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+    z-index: 1;
+  }
+
+  footer {
+    position: sticky;
+    top: 100%;
+  }
+
+  /* Responsivo Sobre.html */
+  .about {
+    margin-right: 21rem;
+    transform: scale(0.7);
+  }
+
+  .about-title {
+    font-size: 50px;
+    margin-left: 10.5rem;
+  }
+
+  .about p {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  body {
+    overflow-x: hidden;
+    touch-action: pan-y;
+  }
+  .container {
+    display: block;
+    margin-left: 25%;
+    width: 100vw;
+  }
+  .right-img {
+    width: 70%;
+  }
+  .left-img {
+    width: 70%;
+  }
+
+  .nav-btn {
+    transform: scale(1.3);
+  }
+
+  footer {
+    position: sticky;
+    top: 100%;
+  }
+
+  .team {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transform: scale(0.8);
+  }
+}
+
+/* Carrousel Responsivo */
+
+/* Animações */
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Edições Sobre.html */
+
+.about-title {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.about p {
+  background-color: #fafafa;
+  border-radius: 75px;
+  color: #121212;
+  margin: 20px auto;
+  padding: 2rem;
+  text-align: center;
+  width: 40rem;
+}
+
+.team-title {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.team {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 4rem;
+  margin-bottom: -8rem;
+}
+
+.team a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.team img {
+  border-radius: 10px;
+  transition: 200ms ease-in-out;
+  width: 100px;
+}
+
+.team img:hover {
+  border-radius: 10px 10px 70px 10px;
+}
+
+.mapas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px;
+  /* gap: 30px; */
+  background: #a1a1aa;
+  border-radius: 12%;
+  box-shadow: 0px 15px 15px #121212;
+  height: 220px;
+  margin-top: 10rem;
+  width: 190px;
+  /* position: relative; */
+}
+.maprow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.mapas h2 {
+  text-align: top;
+  margin: 5px 0 10px;
+  font-size: 25px;
+}
+.mapas a {
+  border-radius: 25px;
+  text-align: center;
+}
+.mapas img {
+  width: 40%;
+  font-style: italic;
+  text-align: center;
+  /* line-height: 50px; */
+  font-weight: bold;
+}
+/* Grid - Tabela */ /* Criado por: Jansem Wallemberg Torquetti Maia */
+grid-container {
+  justify-content: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 0px solid #fff;
+  display: grid;
+  grid-column: 1 / 5;
+  grid-gap: 40px;
+  grid-row-gap: 50px;
+}
+/* Grid do Título */ /* Criado por: Jansem Wallemberg Torquetti Maia */
+.titulonivel {
+  text-align: center;
+  grid-area: "titulonivel";
+  grid-column: 1 / 5;
+}
+/* Início Card Blood Responsivo */ /* Criado por: Jansem Wallemberg Torquetti Maia */
+@media (max-width: 1165px) {
+  grid-container {
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 0px solid #fff;
+    display: grid;
+    grid-column: 1 / 3;
+    grid-gap: 40px;
+    grid-row-gap: 50px;
+  }
+  .titulonivel {
+    text-align: center;
+    grid-area: "titulonivel";
+    grid-column: 1 / 3;
+  }
+}
+@media (max-width: 570px) {
+  grid-container {
+    padding: 20px;
+    max-width: 1200px;
+    min-width: 290px;
+    margin: 0 auto;
+    border: 0px solid #fff;
+    display: grid;
+    grid-column: 1;
+    grid-gap: 40px;
+    grid-row-gap: 50px;
+  }
+  .titulonivel {
+    text-align: center;
+    grid-area: "titulonivel";
+    grid-column: 1;
+  }
+}
+/* Fim Card Blood Responsivo */ /* Criado por: Jansem Wallemberg Torquetti Maia */
+
+/* Grid das celulas dos níves */ /* Criado por: Jansem Wallemberg Torquetti Maia */
+.nivel {
+  width: 250px;
+  height: 220px;
+  background-color: #a19595;
+  border-radius: 30px;
+  grid-area: "nivel";
+  text-align: center;
+  box-shadow: 0px 0px 10px rgb(22, 21, 21);
+}
+/* ContainerGrid da Legenda do card*/
+.nivelleg {
+  display: grid;
+  grid-column: 1 / 3;
+}
+/* Grid da Legenda do card*/
+.nivel1 {
+  grid-area: 1;
+}
+.nivel img {
+  width: 50%;
+  margin-top: 10px;
+}
+.nivel p {
+  margin-top: 10px;
+}
+.nivel h4 {
+  margin-top: 5px;
+  color: #fff;
+}
+/* Fim Grid das celulas dos níves */ /* Criado por: Jansem Wallemberg Torquetti Maia */
+
+/* Edições do Carrosel Index */
+
+.news {
+  text-align: center;
+  margin: 5.5rem auto;
+}
+
+.carousel-container {
+  border: 2px solid #131313;
+  margin: 3rem auto;
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+}
+
+.carousel-slide {
+  display: flex;
+  height: 450px;
+  width: 100%;
+}
+
+#prevBtn {
+  color: #fafafa;
+  cursor: pointer;
+  font-size: 30px;
+  left: 5%;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+}
+
+#nextBtn {
+  color: #fafafa;
+  cursor: pointer;
+  font-size: 30px;
+  right: 5%;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+}
+
+/* Formulário Index */
+
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+
+.formulario a {
+  background-color: #fafafa;
+  border-radius: 75px;
+  color: #dd4a48;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 2rem auto -8rem;
+  padding: 2rem 4rem;
+  text-decoration: none;
+  transition: 150ms ease-in-out;
+}
+
+.formulario a:hover {
+  box-shadow: 0px 0px 15px #fafafa;
+}
+
+
+/* Campanha.html */
+
+.campanha {
+  margin: 4rem auto -6rem;
+  text-align: center;
+  width: 80%;
+}
+
+.titl-camp {
+  color: #121212;
+  margin: 3rem auto;
+  width: 60%;
+}
+
+.campanha p {
+  color: #fafafa;
+  font-weight: 400;
+}
