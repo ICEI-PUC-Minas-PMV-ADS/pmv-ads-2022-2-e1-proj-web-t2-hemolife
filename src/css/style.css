@@ -572,13 +572,13 @@ grid-container {
   margin: 3rem auto;
   overflow: hidden;
   position: relative;
-  width: 80%;
+  width: 750px;
 }
 
 .carousel-slide {
   display: flex;
   height: 450px;
-  width: 100%;
+  width: 750px;
 }
 
 #prevBtn {
