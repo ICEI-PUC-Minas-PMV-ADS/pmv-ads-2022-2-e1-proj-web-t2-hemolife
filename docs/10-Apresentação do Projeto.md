@@ -6,7 +6,7 @@
 
 # Material de Apoio sobre a Apresentação de um Produto
 
-## Título do Projeto
+## Hemo Life
 
 Nome e marca do projeto
 
