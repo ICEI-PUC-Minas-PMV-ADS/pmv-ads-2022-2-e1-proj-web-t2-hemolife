@@ -48,8 +48,8 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O site deve conter na página inicial a funcionalidade de intermediar o contato entre o doador e o hemocentro.  | ALTA | 
-|RF-002| O site deve conter uma sessão informativa para novos doadores.    | MÉDIA |
+|RF-01 | O site deve conter na página inicial a funcionalidade de intermediar o contato entre o doador e o hemocentro.  | ALTA | 
+|RF-02 | O site deve conter uma sessão informativa para novos doadores.    | MÉDIA |
 |RF-03 |O site deve permitir ao usuário de manifestar o interesse em se tornar um doador por meio de um formulário.|Média|
 |RF-04 |O site deve possibilitar o cadastro de doadores.  |Alta |
 |RF-05 |O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar o hemocentro mais próximo da sua região. |Alta |
