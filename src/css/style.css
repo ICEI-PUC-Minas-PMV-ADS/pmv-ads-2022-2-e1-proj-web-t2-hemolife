@@ -410,6 +410,8 @@ footer p {
   text-align: center;
 }
 
+/* Edição do time */
+
 .team {
   text-align: center;
   display: flex;
@@ -434,6 +436,8 @@ footer p {
   border-radius: 10px 10px 70px 10px;
 }
 
+/* Edição da pagina de pesquisa (mapas) */
+
 .mapas {
   display: flex;
   align-items: center;
@@ -447,8 +451,10 @@ footer p {
   height: 220px;
   margin-top: 10rem;
   width: 190px;
-  /* position: relative; */
 }
+
+/* position: relative; */
+
 .maprow {
   display: flex;
   align-items: center;
@@ -471,7 +477,9 @@ footer p {
   /* line-height: 50px; */
   font-weight: bold;
 }
+
 /* Grid - Tabela */ /* Criado por: Jansem Wallemberg Torquetti Maia */
+
 grid-container {
   justify-content: center;
   padding: 20px;
@@ -483,13 +491,17 @@ grid-container {
   grid-gap: 40px;
   grid-row-gap: 50px;
 }
+
 /* Grid do Título */ /* Criado por: Jansem Wallemberg Torquetti Maia */
+
 .titulonivel {
   text-align: center;
   grid-area: "titulonivel";
   grid-column: 1 / 5;
 }
+
 /* Início Card Blood Responsivo */ /* Criado por: Jansem Wallemberg Torquetti Maia */
+
 @media (max-width: 1165px) {
   grid-container {
     justify-content: center;
