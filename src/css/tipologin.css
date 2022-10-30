@@ -2,18 +2,47 @@ form{
     height: 40vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
-h2{
-    margin-top: 1em;
+.tp-conta {
+    max-width: 380px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+  }
+
+.tp-conta a {
+    color: #dd4a48;
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+.btnRed{
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    height: 3.5vh;
+    width: 250px;
+    background-color: #dd4a48;
+    color: #fff;
+    transition: all 1.0s;
+    transition: box-shadow 0.1s;
 }
 
-button{
-    margin-top: 3em;
+.btnWhite{
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
     height: 3.5vh;
-    background-color: #dd4a48;
+    width: 250px;
+    background-color: #fafafa;
+    color: #dd4a48;
     transition: all 1.0s;
+    box-shadow: 0px 0px 15px #fafafa;
 }
 
 form a{
@@ -21,5 +50,19 @@ form a{
 }
 
 button:hover{
-    scale: 1.07;
+    box-shadow: 0px 0px 15px #29292980;
+    scale: 1.02;
 }
+
+@media (max-width: 570px) {
+    .form-signin {
+      max-width: 80vw;
+      padding: 15px 35px 45px;
+      margin: 0 auto;
+      background-color: #fff;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 25px;
+    }
+
+}
+  

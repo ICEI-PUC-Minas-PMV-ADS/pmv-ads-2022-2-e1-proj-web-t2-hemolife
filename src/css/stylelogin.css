@@ -31,26 +31,15 @@ button:hover {
   box-shadow: 0px 0px 5px #131313;
 }
 
-.container {
-  display: flex;
-  justify-content: space-around;
-  min-height: 52vh;
-  width: 100%;
-}
-
 /* Corpo do formulário */
 
 .form-signin {
   max-width: 380px;
   padding: 15px 35px 45px;
-  margin: 0 auto;
+  margin: 0 5vw;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 25px;
-}
-
-form{
-  margin-bottom: 5vh;
 }
 
 .form-signin a {
@@ -101,6 +90,10 @@ form{
 }
 
 .limit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   margin-top: 100px;
   margin-bottom: -75px;
 }
@@ -129,3 +122,4 @@ button a{
   font-weight: 600;
   color: #dd4a48;
 }
+
