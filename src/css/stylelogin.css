@@ -105,8 +105,6 @@ form{
   margin-bottom: -75px;
 }
 
-
-
 input[type="text"] {
   margin-bottom: -1px;
   border-bottom-left-radius: 0;
@@ -124,4 +122,10 @@ h1{
   text-align: center;
   font-weight: 600;
   margin-bottom: 5vh;
+}
+
+button a{
+  text-decoration: none;
+  font-weight: 600;
+  color: #dd4a48;
 }

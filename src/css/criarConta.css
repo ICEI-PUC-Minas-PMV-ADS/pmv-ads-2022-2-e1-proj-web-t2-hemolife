@@ -1,0 +1,90 @@
+/* reset */
+
+input[type="text"] {
+    margin-bottom: 0px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  input[type="password"] {
+    margin-bottom: 0px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+/* formulário */
+
+
+.formCadastro{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+label{
+    margin-top: 1vh;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+.limitf{
+    display: flex;
+    flex-direction: column;
+}
+
+.limitf input{
+    height: 4.5vh;
+    border: 1px solid;
+    padding: 0 10px;
+    transition: all 1.05s;
+}
+
+.limitf input:hover{
+    border-color: #dd4a48;
+    border-radius: 15px;
+}
+
+.selecao{
+    height: 4vh;
+}
+
+.cadastro{
+    display: flex;
+}
+
+.limit2{
+    display: flex;
+    flex-direction: column;
+}
+
+.limit2 input, select{
+    height: 4.5vh;
+    border: 1px solid;
+    padding: 0 10px;
+    transition: all 1.05s;
+}
+
+
+
+#address-form{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #dd4a48;
+}

@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Login Hemocentro</title>
+    <title>Criar conta doador</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/stylelogin.css">
     <!-- JavaScript -->
     <script src="index.js" defer></script>
     <!-- Google Fonts -->
@@ -42,34 +41,16 @@
 
     <!-- Conteúdo do Corpo -->
 
-    <div class="limit">
+        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
 
-        <h1>Você está entrando como Hemocentro</h1>
 
-        <form class="form-signin">
-
-            <h2 class="form-signin-heading">Login</h2>
-
-            <input type="email" class="form-control" id="login" name="username" placeholder="Email" required=""
-                autofocus="" />
-            <input type="password" class="form-control" id="senha" name="password" placeholder="Senha"
-                required="" />
-
-            <label class="checkbox">
-                <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Permanecer conectado
-            </label><br>
-
-            <a href="forgot.html">Esqueceu sua senha?</a><br>
-
-            <button type="submit" id="btn-login" type="submit" onclick="logar(); return false"> Entrar </button>
-
-        </form>
-
-        <div class="create">
-            <h3>Não tem conta?</h3>
-            <button><a href="criar-conta-hemocentro.html">Criar conta</a></button>
-        </div>
-
+    <div class="termos">
+        <h2>Termos e condições</h2>
+        <p>Os dados serão utilizados para o cadastro do doador no sistema da Hemo Life. 
+        Utilizamos tecnologia de cookies para manter sua identificação durante o processo
+        de agendamento e trabalhamos de acordo com as legislações vigentes, incluindo a 
+        Portaria nº 5, de outubro de 2017, e a LGPD, de agosto de 2018.</p>
+        <a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709compilado.htm">Saiba mais</a>
     </div>
 
 

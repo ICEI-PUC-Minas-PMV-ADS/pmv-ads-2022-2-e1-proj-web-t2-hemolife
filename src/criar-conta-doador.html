@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Login Hemocentro</title>
+    <title>Criar conta doador</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stylelogin.css">
+    <link rel="stylesheet" href="css/criarConta.css">
     <!-- JavaScript -->
     <script src="index.js" defer></script>
     <!-- Google Fonts -->
@@ -44,31 +45,53 @@
 
     <div class="limit">
 
-        <h1>Você está entrando como Hemocentro</h1>
+        <form class="formCadastro">
 
-        <form class="form-signin">
+            <h2 class="form-signin-heading">Cadastro de doador</h2>
 
-            <h2 class="form-signin-heading">Login</h2>
 
-            <input type="email" class="form-control" id="login" name="username" placeholder="Email" required=""
-                autofocus="" />
-            <input type="password" class="form-control" id="senha" name="password" placeholder="Senha"
-                required="" />
+            <div class="limitf">
+                <!-- Nome -->
+                <label>Nome</label>
+                <input type="text" placeholder="Nome completo"  required>
 
+                <!-- Nasciemento -->
+                <label>Data de nascimento</label>
+                <input type="date"  required>
+
+                <!-- Checagem de impedimentos -->
+                <label>Já doou antes?</label>
+                <select class="selecao" name="" id=""  required>
+                    <option selected disabled value="">Selecione</option>
+                    <option value="">Sim</option>
+                    <option value="">Não</option>
+                </select>
+
+                <!-- CPF -->
+                <label>CPF</label>
+                <input type="text" placeholder="CPF" maxlength="11" required>
+
+                <!-- E-mail -->
+                <label>E-mail</label>
+                <input type="email" id="email" placeholder="Email" required>
+
+                <!-- Senha -->
+                <label>Crie uma senha</label>
+                <input type="password" id="senha" placeholder="Senha" required/>
+
+                <label>Repita a sua senha</label>
+                <input type="password" id="senha" placeholder="Senha" required/>
+            </div>
+
+            <!-- Termos e condições -->
             <label class="checkbox">
-                <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Permanecer conectado
-            </label><br>
+                <input type="checkbox" required>
+                <a href="termos.html">concordo com os termos e condições</a>
+            </label>
 
-            <a href="forgot.html">Esqueceu sua senha?</a><br>
-
-            <button type="submit" id="btn-login" type="submit" onclick="logar(); return false"> Entrar </button>
+            <button type="submit" id="btn-login" type="submit" onclick="logar(); return false">Criar conta</button>
 
         </form>
-
-        <div class="create">
-            <h3>Não tem conta?</h3>
-            <button><a href="criar-conta-hemocentro.html">Criar conta</a></button>
-        </div>
 
     </div>
 

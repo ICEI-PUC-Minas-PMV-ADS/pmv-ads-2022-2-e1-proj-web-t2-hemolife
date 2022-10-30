@@ -248,7 +248,70 @@ footer p {
   width: 60%;
 }
 
-/* Carrousel */
+/* Termos */
+
+.termos{
+  background-color: #fafafa;
+  margin: 7vh 10vw;
+  border-radius: 75px;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 15px 15px #1212126b;
+}
+
+
+
+.termos p, .termos a{
+  font-weight: 600;
+  margin: 0 5vw;
+  margin-top: 2vh;
+  color: #121212;
+}
+
+.termos h2{
+  text-align: center;
+  color: #dd4a48;
+}
+
+.termos a{
+  text-decoration: none;
+  color: #dd4a48;
+}
+
+#btn-voltar{
+  margin: 10vh 15vw -20vh;
+  background-color: #fafafa;
+  text-decoration: none;
+  color: #dd4a48;
+  height: 5vh;
+  width: 8vw;
+  cursor: pointer;
+  background: fafafa;
+  border: none;
+  border-radius: 10px;
+  color: #dd4a48;
+  font-size: 16px;
+  justify-content: center;
+  outline: none;
+  padding: 5px 25px;
+  transform: scale(1.08);
+  transition: box-shadow 0.1s;
+  transition: all 1.02s;
+}
+
+#btn-voltar:hover {
+  box-shadow: 0px 0px 15px #fafafa;
+}
+#btn-voltar a{
+  text-decoration: none;
+  color: #dd4a48;
+  font-weight: 600;
+  height: 5vh;
+  width: 7vw;
+}
 
 /* Efeitos JavaScript + CSS Gaveta Responsiva */
 

@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Criar conta</title>
+    <title>Criar Conta Hemocentro</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stylelogin.css">
+    <link rel="stylesheet" href="css/criarConta.css">
     <!-- JavaScript -->
     <script src="index.js" defer></script>
     <!-- Google Fonts -->
@@ -42,28 +43,94 @@
 
     <!-- Conteúdo do Corpo -->
 
-    <div class="limit">
+        <div class="limit">
 
-        <form class="form-signin">
+            <form class="formCadastro">
 
-            <h2 class="form-signin-heading">Login</h2>
+                <h2 class="form-signin-heading">Cadastro de hemocentro</h2>
 
-            <input type="email" class="form-control" id="login" name="username" placeholder="Email" required=""
-                autofocus="" />
-            <input type="password" class="form-control" id="senha" name="password" placeholder="Senha"
-                required="" />
 
-            <label class="checkbox">
-                <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Permanecer conectado
-            </label><br>
+                <div class="limitf">
+                    <!-- Nome -->
+                    <label>Nome</label>
+                    <input type="text" placeholder="Nome completo"  required>
 
-            <a href="forgot.html">Esqueceu sua senha?</a><br>
+                    <!-- Cadastro Nacional de Estabelecimentos de Saúde -->
+                    <label>CNES</label>
+                    <input type="text" placeholder="CNES" minlength="11" maxlength="11" required>
 
-            <button type="submit" id="btn-login" type="submit" onclick="logar(); return false"> Entrar </button>
+                    <!-- Cadastro Nacional de Pessoa Júridica -->
+                    <label>CNPJ</label>
+                    <input type="text" placeholder="CNPJ" minlength="14" maxlength="14" required>
 
-        </form>
+                    <!-- Endereço -->
+                    <label>Estado</label>
+                    <select class="região" required>
+                        <option selected>Estado</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
 
-    </div>
+                    <label>Cidade</label>
+                    <input type="text" placeholder="Cidade"  required>
+
+                    <label>Logradouro</label>
+                    <input type="text" placeholder="Logradouro"  required>
+
+                    <label>Número</label>
+                    <input type="text" placeholder="Número" maxlength="7" required>
+
+                    <label>CEP</label>
+                    <input type="text" placeholder="CEP" minlength="8" maxlength="8" required>
+                    
+                    <!-- E-mail -->
+                    <label>E-mail</label>
+                    <input type="email" id="email" placeholder="Email" required>
+
+                    <!-- Senha -->
+                    <label>Crie uma senha</label>
+                    <input type="password" id="senha" placeholder="Senha" minlength="8" maxlength="18" required/>
+
+                    <label>Repita a sua senha</label>
+                    <input type="password" id="senha" placeholder="Senha" minlength="8" maxlength="18" required/>
+                </div><br>
+
+                <!-- Termos e condições -->
+                <label class="checkbox">
+                    <input type="checkbox" required>
+                    <a href="termos.html">concordo com os termos e condições</a>
+                </label>
+
+                <button type="submit" id="btn-login" type="submit" onclick="logar(); return false">Criar conta</button>
+
+            </form>
+
+        </div>
 
     <!-- Rodapé da página -->
 
