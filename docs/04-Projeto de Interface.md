@@ -26,7 +26,7 @@ descritos a seguir. São eles:
  <li>Rodapé/Footer  -  Apresenta  os  elementos  de  navegação  secundária,  geralmente associados aos elementos do bloco de conteúdo.</li>
 </ul><br>
 
-![Wireframe](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/interface.jpg)
+![Wireframe](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/TEMPLATE.png)
 
 
 ## Tela - Home-Page (Index)
