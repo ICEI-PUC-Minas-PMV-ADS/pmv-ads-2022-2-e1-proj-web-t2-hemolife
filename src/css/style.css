@@ -219,9 +219,13 @@ footer p {
 /* Conteúdo da esquerda */
 
 .container-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   margin-top: 2rem;
   text-align: center;
-  width: 50%;
+  width: 50vw;
 }
 
 .left-img {
@@ -229,15 +233,19 @@ footer p {
   box-shadow: 0px 1px 15px #121212;
   height: 70%;
   margin-top: 2.5rem;
-  width: 60%;
+  width: auto;
 }
 
 /* Conteúdo da direita */
 
 .container-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   margin-top: 2rem;
   text-align: center;
-  width: 50%;
+  width: 50vw;
 }
 
 .right-img {
@@ -245,7 +253,7 @@ footer p {
   box-shadow: 0px 1px 15px #121212;
   height: 70%;
   margin-top: 2.5rem;
-  width: 60%;
+  width: auto;
 }
 
 /* Termos */
@@ -319,6 +327,38 @@ footer p {
   .nav-links {
     width: 60%;
   }
+
+  .container {
+    display: block;
+    text-align: center;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div img{
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .left-img {
+    border-radius: 10%;
+    box-shadow: 0px 1px 15px #121212;
+    height: auto;
+    margin-top: 2.5rem;
+    width: 50vw;
+  }
+  
+  /* Conteúdo da direita */
+  
+  .right-img {
+    border-radius: 10%;
+    box-shadow: 0px 1px 15px #121212;
+    height: auto;
+    margin-top: 2.5rem;
+    width: 50vw;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -381,17 +421,6 @@ footer p {
   body {
     overflow-x: hidden;
     touch-action: pan-y;
-  }
-  .container {
-    display: block;
-    margin-left: 25%;
-    width: 100vw;
-  }
-  .right-img {
-    width: 70%;
-  }
-  .left-img {
-    width: 70%;
   }
 
   .nav-btn {
