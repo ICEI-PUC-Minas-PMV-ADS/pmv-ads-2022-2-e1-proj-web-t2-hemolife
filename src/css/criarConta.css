@@ -20,7 +20,7 @@ input[type="text"] {
     flex-direction: column;
     max-width: 400px;
     padding: 15px 35px 45px;
-    margin: 0 auto;
+    margin: 0 5vw;
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 25px;
