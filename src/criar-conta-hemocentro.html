@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Tipo de conta</title>
+    <title>Criar conta</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stylelogin.css">
-    <link rel="stylesheet" href="css/tipologin.css">
     <!-- JavaScript -->
     <script src="index.js" defer></script>
     <!-- Google Fonts -->
@@ -47,11 +46,20 @@
 
         <form class="form-signin">
 
-            <h2 class="form-signin-heading">Tipo de conta</h2>
+            <h2 class="form-signin-heading">Login</h2>
 
-            <button type="button"><a href="login-doador.html" class="btn">Doador</a></button>
+            <input type="email" class="form-control" id="login" name="username" placeholder="Email" required=""
+                autofocus="" />
+            <input type="password" class="form-control" id="senha" name="password" placeholder="Senha"
+                required="" />
 
-            <button type="button"><a href="login-hemocentro.html" class="btn">Hemocentro</a></button>
+            <label class="checkbox">
+                <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Permanecer conectado
+            </label><br>
+
+            <a href="forgot.html">Esqueceu sua senha?</a><br>
+
+            <button type="submit" id="btn-login" type="submit" onclick="logar(); return false"> Entrar </button>
 
         </form>
 

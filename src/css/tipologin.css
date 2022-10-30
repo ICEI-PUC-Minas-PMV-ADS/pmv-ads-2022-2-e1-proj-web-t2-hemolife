@@ -1,0 +1,25 @@
+form{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2{
+    margin-top: 1em;
+}
+
+button{
+    margin-top: 3em;
+    height: 3.5vh;
+    background-color: #dd4a48;
+    transition: all 1.0s;
+}
+
+form a{
+    color: #ffff !important;
+}
+
+button:hover{
+    scale: 1.07;
+}
