@@ -219,13 +219,9 @@ footer p {
 /* Conteúdo da esquerda */
 
 .container-left {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   margin-top: 2rem;
   text-align: center;
-  width: 50vw;
+  width: 50%;
 }
 
 .left-img {
@@ -233,19 +229,15 @@ footer p {
   box-shadow: 0px 1px 15px #121212;
   height: 70%;
   margin-top: 2.5rem;
-  width: auto;
+  width: 60%;
 }
 
 /* Conteúdo da direita */
 
 .container-right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   margin-top: 2rem;
   text-align: center;
-  width: 50vw;
+  width: 50%;
 }
 
 .right-img {
@@ -253,7 +245,7 @@ footer p {
   box-shadow: 0px 1px 15px #121212;
   height: 70%;
   margin-top: 2.5rem;
-  width: auto;
+  width: 60%;
 }
 
 /* Termos */
@@ -327,38 +319,6 @@ footer p {
   .nav-links {
     width: 60%;
   }
-
-  .container {
-    display: block;
-    text-align: center;
-    width: 50vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  div img{
-    width: 60vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .left-img {
-    border-radius: 10%;
-    box-shadow: 0px 1px 15px #121212;
-    height: auto;
-    margin-top: 2.5rem;
-    width: 50vw;
-  }
-  
-  /* Conteúdo da direita */
-  
-  .right-img {
-    border-radius: 10%;
-    box-shadow: 0px 1px 15px #121212;
-    height: auto;
-    margin-top: 2.5rem;
-    width: 50vw;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -421,6 +381,17 @@ footer p {
   body {
     overflow-x: hidden;
     touch-action: pan-y;
+  }
+  .container {
+    display: block;
+    margin-left: 25%;
+    width: 100vw;
+  }
+  .right-img {
+    width: 70%;
+  }
+  .left-img {
+    width: 70%;
   }
 
   .nav-btn {
@@ -570,47 +541,91 @@ footer p {
   font-weight: bold;
 }
 
-/* Grid - Tabela */ /* Criado por: Jansem Wallemberg Torquetti Maia */
-
-grid-container {
-  justify-content: center;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  border: 0px solid #fff;
-  display: grid;
-  grid-column: 1 / 5;
-  grid-gap: 40px;
-  grid-row-gap: 50px;
-}
-
-/* Grid do Título */ /* Criado por: Jansem Wallemberg Torquetti Maia */
-
-.titulonivel {
-  text-align: center;
-  grid-area: "titulonivel";
-  grid-column: 1 / 5;
-}
-
-/* Início Card Blood Responsivo */ /* Criado por: Jansem Wallemberg Torquetti Maia */
-
-@media (max-width: 1165px) {
+/* Grids Principais */
   grid-container {
     justify-content: center;
-    padding: 20px;
-    max-width: 1200px;
+    padding: 20px;  
     margin: 0 auto;
     border: 0px solid #fff;
     display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 50px;   
+  }
+  .mastergrid {
+    margin-top: 20px;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 20px;
+    max-width: 1200px;
+  }
+  .grid-principal {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5; 
+  }
+  .grid-principal h2{
+    font-style: normal;
+    font-weight:bold;
+    line-height: 42px;
+    text-align: center;
+    color: #DB0000;
+  }
+/* Grid das celulas dos níves */
+  .nivel {
+    width: 250px;
+    height: 220px;
+    border-radius: 30px;
+    grid-area: "nivel";
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(22, 21, 21);
+    background-color: rgb(221, 218, 218);
+  }
+  /* ContainerGrid da Legenda do card*/
+  .nivelleg {
+    display: grid;
     grid-column: 1 / 3;
+  }
+  /* Grid da Legenda do card*/
+  .nivel1 {
+    grid-area: 1;
+  }
+  .nivel img {
+    width: 50%;
+    margin-top: 10px;
+  }
+  .nivel p {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 42px;
+    text-align: center;
+    color: #DB0000;
+  }
+  .nivel h4 {
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+  }
+/* Início Grid Responsiva */
+
+@media (max-width: 1216px) {
+  grid-container {
+    padding: 20px;
+    margin: 0 auto;
+    border: 0px solid #fff;
     grid-gap: 40px;
     grid-row-gap: 50px;
+    grid-template-columns: auto auto;
+    }
+  .grid-principal {
+    grid-column: 1 / 3; 
   }
-  .titulonivel {
-    text-align: center;
-    grid-area: "titulonivel";
+  
+    .mastergrid {
     grid-column: 1 / 3;
-  }
+    max-width: 600px;
+    padding: 20px;    
+    } 
 
     /* termos resposividade */
     
@@ -635,23 +650,28 @@ grid-container {
       transition: all 1.02s;
     }
 }
-@media (max-width: 570px) {
+@media (max-width: 622px) {  
   grid-container {
-    padding: 20px;
-    max-width: 1200px;
-    min-width: 290px;
+    grid-template-columns: auto;
+    justify-content: center;
     margin: 0 auto;
     border: 0px solid #fff;
-    display: grid;
-    grid-column: 1;
     grid-gap: 40px;
     grid-row-gap: 50px;
-  }
-  .titulonivel {
+    grid-column: 1 / 1;
+  } 
+  .grid-principal {
     text-align: center;
-    grid-area: "titulonivel";
-    grid-column: 1;
+    grid-column: 1 / 1;    
+  }  
+  .grid-principal h2{
+    padding: 20px;     
+  }  
+  .mastergrid {
+    max-width: 286px;
+    padding: 20px;    
   }
+
 
   /* termos resposividade */
   .termos{
@@ -687,39 +707,7 @@ grid-container {
     transition: all 1.02s;
   }
 }
-/* Fim Card Blood Responsivo */ /* Criado por: Jansem Wallemberg Torquetti Maia */
-
-/* Grid das celulas dos níves */ /* Criado por: Jansem Wallemberg Torquetti Maia */
-.nivel {
-  width: 250px;
-  height: 220px;
-  background-color: #a19595;
-  border-radius: 30px;
-  grid-area: "nivel";
-  text-align: center;
-  box-shadow: 0px 0px 10px rgb(22, 21, 21);
-}
-/* ContainerGrid da Legenda do card*/
-.nivelleg {
-  display: grid;
-  grid-column: 1 / 3;
-}
-/* Grid da Legenda do card*/
-.nivel1 {
-  grid-area: 1;
-}
-.nivel img {
-  width: 50%;
-  margin-top: 10px;
-}
-.nivel p {
-  margin-top: 10px;
-}
-.nivel h4 {
-  margin-top: 5px;
-  color: #fff;
-}
-/* Fim Grid das celulas dos níves */ /* Criado por: Jansem Wallemberg Torquetti Maia */
+/* Fim Grid Responsiva */
 
 /* Edições do Carrosel Index */
 
