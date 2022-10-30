@@ -64,4 +64,4 @@ trabalhando.
 
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através do [link](https://trello.com/b/Yvi5Hut1/hemo-life) e é apresentado, no estado atual, na Figura. 
 
-![gerenciamento_do_projeto](https://user-images.githubusercontent.com/86491370/193953213-c68e58cb-d299-4593-9f05-9e8ffc678607.PNG)
+![gerenciamento_do_projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/trello.jpg)
