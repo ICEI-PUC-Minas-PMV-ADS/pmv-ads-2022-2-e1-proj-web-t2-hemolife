@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Criar Conta Hemocentro</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylelogin.css">
+    <link rel="stylesheet" href="css/criarConta.css">
+    <!-- JavaScript -->
+    <script src="index.js" defer></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Fav icon -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <a class="icon" href="index.html"><img src="img/logo.png" alt="logo"></a>
+            <a href="index.html">Hemo Life</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="campanhas.html">Campanhas</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo do Corpo -->
+
+        <div class="limit">
+
+            <form class="formCadastro">
+
+                <h2 class="form-signin-heading">Formulário</h2>
+
+
+                <div class="limitf">
+                    <!-- Nome -->
+                    <label>Nome Completo</label>
+                    <input type="text" placeholder="Nome completo"  required>
+
+                    <!-- Cadastro Nacional de Estabelecimentos de Saúde -->
+                    <label>Data de Nascimento</label>
+                    <input type="text" placeholder="Data de nascimento" minlength="11" maxlength="11" required>
+
+                    <!-- Gênero -->
+                    <label>Gênero</label>
+                    <select name="" id="">
+                        <option selected>Gênero</option>
+                        <option value="">Masculino</option>
+                        <option value="">Feminino</option>
+                        <option value="">Prefiro não informar</option>
+                    </select>
+
+                    <!-- Endereço -->
+                    <label>Estado</label>
+                    <select class="região" required>
+                        <option selected>Estado</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+
+                    <label>Cidade</label>
+                    <input type="text" name="" id="" placeholder="Cidade">
+
+                    <label>Tipo sanguíneo</label>
+                    <select class="tipoSangue" required>
+                        <option selected>Tipo sanguíneo</option>
+                        <option>O+</option>
+                        <option>O-</option>
+                        <option>B+</option>
+                        <option>B-</option>
+                        <option>AB+</option>
+                        <option>AB-</option>
+                        <option>A+</option>
+                        <option>A-</option>                     
+                    </select>
+
+                    <label>Telefone</label>
+                    <input type="text" placeholder="Telefone" maxlength="12">
+
+                    <label>Celular</label>
+                    <input type="text" placeholder="Celular" maxlength="12" required>
+
+                    <label>Possui alguma doença venérea?</label>
+                    <select class="OPT" required>
+                        <option selected>selecione</option>
+                        <option>sim</option>
+                        <option>não</option>                    
+                    </select>
+
+                <!-- Termos e condições -->
+                <div class="check">
+                    <label class="checkbox">
+                        <input type="checkbox" required>
+                        <a href="termos.html">concordo com os termos e condições</a>
+                    </label>
+                </div>
+
+                <div class="check"></div>
+                    <label class="checkbox">
+                        <input type="checkbox" required>
+                        <a href="termos.html">Aceito receber o boletim informativo</a>
+                    </label>
+                </div>
+
+                <button type="submit" id="btn-login" type="submit" onclick="logar(); return false">Criar conta</button>
+
+            </form>
+
+        </div>
+
+    <!-- Rodapé da página -->
+
+    <footer>
+        <div class="footer-conteudo">
+            <a href="#">Dúvidas frequentes</a>
+            <a href="#">Apoie o nosso projeto</a>
+            <a href="#">Trabalhe conosco</a>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
+                    href="https://www.pucminas.br/vestibular/Paginas/default.aspx?utm_source=google_search&utm_medium=cpc&utm_campaign=vestibular_presencial&gclid=CjwKCAjw-rOaBhA9EiwAUkLV4k8SyGJreEHkgRrE85BYs7qT3IhcdzOxB4js6D4alA1Bk8h0ee6k7hoCkrcQAvD_BwE">PucMinas</a>
+            </p>
+            <div>
+                <p>Contato:<a href="tel:+5531984548460">(xx)xxxxx-xxxx</a></p>
+            </div>
+
+            <div>
+                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
