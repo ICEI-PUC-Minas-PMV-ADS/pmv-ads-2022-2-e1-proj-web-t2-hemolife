@@ -1,0 +1,29 @@
+.principal{
+    margin: 5vh 5vw;
+    height: 350px;
+    text-align: center;
+}
+
+.carregando img{
+    margin-top: 5vh;
+    height: 300px;
+    width: auto;
+}
+
+@media (max-width: 570px){
+    .principal{
+        margin: 0vh 5vw;
+        text-align: center;
+    }
+    
+    .carregando img{
+        margin-top: 10vh;
+        height: 150px;
+        width: auto;
+    }
+
+    h2{
+        margin-top: 5vh;
+        font-size: 20px;
+    }
+}

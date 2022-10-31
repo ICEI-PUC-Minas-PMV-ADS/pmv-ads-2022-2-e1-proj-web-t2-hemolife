@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Hemo Life</title>
+    <title>Carregando</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/redirect.css">
     <!-- JavaScript -->
     <script src="index.js" defer></script>
+    <script src="https://kit.fontawesome.com/e903379512.js" crossorigin="anonymous"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +20,8 @@
         rel="stylesheet">
     <!-- Fav icon -->
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!-- redirecionamento -->
+    <meta http-equiv="refresh" content="3; URL='paineldoador.html'"/>
 </head>
 
 <body>
@@ -30,12 +34,9 @@
         </div>
         <ul class="nav-links">
             <li><a href="sobre.html">Sobre</a></li>
+              <!-- link referente a parte de Campanhas feita por Natan Fonseca -->
             <li><a href="campanhas.html">Campanhas</a></li>
-
-            <a href="#">
-                <img class="icon-conta" src="img/icon-conta.svg" alt="">
-            </a>
-
+            <a href="login.html"><button class="nav-btn">Login</button></a>
         </ul>
         <div class="burger">
             <div class="line1"></div>
@@ -45,19 +46,14 @@
     </nav>
 
     <!-- Conteúdo do Corpo -->
-    <div class="container">
-        <div class="container-left">
-            <h2>Indicadores</h2>
-            <p>Nossos indicadores sanguíneos.</p>
-            <img class="left-img" src="img/estoque-de-sangue.png" alt="blank-img">
-        </div>
-        <div class="container-right">
-            <h2>Cartão Benefício</h2>
-            <p>Nosso cartão benefício.</p>
-            <img class="right-img" src="img/cartao-beneficio.png" alt="blank-img">
-        </div>
-    </div>
+    <div class="principal">
 
+        <div class="carregando">
+            <img src="img/carregando.gif" alt="">
+        </div>
+
+        <h2>Aguarde um momento, você será redirecionado</h2>
+    </div>
     <!-- Rodapé da página -->
 
     <footer>

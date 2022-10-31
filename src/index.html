@@ -8,6 +8,7 @@
     <title>Hemo Life</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carrossel.css">
     <!-- JavaScript -->
     <script src="index.js" defer></script>
     <script src="https://kit.fontawesome.com/e903379512.js" crossorigin="anonymous"></script>
@@ -57,20 +58,42 @@
     </div>
 
     <!-- Carrosel -->
-    <h2 class="news">Notícias</h2>
-    <div class="carousel-container">
-        <i class="fa-solid fa-arrow-left" id="prevBtn"></i>
-        <i class="fa-solid fa-arrow-right" id="nextBtn"></i>
-        <div class="carousel-slide">
-            <img src="img/carrossel1.jpg" id="lastClone" alt="">
-            <img src="img/carrossel1.jpg" alt="">
-            <img src="img/carrossel1.jpg" alt="">
-            <img src="img/carrossel1.jpg" alt="">
-            <img src="img/carrossel1.jpg" alt="">
-            <img src="img/carrossel1.jpg" alt="">
-            <img src="img/carrossel1.jpg" id="firstClone" alt="">
+    <div class="content">
+        <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5">
 
+            <div class="slide s1">
+                <img src="img/slide1.svg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="img/slide2.svg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="img/slide3.gif" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="img/slide4.gif" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="img/slide5.gif" alt="">
+            </div>
         </div>
+    </div>
+    <div class="navigate">
+
+        <label class="bar" for="slide1"></label>
+        <label class="bar" for="slide2"></label>
+        <label class="bar" for="slide3"></label>
+        <label class="bar" for="slide4"></label>
+        <label class="bar" for="slide5"></label>
     </div>
 
     <!-- Formulário torne-se um doador -->
