@@ -12,23 +12,19 @@ Os mais comuns são os da categoria A+ e o O+, que aparecem em 36% e 37% dos bra
 Com a baixa nos estoques de sangue dos Hemocentros do Brasil, principalmente após o primeiro ano de pandemia do Covid-19, notou-se a necessidade de implementação de um sistema para conectar hemocentros e doadores, com o objetivo de aumentar os estoques sanguíneos.
 
 ## Problema
-Baixo estoque sanguíneo nas unidades de hemocentro do Brasil.
-Falta de visibilidade de campanhas de doação.
-Desconhecimento dos procedimentos para doação.
-Falta de incentivo para doar sangue.
-
-O projeto problemática que se busca resolver com este projeto será a falta de visibilidade que os hemocentros e a grande dificuldade em gerenciar seus doadores por tipo sanguíneo visando aumentar .
-á que é de notório saber, grande parte da população não se tornou doador acidou ainda, e com isto, os hemocentros ficam sempre fazendo campanhas de doação de sangue sem um resultado tão expressivo. Desta forma, tal problema atinge quase todas as unidades de hemocentros do Brasil. 
+O projeto busca resolver a baixa dos estoques sanguíneo nos hemocentros, a falta de visibilidade das campanhas de doação e o desconhecimento dos procedimentos para doação.
 
 ## Objetivos
-O objetivo geral deste trabalho é a criação de uma solução Web Front-end, que irá unir os doadores de sangue com os hemocentros do Brasil, fornecendo ferramentas para que os hemocentros encontrem mais facilmente os doadores de determinado tipo sanguíneo, também será uma plataforma de divulgação de notícias sobre o tema, e um local para informar os requisitos e benefícios dos doadores. 
-Além disso, é possível visualizar quais hemocentros estão com maiores necessidades de reposição de estoque na região do doador.  
+O objetivo geral deste trabalho é a criação de uma solução Web Front-end, que irá unir os doadores de sangue com os hemocentros do Brasil, fornecendo ferramentas para que os hemocentros encontrem mais facilmente os doadores de determinado tipo sanguíneo e os doadores encontrem hemocentros que estão com maiores necessidades de reposição de estoque em sua região, mantendo assim os estoques de sangue sempre abastecidos e não apenas em datas específicas ou quando algum conhecido precisar.
+Também será uma plataforma de divulgação de notícias publicadas pelos hemocentros e um local para informar os pré-requisitos e benefícios de ser um doador.
 
 Como objetivos específicos, podemos ressaltar: 
 
     Fornecer funcionalidades que permita que o usuário se cadastre e saiba todos os pré-requisitos para doar sangue. 
 
     Fornecer o estoque de sangue atualizado do Hemocentro. 
+    
+    Divulgar notícias sobre campanhas e informativos publicadas pelos hemocentros.
 
     Apresentar os endereços e telefones dos Hemocentros espalhados pelo Brasil. 
 
@@ -36,14 +32,11 @@ Como objetivos específicos, podemos ressaltar:
 
 ## Justificativa
 
-Os Hemocentros tem enfrentado períodos de diminuição significativa de doações de sangue. 
-
-O sangue não se fabrica artificialmente, portanto, não existe uma forma mais simples de salvar vidas. O organismo repõe o plasma em cerca de um dia após a doação e os demais componentes em algumas semanas. Homens podem doar sangue a cada 2 meses e mulheres a cada 3 meses.  
-
-O Ministério da Saúde informa que doar sangue pode salvar até 4 vidas, pois a partir de uma doação, poderão ser produzidos quatro tipos de componentes do sangue, cada um com uma determinada função. 
+Os Hemocentros tem enfrentado períodos de diminuição significativa de doações de sangue.
+Considerando que o sangue não se fabrica artificialmente, não existe uma forma mais simples de salvar vidas, o Ministério da Saúde informa que doar sangue pode salvar até 4 vidas, pois a partir de uma doação, poderão ser produzidos quatro tipos de componentes do sangue, cada um com uma determinada função. 
 
 A aplicação HemoLife permitirá o maior contato do doador e os hemocentros, permitindo assim manter os níveis regulares dos estoques de sangue. 
 
 ## Público-Alvo
 
-O público-alvo serão as pessoas maiores de 18 anos que tenham interesse em doar sangue e procuram saber de todos os requisitos e benefícios para efetuar uma doação de sangue. Desta forma, também terá como usuários os Hemocentros, que poderão utilizar a plataforma para se conectar com os doadores e impulsionar ainda mais as campanhas de doação de sangue. 
+O público-alvo serão as pessoas maiores de 18 anos que tenham interesse em doar sangue e procuram saber de todos os requisitos e benefícios para efetuar uma doação de sangue. Desta forma, também terá como usuários os Hemocentros, que poderão utilizar a plataforma para se conectar com os doadores e impulsionar ainda mais a adesçai as campanhas de doação de sangue. 
