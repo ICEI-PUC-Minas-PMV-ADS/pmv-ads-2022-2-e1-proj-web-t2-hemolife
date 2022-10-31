@@ -2,7 +2,7 @@
     margin-top: 10vh;
     height: 520px;
     width: 935px;
-    border-radius: 20px;
+    border-radius: 40px;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
@@ -11,7 +11,7 @@
   .navigate{
     display: flex;
     justify-content: space-around;
-    margin: 1em 45vw;
+    margin: 1em 40vw;
   }
   
   .bar{
@@ -33,7 +33,7 @@
   .slides{
     display: flex;
     width: 500%;
-    height: 100%;
+    height: auto;
   }
   
   .slide{
@@ -46,6 +46,8 @@
     width: 100%;
     height: 100%;
   }
+
+  /* botões do carrossel */
   
   #slide1:checked ~ .s1{
     margin-left: 0;
@@ -67,7 +69,7 @@
     margin-left: -80%;
   }
   
-
+/* Responsividade */
   @media (max-width: 1165px) {
     .content{
       margin-top: 10vh;
@@ -78,9 +80,22 @@
       margin-left: auto;
       margin-right: auto;
     }
+
+    .navigate{
+      display: flex;
+      justify-content: space-around;
+      margin: 01em 30vw;
+      gap: 15px;
+    }
   }
 
-  @media (max-width: 5805px) {
+  @media (max-width: 968px) {
+    .navigate{
+      margin-top: -20vh;
+    }
+  }
+
+  @media (max-width: 580px) {
     .content{
       margin-top: 10vh;
       height: 520px;
@@ -89,5 +104,17 @@
       overflow: hidden;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    .navigate{
+      margin: -320px 20vw 0;
+    }
+
+    .bar{
+      height: 25px;
+      width: 25px;
+      background-color: #ffffff;
+      border-radius: 50%;
+      cursor: pointer;
     }
   }
