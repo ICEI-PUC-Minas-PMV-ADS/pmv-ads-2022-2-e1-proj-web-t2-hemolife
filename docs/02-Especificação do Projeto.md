@@ -14,7 +14,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 |<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/c.png" width="100" title="Akemi Toryama">|<h2 align="right"><b>Akemi Toryama</b></h2></br></br></br> <p align="left">Idade: 41 <br/> Ocupação: Coordenadora da Divisão de Hematologia em um hemocentro da região sul de Belo Horizonte. <br/>Tipo sanguíneo: Doadora assídua do tipo O-.</p>|	
 |<b>Motivações</b><br/>Contribuir com a melhora do sistema de saúde como doador recorrente.| Frustrações <ul><li> Dificuldade extrema em atrair novos doadores. </li><li> Ausência de um sistema eficiente que estabeleça uma comunicação entre o doador e o Hemocentro.</li> <li> Falta de campanhas. </li></ul>|	
 |<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/d.jpg" width="100" title="Junior D’Ávila">|<h2 align="right"><b>Junior D’Ávila</b></h2></br></br></br> <p align="left">Idade: 48 <br/>Ocupação: trabalha com Análise de Risco na PreX que presta serviço para empresas no Brasil. <br/>Tipo sanguíneo: Doador de sangue eventual do tipo O-. </p>|
-|<b>Motivações</b><br/>Contribuir com a melhora do sistema de saúde como doador universal. | Frustrações <ul><li>Dificuldade em encontrar Hemocentros </li><li>Ter que pesquisas o Hemocentros com maior demanda em sua região.</li></ul>
+|<b>Motivações</b><br/>Contribuir com a melhora do sistema de saúde como doador universal. | Frustrações <ul><li>Dificuldade em encontrar Hemocentros. </li><li>Ter que pesquisar os Hemocentros com maior necessidade de doação em sua região.</li></ul>
 
 
 	
