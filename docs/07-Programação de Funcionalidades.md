@@ -1,12 +1,48 @@
 # Programação de Funcionalidades
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema.
-1. Cadastro de doadores (RF-04)
+
+## 1. Cadastro de doadores (RF-04)
 
 ![Cadastro de doadores](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro-doador.jpg)
 
-2. Visualização de notícias (RF-08)
+### Requisitos atendidos:
+* RF-04 	O site deve possibilitar o cadastro de doadores. 
+
+### Artefatos da funcionalidade:
+
+* criar-conta-doador.html
+* style.css
+* stylelogin.css
+* criarConta.css
+* index.js 
+
+## 2. Visualização de notícias (RF-08)
 
 ![Notícias](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/noticias.jpg)
+
+### Requisitos atendidos:
+* RF-08  O site deve permitir a visualização de notícias publicadas pelos hemocentros.
+
+### Artefatos da funcionalidade:
+
+* index.html
+* style.css
+* carrossel.css
+* index.js 
+
+## 2. Busca de hemocentro por região (RF-10)
+
+![Busca](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/BuscaRegi%C3%A3o.jpg)
+
+### Requisitos atendidos:
+* RF-10 	O site deve conter em sua página inicial um gráfico dinâmico POR HEMOCENTRO informando o estoque disponível para cada tipo sanguíneo.
+
+
+### 1.2 Artefatos da funcionalidade:
+
+* pesquisaregioes.html
+* style.css
+* index.js 
 
 
 
