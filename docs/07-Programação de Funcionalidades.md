@@ -64,3 +64,17 @@ Nesta sessão, o usuário poderá consultar os requisitos necessários para se t
 * campanhas.html
 * style.css
 * index.js 
+
+## 5. Gráfico de estoque disponível (RF-10)
+
+![Gráfico de estoque](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro-doador.jpg)
+
+Nesta sessão, o usuário novo poderá visualizar um gráfico informando o estoque disponível para cada tipo sanguíneo.
+
+### 5.1 Requisitos atendidos:
+* RF-10 	O site deve conter em sua página inicial um gráfico informando o estoque disponível para cada tipo sanguíneo.
+
+### 5.2 Artefatos da funcionalidade:
+
+* style.css 
+* index.js 
