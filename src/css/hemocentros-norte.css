@@ -28,14 +28,13 @@ grid-container {
   }
   .nivel {
     width: 900px;
-    height: 270px;
+    height: 100%;
     border-radius: 30px;
     grid-area: "nivel";
     text-align: center;
     background-color: #FCF7F7;
     grid-area:span 5/1;
-    box-shadow: 0px 15px 15px #1212126b;
-    display:flex;
+    box-shadow: 0px 15px 15px #1212126b;    
   }
 
   
