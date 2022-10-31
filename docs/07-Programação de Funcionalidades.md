@@ -5,6 +5,8 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
 ![Cadastro de doadores](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro-doador.jpg)
 
+Nesta sessão, o usuário novo poderá realizar seu cadastro como doador para usufruir das funcionalidades da aplicação.
+
 ### Requisitos atendidos:
 * RF-04 	O site deve possibilitar o cadastro de doadores. 
 
@@ -20,6 +22,8 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
 ![Notícias](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/noticias.jpg)
 
+Nesta sessão, o usuário poderá ver as últimas notícias enviadas.
+
 ### Requisitos atendidos:
 * RF-08  O site deve permitir a visualização de notícias publicadas pelos hemocentros.
 
@@ -33,6 +37,8 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 ## 2. Busca de hemocentro por região (RF-10)
 
 ![Busca](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/BuscaRegi%C3%A3o.jpg)
+
+Nesta sessão, o usuário que estiver logado poderá buscar pelos hemocentros filtrando-os por região.
 
 ### Requisitos atendidos:
 * RF-10 	O site deve conter em sua página inicial um gráfico dinâmico POR HEMOCENTRO informando o estoque disponível para cada tipo sanguíneo.
