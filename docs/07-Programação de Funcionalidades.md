@@ -78,3 +78,18 @@ Nesta sessão, o usuário novo poderá visualizar um gráfico informando o estoq
 
 * style.css 
 * index.js 
+
+## 6. Formulário para doar sangue (RF-03)
+
+![Gráfico de estoque](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/form.jpg)
+
+Nesta sessão, o usuário poderá manifestar o seu interesse em se tornar um doador preenchendo um formulário posteriormente é disponibilizado aos hemocentros interessados.
+
+### 6.1 Requisitos atendidos:
+* RF-03 	O site deve permitir ao usuário de manifestar o interesse em se tornar um doador por meio de um formulário.
+
+### 6.2 Artefatos da funcionalidade:
+
+* style.css 
+* formulariodoador.html
+* index.js 
