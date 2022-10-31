@@ -67,7 +67,7 @@ Nesta sessão, o usuário poderá consultar os requisitos necessários para se t
 
 ## 5. Gráfico de estoque disponível (RF-10)
 
-![Gráfico de estoque](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro-doador.jpg)
+![Gráfico de estoque](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/noticias.jpg)
 
 Nesta sessão, o usuário novo poderá visualizar um gráfico informando o estoque disponível para cada tipo sanguíneo.
 
