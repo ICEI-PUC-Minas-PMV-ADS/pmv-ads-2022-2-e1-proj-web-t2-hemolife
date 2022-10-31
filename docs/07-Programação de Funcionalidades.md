@@ -34,7 +34,7 @@ Nesta sessão, o usuário poderá ver as últimas notícias enviadas.
 * carrossel.css
 * index.js 
 
-## 3. Busca de hemocentro por região (RF-10)
+## 3. Busca de hemocentro por região (RF-05)
 
 ![Busca](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/BuscaRegi%C3%A3o.jpg)
 
@@ -50,7 +50,7 @@ Nesta sessão, o usuário que estiver logado poderá buscar pelos hemocentros fi
 * style.css
 * index.js 
 
-## 4. Sessão informativa
+## 4. Sessão informativa (RF-02)
 ![Campanhas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/campanhas.jpg)
 
 Nesta sessão, o usuário poderá consultar os requisitos necessários para se tornar um doador e sanar eventuais dúvidas mais recorrentes.
