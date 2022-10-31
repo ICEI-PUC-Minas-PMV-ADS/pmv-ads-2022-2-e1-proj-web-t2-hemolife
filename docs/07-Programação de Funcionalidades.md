@@ -34,7 +34,7 @@ Nesta sessão, o usuário poderá ver as últimas notícias enviadas.
 * carrossel.css
 * index.js 
 
-## 2. Busca de hemocentro por região (RF-10)
+## 3. Busca de hemocentro por região (RF-10)
 
 ![Busca](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/BuscaRegi%C3%A3o.jpg)
 
@@ -44,11 +44,28 @@ Nesta sessão, o usuário que estiver logado poderá buscar pelos hemocentros fi
 * RF-10 	O site deve conter em sua página inicial um gráfico dinâmico POR HEMOCENTRO informando o estoque disponível para cada tipo sanguíneo.
 
 
-### 1.2 Artefatos da funcionalidade:
+### Artefatos da funcionalidade:
 
 * pesquisaregioes.html
 * style.css
 * index.js 
+
+## 4. Sessão informativa
+![Campanhas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/campanhas.jpg)
+
+Nesta sessão, o usuário poderá consultar os requisitos necessários para se tornar um doador e sanar eventuais dúvidas mais recorrentes.
+
+### Requisitos atendidos:
+* RF-02 	O site deve conter uma sessão informativa para novos doadores.
+
+
+### Artefatos da funcionalidade:
+
+* campanhas.html
+* style.css
+* index.js 
+
+
 
 
 
