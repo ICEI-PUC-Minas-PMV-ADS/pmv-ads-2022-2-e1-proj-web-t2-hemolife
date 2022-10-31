@@ -595,7 +595,7 @@
     font-weight:bold;
     line-height: 42px;
     text-align: center;
-    color: #DB0000;
+    color: #FFFFFF;
   }
   .nivel {
     width: 250px;
@@ -603,6 +603,7 @@
     border-radius: 30px;
     grid-area: "nivel";
     text-align: center;
+    background-color: #fff;
   }
   /* ContainerGrid da Legenda do card*/
   .nivelleg {
