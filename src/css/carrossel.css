@@ -91,9 +91,16 @@
 
   @media (max-width: 968px) {
     .navigate{
-      margin-top: -20vh;
+      margin-top: -5vh;
     }
   }
+
+  @media (max-width: 968px) {
+    .navigate{
+      margin-top: -5vh;
+    }
+  }
+
 
   @media (max-width: 580px) {
     .content{
@@ -107,7 +114,7 @@
     }
 
     .navigate{
-      margin: -320px 20vw 0;
+      margin: -25vh 20vw 0;
     }
 
     .bar{
