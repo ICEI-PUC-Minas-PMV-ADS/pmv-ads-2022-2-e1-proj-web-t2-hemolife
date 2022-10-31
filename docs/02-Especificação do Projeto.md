@@ -55,7 +55,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-05 |O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar o hemocentro mais próximo da sua região. |Alta |
 |RF-06 |O site deve permitir visualizar as informações de contato dos hemocentros.  |Alta |
 |RF-07 |O site deve permitir visualizar as informações de contato dos doadores pelos Hemocentros. |Alta |
-|RF-08 |O site deve permitir a publicação de notícias pelos hemocentros na plataforma.|Média |
+|RF-08 |O site deve permitir a visualização de notícias publicadas pelos hemocentros.|Média |
 |RF-09 |O site deve permitir a emissão de cartão benefício para doadores do grupo Hemo Life. |Média |
 |RF-10 |	O site deve conter em sua página inicial um gráfico dinâmico POR HEMOCENTRO informando o estoque disponível para cada tipo sanguíneo. |Alta |
 |RF-11 |O site deve permitir que usuários possam comentar notícias e prestar depoimentos, bem como também os hemocentros. |Baixa |
