@@ -7,10 +7,10 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
 Nesta sessão, o usuário novo poderá realizar seu cadastro como doador para usufruir das funcionalidades da aplicação.
 
-### Requisitos atendidos:
+### 1.1 Requisitos atendidos:
 * RF-04 	O site deve possibilitar o cadastro de doadores. 
 
-### Artefatos da funcionalidade:
+### 1.2 Artefatos da funcionalidade:
 
 * criar-conta-doador.html
 * style.css
