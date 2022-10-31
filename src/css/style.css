@@ -227,9 +227,10 @@
   .left-img {
     border-radius: 10%;
     box-shadow: 0px 1px 15px #121212;
-    height: 70%;
+    height: 35vh;
     margin-top: 2.5rem;
     width: auto;
+    transition: all .5s;
   }
   
   /* Conteúdo da direita */
@@ -247,9 +248,17 @@
   .right-img {
     border-radius: 10%;
     box-shadow: 0px 1px 15px #121212;
-    height: 70%;
+    height: 35vh;
     margin-top: 2.5rem;
     width: auto;
+    transition: all .5s;
+  }
+
+  /* Animação conteúdos img */
+
+  .right-img:hover , .left-img:hover {
+    scale: 1.05;
+    
   }
   
   /* Termos */
