@@ -1,10 +1,13 @@
 # Programação de Funcionalidades
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema.
-1. HemoLife - Index (RF-01, RF-08, RF-10)
+1. Cadastro de doadores (RF-04)
 
-Colocar tela aqui
+![Cadastro de doadores](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro-doador.jpg)
 
-Na barra de navegação (cabeçalho/navbar) é possível acessar a tela de campanhas para com informações acerca orientações e codições basicas para doar sangue.
+2. Visualização de notícias (RF-08)
+
+![Notícias](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/noticias.jpg)
+
 
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
