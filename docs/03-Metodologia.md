@@ -19,8 +19,8 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
     </tr>
     <tr>
         <td>Documentação do projeto</td>
-        <td>Google Drive</td>
-        <td>(https://drive.google.com/drive/folders/1JieFsBeDr6cOTYhS3aRs5HxNYcN1jtab?usp=sharing)</td>
+        <td>GitHub</td>
+        <td>(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/tree/main/docs)</td>
      </tr>
      <tr>
         <td>Projeto de Interface e Wireframes</td>
@@ -43,11 +43,11 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 ● Scrum Master: Wellington Andrade. <br>
 ● Product Owner: Natan Cândido. <br>
 ● Equipe de Desenvolvimento. <br>
-○ Gabriel Oliveira. <br>
-○ Jansem Maia. <br>
-○ Israel Moreira. <br>
+    ○ Gabriel Oliveira. <br>
+    ○ Jansem Maia. <br>
+    ○ Israel Moreira. <br>
 ● Equipe de Design. <br>
-○ Lucas Filipe. <br>
+    ○ Lucas Filipe. <br>
 
 Para  organização  e  distribuição  das  tarefas  do  projeto,  a  equipe  está  utilizando  o  Trello estruturado com as seguintes listas: 
 
@@ -65,3 +65,13 @@ trabalhando.
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através do [link](https://trello.com/b/Yvi5Hut1/hemo-life) e é apresentado, no estado atual, na Figura. 
 
 ![gerenciamento_do_projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/trello.jpg)
+
+### Ferramentas
+As ferramentas empregadas no projeto são:
+    GitHub
+    VS Code
+    Figma
+    Microsoft Teams
+    Canva
+O VS Code foi escolhido porque ele possui uma integração com o GitHub. O Microsoft Teams foi escolhido por ser o software padrão para reuniões.
+E o Figma foi utilizado para gerar os Wireframes e diagrama, do qual é uma plataforma que permite edição em tempo real de todos os participantes do grupo.
