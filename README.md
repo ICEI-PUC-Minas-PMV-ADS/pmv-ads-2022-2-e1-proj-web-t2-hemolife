@@ -1,7 +1,7 @@
 <div class="logo"> 
             <img align="top"  height="30px" width="30px" src="src/img/logo.png" alt="logo">
             <a href="#">Hemo Life</a>
-</div>
+</div><br>
 
 
 `Tecnólogo em Análise e Desenvolvimento de Sistemas`
