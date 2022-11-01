@@ -39,4 +39,4 @@ A aplicação HemoLife permitirá o maior contato do doador e os hemocentros, pe
 
 ## Público-Alvo
 
-O público-alvo serão as pessoas maiores de 18 anos que tenham interesse em doar sangue e procuram saber de todos os requisitos e benefícios para efetuar uma doação de sangue. Desta forma, também terá como usuários os Hemocentros, que poderão utilizar a plataforma para se conectar com os doadores e impulsionar ainda mais a adesçai as campanhas de doação de sangue. 
+O público-alvo serão as pessoas maiores de 18 anos que tenham interesse em doar sangue e procuram saber de todos os requisitos e benefícios para efetuar uma doação de sangue. Desta forma, também terá como usuários os Hemocentros, que poderão utilizar a plataforma para se conectar com os doadores e impulsionar ainda mais a adesão as campanhas de doação de sangue. 
