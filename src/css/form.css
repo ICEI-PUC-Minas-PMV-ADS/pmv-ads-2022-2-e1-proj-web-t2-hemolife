@@ -1,0 +1,251 @@
+/* reset */
+
+input[type="text"] {
+    margin-bottom: 0px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  input[type="password"] {
+    margin-bottom: 0px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+/* default */
+
+  .limit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    border-radius: 70px;
+    height: 90vh;
+    width: 40vw;
+    margin: 10vh 30vw;
+  }
+
+/* formulário Grid */
+
+.formCadastro{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'nome nome'
+    'esquerda direita'
+    'check1 check2'
+    'btn btn';
+
+    margin: 2em;
+    height: 90vh;
+    width: 40vw;
+
+    flex-wrap: wrap;
+}
+
+.nome{
+    grid-area: nome;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -5vh;
+}
+
+.esquerda{
+    grid-area: esquerda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.direita{
+    grid-area: direita;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.check1{
+    grid-area: check1;
+    display: flex;
+    margin-top: 2vh;
+}
+
+.check2{
+    grid-area: check2;
+    display: flex;
+    margin-top: 2vh;
+}
+
+.btn-form{
+    grid-area: btn;
+    margin-bottom: 5vh;
+    height: 5vh;
+}
+
+
+/* Config Elementos */
+
+.esquerda,.direita{
+    margin-top: -3vh;
+}
+
+label{
+    margin-top: 1vh;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+input,select{
+    width: 90%;
+    height: 4vh;
+    border: solid .5px;
+    transition: all .5s;
+    text-align: center;
+}
+
+/* configurações de hover e focus */
+select:focus:hover{
+    scale: 1.05;
+    border-radius: 25px;
+}
+
+input:focus:hover{
+    scale: 1.05;
+    border-radius: 25px;
+}
+
+.btn-form{
+    text-align: center;
+    height: 5vh;
+    margin-bottom: 150px;
+}
+
+.check1 input{
+    height: 2vh;
+}
+
+.check2 input{
+    height: 2vh;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.checkbox a{
+    margin-left: -30px;
+}
+
+@media (max-width: 1247px){
+
+    .limit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fafafa;
+        border-radius: 70px;
+        height: 110vh;
+        width: 70vw;
+        margin: 10vh 15vw;
+      }
+
+    .formCadastro{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'nome'
+        'esquerda'
+        'direita'
+        'check1'
+        'check2'
+        'btn';
+    
+        margin: 5vh;
+        height: 100vh;
+        width: 50vw;
+    
+        flex-wrap: wrap;
+    }
+
+    .nome{
+        margin: 3vh 0;
+        margin-top: 10vh;
+    }
+
+    .direita{
+        margin-top: 1vh;
+        margin-bottom: 2vh;
+    }
+
+    .check1{
+        grid-area: check1;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -2vh;
+    }
+    
+    .check2{
+        grid-area: check2;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .checkbox{
+        margin-left: -5vw;
+   
+    }
+    
+    .checkbox a{
+        margin-left: -5vw;
+    }
+}
+
+@media (max-width: 425px){
+    .limit{
+        height: 110vh;
+        width: 80vw;
+        margin: 10vh 10vw;
+      }
+
+      .formCadastro{
+        width: 90%;
+      }
+}
+
+@media (max-width: 320px){
+    .limit{
+        height: 110vh;
+        width: 80vw;
+        margin: 10vh 10vw;
+        border-radius: 25px;
+      }
+
+      .formCadastro{
+        width: 90%;
+      }
+
+    .btn-form{
+        margin-top: 2vh;
+    }  
+
+    .checkbox{
+        margin-left: -30px;
+    }
+
+    .checkbox a{
+        margin-left: -40px;
+        font-size: 13px;
+    }
+}
