@@ -1,0 +1,142 @@
+main {
+  padding: 20px;
+  margin: 0 auto;
+  border: 0px solid #fff;
+  display: grid;
+  grid-template-areas: "h2" "card";
+  height: auto;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+
+main h2 {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 4px;
+  text-align: left;
+  color: #fff;
+  grid-area: "h2";
+}
+
+main div {
+  margin-top: 20px;
+}
+
+.card {
+  padding: 15px 0px 15px 10px;
+  width: 800px;
+  grid-area: "card";
+  text-align: left;
+  background-color: #FCF7F7;
+  box-shadow: 0px 15px 15px #1212126b;
+  height: auto;
+  border-radius: 30px;
+  grid-row-gap: 100px;
+}
+
+.card p {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 42px;
+  text-align: left;
+  color: #000000;
+}
+
+.card h3 {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  color: #DB0000;
+}
+
+.card h4 {
+  margin-top: 5px;
+  color: rgb(0, 0, 0);
+}
+
+/* Início Card Blood Responsivo */
+@media (max-width: 966px) {
+  .card {
+    width: 600px;
+    height: 270px;
+    border-radius: 30px;
+    grid-area: "card";
+    background-color: #FCF7F7;
+    box-shadow: 0px 15px 15px #1212126b;
+  }  
+}
+
+@media (max-width: 634px) {
+  .card {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    grid-area: "card";
+    text-align: center;
+    background-color: #FCF7F7;
+    box-shadow: 0px 15px 15px #1212126b;
+  }
+}
+main-map{
+  max-width: 1200px;
+}
+.mapas {
+  display: block;
+  text-align: center;
+  margin: 10px 30px 10px 30px;
+  background: #a1a1aa;
+  border-radius: 12%;
+  box-shadow: 0px 15px 15px #1212129d;
+  height: 280px;
+  margin-top: 4rem;
+  width: 280px;
+  transition: all .5s;
+  cursor: pointer;
+}
+.mapas:hover {
+  scale: 1.05;
+}
+/* position: relative; */
+.maprow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.mapas h2 {
+  text-align: top;
+  margin: 10px 0 10px;
+  font-size: 25px;
+  filter: drop-shadow(0px 1px 5px #121212);
+}
+/* imagem */
+.mapas img {  
+  filter: drop-shadow(0px 5px 5px #121212);
+  width: auto;
+}
+/* tamanho individual dos mapas */
+.norte img {
+  height: 50%;
+  margin-top: 25px;
+}
+.sudeste img {
+  height: 60%;
+  margin-top: 15px;
+}
+.sul img {
+  height: 70%;
+  margin-top: 10px;
+}
+.nordeste img {
+  height: 70%;
+  margin-top: 15px;
+}
+.centro img {
+  height: 70%;
+  margin-top: 5px;
+}
