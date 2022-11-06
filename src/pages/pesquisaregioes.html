@@ -8,8 +8,9 @@
     <title>Hemo Life</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/hemocentros.css">
     <!-- JavaScript -->
-    <script src="../js/index.js" defer></script>
+    <script src="../js/db-listhemo.js"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +22,7 @@
 </head>
 
 <body>
-    <!-- Navbar -->
+    <!-- Navbar -->s
     <nav>
         <div class="logo">
             <a class="icon" href="../index.html"><img src="../img/logo.png" alt="logo"></a>
@@ -29,7 +30,7 @@
         </div>
         <ul class="nav-links">
             <li><a href="../pages/sobre.html">Sobre</a></li>
-              <!-- link referente a parte de Campanhas feita por Natan Fonseca -->
+            <!-- link referente a parte de Campanhas feita por Natan Fonseca -->
             <li><a href="../pages/campanhas.html">Campanhas</a></li>
             <a href="../pages/login.html"><button class="nav-btn">Login</button></a>
         </ul>
@@ -42,82 +43,82 @@
 
     <!-- corpo da pagina -->
 
-    <div class="maprow">
-        <!-- Norte -->
-        <div class="mapas">
-            <a href="">
-                <h2>Norte</h2>
-
-                <img class="norte" src="../img/norte.png" alt="">
-            </a>
+    <main-map class="maprow" name="filtro_regiao" id="filtro_regiao">
+        <div class="mapas norte" onclick="ListaHemocentros('Região Norte')">
+            <h2>Norte</h2>
+            <img src="../img/norte.png" alt="">
+            </button>
         </div>
-
-        <!-- Nordeste -->
-        <div class="mapas">
-            <a href="">
-                <h2>Nordeste</h2>
-
-                <img class="nordeste" src="../img/nordeste.png" alt="">
-            </a>
+        <div class="mapas nordeste" onclick="ListaHemocentros('Região Nordeste')">
+            <h2>Nordeste</h2>
+            <img src="../img/nordeste.png" alt="">
         </div>
-
-        <!-- centro-oeste -->
-        <div class="mapas">
-            <a href="">
-                <h2>Centro-Oeste</h2>
-
-                <img class="centroOeste" src="../img/centro-oeste.png" alt="">
-            </a>
+        <div class="mapas centro" onclick="ListaHemocentros('Região Centro-Oeste')">
+            <h2>Centro-Oeste</h2>
+            <img src="../img/centro-oeste.png" alt="">
         </div>
-    </div>
-
-    <!-- quebra de linha -->
-    <div class="maprow">
-
-        <!-- Sudeste -->
-        <div class="mapas">
-            <a href="">
-                <h2>Sudeste</h2>
-
-                <img class="sudeste" src="../img/sudeste.png" alt="">
-            </a>
+        <div class="mapas sudeste" onclick="ListaHemocentros('Região Sudeste')">
+            <h2>Sudeste</h2>
+            <img src="../img/sudeste.png" alt="">
         </div>
-
-        <!-- Sul -->
-        <div class="mapas">
-            <a href="">
-                <h2>Sul</h2>
-
-                <img class="sul" src="../img/sul.png" alt="">
-            </a>
+        <div class="mapas sul" onclick="ListaHemocentros('Região Sul')">
+            <h2>Sul</h2>
+            <img src="../img/sul.png" alt="">
         </div>
+    </main-map>
+    <!-- Ânconra para dar 'scroll' até o conteúdo impresso -->
+    <main id="posicaoscroll">
+        <h2 id="nomereg"></h2>
+        <div id="lista-hemocentros">
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>
+        // Obtem os hemocentro informados pelo usuário nos filtros
+        var fr = document.querySelector(".name");
+        function ListaHemocentros(fr) {
+            // limpa a lista de hemocentros apresentados
+            $("#lista-hemocentros").empty();
+            // Popula a tabela com os registros do banco de dados
+            document.getElementById('nomereg').innerHTML = fr;
+            for (let index = 0; index < db.dados.length; index++) {
+                const hemoc = db.dados[index];
+                // Verifica se os dados dos hemocentros batem com os filtros
+                if ((hemoc.regiao == fr) || (fr == '')) {
+                    $("#lista-hemocentros").append(
+                        `<div class="card"><h3>${hemoc.estadohemo}</h3>
+                         <p>${hemoc.nomehemo}<br>${hemoc.localhemo}
+                         <br> ${hemoc.contatohemo}</p></div>`
+                    );
+                }      
+                //Scroll da página do botões até o conteúdo impresso.          
+                var target_offset = $("#posicaoscroll").offset();
+                var target_top = target_offset.top;
+                $('html, body').stop().animate({ scrollTop: target_top }, 1500);
+            }
+        }
 
-    </div>
-
-
-
-
+    </script>
     <!-- Rodapé da página -->
-
-    <footer>
-        <div class="footer-conteudo">
-            <a href="#">Dúvidas frequentes</a>
-            <a href="#">Apoie o nosso projeto</a>
-            <a href="#">Trabalhe conosco</a>
-        </div>
-        <div class="footer-bottom">
-            <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
-                    href="https://www.pucminas.br/vestibular/Paginas/default.aspx?utm_source=google_search&utm_medium=cpc&utm_campaign=vestibular_presencial&gclid=CjwKCAjw-rOaBhA9EiwAUkLV4k8SyGJreEHkgRrE85BYs7qT3IhcdzOxB4js6D4alA1Bk8h0ee6k7hoCkrcQAvD_BwE">PucMinas</a>
-            </p>
-            <div>
-                <p>Contato:<a href="tel:+5531984548460">(xx)xxxxx-xxxx</a></p>
-            </div>
-
-            <div>
-                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
-            </div>
-        </div>
-    </footer>
 </body>
+<footer>
+    <div class="footer-conteudo">
+        <a href="#">Dúvidas frequentes</a>
+        <a href="#">Apoie o nosso projeto</a>
+        <a href="#">Trabalhe conosco</a>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
+                href="https://www.pucminas.br/vestibular/Paginas/default.aspx?utm_source=google_search&utm_medium=cpc&utm_campaign=vestibular_presencial&gclid=CjwKCAjw-rOaBhA9EiwAUkLV4k8SyGJreEHkgRrE85BYs7qT3IhcdzOxB4js6D4alA1Bk8h0ee6k7hoCkrcQAvD_BwE">PucMinas</a>
+        </p>
+        <div>
+            <p>Contato:<a href="tel:+5531984548460">(xx)xxxxx-xxxx</a></p>
+        </div>
+
+        <div>
+            <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+        </div>
+    </div>
+</footer>
 
 </html>
