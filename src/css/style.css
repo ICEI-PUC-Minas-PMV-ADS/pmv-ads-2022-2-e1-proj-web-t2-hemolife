@@ -274,9 +274,6 @@
     align-items: center;
     box-shadow: 0px 15px 15px #1212126b;
   }
-  
-  
-  
   .termos p, .termos a{
     font-weight: 600;
     margin: 0 5vw;
@@ -533,170 +530,12 @@
     border-radius: 10px 10px 70px 10px;
   }
   
-  /* Edição da pagina de pesquisa (mapas) */
   
-  .mapas {
-    display: block;
-    text-align: center;
-    margin: 50px;
-    /* gap: 30px; */
-    background: #a1a1aa;
-    border-radius: 12%;
-    box-shadow: 0px 15px 15px #1212129d;
-    height: 280px;
-    margin-top: 10rem;
-    width: 280px;
-    transition: all .5s;
-    cursor: pointer;
-  }
-
-  .mapas:hover{
-    scale: 1.05;
-  }
   
-  /* position: relative; */
-  
-  .maprow {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .mapas h2 {
-    text-align: top;
-    margin: 10px 0 10px;
-    font-size: 25px;
-    filter: drop-shadow(0px 1px 5px #121212);
-  }
- 
-  /* tamanho individual dos mapas */
-  .norte{
-    height: 50%;
-    width: auto;
-    margin-top: 25px;
-  }
-
-  .sudeste{
-    height: 60%;
-    width: auto;
-    margin-top: 15px;
-  }
-
-  .sul{
-    height: 70%;
-    width: auto;
-    margin-top: 10px;
-  }
-
-  .nordeste{
-    height: 70%;
-    width: auto;
-    margin-top: 15px;
-  }
-
-  .centroOeste{
-    height: 70%;
-    width: auto;
-    margin-top: 5px;
-  }
-
-  /* link */
-  .mapas a {
-    text-align: center;
-    text-decoration: none;
-  }
-  
-
-  .mapas img {
-    filter: drop-shadow(0px 5px 5px #121212);
-  }
-
-  /* Grid - Tabela */ 
-  
-  grid-container {
-    justify-content: center;
-    padding: 20px;  
-    margin: 0 auto;
-    border: 0px solid #fff;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 40px;
-    grid-row-gap: 50px;   
-  }
-  .mastergrid {
-    margin-top: 20px;
-    justify-content: center;    
-    border-radius: 20px;
-    max-width: 1200px;
-  }
-  .grid-principal {
-    text-align: center;
-    grid-column-start: 1;
-    grid-column-end: 5; 
-  }
-  .grid-principal h2{
-    font-style: normal;
-    font-weight:bold;
-    line-height: 42px;
-    text-align: center;
-    color: #FFFFFF;
-  }
-  .nivel {
-    width: 250px;
-    height: 220px;
-    border-radius: 30px;
-    grid-area: "nivel";
-    text-align: center;
-    background-color: #fff;
-  }
-  /* ContainerGrid da Legenda do card*/
-  .nivelleg {
-    display: grid;
-    grid-column: 1 / 3;
-  }
-  /* Grid da Legenda do card*/
-  .nivel1 {
-    grid-area: 1;
-  }
-  .nivel img {
-    width: 50%;
-    margin-top: 10px;
-  }
-  .nivel p {
-    margin-top: 10px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 42px;
-    text-align: center;
-    color: #DB0000;
-  }
-  .nivel h4 {
-    margin-top: 5px;
-    color: rgb(0, 0, 0);
-  }
-  
-  /* Início Card Blood Responsivo */
+  /* Início Card Responsivo */
   
   @media (max-width: 1165px) {
-    grid-container {
-        padding: 20px;
-        margin: 0 auto;
-        border: 0px solid #fff;
-        grid-gap: 40px;
-        grid-row-gap: 50px;
-        grid-template-columns: auto auto;
-        }
-      .grid-principal {
-        grid-column: 1 / 3; 
-      }
-      
-      .mastergrid {
-      grid-column: 1 / 3;
-      max-width: 600px;
-      padding: 20px;    
-      }
-  
+    
       /* termos resposividade */
       
       #btn-voltar{
@@ -721,27 +560,7 @@
       }
   }
   @media (max-width: 570px) {
-    grid-container {
-        grid-template-columns: auto;
-        justify-content: center;
-        margin: 0 auto;
-        border: 0px solid #fff;
-        grid-gap: 40px;
-        grid-row-gap: 50px;
-        grid-column: 1 / 1;
-      } 
-      .grid-principal {
-        text-align: center;
-        grid-column: 1 / 1;    
-      }  
-      .grid-principal h2{
-        padding: 20px;     
-      }  
-      .mastergrid {
-        max-width: 286px;
-        padding: 20px;    
-      }
-  
+      
     /* termos resposividade */
     .termos{
       background-color: #fafafa;
@@ -776,13 +595,7 @@
       transition: all 1.02s;
     }
   }
-   
-  /* Fim Grid 
-  
-  /* Edições do Carrosel Index */
-  
-  
-  
+    
   
   /* Formulário Index */
   
