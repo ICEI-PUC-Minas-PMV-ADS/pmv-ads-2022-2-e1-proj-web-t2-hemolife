@@ -84,6 +84,9 @@ main div {
 }
 main-map{
   max-width: 1200px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 .mapas {
   display: block;
