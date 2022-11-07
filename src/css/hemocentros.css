@@ -58,58 +58,19 @@ main div {
   margin-top: 5px;
   color: rgb(0, 0, 0);
 }
+main-map{  
+  max-width: 100vw; 
+  margin: 50px auto 0px auto;
+  display:grid;
+  grid-template-areas: "mapas mapas mapas mapas mapas";
+  /* align-items: center; */
+  justify-items: center;
 
-/* Início Card Blood Responsivo */
-@media (max-width: 966px) {
-  main-map{
-    max-width: 100vw;
-    display:grid;
-    grid-template-areas: "mapas mapas";
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .mapas {    
-    text-align: center;
-    margin: 10px 30px 10px 30px;
-    background: #a1a1aa;
-    border-radius: 12%;
-    box-shadow: 0px 15px 15px #1212129d;
-    height: 180px;
-    margin-top: 4rem;
-    width: 180px;
-    transition: all .5s;
-    cursor: pointer;
-  }
-  .card {
-    width: 600px;
-    height: 270px;
-    border-radius: 30px;
-    grid-area: "card";
-    background-color: #FCF7F7;
-    box-shadow: 0px 15px 15px #1212126b;
-  }
-}
-@media (max-width: 634px) {
-  .card {
-    width: 300px;
-    height: 300px;
-    border-radius: 30px;
-    grid-area: "card";
-    text-align: center;
-    background-color: #FCF7F7;
-    box-shadow: 0px 15px 15px #1212126b;
-  }
-}
-main-map{
-  max-width: 100vw;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
 }
 .mapas {
-  display: block;
+  grid-area: "mapas";
   text-align: center;
-  margin: 10px 30px 10px 30px;
+  margin: 15px 5px 15px 5px;
   background: #a1a1aa;
   border-radius: 12%;
   box-shadow: 0px 15px 15px #1212129d;
@@ -123,14 +84,9 @@ main-map{
   scale: 1.05;
 }
 /* position: relative; */
-.maprow {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+
 .mapas h2 {
-  text-align: top;
+  text-align: bottom;
   margin: 10px 0 10px;
   font-size: 25px;
   filter: drop-shadow(0px 1px 5px #121212);
@@ -146,7 +102,7 @@ main-map{
   margin-top: 25px;
 }
 .sudeste img {
-  height: 60%;
+  height: 55%;
   margin-top: 15px;
 }
 .sul img {
@@ -154,10 +110,53 @@ main-map{
   margin-top: 10px;
 }
 .nordeste img {
-  height: 60%;
+  height: 55%;
   margin-top: 15px;
 }
 .centro img {
   height: 60%;
   margin-top: 5px;
+}
+/* Responsivo */
+@media (max-width: 966px) {
+  main-map{    
+    grid-template-areas: "mapas mapas mapas";
+    justify-content: center;
+  }
+  .mapas {    
+    height: 180px;    
+    width: 160px; 
+    margin: 15px 10px 15px 10px;   
+  }
+  .card {
+    width: 600px;
+  }
+  .centro img {
+    height: 45%;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 634px) {
+  main-map{    
+    grid-template-areas: "mapas mapas";
+    justify-content: center;
+  }
+  .card {
+    width: 300px;    
+  }
+  .centro img {
+    height: 45%;
+    margin-top: 0px;
+  }  
+}
+@media (max-width: 375px) {
+  .mapas {    
+    height: 180px;    
+    width: 160px; 
+    margin: 15px 10px 15px 10px;   
+  }
+  .centro img {
+    height: 45%;
+    margin-top: 0px;
+  }
 }
