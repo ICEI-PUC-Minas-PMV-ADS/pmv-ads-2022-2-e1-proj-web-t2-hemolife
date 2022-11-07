@@ -205,7 +205,8 @@
   /* Conteúdo do Corpo */
   
   .container {
-    display: flex;
+    display: grid;
+    grid-template-areas: "container-left container-right";
     justify-content: space-around;
     margin-top: 3rem;
     min-height: 52vh;
@@ -215,7 +216,6 @@
   /* Conteúdo da esquerda */
   
   .container-left {
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -232,11 +232,17 @@
     width: auto;
     transition: all .5s;
   }
-  
+  /*Conteúdo na linha toda */
+  .container-full-line {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem 2rem 2rem 2rem;
+  }
   /* Conteúdo da direita */
   
-  .container-right {
-    display: flex;
+  .container-right {    
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -642,4 +648,7 @@
   .campanha p {
     color: #fafafa;
     font-weight: 400;
+  }
+  .buscahemo{
+    margin: 2rem auto 8rem;
   }
