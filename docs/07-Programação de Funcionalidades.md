@@ -48,41 +48,51 @@ Nesta sessão, o usuário novo poderá manifestar o seu interesse em se tornar u
  * criarConta.css
 * index.js 
 
-## 4. Visualização de notícias (RF-05)
-![Colocar Imagem ]()
-Nesta sessão, o usuário poderá visualizar notícias publicadas pelos hemocentros.
-
 ### 4.1 Requisitos atendidos:
-* RF-05 	O site deve permitir a visualização de notícias publicadas pelos hemocentros.
+* RF-04 	O site deve permitir visualizar as informações de contato dos doadores pelos Hemocentros.
 
 ### 4.2 Artefatos da funcionalidade:
 
-* .html (Em criação)
+* campanha1.html
 * style.css
+* campanha.css
 * index.js 
-## 5. Cartão HemoLife (RF-06)
+
+## 5. Visualização de notícias (RF-05)
 ![Colocar Imagem ]()
-Nesta sessão, o usuário poderá gerar o cartão HemoLife para usufruir de seus benefícios.
+Nesta sessão, o usuário poderá visualizar notícias publicadas pelos hemocentros.
 
 ### 5.1 Requisitos atendidos:
-* RF-06 	O site deve permitir a emissão do Cartão HemoLife, cartão de benefício para doadores do grupo Hemo Life.
+* RF-05 	O site deve permitir a visualização de notícias publicadas pelos hemocentros.
 
 ### 5.2 Artefatos da funcionalidade:
 
 * .html (Em criação)
 * style.css
 * index.js 
+## 6. Cartão HemoLife (RF-06)
+![Colocar Imagem ]()
+Nesta sessão, o usuário poderá gerar o cartão HemoLife para usufruir de seus benefícios.
 
-## 6. Gráfico de estoque disponível (RF-07)
+### 6.1 Requisitos atendidos:
+* RF-06 	O site deve permitir a emissão do Cartão HemoLife, cartão de benefício para doadores do grupo Hemo Life.
+
+### 6.2 Artefatos da funcionalidade:
+
+* .html (Em criação)
+* style.css
+* index.js 
+
+## 7. Gráfico de estoque disponível (RF-07)
 
 ![Gráfico de estoque](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/noticias.jpg)
 
 Nesta sessão, o usuário novo poderá visualizar um gráfico informando o estoque disponível para cada tipo sanguíneo.
 
-### 6.1 Requisitos atendidos:
+### 7.1 Requisitos atendidos:
 * RF-07 	O site deve conter em sua página inicial um gráfico informando o estoque disponível para cada tipo sanguíneo. 	
 
-### 6.2 Artefatos da funcionalidade:
+### 7.2 Artefatos da funcionalidade:
 
 * style.css 
 * index.js 
