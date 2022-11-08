@@ -631,24 +631,24 @@
   }
   
   
-  /* CSS Campanha  onde contem estilo ,cores , tamanho etc...  */
+  /* Pré-Requisito */
   
-  .campanha {
-    margin: 4rem auto -6rem;
+  .about-title2 {
+    margin-top: 2rem;
     text-align: center;
-    width: 80%;
   }
   
-  .titl-camp {
+  .about2 p {
+    background-color: #fafafa;
+    border-radius: 75px;
     color: #121212;
-    margin: 3rem auto;
-    width: 60%;
+    margin: 20px auto;
+    padding: 2rem;
+    text-align: center;
+    width: 40rem;
   }
-  
-  .campanha p {
-    color: #fafafa;
-    font-weight: 400;
-  }
+
+
   .buscahemo{
     margin: 2rem auto 8rem;
   }
