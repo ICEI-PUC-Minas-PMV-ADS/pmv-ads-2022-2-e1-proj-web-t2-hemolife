@@ -497,7 +497,7 @@
   
   .about p {
     background-color: #fafafa;
-    border-radius: 75px;
+    border-radius: 20px;
     color: #121212;
     margin: 20px auto;
     padding: 2rem;
@@ -640,7 +640,7 @@
   
   .about2 p {
     background-color: #fafafa;
-    border-radius: 75px;
+    border-radius: 20px;
     color: #121212;
     margin: 20px auto;
     padding: 2rem;
