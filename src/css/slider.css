@@ -23,7 +23,7 @@
   width: 20px;
   height: 20px;
   border-radius: 50px;
-  box-shadow: 0px 0px 10px rgb(22, 21, 21);
+  box-shadow: 0px 0px 10px #db0000;
 }
 /*Hover da linha do Slider*/
 .myslider::-webkit-slider-thumb:hover {
