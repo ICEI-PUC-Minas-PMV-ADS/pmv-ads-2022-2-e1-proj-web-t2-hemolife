@@ -88,6 +88,9 @@ main-noticias {
   padding: 2px 10px 2px 10px;
   justify-items: center;
 }
+.nav-noticias a{
+  text-decoration: none;
+}
 
 .nav-noticias:hover {
   scale: 1.05;
