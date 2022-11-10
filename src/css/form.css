@@ -249,3 +249,17 @@ input:focus:hover{
         font-size: 13px;
     }
 }
+
+.trabalhe {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    margin: 3rem auto -5rem;
+    
+
+    
+    
+
+  }
