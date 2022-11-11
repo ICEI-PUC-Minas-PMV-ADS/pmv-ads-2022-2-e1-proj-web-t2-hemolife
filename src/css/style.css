@@ -348,6 +348,49 @@
     color: #121212;
     font-weight: 600;
   }
+
+  /* design dos pré requistos */
+
+  #filtroRequisito{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around; 
+    margin-bottom: 5vh;
+    }
+
+  p.balao, p.balao1{
+    background-color: #fafafa;
+    border-radius: 30px;
+    box-shadow: 0px 15px 15px #1212126b;
+    color: #000000;
+    padding: 30px;
+    width: 80vw;
+    margin: 5vh 10vw;
+    text-align: center;
+  }
+
+  p.balao1{
+    margin-top: 5vh;
+  }
+  
+  p#nomerequisito{
+    display: none;
+  }
+
+  .about-title2{
+    transition: all .6s;
+    font-size:x-large;
+    width: 20vw;
+    margin: 10vh auto;
+    text-align: center;
+  }
+
+  .about-title2:hover{
+    cursor: pointer;
+    scale: 1.02;
+    font-weight: 900;
+    filter: drop-shadow(0px 1px 5px #1212126b);
+  }
   
   /* Efeitos JavaScript + CSS Gaveta Responsiva */
   
@@ -393,6 +436,23 @@
       width: 80vw;
       margin: 5vh 10vw;
     }
+
+    /* balão dos requisitos */
+
+    #filtroRequisito{
+      display: flex;
+      flex-direction: column;
+       
+      }
+
+      .about-title2{
+        /* temporário */
+        transition: all .6s;
+        font-size:x-large;
+        width: 60vw;
+        margin: 2vh auto;
+        text-align: center;
+      }
 
   }
   
@@ -638,22 +698,9 @@
   
   /* Pré-Requisito */
   
-  .about-title2 {
-    margin-top: 2rem;
-    text-align: center;
-  }
-  
-  .about2 p {
-    background-color: #fafafa;
-    border-radius: 20px;
-    color: #121212;
-    margin: 20px auto;
-    padding: 2rem;
-    text-align: center;
-    width: 40rem;
-  }
-
 
   .buscahemo{
     margin: 2rem auto 8rem;
   }
+
+  
