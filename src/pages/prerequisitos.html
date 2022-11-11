@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- JavaScript -->
-    <script src="../js/index.js" defer></script>
+    <script src="../css/db-preRequisitos.js"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,17 +21,17 @@
 </head>
 
 <body>
-
+    <!-- Navbar -->
     <nav>
         <div class="logo">
-            <a class="icon" href="../index.html"><img src="../img/logo.png" alt="logo"></a>
+            <a class="icon" href="index.html"><img src="../img/logo.png" alt="logo"></a>
             <a href="../index.html">Hemo Life</a>
         </div>
         <ul class="nav-links">
-            <li><a href="../pages/sobre.html">Sobre</a></li>
-              <!-- link referente a parte de Campanhas feita por Natan Fonseca -->
-            <li><a href="../pages/prerequisitos.html">Pré-Requisitos</a></li>
-            <a href="../pages/login.html"><button class="nav-btn">Login</button></a>
+            <li><a href="pages/sobre.html">Sobre</a></li>
+            <!-- link referente a parte de Campanhas feita por Natan Fonseca -->
+            <li><a href="pages/prerequisitos.html">Pré-Requisitos</a></li>
+            <a href="pages/login.html"><button class="nav-btn">Login</button></a>
         </ul>
         <div class="burger">
             <div class="line1"></div>
@@ -39,105 +39,80 @@
             <div class="line3"></div>
         </div>
     </nav>
-    
-     <!--  conteudo da pagina pré-requisitos onde estao todas a informaçoes e conteudo da pagina -->
 
-    <div class="about2">
+    <!-- corpo da pagina -->
 
-        <h2 class="about-title2">Quem pode doar ?</h2>
+    <main-map  id="filtroRequisito" name="filtroRequisito">
 
-        <p>
-            Podem doar sangue as pessoas que tiverem idade entre 16 e
-            69 anos, sendo que a primeira doação deve ser feita, obrigatoriamente, até
-            os 60 anos. Menores de 18 anos só podem doar com a autorização dos
-            responsáveis legais. Todo doador deve apresentar um documento original com
-            foto.</p>
+        <div class="balaoRequisito"  onclick="PreRequisitos('1')">
+            <h2 class="about-title2">Quem pode doar</h2>
+            </button>
+        </div>
 
-        <h2 class="about-title2">Condições básicas para doar sangue:</h2>
+        <div class="balaoRequisito" onclick="PreRequisitos('2')">
+            <h2 class="about-title2">Consições básicas para doar</h2>
+        </div>
 
-        <p> Ter entre 16 e 69 anos de idade (Menor de 18 anos deve apresentar o formulário de autorização e cópia do
-            documento de identidade com foto do pai, mãe ou tutor/guardião; </p>
+        <div class="balaoRequisito" onclick="PreRequisitos('3')">
+            <h2 class="about-title2">Etapas da doação</h2>
+        </div>
 
-           <p>Idosos devem ter realizado pelo menos uma doação de sangue antes dos 61 anos);</p> 
+    </main-map>
+    <!-- Ânconra para dar 'scroll' até o conteúdo impresso -->
+    <main id="posicaoscroll">
+        <p id="nomerequisito"></p>
+        <div id="Pre-Requisitos">
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>
+        // Obtem os hemocentro informados pelo usuário nos filtros
+        var fr = document.querySelector(".name");
+        function PreRequisitos(fr) {
 
-            <p>Pesar mais de 51 quilos e ter IMC maior ou igual a 18,5 (descontar o vestuário);</p>
+            // limpa a lista
+            $("#Pre-Requisitos").empty();
 
-           <p> Há medicamentos que podem impedir a doação. Confira algumas restrições em nossa lista de impedimentos;</p>
+            // Popula a tabela com os registros do banco de dados
+            document.getElementById('nomerequisito').innerHTML = fr;
+            for (let index = 0; index < db.dados.length; index++) {
+                const indice = db.dados[index];
+                if ((indice.paragrafo == fr) || (fr == '')) {
+                $("#Pre-Requisitos").append(
+                    `<div class="card">
+                         <p>${indice.text}<br>
+                        </div>`
+                ); 
+                    } 
+                };     
+                 //Scroll da página do botões até o conteúdo impresso.          
+                 var target_offset = $("#nomerequisito").offset();
+                var target_top = target_offset.top;
+                $('html, body').stop().animate({ scrollTop: target_top }, 1500);      
+        }
+        
 
-            <p> Apresentar documento de identificação oficial com foto (original ou cópia autenticada em cartório), em bom
-            estado de conservação e dentro do prazo de validade. Documentos aceitos: carteira de identidade, carteira de
-            trabalho, certificado de reservista, carteira nacional de habilitação, passaporte, carteira profissional
-            emitida por classe ou carteira de doador. Não são aceitos crachás funcionais, carteiras estudantis nem
-            certidão de nascimento;</p>
-
-            <p> Dormir pelo menos seis horas, com qualidade, na noite anterior à doação;</p>
-
-            <p> Não ingerir bebida alcoólica nas 12 horas anteriores à doação;</p>
-
-            <p> Não fumar duas horas antes da doação.</p>
-
-
-
-
-        <h2 class="about-title2">Etapas Da Doação</h2>
-
-           <p> 
-            Recepção e cadastro:
-
-            Para realizar seu cadastro leve consigo documento oficial de identidade com foto (RG, carteira de motorista,
-            carteira de trabalho ou passaporte). Para a faixa etária entre 16 e 18 anos incompletos é necessário
-            acompanhante maior de idade com documento. </p>
-
-           <p> Triagem clínica
-
-            Após o cadastro ocorre a triagem clínica, que nada mais é que uma entrevista feita por profissional de saúde
-            que irá avaliar as condições de saúde da pessoa que vai doar para não colocar em risco a pessoa que vai
-            receber.</p>
-
-           <p> Coleta
-
-            A coleta do sangue dura em torno de 15 a 20 minutos. Ela é feita com material esterilizado, descartável e
-            não apresenta nenhum risco para a pessoa que está doando.</p>
-
-           <p> Depois de doar sangue
-
-            Faça um pequeno lanche e hidrate-se. Evite esforços físicos exagerados por pelo menos 12 horas, não fumar
-            por cerca de 2 horas, evitar bebidas alcóolicas por 12 horas e não dirigir veículos de grande porte.
-            Exercícios e práticas esportivas também devem ser evitadas logo após a doação.</p>
-
-            <p> Lembre-se
-            Mulheres podem doar sangue a cada intervalo de 90 dias, podendo fazer até 3 doações por ano. Homens podem
-            fazer até 4 doações por ano, aguardando 60 dias de intervalo.</p>
-
-            <p> É importante observar os impedimentos temporários para a doação antes de se deslocar até o local da doação
-            de sangue. Segundo o Hemocentro da Unicamp, cerca de 30% dos candidatos à doação não conseguem efetiva-la
-            por inaptidão clínica, ou seja, por estarem utilizando algum tipo de medicamento, por doenças crônicas não
-            controladas, comportamentos de risco ou ainda pequenos quadros febris motivados por gripes, vacinas e
-            outros. É importante também observar não ter ingerido bebida alcoólica nas 12 horas que antecedem a doação.
-            Na dúvida ligue para 0800 722 8432. Consulte a tabela abaixo para saber mais.</p>
-    </div>
-
+    </script>
     <!-- Rodapé da página -->
-
-    <footer>
-        <div class="footer-conteudo">
-            <a href="prerequisitos.html">Dúvidas frequentes</a>
-            <a href="apoie.html">Apoie o nosso projeto</a>
-            <a href="trabalhe-conosco.html">Trabalhe conosco</a>
-        </div>
-
-        <div class="footer-bottom">
-            <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
-                    href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
-            </p>
-            <div>
-                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
-            </div>
-            <div>
-                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
-            </div>
-        </div>
-    </footer>
 </body>
+<footer>
+    <div class="footer-conteudo">
+        <a href="#">Dúvidas frequentes</a>
+        <a href="#">Apoie o nosso projeto</a>
+        <a href="#">Trabalhe conosco</a>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
+                href="https://www.pucminas.br/vestibular/Paginas/default.aspx?utm_source=google_search&utm_medium=cpc&utm_campaign=vestibular_presencial&gclid=CjwKCAjw-rOaBhA9EiwAUkLV4k8SyGJreEHkgRrE85BYs7qT3IhcdzOxB4js6D4alA1Bk8h0ee6k7hoCkrcQAvD_BwE">PucMinas</a>
+        </p>
+        <div>
+            <p>Contato:<a href="tel:+5531984548460">(xx)xxxxx-xxxx</a></p>
+        </div>
+
+        <div>
+            <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+        </div>
+    </div>
+</footer>
 
 </html>
