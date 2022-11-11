@@ -160,9 +160,9 @@
   
   .puc {
     color: #dd4a48;
-    font-weight: 600;    
-    text-transform: uppercase;
+    font-weight: 600;
     text-decoration: none;
+    text-transform: uppercase;
   }
   
   .footer-bottom {
@@ -328,6 +328,26 @@
     height: 5vh;
     width: 7vw;
   }
+
+  .about{
+    text-align: center;
+    background-color: #fafafa;
+    border-radius: 20px;
+    padding: 1em;
+    width: 70vw;
+    margin: 10vh 15vw;
+  }
+
+  .about p{
+    color: #121212;
+    margin-bottom: 2vh;
+  }
+
+  .about-title{
+    margin-bottom: 2vh;
+    color: #121212;
+    font-weight: 600;
+  }
   
   /* Efeitos JavaScript + CSS Gaveta Responsiva */
   
@@ -367,6 +387,13 @@
       margin-top: 2.5rem;
       width: 50vw;
     }
+
+    .about{
+      padding: 1em;
+      width: 80vw;
+      margin: 5vh 10vw;
+    }
+
   }
   
   @media screen and (max-width: 768px) {
@@ -407,22 +434,14 @@
     footer {
       position: sticky;
       top: 100%;
+    } 
+
+    .about{
+      padding: 1em;
+      width: 80vw;
+      margin: 5vh 10vw;
     }
-  
-    /* Responsivo Sobre.html */
-    .about {
-      margin-right: 21rem;
-      transform: scale(0.7);
-    }
-  
-    .about-title {
-      font-size: 50px;
-      margin-left: 10.5rem;
-    }
-  
-    .about p {
-      font-size: 25px;
-    }
+
   }
   
   @media screen and (max-width: 590px) {
@@ -490,21 +509,6 @@
   
   /* Edições Sobre.html */
   
-  .about-title {
-    margin-top: 2rem;
-    text-align: center;
-  }
-  
-  .about p {
-    background-color: #fafafa;
-    border-radius: 20px;
-    color: #121212;
-    margin: 20px auto;
-    padding: 2rem;
-    text-align: center;
-    width: 40rem;
-  }
-  
   .team-title {
     margin-top: 4rem;
     text-align: center;
@@ -517,8 +521,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 4rem;
-    margin-bottom: -8rem;
+    margin: 4rem 5vw -8rem;
+    flex-wrap: wrap;
+    gap: 25px;
   }
   
   .team a {
