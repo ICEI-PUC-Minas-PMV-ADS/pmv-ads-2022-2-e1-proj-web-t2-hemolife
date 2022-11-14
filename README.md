@@ -16,7 +16,6 @@ Logo, a aplicação permite que os hemocentros posssam manter os níveis regular
 ## Integrantes
 
 * Gabriel Alisson dos Santos Oliveira
-* Israel Messias Gomes Moreira
 * Jansem Wallemberg Torquetti Maia
 * Lucas Filipe dos Reis
 * Natan Cândido da Fonseca
