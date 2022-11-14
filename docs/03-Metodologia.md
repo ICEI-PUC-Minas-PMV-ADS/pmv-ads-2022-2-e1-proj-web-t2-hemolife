@@ -13,7 +13,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
         <th>Link de Acesso</th>
     </tr>
     <tr>
-        <td>Repositório de condigo fonte</td>
+        <td>Repositório de código fonte</td>
         <td>GitHub</td>
         <td>(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife)</td>
     </tr>
@@ -40,14 +40,21 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 ### Divisão de Papéis
 
-● Scrum Master: Wellington Andrade. <br>
-● Product Owner: Natan Cândido. <br>
-● Equipe de Desenvolvimento. <br>
-    ○ Gabriel Oliveira. <br>
-    ○ Jansem Maia. <br>
-    ○ Israel Moreira. <br>
-● Equipe de Design. <br>
-    ○ Lucas Filipe. <br>
+● Scrum Master:
+  > Wellington Andrade.
+  
+● Product Owner: 
+  > Natan Cândido.
+  
+● Equipe de Desenvolvimento.
+  > Gabriel Oliveira.
+  
+  > Jansem Maia.
+  
+  > Wellington Andrade.
+
+● Equipe de Design.
+  > Lucas Filipe.
 
 Para  organização  e  distribuição  das  tarefas  do  projeto,  a  equipe  está  utilizando  o  Trello estruturado com as seguintes listas: 
 
