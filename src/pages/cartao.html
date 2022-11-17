@@ -2,81 +2,112 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Hemo Life</title>
     <!-- CSS -->
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="/src/css/cartao.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cartao.css">
     <!-- JavaScript -->
+    <script src="js/index.js" defer></script>
+    <script src="https://kit.fontawesome.com/e903379512.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Fav icon -->
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     
   </head>
   <body>
 
-
-  
-<div class="corpo">
-  <!--corpo e componentes cartao hemocard -->
-    <div class="wrapper">
+    <!-- Navbar -->
+    <nav>
       <div class="logo">
-        <h2>Hemo-Card</h2>
+          <a class="icon" href="index.html"><img src="../img/logo.png" alt="logo"></a>
+          <a href="index.html">Hemo Life</a>
+      </div>
+      <ul class="nav-links">
+          <li><a href="sobre.html">Sobre</a></li>
+          <!-- link referente a parte de Campanhas feita por Natan Fonseca -->
+          <li><a href="prerequisitos.html">Pré-Requisitos</a></li>
+          <a href="pages/login.html"><button class="nav-btn">Login</button></a>
+      </ul>
+      <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+      </div>
+    </nav>
 
-        <div class="icon">
-          <i class="fas fa-caret-left">
-            <img src="/src/img/hemocard.logo.png" alt="" />
-            <div class="info-name">
+    <!-- cartão -->
+    <div class="mockupCartao">
+      <img class="iconCartao" src="../img/cartaohemolife.svg" alt="Cartão de benefícios">      
+    </div>
 
-              <h3>nome do doador </h3>
-              <h3>doador de sangue </h3>
-              <h4>data de cadastro: 10/11/2022</h4>
 
-               
-            </div>
-          </i>
+    <!-- partes referentes a parcerias -->
+
+    <main class="cards">
+
+      <!-- card 1 -->
+      <div class="card">
+            <img class="iconCard" src="../img/academia.logo.png" alt="Contact us.">
+          <h3> Force academy </h3>
+          <span class="resume">taxa de matricula gratis , avaliação 5% de desconto e 10% na mensalidade .</span>
+      </div>
+
+      <!-- card 2 -->
+      <div class="card">
+          <img class="iconCard" src="../img/nutri.logo.png" alt="Shop here.">
+          <h3> Nutri Life.</h3>
+          <span class="resume">primeira consulta gratis e desconto de 8% nas demais consultas .</span>
+      </div>
+
+      <!-- card 3 -->
+      <div class="card">
+          <img class="iconCard" src="../img/logo.farmacia.png"" alt="About us.">
+          <h3> farma + </h3>
+          <span class="resume"> desconto de 10% em todos medicamentos e outros produtos. </span>  
+      </div>
+      
+
+    </main>
+
+  <!-- Rodapé da página -->
+  <footer>
+    <div class="footer-conteudo">
+        <a href="pages/prerequisitos.html">Dúvidas frequentes</a>
+        <a href="pages/apoie.html">Apoie o nosso projeto</a>
+        <a href="pages/trabalhe-conosco.html">Trabalhe conosco</a>
+    </div>
+
+    <div class="footer-bottom">
+        <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
+                href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
+        </p>
+        <div>
+            <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
         </div>
-      </div>
+        <div>
+            <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+        </div>
     </div>
-    </div>
-    <div class="cartao">
-      <h2>Hemo card</h2>
-      <p>
-      todos os doadores assiduos tem o direito de emitir seu cartao hemo card 
-      com ele voce tem diversos beneficios com nossos parceiros incluido desconto de 5% a 10%  , inseçao de taxa , desconto em matriculas
-      e muitos outros beneficios e so consultar os nossos parceiros e pegar seus beneficios </p>
-    </div>
-
-
-<!-- partes referentes a parcerias -->
-
-<main class="cards">
-  <section class="card contact">
-      <div class="icon">
-          <img src="/src/img/academia.logo.png" alt="Contact us.">
-      </div>
-      <h3> Force academy </h3>
-      <span>taxa de matricula gratis , avaliação 5% de desconto e 10% na mensalidade .</span>
-     
-  </section>
-
-  <section class="card shop">
-      <div class="icon">
-          <img src="/src/img/nutri.logo.png" alt="Shop here.">
-      </div>
-      <h3> Nutri Life.</h3>
-      <span>primeira consulta gratis e desconto de 8% nas demais consultas .</span>
-     
-  </section>
-
-  <section class="card about">
-      <div class="icon">
-          <img src="/src/img/logo.farmacia.png"" alt="About us.">
-      </div>
-      <h3> farma + </h3>
+  </footer>
   
-      <span> desconto de 10% em todos medicamentos e outros produtos. </span>
-      
-      
-  </section>
-   
+  <!-- Api Libras -->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 
-  </main>
-</div>
+</body>
 
