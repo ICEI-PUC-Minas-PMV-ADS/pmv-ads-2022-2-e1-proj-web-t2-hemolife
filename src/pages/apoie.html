@@ -44,8 +44,19 @@
 <div class="about">
     <h2 class="about-title">Apoie nosso Prejeto</h2>
     <p>Banco do Brasil<br> Agencia: xxxxx-x <br> Conta Corrente: xxxxxx-x <br> Chave Pix CNPJ: 000.000/0001-00 </p>
-    
-
+    </div>
+   <!-- Api Libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+</body>
 
 
 <!-- Rodapé da página -->
@@ -69,17 +80,6 @@
     </div>
 </footer>
     
-    <!-- Api Libras -->
-    <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-          <div class="vw-plugin-top-wrapper"></div>
-        </div>
-      </div>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script>
-        new window.VLibras.Widget('https://vlibras.gov.br/app');
-      </script>
-</body>
+ 
 
 </html>
