@@ -24,12 +24,13 @@
   .noticia{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 20vh 1fr 1fr;
     grid-template-areas: 
     'titulo titulo'
     'videoNoticia falas'
     'descricao descricao';
 
+    width: ;
     margin: 0 2vw;
     background-color: #fafafa48;
   }
@@ -50,7 +51,7 @@
 
   .descricao{
     grid-area: descricao;
-    margin-top: 2vh;
+    
   }
 
 
