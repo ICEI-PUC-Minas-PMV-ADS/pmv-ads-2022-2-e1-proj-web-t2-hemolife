@@ -27,7 +27,7 @@
     grid-template-rows: 20vh 1fr 1fr;
     grid-template-areas: 
     'titulo titulo'
-    'videoNoticia falas'
+    'midia midia'
     'descricao descricao';
 
     width: ;
@@ -40,14 +40,9 @@
     grid-area: titulo;
   }
   
-  .videoNoticia{
-    grid-area: videoNoticia;
+  .midia {
+    grid-area: midia;
     height: 40vh;
-  }
-
-  .falas{
-    grid-area: falas;
-    margin: 0 5vw;
   }
 
   .descricao{
