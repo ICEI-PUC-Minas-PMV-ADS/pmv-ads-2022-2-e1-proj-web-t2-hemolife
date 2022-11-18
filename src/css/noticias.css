@@ -10,6 +10,7 @@
     color: #dd4a48;
     font-size: 18px;
     font-style: italic;
+    text-decoration: none;
   }
 
   main{
@@ -52,5 +53,36 @@
     margin: 2vh 11vw 5vh;
   }
 
+p,li{
+  margin-bottom: 1.5vh;
+}
+
+i{
+  font-weight: 500;
+}
 
 
+@media screen and (max-width: 1024px) {
+  .titulo, h1{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .titulo, h1{
+    font-size: 20px;
+  }
+
+  .midia {
+    grid-area: midia;
+    height: auto;
+    width: 70vw;
+    margin: 7vh 5vw 2vh;
+    border-radius: 13px;
+  }
+
+  .descricao{
+    grid-area: descricao;
+    margin: 2vh 5vw 5vh;
+  }
+}
