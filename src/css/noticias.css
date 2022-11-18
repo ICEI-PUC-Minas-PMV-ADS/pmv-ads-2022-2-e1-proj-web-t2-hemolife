@@ -42,14 +42,14 @@
   .midia {
     grid-area: midia;
     height: auto;
-    width: 70vw;
-    margin: 7vh 5vw 2vh 5vw;
+    width: 50vw;
+    margin: 7vh 15vw 2vh;
     border-radius: 23px;
   }
 
   .descricao{
     grid-area: descricao;
-    margin: 1vh 5vw 5vh;
+    margin: 2vh 11vw 5vh;
   }
 
 
