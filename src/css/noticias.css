@@ -14,12 +14,12 @@
 
   .noticia{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2vh 37vh 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 1fr 1fr;
     grid-template-areas: 
-    'titulo titulo'
-    'midia midia'
-    'descricao descricao';
+    'titulo'
+    'midia'
+    'descricao';
 
     width: 80vw ;
     margin: 0 10vw 5vh;
@@ -30,7 +30,6 @@
 
   .titulo{
     margin-top: 2.5vh;
-    height: 5vh;
     grid-area: titulo;
     text-align: center;
   }
@@ -41,16 +40,15 @@
   
   .midia {
     grid-area: midia;
-    height: auto;
     width: 80%;
-    margin: 10%;
+    margin: 0 10%;
     border-radius: 23px;
   }
 
   .descricao{
-
     grid-area: descricao;
-    color: ;
-    width: 80%;
-    margin: 10%;
+    margin: 35px 10%;
   }
+
+
+
