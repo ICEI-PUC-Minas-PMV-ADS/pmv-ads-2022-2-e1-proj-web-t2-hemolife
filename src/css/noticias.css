@@ -12,10 +12,15 @@
     font-style: italic;
   }
 
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+
   .noticia{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 1fr 1fr;
+    grid-template-rows: 5vh .5fr auto;
     grid-template-areas: 
     'titulo'
     'midia'
@@ -25,29 +30,26 @@
     margin: 0 10vw 5vh;
     background-color: #fafafa;
     border-radius: 23px;
-
   }
 
-  .titulo{
-    margin-top: 2.5vh;
+  .titulo, h1{
+    margin: 1vh;
     grid-area: titulo;
     text-align: center;
-  }
-
-  .titulo h1{
-    font-weight: 600;
+    font-weight: 600; 
   }
   
   .midia {
     grid-area: midia;
-    width: 80%;
-    margin: 0 10%;
+    height: auto;
+    width: 70vw;
+    margin: 7vh 5vw 2vh 5vw;
     border-radius: 23px;
   }
 
   .descricao{
     grid-area: descricao;
-    margin: 35px 10%;
+    margin: 1vh 5vw 5vh;
   }
 
 
