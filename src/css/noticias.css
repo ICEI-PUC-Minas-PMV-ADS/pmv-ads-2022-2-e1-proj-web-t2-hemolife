@@ -74,8 +74,6 @@ i{
   }
 
   .midia {
-    grid-area: midia;
-    height: auto;
     width: 70vw;
     margin: 7vh 5vw 2vh;
     border-radius: 13px;
@@ -84,5 +82,32 @@ i{
   .descricao{
     grid-area: descricao;
     margin: 2vh 5vw 5vh;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .noticia{
+    width: 90vw ;
+    margin: 0 5vw 5vh;
+  }
+
+  p,li,a{
+    font-size: 15px;
+  }
+
+  li{
+    margin: 1.5vh 3vw;
+  }
+
+  .titulo, h1{
+    font-size: 15px;
+  }
+
+  .midia {
+    grid-area: midia;
+    height: auto;
+    width: 80vw;
+    margin: 4vh 5vw 1vh;
+    border-radius: 13px;
   }
 }
