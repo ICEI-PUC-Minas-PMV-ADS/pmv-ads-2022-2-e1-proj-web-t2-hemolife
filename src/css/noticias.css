@@ -42,6 +42,7 @@
   
   .videoNoticia{
     grid-area: videoNoticia;
+    height: 40vh;
   }
 
   .falas{
