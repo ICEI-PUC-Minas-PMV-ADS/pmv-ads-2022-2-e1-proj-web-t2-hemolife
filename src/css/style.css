@@ -354,8 +354,9 @@
   #filtroRequisito{
     display: flex;
     flex-direction: row;
-    justify-content:space-around; 
-    margin-bottom: 5vh;
+    justify-content: center;
+    gap: 5vw;
+    margin: 10vh 5vw 5vh;
     }
 
   p.balao, p.balao1{
@@ -378,11 +379,20 @@
   }
 
   .about-title2{
-    transition: all .6s;
-    font-size:x-large;
-    width: 20vw;
-    margin: 10vh auto;
-    text-align: center;
+    background-color: #fafafa;
+    text-decoration: none;
+    color: #dd4a48;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: #dd4a48;
+    font-size: 20px;
+    justify-content: center;
+    outline: none;
+    padding: 5px 25px;
+    transform: scale(1.08);
+    transition: box-shadow 0.1s;
+    transition: all 1.02s;
   }
 
   .about-title2:hover{
@@ -442,19 +452,18 @@
     #filtroRequisito{
       display: flex;
       flex-direction: column;
-       
+      width: 80vw;
+      margin: 5vh 10vw;
+      text-align: center;
+      align-items: center;
       }
 
-      .about-title2{
-        /* temporário */
-        transition: all .6s;
-        font-size:x-large;
-        width: 60vw;
-        margin: 2vh auto;
-        text-align: center;
+    .about-title2{
+      width: 70vw;
       }
 
   }
+
   
   @media screen and (max-width: 768px) {
     body {
@@ -666,6 +675,20 @@
       transition: all 1.02s;
     }
   }
+
+
+
+
+
+  @media (max-width: 320px){
+    .about-title2{
+      width: 70vw;
+      margin: 2vh auto;
+      }
+  }
+
+  
+
     
   
   /* Formulário Index */
