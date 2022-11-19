@@ -4,18 +4,18 @@ input[type="text"] {
     margin-bottom: 0px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-  }
-  
-  input[type="password"] {
+}
+
+input[type="password"] {
     margin-bottom: 0px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-  }
+}
 
 /* formulário */
 
 
-.formCadastro{
+.formCadastro {
     display: flex;
     flex-direction: column;
     max-width: 400px;
@@ -26,53 +26,54 @@ input[type="text"] {
     border-radius: 25px;
 }
 
-label{
+label {
     margin-top: 1vh;
     font-weight: 600;
     text-align: center;
     margin-bottom: 1vh;
 }
 
-.limitf{
+.limitf {
     display: flex;
     flex-direction: column;
 }
 
-.limitf input{
+.limitf input {
     height: 4.5vh;
     border: 1px solid;
     padding: 0 10px;
     transition: all 1.05s;
 }
 
-.limitf input:hover{
+.limitf input:hover {
     border-color: #dd4a48;
     border-radius: 15px;
 }
 
-.selecao{
+.selecao {
     height: 4vh;
 }
 
-.cadastro{
+.cadastro {
     display: flex;
 }
 
-.limit2{
+.limit2 {
     display: flex;
     flex-direction: column;
 }
 
-.limit2 input, select{
+.limit2 input,
+select {
     height: 4.5vh;
     border: 1px solid;
     padding: 0 10px;
     transition: all 1.05s;
+    background: none;
+    color: #929292;
 }
 
-
-
-#address-form{
+#address-form {
     margin-top: 10vh;
     display: flex;
     flex-direction: column;
@@ -84,7 +85,30 @@ label{
     border-radius: 25px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #dd4a48;
+}
+.data {    
+    transition: all 1.05s;
+    background: none;    
+    color: #929292;
+}
+.DataN {
+    font-weight: normal;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 15px;    
+    color: #dd4a48;
+}
+
+select{
+    direction: none;
+}
+#senha{
+    background: none;
+}
+#confirmSenha{
+    background: none;
 }

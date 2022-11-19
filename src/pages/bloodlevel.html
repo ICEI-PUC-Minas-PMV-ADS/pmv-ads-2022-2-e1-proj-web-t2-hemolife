@@ -9,9 +9,13 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/slider.css">
-    <link rel="stylesheet" href="../css/bloodlevel.css">
+    <link defer rel="stylesheet" href="../css/bloodlevel.css">
     <!-- JavaScript -->
-    <script src="../js/bloodlevel.js" defer></script>
+    <script defer src="../js/loadlogin.js"></script>
+    <script defer src="../js/checklogin.js"></script>
+    <script defer src="../js/loadblood.js"></script>
+    <script defer src="../js/bloodlevel.js"></script>
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +27,6 @@
 </head>
 
 <body>
-
     <!-- Navbar -->
     <nav>
         <div class="logo">
@@ -32,8 +35,8 @@
         </div>
         <ul class="nav-links">
             <li><a href="../pages/sobre.html">Sobre</a></li>
-              <!-- link referente a parte de Campanhas feita por Natan Fonseca -->
-            <li><a href="pages/prerequisitos.html">Pré-Requisitos</a></li>
+            <!-- link referente a parte de Campanhas feita por Natan Fonseca -->
+            <li><a href="../pages/prerequisitos.html">Pré-Requisitos</a></li>
             <a href="../pages/login.html"><button class="nav-btn">Login</button></a>
         </ul>
         <div class="burger">
@@ -43,25 +46,19 @@
         </div>
     </nav>
     <!-- Conteúdo do Corpo -->
-    
-    <!-- Botão para voltar uma guia -->
-    <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
-
-    <grid-container class="mastergrid">
-        <div class="grid-principal">
+    <grid-container onload="level8" class="mastergrid">
+        <div class="grid-principal" id="h2Master">
             <h2>Estoque de Sangue</h2>
         </div>
         <!-- Níveis de Sangue -->
         <div class="nivel" id="A1">
             <p>Tipo A+</p>
-            <div class="image" id="sliderImages">
-                <img src="../img/bloodlevel/bloodlevel-3.png" width="400" height="100">
-                <img src="../img/bloodlevel/bloodlevel-2.png" width="400" height="100">
-                <img src="../img/bloodlevel/bloodlevel-1.png" width="400" height="100">
+            <div class="image" id="sliderImages" name="Hemo01">
+                <img id="blood01" class="" width="400" height="100">
             </div>
             <br>
             <div class="rangeslider">
-                <input type="range" min="1" max="3" value="3" class="myslider" id="sliderRange">
+                <input type="range" min="1" max="3" value="3" class="myslider" id="sliderRange1">
             </div>
             <span class="nivelleg">
                 <h4 class="nivel1">Baixo</h4>
@@ -69,13 +66,10 @@
                 <h4 class="nivel1">Adequado</h4>
             </span>
         </div>
-
         <div class="nivel" id="A1">
             <p>Tipo A-</p>
             <div class="image" id="sliderImages2">
-                <img src="../img/bloodlevel/bloodlevel-3.png" width="400" height="100">
-                <img src="../img/bloodlevel/bloodlevel-2.png" width="400" height="100">
-                <img src="../img/bloodlevel/bloodlevel-1.png" width="400" height="100">
+                <img id="blood02" class="" width="400" height="100">
             </div>
             <br>
             <div class="rangeslider">
@@ -87,13 +81,10 @@
                 <h4 class="nivel1">Adequado</h4>
             </span>
         </div>
-
         <div class="nivel" id="A1">
             <p>Tipo B+</p>
             <div class="image" id="sliderImages3">
-                <img src="../img/bloodlevel/bloodlevel-3.png" width="400" height="100">
-                <img src="../img/bloodlevel/bloodlevel-2.png" width="400" height="100">
-                <img src="../img/bloodlevel/bloodlevel-1.png" width="400" height="100">
+                <img id="blood03" class="" width="400" height="100">
             </div>
             <br>
             <div class="rangeslider">
@@ -108,9 +99,7 @@
         <div class="nivel" id="A1">
             <p>Tipo B-</p>
             <div class="image" id="sliderImages4">
-                <img src="../img/bloodlevel/bloodlevel-3.png" width="400" height="100">
-                <img src="../img/bloodlevel/bloodlevel-2.png" width="400" height="100">
-                <img src="../img/bloodlevel/bloodlevel-1.png" width="400" height="100">
+                <img id="blood04" class="" width="400" height="100">
             </div>
             <br>
             <div class="rangeslider">
@@ -126,9 +115,7 @@
         <div class="nivel" id="A1">
             <p>Tipo AB+</p>
             <div class="image" id="sliderImages5">
-                <img src="../img/bloodlevel/bloodlevel-3.png" width="400" height="100">
-                <img src="../img/bloodlevel/bloodlevel-2.png" width="400" height="100">
-                <img src="../img/bloodlevel/bloodlevel-1.png" width="400" height="100">
+                <img id="blood05" class="" width="400" height="100">
             </div>
             <br>
             <div class="rangeslider">
@@ -144,9 +131,7 @@
             <p>Tipo AB-</p>
 
             <div class="image" id="sliderImages6">
-                <img src="../img/bloodlevel/bloodlevel-3.png" width="400" height="100">
-                <img src="../img/bloodlevel/bloodlevel-2.png" width="400" height="100">
-                <img src="../img/bloodlevel/bloodlevel-1.png" width="400" height="100">
+                <img id="blood06" class="" width="400" height="100">
             </div>
             <br>
             <div class="rangeslider">
@@ -163,13 +148,12 @@
             <p>Tipo O+</p>
 
             <div class="image" id="sliderImages7">
-                <img src="../img/bloodlevel/bloodlevel-3.png" width="400" height="100">
-                <img src="../img/bloodlevel/bloodlevel-2.png" width="400" height="100">
-                <img src="../img/bloodlevel/bloodlevel-1.png" width="400" height="100">
+                <img id="blood07" class="" width="400" height="100">
+
             </div>
             <br>
             <div class="rangeslider">
-                <input type="range" min="1" max="3" value="3" class="myslider" id="sliderRange7">
+                <input type="range" min="1" max="3" value="" class="myslider" id="sliderRange7">
             </div>
 
             <span class="nivelleg">
@@ -178,18 +162,15 @@
                 <h4 class="nivel1">Adequado</h4>
             </span>
         </div>
-
         <div class="nivel" id="A1">
             <p>Tipo O-</p>
 
             <div class="image" id="sliderImages8">
-                <img src="../img/bloodlevel/bloodlevel-3.png" width="400" height="100">
-                <img src="../img/bloodlevel/bloodlevel-2.png" width="400" height="100">
-                <img src="../img/bloodlevel/bloodlevel-1.png" width="400" height="100">
+                <img id="blood08" class="" width="400" height="100">
             </div>
             <br>
             <div class="rangeslider">
-                <input type="range" min="1" max="3" value="3" class="myslider" id="sliderRange8">
+                <input type="range" min="1" max="3" value="" class="myslider" id="sliderRange8">
             </div>
 
             <span class="nivelleg">
@@ -199,9 +180,7 @@
             </span>
         </div>
     </grid-container>
-
     <!-- Rodapé da página -->
-
     <footer>
         <div class="footer-conteudo">
             <a href="prerequisitos.html">Dúvidas frequentes</a>
@@ -221,18 +200,6 @@
             </div>
         </div>
     </footer>
-    
-    <!-- Api Libras -->
-    <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-          <div class="vw-plugin-top-wrapper"></div>
-        </div>
-      </div>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script>
-        new window.VLibras.Widget('https://vlibras.gov.br/app');
-      </script>
 </body>
 
 </html>
