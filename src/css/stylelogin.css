@@ -1,125 +1,174 @@
+/*odentidade visual*/
+:root {
+  --ver: #dd4a48;
+}
+h2 {
+  color:var(--ver)
+}
 /* Congigurações do botão */
 button {
-    background: fafafa;
-    border: none;
-    border-radius: 10px;
-    color: #dd4a48;
-    cursor: pointer;
-    display: flex;
-    font-size: 16px;
-    font-weight: 600;
-    justify-content: center;
-    outline: none;
-    padding: 5px 25px;
-    transform: scale(1.08);
-    transition: box-shadow 0.1s;
-    transition: 100ms ease;
-  }
+  border: none;
+  border-radius: 10px;
+  color: #dd4a48;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: bolder;
+  justify-content: center;
+
+}
+#login h2{  
+    color:var(--ver)
+}
+#login a{  
+  font-size: 14px;
+}
+#cadastro h2{  
+  color:var(--ver)
+}
+.btn {
+  color: #fafafa;
+  margin: 1rem auto 0;
+  transition: 500ms ease-in-out;
+  background-color: var(--ver);
+  height: 40px;
+  width: auto;
+  position: relative;
+  padding: 8px;
   
-  button:hover {
-    box-shadow: 0px 0px 15px #fafafa;
-  }
+}
+
+/* .btn:hover span {
+  transform: rotate(-45deg);
+  padding: 15px;
+  content: "";
+} */
+
+
+/* .btn:hover {  
+  transform: rotate(45deg);
+  background-color: var(--ver);
+  box-shadow: inset -25px 10px 0px -15px #8f2d2b;
+  border-radius: 0% 70% 60% 70%;
+  height: 75px;
   
-  #btn-login {
-    background-color: #dd4a48;
-    color: #fafafa;
-    margin: 2rem auto 0;
-    transition: 100ms ease-in-out;
-  }
-  
-  #btn-login:hover {
-    box-shadow: 0px 0px 5px #131313;
-  }
-  
-  /* Corpo do formulário */
-  
-  .form-signin {
-    max-width: 380px;
-    padding: 15px 35px 45px;
-    margin: 0 5vw;
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 25px;
-  }
-  
-  .form-signin a {
-    color: #dd4a48;
-    font-weight: 400;
-    text-decoration: none;
-  }
-  
-  .form-signin-heading,
-  .checkbox {
-    margin-bottom: 30px;
-    color: #121212;
-  }
-  
-  .form-signin-heading {
-    text-align: center;
-  }
-  
-  .checkbox {
-    font-weight: normal;
-  }
-  
-  .form-control {
-    position: relative;
-    font-size: 16px;
-    width: 99%;
-    height: auto;
-    padding: 15px;
-  }
-  
-  /* Inputs e elementos */
-  
-  #login {
-    margin-bottom: 12px;
-  }
-  
-  .create{
-    margin-top: 3vh;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .create h3{
-    font-weight: 600;
-    margin-bottom: 1vh;
-  }
-  
-  .limit {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 100px;
-    margin-bottom: -75px;
-  }
-  
-  input[type="text"] {
-    margin-bottom: -1px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-  
-  input[type="password"] {
-    margin-bottom: 20px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
-  
-  h1{
-    color: #fafafa;
-    text-align: center;
-    font-weight: 600;
-    margin-bottom: 5vh;
-  }
-  
-  button a{
-    text-decoration: none;
-    font-weight: 600;
-    color: #dd4a48;
-  }
-  
+} */
+.btn:hover {
+  transition: box-shadow 0.1s;
+  transition: 100ms ease;
+  box-shadow: 0px 0px 3px #0c0c0c;
+}
+
+/* Corpo do formulário */
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 5vw;
+  background-color: #fff;
+  border-radius: 25px;
+  border: 0;
+  border-bottom: 1px solid #dd4a48;
+}
+
+.form-signin a {
+  color: var(--ver);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.form-signin-heading,
+.checkbox {
+  margin-bottom: 30px;
+  color: #121212;
+}
+
+.form-signin-heading {
+  text-align: center;
+}
+.form-signin-heading h2 {
+  color:var(--ver)
+}
+
+.checkbox {
+  font-weight: normal;
+
+}
+
+.input .checkbox:checked {
+  background-color: #8f2d2b;
+}
+
+.form-control {
+  position: relative;
+  font-size: 16px;
+  width: 99%;
+  height: auto;
+  padding: 15px;
+  border: 0;
+  border-bottom: 1px solid #8f2d2b;
+}
+
+.form-control:focus {
+  border-bottom: 1px solid var(--ver);
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  color: var(--ver);
+  border-bottom: 1px solid #dd4a48;
+}
+
+/* Inputs e elementos */
+
+#nome {
+  margin-bottom: 12px;
+}
+
+.cadastro {
+  margin-top: 4vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cadastro h3 {
+  font-weight: 600;
+  margin-bottom: 1vh;
+}
+
+.limit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: -75px;
+}
+
+
+input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  outline: 0;
+
+}
+
+h1 {
+  color: #fafafa;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 5vh;
+}
+
+button a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #dd4a48;
+}

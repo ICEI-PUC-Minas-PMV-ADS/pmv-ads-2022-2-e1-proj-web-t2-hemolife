@@ -24,7 +24,7 @@ window.onload = function () {
     if (localStorage.getItem("hemoNivel8") === null) {
         localStorage.setItem('hemoNivel8', '1');
     }
-    //nivel01    
+    //nivel01
     var nivel01 = localStorage.getItem('hemoNivel1')
     bloodType1 = document.getElementById("blood01");
     if (nivel01 === '1') {
@@ -40,6 +40,7 @@ window.onload = function () {
         bloodType1.classList.remove("blood02");
         bloodType1.classList.add("blood03");
     };
+    
 
     //nivel02
     var nivel02 = localStorage.getItem('hemoNivel2')

@@ -6,6 +6,7 @@
   }
   /*Linha do Slider*/
   .myslider {
+    background-color: #db0000;    
     appearance: none;
     border: #fafafa;
     border-radius: 30px;
@@ -16,7 +17,6 @@
   }
   /*Botão do Slider*/
   .myslider::-webkit-slider-thumb {
-    appearance: none;
     cursor: pointer;
     background: #db0000;
     width: 20px;
@@ -49,3 +49,4 @@
     align-items: center;
     justify-content: center;
   }
+  

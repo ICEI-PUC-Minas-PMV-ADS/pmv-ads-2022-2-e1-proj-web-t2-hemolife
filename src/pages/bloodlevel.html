@@ -7,14 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Hemo Life</title>
     <!-- CSS -->
+    <link defer rel="stylesheet" href="../css/bloodlevel.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/slider.css">
-    <link defer rel="stylesheet" href="../css/bloodlevel.css">
+    
     <!-- JavaScript -->
     <script defer src="../js/loadlogin.js"></script>
     <script defer src="../js/checklogin.js"></script>
+    <script defer src="../js/checkhemo.js"></script>
     <script defer src="../js/loadblood.js"></script>
     <script defer src="../js/bloodlevel.js"></script>
+    
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,10 +37,10 @@
             <a href="../index.html">Hemo Life</a>
         </div>
         <ul class="nav-links">
-            <li><a href="../pages/sobre.html">Sobre</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
             <!-- link referente a parte de Campanhas feita por Natan Fonseca -->
-            <li><a href="../pages/prerequisitos.html">Pré-Requisitos</a></li>
-            <a href="../pages/login.html"><button class="nav-btn">Login</button></a>
+            <li><a href="prerequisitos.html">Pré-Requisitos</a></li>
+            <a href="login.html"><button class="nav-btn">Login</button></a>
         </ul>
         <div class="burger">
             <div class="line1"></div>
@@ -45,8 +48,10 @@
             <div class="line3"></div>
         </div>
     </nav>
+    <!-- Botão para voltar uma guia -->
+    <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
     <!-- Conteúdo do Corpo -->
-    <grid-container onload="level8" class="mastergrid">
+    <grid-container class="mastergrid">
         <div class="grid-principal" id="h2Master">
             <h2>Estoque de Sangue</h2>
         </div>
@@ -54,7 +59,7 @@
         <div class="nivel" id="A1">
             <p>Tipo A+</p>
             <div class="image" id="sliderImages" name="Hemo01">
-                <img id="blood01" class="" width="400" height="100">
+                <img id="blood01" src="" class="" width="400" height="100">
             </div>
             <br>
             <div class="rangeslider">

@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Carregando</title>
+    <title>Hemo Life</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/redirect.css">
+    <link rel="stylesheet" href="../css/campanhas.css">
     <!-- JavaScript -->
     <script src="../js/index.js" defer></script>
-    <script src="https://kit.fontawesome.com/e903379512.js" crossorigin="anonymous"></script>
+    <script defer src="../js/loadlogin.js"></script>
+    <script defer src="../js/checklogin.js"></script>
+    <script defer src="../js/checkdoador.js"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +22,6 @@
         rel="stylesheet">
     <!-- Fav icon -->
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
-    <!-- redirecionamento -->
-    <meta http-equiv="refresh" content="5; URL='paineldoador.html'" />
 </head>
 
 <body>
@@ -44,15 +44,70 @@
         </div>
     </nav>
     <!-- Conteúdo do Corpo -->
-    <div class="principal">
 
-        <div class="carregando">
-            <img src="../img/carregando.gif" alt="">
+
+    <!-- Botão para voltar uma guia -->
+    <div>
+        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
+    </div>
+    <div class="limit">
+
+        <h2>Últimas solicitações</h2>
+
+        <div class="solicitacoes">
+            <div class="solicitacao">
+                <h4><b>Nome: </b> Maria Luiza Fonseca</h4>
+                <aside><b>Típo sanguíneo: </b>B+</aside>
+                <aside><b>Cidade: </b>Belo Horizonte</aside>
+                <aside><b>Última doação: </b>01/11/2022</aside>
+                <a href="">Ver mais</a>
+            </div>
+
+            <div class="solicitacao">
+                <h4><b>Nome: </b>Gusttavo Aluízio Gonçalves</h4>
+                <aside><b>Típo sanguíneo: </b>O-</aside>
+                <aside><b>Cidade: </b>Humaitá</aside>
+                <aside><b>Última doação: </b>14/11/2022</aside>
+                <a href="">Ver mais</a>
+            </div>
+
+            <div class="solicitacao">
+                <h4><b>Nome: </b>Antônio albuquerque</h4>
+                <aside><b>Típo sanguíneo: </b>B-</aside>
+                <aside><b>Cidade: </b>Salvador</aside>
+                <aside><b>Última doação: </b>02/09/2022</aside>
+                <a href="">Ver mais</a>
+            </div>
+
+            <div class="solicitacao">
+                <h4><b>Nome: </b>George Pascoal da Silva</h4>
+                <aside><b>Típo sanguíneo: </b>AB+</aside>
+                <aside><b>Cidade: </b>Mossoró</aside>
+                <aside><b>Última doação: </b>02/06/2022</aside>
+                <a href="">Ver mais</a>
+            </div>
+
+            <div class="solicitacao">
+                <h4><b>Nome: </b>Luíza Antonella Fagundes</h4>
+                <aside><b>Típo sanguíneo: </b>O-</aside>
+                <aside><b>Cidade: </b>Teóflio Otoni</aside>
+                <aside><b>Última doação: </b>12/03/2022</aside>
+                <a href="">Ver mais</a>
+            </div>
+
+            <div class="solicitacao">
+                <h4><b>Nome: </b>Margareth Aparecida D'ávila</h4>
+                <aside><b>Típo sanguíneo: </b>A-</aside>
+                <aside><b>Cidade: </b>Curitiba</aside>
+                <aside><b>Última doação: </b>31/10/2022</aside>
+                <a href="">Ver mais</a>
+            </div>
         </div>
 
-        <h2>Aguarde um momento, você será redirecionado</h2>
     </div>
+
     <!-- Rodapé da página -->
+
     <footer>
         <div class="footer-conteudo">
             <a href="prerequisitos.html">Dúvidas frequentes</a>
