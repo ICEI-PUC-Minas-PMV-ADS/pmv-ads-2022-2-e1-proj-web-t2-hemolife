@@ -7,11 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Hemo Life</title>
     <!-- CSS -->
+    <link rel="stylesheet" href="css/estoque.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/carrossel.css">
+    <link rel="stylesheet" href="css/bloodlevel.css"
     <!-- JavaScript -->
     <script src="js/index.js" defer></script>
     <script src="https://kit.fontawesome.com/e903379512.js" crossorigin="anonymous"></script>
+    <script src="js/loadblood.js" defer></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,11 +54,37 @@
         <div class="container-left">
             <h2>Indicadores</h2>
             <p>Nossos indicadores sanguíneos.</p>
-            <section href="pages/pesquisaregioes.html">
-                <img id="blood01" src="/src/img/bloodlevel/bloodlevel-1.png" alt="blank-img">
-                <img src="/src/img/bloodlevel/bloodlevel-1.png" alt="blank-img">
-                <img src="/src/img/bloodlevel/bloodlevel-1.png" alt="blank-img">
-            </section>
+            <!-- Grid dos Estoques -->
+            <container-estoque>
+                <!-- Linhas e Colunas com os Níveis Sanguíneos Dinâmicos -->
+                <section-1 href="pages/pesquisaregioes.html">
+                    <div><img class="card-blood" id="blood01"
+                            ></div>
+                    <div><img class="card-blood" id="blood02"
+                            alt="blank-img"></div>
+                    <div><img class="card-blood" id="blood03"
+                            alt="blank-img"></div>
+                    <div><img class="card-blood" id="blood04"
+                            alt="blank-img"></div>
+                    <div><img class="card-blood" id="blood05"
+                            alt="blank-img"></div>
+                    <div><img class="card-blood" id="blood06"
+                            alt="blank-img"></div>
+                    <div><img class="card-blood" id="blood07"
+                            alt="blank-img"></div>
+                    <div><img class="card-blood" id="blood08"
+                            alt="blank-img"></div>
+                </section-1>
+                <!-- Colunas de legenda -->
+                <section-2>
+                    <img class="card-blood-leg" src="/src/img/bloodlevel/bloodlevel-1.png" alt="blank-img">
+                    <h4>Nível Adequado</h4>
+                    <img class="card-blood-leg" src="/src/img/bloodlevel/bloodlevel-2.png" alt="blank-img">
+                    <h4>Nível Regular</h4>
+                    <img class="card-blood-leg" src="/src/img/bloodlevel/bloodlevel-3.png" alt="blank-img">
+                    <h4>Nível Crítico</h4>
+                </section-2>
+            </container-estoque>
         </div>
         <div class="container-right">
             <h2>Cartão HemoLife</h2>
@@ -74,23 +103,29 @@
             <input type="radio" name="slide" id="slide5">
 
             <div class="slide s1">
-               <a href="http://127.0.0.1:5500/src/pages/noticias.html#noticia1"><img src="https://lh3.google.com/u/0/d/12n3pW2MhGoLlftGAAzlIWGMksRnb7YUm=w1920-h929-iv1" alt=""></a> 
+                <a href="http://127.0.0.1:5500/src/pages/noticias.html#noticia1"><img
+                        src="https://lh3.google.com/u/0/d/12n3pW2MhGoLlftGAAzlIWGMksRnb7YUm=w1920-h929-iv1" alt=""></a>
             </div>
 
             <div class="slide">
-               <a href="http://127.0.0.1:5500/src/pages/noticias.html#noticia2"> <img src="https://s01.video.glbimg.com/x720/10581344.jpg" alt=""> </a>
+                <a href="http://127.0.0.1:5500/src/pages/noticias.html#noticia2"> <img
+                        src="https://s01.video.glbimg.com/x720/10581344.jpg" alt=""> </a>
             </div>
 
             <div class="slide">
-               <a href="http://127.0.0.1:5500/src/pages/noticias.html#noticia3"> <img src="https://imagens.ebc.com.br/90gvQTH_rA3_7lJ6hnazjsbRKf8=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/mcamgo_abr14062018-7196_1.jpg?itok=SXN9QO5I" alt=""></a>
+                <a href="http://127.0.0.1:5500/src/pages/noticias.html#noticia3"> <img
+                        src="https://imagens.ebc.com.br/90gvQTH_rA3_7lJ6hnazjsbRKf8=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/mcamgo_abr14062018-7196_1.jpg?itok=SXN9QO5I"
+                        alt=""></a>
             </div>
 
             <div class="slide">
-               <a href="http://127.0.0.1:5500/src/pages/noticias.html#noticia4"> <img src="https://cdn.radiojotafm.com.br/upload/dn_arquivo/2021/06/foto-11-3.jpg" alt=""></a>
+                <a href="http://127.0.0.1:5500/src/pages/noticias.html#noticia4"> <img
+                        src="https://cdn.radiojotafm.com.br/upload/dn_arquivo/2021/06/foto-11-3.jpg" alt=""></a>
             </div>
 
             <div class="slide">
-               <a href="http://127.0.0.1:5500/src/pages/noticias.html#noticia5"> <img src="https://www.hemocentro.unicamp.br/arquivos/2019/05/DSC_0280-1024x683.jpg" alt=""></a>
+                <a href="http://127.0.0.1:5500/src/pages/noticias.html#noticia5"> <img
+                        src="https://www.hemocentro.unicamp.br/arquivos/2019/05/DSC_0280-1024x683.jpg" alt=""></a>
             </div>
         </div>
     </div>
@@ -129,18 +164,18 @@
             </div>
         </div>
     </footer>
-        
-        <!-- Api Libras -->
+
+    <!-- Api Libras -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
-          <div class="vw-plugin-top-wrapper"></div>
+            <div class="vw-plugin-top-wrapper"></div>
         </div>
-      </div>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
-      </script>
+    </script>
 </body>
 
 </html>
