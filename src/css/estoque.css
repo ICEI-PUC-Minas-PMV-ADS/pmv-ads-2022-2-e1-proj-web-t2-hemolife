@@ -1,6 +1,6 @@
 container-estoque {
     margin: 20px;
-    height: 35vh;
+    height: auto;
     width: fit-content;
     display: grid;
     grid-template-areas: "section section";
@@ -22,7 +22,8 @@ container-estoque:hover {
 }
 
 section-1 {
-    margin: 5px 5px 5px 5px;
+    margin: 1rem 5px 5px 5px;
+    
     grid-area: "section";
     display: grid;
     grid-template-areas: "card-blood card-blood card-blood card-blood";

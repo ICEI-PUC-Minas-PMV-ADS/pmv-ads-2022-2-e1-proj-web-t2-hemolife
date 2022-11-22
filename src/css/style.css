@@ -698,10 +698,6 @@ p#nomerequisito {
   }
 }
 
-
-
-
-
 /* Formulário Index */
 
 .formulario {
@@ -719,8 +715,8 @@ p#nomerequisito {
   color: #dd4a48;
   font-size: 20px;
   font-weight: 600;
-  margin: 2rem auto -8rem;
-  padding: 2rem 4rem;
+  margin-top: 10%;  
+  padding: 1.3rem;
   text-decoration: none;
   transition: 150ms ease-in-out;
 }
