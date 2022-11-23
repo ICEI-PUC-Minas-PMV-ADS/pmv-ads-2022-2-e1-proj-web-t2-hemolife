@@ -1,4 +1,4 @@
-var usurLista = localStorage.getItem('usurLista');
-    if (usurLista.includes('Hemocentro')) {
+usurLogadoAtivo = localStorage.getItem('usurLogadoAtivo');    
+    if (usurLogadoAtivo.includes('Hemocentro')) {
         window.location.href = "../405.html"
     }

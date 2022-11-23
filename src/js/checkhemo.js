@@ -1,4 +1,4 @@
-usurLista = localStorage.getItem('usurLista');    
-    if (usurLista.includes('Doador')) {
+usurLogadoAtivo = localStorage.getItem('usurLogadoAtivo');    
+    if (usurLogadoAtivo.includes('Doador')) {
         window.location.href = "../405.html"
     }

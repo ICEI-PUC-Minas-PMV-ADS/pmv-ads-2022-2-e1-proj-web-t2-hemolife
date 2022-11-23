@@ -81,5 +81,22 @@ function logoutUser() {
     sessionStorage.setItem('usurLogado', JSON.stringify(usurLogado));
     window.location = LOGIN_URL;
 }
+usurLista.push(
+    {
+        id: 'admin1',
+        nome: 'admin-hemo',
+        email: 'admin-hemo',
+        senha: 'admin',
+        tipousur: 'Hemocentro'
+    })
+usurLista.push(
+    {
+        id: 'admin2',
+        nome: 'admin',
+        email: 'admin',
+        senha: 'admin',
+        tipousur: 'Doador'
+    })
+    localStorage.setItem('usurLista', JSON.stringify(usurLista))
 //Chamador Button
 btnLogin.addEventListener('click', processaFormLogin)

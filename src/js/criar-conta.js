@@ -86,7 +86,7 @@ function verificaTudo(event) {
             if (letrasMinusculas.test(senha.value)) {
                 if (numeros.test(senha.value)) {
                     if (caracteresEspeciais.test(senha.value)) {
-                        reqSenha = true;                        
+                        reqSenha = true;
                     } else {
                         minReq();
                     }
@@ -102,7 +102,7 @@ function verificaTudo(event) {
     }
     if (confirmSenha.value === senha.value) {
         confirmaSenha = true;
-        msgLog.innerHTML = ''        
+        msgLog.innerHTML = ''
     }
     else {
         msgLog.innerHTML = 'As senhas não coincidem'
@@ -114,14 +114,14 @@ function verificaTudo(event) {
     else {
         lmsgLog.innerHTML = 'Já possuímos uma conta com este e-mail. Tente realizar o login.';
         unicoEmail = false;
-        
+
     }
     if (!verificaNome()) {
-        unicoNome  = true;
+        unicoNome = true;
     }
-    else {        
+    else {
         unicoNome = false;
-        
+
     }
     cadastroCom();
 }
@@ -150,7 +150,23 @@ function cadastroCom() {
         // labelSenha.innerHTML = reqSenha
         // labelEmail.innerHTML = unicoEmail
         // labelConfirmSenha.innerHTML = confirmaSenha
-    //G81nc0^q^
+        //G81nc0^q^
     }
 }
+usurLista.push(
+    {
+        id: 'admin1',
+        nome: 'admin-hemo',
+        email: 'admin-hemo',
+        senha: 'admin',
+        tipousur: 'hemocentro'
+    })
+usurLista.push(
+    {
+        id: 'admin2',
+        nome: 'admin',
+        email: 'admin',
+        senha: 'admin',
+        tipousur: 'doador'
+    })
 btnCadastroNovo.addEventListener('click', verificaTudo)
