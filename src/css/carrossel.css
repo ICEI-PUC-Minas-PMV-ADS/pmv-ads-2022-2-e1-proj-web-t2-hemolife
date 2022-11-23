@@ -116,7 +116,7 @@ input {
   .content {
     margin-top: 8rem;
     height: auto;
-    width: 22rem;
+    width: 20rem;
     border-radius: 20px;
     overflow: hidden;
     margin-left: auto;
@@ -134,9 +134,5 @@ input {
     background-color: #ffffff;
     border-radius: 50%;
     cursor: pointer;
-  }
-  .slide{
-    margin: 5rem 2rem 2rem 2rem;
-
   }
 }

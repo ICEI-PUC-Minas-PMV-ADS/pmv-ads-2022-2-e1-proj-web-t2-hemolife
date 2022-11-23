@@ -116,6 +116,28 @@ p {
   box-shadow: 0px 0px 15px #fafafa;
 }
 
+.nav-btn-logout {
+  background: #dd4a48;
+  box-shadow: 0px 0px 5px #fafafa;
+  border: none;
+  border-radius: 10px;
+  color: #fafafa;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  outline: none;
+  padding: 5px 25px;
+  transform: scale(1.02);
+  transition: box-shadow 0.1s;
+  transition: 100ms ease;
+}
+
+.nav-btn-logout:hover {
+  box-shadow: 0px 0px 15px #fafafa;
+}
+
 /* Footer */
 
 footer {
@@ -208,9 +230,8 @@ footer p {
   display: grid;
   place-content: center;
   grid-template-areas: "container-left container-right";
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 2.5rem;
-  min-height: 52vh;
   width: auto;
   text-align: center;
 }
@@ -226,7 +247,7 @@ footer p {
 .left-img {
   border-radius: 10%;
   box-shadow: 0px 1px 15px #121212;
-  height: 35vh;
+  height: auto;
   margin-top: 1.5rem;
   width: auto;
   transition: all .5s;
@@ -250,7 +271,7 @@ footer p {
 .right-img {
   border-radius: 10%;
   box-shadow: 0px 1px 5px #121212;
-  height: 35vh;
+  height: auto;
   margin-top: 2.5rem;
   width: auto;
   transition: all .5s;
@@ -434,7 +455,7 @@ p#nomerequisito {
     box-shadow: 0px 1px 15px #121212;
     height: auto;
     margin-top: 2.5rem;
-    width: 50vw;
+    width: auto;
   }
 
   /* Conteúdo da direita */
@@ -674,7 +695,7 @@ p#nomerequisito {
     background-color: #fafafa;
     text-decoration: none;
     color: #dd4a48;
-    height: 5vh;
+    height: fit-content;
     width: 35vw;
     cursor: pointer;
     background: fafafa;
