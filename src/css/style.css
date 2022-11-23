@@ -209,7 +209,7 @@ footer p {
   place-content: center;
   grid-template-areas: "container-left container-right";
   justify-content: space-around;
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   min-height: 52vh;
   width: auto;
   text-align: center;
@@ -220,13 +220,14 @@ footer p {
 
 .container-left {
   grid-area: "container-left";
+  
 }
 
 .left-img {
   border-radius: 10%;
   box-shadow: 0px 1px 15px #121212;
   height: 35vh;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   width: auto;
   transition: all .5s;
 }
@@ -259,7 +260,7 @@ footer p {
 
 .right-img:hover,
 .left-img:hover {
-  scale: 1.05;
+  scale: 1.01;
 
 }
 
@@ -311,7 +312,7 @@ footer p {
   justify-content: center;
   outline: none;
   padding: 5px 25px;
-  transform: scale(1.08);
+  transform: scale(1.02);
   transition: box-shadow 0.1s;
   transition: all 1.02s;
 }
@@ -390,7 +391,7 @@ p#nomerequisito {
   justify-content: center;
   outline: none;
   padding: 5px 25px;
-  transform: scale(1.08);
+  transform: scale(1.02);
   transition: box-shadow 0.1s;
   transition: all 1.02s;
 }
@@ -687,10 +688,6 @@ p#nomerequisito {
   }
 }
 
-
-
-
-
 @media (max-width: 320px) {
   .about-title2 {
     width: 70vw;
@@ -702,8 +699,6 @@ p#nomerequisito {
 
 .formulario {
   text-align: center;
-  height: 2vh;
-  margin: 0 5vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -715,7 +710,7 @@ p#nomerequisito {
   color: #dd4a48;
   font-size: 20px;
   font-weight: 600;
-  margin-top: 10%;  
+  margin: auto;  
   padding: 1.3rem;
   text-decoration: none;
   transition: 150ms ease-in-out;
@@ -730,5 +725,5 @@ p#nomerequisito {
 
 
 .buscahemo {
-  margin: 2rem auto 8rem;
+  margin: 2rem auto;
 }

@@ -23,7 +23,7 @@ container-estoque:hover {
 
 section-1 {
     margin: 1rem 5px 5px 5px;
-    
+
     grid-area: "section";
     display: grid;
     grid-template-areas: "card-blood card-blood card-blood card-blood";
@@ -61,24 +61,23 @@ h4 {
     margin-bottom: 8px
 }
 
-.container-left p {
-    margin-bottom: 2.5rem;
-}
-
-@media screen and (max-width: 1024px) {       
-    container-estoque{    
+@media screen and (max-width: 1024px) {
+    container-estoque {
         width: auto;
-      }
+    }
+
     .card-blood {
         max-width: auto;
-        
-    }    
+
+    }
+
     .card-bloodleg {
         max-width: auto;
-    }    
+    }
 }
-@media screen and (max-width: 520px) {       
-    container-estoque{    
+
+@media screen and (max-width: 520px) {
+    container-estoque {
         scale: .8;
-      }  
+    }
 }
