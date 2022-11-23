@@ -1,11 +1,15 @@
 .content {
-  margin-top: 10vh;
-  height: 520px;
+  margin-top: 1rem;
+  height: 28rem;
   width: 935px;
   border-radius: 40px;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
+}
+
+.content img {
+  width: 50%;
 }
 
 .navigate {
@@ -35,18 +39,18 @@ input {
 .slides {
   display: flex;
   width: 500%;
-  height: auto;
 }
 
 .slide {
   width: 20%;
   transition: 1s;
-
 }
 
 .slide img {
   width: 100%;
-  height: 100%;
+  height: auto;
+  max-height: 70%;
+  border-radius: 20px;
 }
 
 /* botões do carrossel */
@@ -75,8 +79,8 @@ input {
 @media (max-width: 1165px) {
   .content {
     margin-top: 10vh;
-    height: 520px;
-    width: 80vw;
+    height: 20rem;
+    width: 680px;
     border-radius: 20px;
     overflow: hidden;
     margin-left: auto;
@@ -91,31 +95,32 @@ input {
   }
 }
 
-@media (max-width: 968px) {
-  .navigate {
-    margin-top: -5vh;
-  }
-}
 
 @media (max-width: 968px) {
+  .content {
+    margin-top: 10vh;
+    height: 13rem;
+    width: 426px;
+  }
   .navigate {
     margin-top: -5vh;
+    height: 2rem;
+  }
+  .bar {
+    height: 20px;
+    width: 20px;
   }
 }
 
 @media (max-width: 580px) {
   .content {
-    margin-top: 3rem;
-    height: 13rem;
-    width: 20rem;
+    margin-top: 8rem;
+    height: auto;
+    width: 22rem;
     border-radius: 20px;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .content img {
-    border-radius: 20px;
   }
 
   .navigate {
@@ -130,11 +135,8 @@ input {
     border-radius: 50%;
     cursor: pointer;
   }
-}
+  .slide{
+    margin: 5rem 2rem 2rem 2rem;
 
-@media (max-width: 580px),
-(max-height: 812px) {
-  .navigate {
-    margin: 1rem;
   }
 }

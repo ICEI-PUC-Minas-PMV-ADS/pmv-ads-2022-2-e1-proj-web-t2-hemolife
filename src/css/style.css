@@ -13,7 +13,7 @@ body {
   background: linear-gradient(135deg, #4f091d, #dd4a48, #121212);
   background-size: 220% 220%;
   animation: gradient 15s ease infinite;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   overflow-x: hidden;
   width: 100vw;
 }
@@ -166,7 +166,7 @@ footer p {
 }
 
 .footer-bottom {
-  padding: 20px 0;
+  padding: 2px 0;
   text-align: center;
   width: 100vw;
 }
@@ -543,6 +543,9 @@ p#nomerequisito {
     justify-content: space-around;
     transform: scale(0.8);
   }
+  .container-full-line {    
+    margin: 5rem 2rem 2rem 2rem;
+  }
 }
 
 /* Carrousel Responsivo */
@@ -718,12 +721,4 @@ p#nomerequisito {
 
 .formulario a:hover {
   box-shadow: 0px 0px 15px #fafafa;
-}
-
-
-/* Pré-Requisito */
-
-
-.buscahemo {
-  margin: 2rem auto;
 }
