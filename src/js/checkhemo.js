@@ -7,7 +7,7 @@ if (typeof usurLogadoAtivo == undefined || usurLogadoAtivo == false) {
     return false;
 }
 if (usurLogado.includes('Doador')) {
-    window.location.href = "../405.html"
+    window.location.href = "././paineldoador.html"
 }
 }
 checkhemo()

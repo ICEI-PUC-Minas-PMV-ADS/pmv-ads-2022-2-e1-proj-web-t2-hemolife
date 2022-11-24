@@ -183,7 +183,6 @@ footer p {
   color: #dd4a48;
   font-weight: 600;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .footer-bottom {
@@ -198,7 +197,6 @@ footer p {
   font-size: 14px;
   justify-content: space-evenly;
   text-decoration: none;
-  text-transform: lowercase;
 }
 
 .footer-bottom p {
@@ -896,6 +894,18 @@ main.cards section.card.mercado {
 
 #mercado:hover {
   transform: scale(1.05);
+}
+.nodecoration{
+  text-decoration: none;  
+}
+.nodecoration:visited{
+  text-decoration: none;  
+}
+.nodecoration:link{
+  text-decoration: none;  
+}
+.nodecoration:active{
+  text-decoration: none;  
 }
 /* style do load */
 .loader {

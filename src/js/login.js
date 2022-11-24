@@ -7,7 +7,7 @@ const btnLogin = document.querySelector('#btnLogin')
 var msgLog = document.querySelector('#msgLog')
 const LOGIN_URL = "../pages/login.html";
 // Carrega os dados iniciais
-usurLista = JSON.parse(localStorage.getItem('usurLista') || '[]')
+usurLista = JSON.parse(localStorage.getItem('usurLista') || '[]');
 usurLogado = [];
 usurLogadoAtivo = false;
 localStorage.setItem('usurLogadoAtivo', JSON.stringify(usurLogadoAtivo))
@@ -17,22 +17,23 @@ if (localStorage.getItem("usurLogado") === null) {
     localStorage.setItem('usurLogado', '');
 }
 // Verifica se o login do usuário está ok e, se positivo, direciona para área logado
-function loginUsuario(login, senha) {   
+function loginUsuario(login, senha) {
     // Verifica os inputs no banco de dados
     for (var i = 0; i < usurLista.length; i++) {
         var usuario = usurLista[i];
-        //passa pela lista de usuarios procurando o usuario infomado no login
+        // Se encontrou carrega e salva no Local Storage
         if (login == usuario.email && senha == usuario.senha) {
             usurLogadoAtivo = true;
-            localStorage.setItem('usurLogadoAtivo', JSON.stringify(usurLogadoAtivo));                  
+            localStorage.setItem('usurLogadoAtivo', JSON.stringify(usurLogadoAtivo))            
             usurLogado.push({
-                id: usuario.id,
+                id: usuario.id, 
                 nome: usuario.nome,
                 email: usuario.email,
                 senha: usuario.senha,
                 tipousur: usuario.tipousur
-            })
-            // Salva os dados no Local Storage em string            
+            });           
+            
+            // Salva os dados no Local Storage em string
             localStorage.setItem('usurLogado', JSON.stringify(usurLogado));
             // Retorna true para input válido
             return true;
@@ -50,30 +51,25 @@ function loginUsuario(login, senha) {
 function processaFormLogin() {
     var username = document.getElementById('nome').value;
     var password = document.getElementById('senha').value;
-    var usurLista = localStorage.getItem('usurLista');
+    var usurLogado = localStorage.getItem('usurLogado');
     // Valida login    
     const resultadoLogin = loginUsuario(username, password);
     if (resultadoLogin) {
-        
+
         setTimeout(() => {
             //verifica o tipo de usuario
             //passa pela lista de usuarios procurando o usuario infomado no login
-            for (let index = 0; index < usurLista.length; index++) {
-                const emailLogin = document.querySelector('#nome').value
-                var usur = usurLista[index];
-                // Verifica se tem o usuario na lista de usuarios
-                if ((usur.includes('Hemocentro') == emailLogin)) {
-
-                    window.location.href = '../pages/centralhemo.html';;
+            if (!typeof usurLogadoAtivo == undefined || !usurLogadoAtivo == false) {                
+                if (usurLogado.includes('Hemocentro') ) {
+                    window.location.href = '././centralhemo.html';;
                 }
-                else if (usur.includes('Doador') == emailLogin) {
-                    window.location.href = '../pages/paineldoador.html';
+                else if (usurLogado.includes('Doador')) {
+                    window.location.href = '././paineldoador.html';
 
                 }
             }
 
-        }, 1500);
-
+    }, 1500);
     }
     else {
         msgLog.setAttribute('style', 'display: block')
@@ -87,6 +83,7 @@ function logoutUser() {
     sessionStorage.setItem('usurLogado', JSON.stringify(usurLogado));
     window.location = LOGIN_URL;
 }
+//Chamador Button
 usurLista.push(
     {
         id: 'admin1',
@@ -106,3 +103,20 @@ usurLista.push(
 localStorage.setItem('usurLista', JSON.stringify(usurLista))
 //Chamador Button
 btnLogin.addEventListener('click', processaFormLogin)
+
+           
+//verifica o tipo de usuario
+            //passa pela lista de usuarios procurando o usuario infomado no login
+            // for (let index = 0; index < usurLista.length; index++) {
+            //     const emailLogin = document.querySelector('#nome').value
+            //     var usur = usurLista(index];
+            //     // Verifica se tem o usuario na lista de usuarios
+            //     if ((usur.includes('Hemocentro') == emailLogin)) {
+
+            //         window.location.href = '../pages/centralhemo.html';;
+            //     }
+            //     else if (usur.includes('Doador') == emailLogin) {
+            //         window.location.href = '../pages/paineldoador.html';
+
+            //     }
+            // }

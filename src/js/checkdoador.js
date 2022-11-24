@@ -7,7 +7,7 @@ function checkdoador() {
         return false;
     }
     if (usurLogado.includes('Hemocentro')) {
-        window.location.href = "../405.html"
+        window.location.href = "././centralhemo.html"
     }
 }
 checkdoador()
