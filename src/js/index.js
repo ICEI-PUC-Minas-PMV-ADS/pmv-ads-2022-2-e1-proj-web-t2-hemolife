@@ -55,3 +55,8 @@ function logar(){
 
     const prevBtn = document.querySelector('#prevBtn');
     const nextBtn = document.querySelector('#nextBtn');
+    function logoutUser() {
+        usurLogado = {};
+        sessionStorage.setItem('usurLogado', JSON.stringify(usurLogado));
+        window.location = "../pages/index.html";
+    }

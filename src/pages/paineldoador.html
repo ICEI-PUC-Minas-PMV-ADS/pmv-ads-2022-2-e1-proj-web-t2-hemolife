@@ -8,12 +8,15 @@
     <title>Hemo Life</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">   
-    <link rel="stylesheet" href="../css/paineldoador.css">
+    <link rel="stylesheet" href="../css/paineldoador.css">    
+    <link rel="stylesheet" href="../css/bloodlevel.css">
+    <link rel="stylesheet" href="../css/estoque.css">
     <!-- JavaScript -->
     <script src="../js/index.js" defer></script>
     <script defer src="../js/loadlogin.js"></script>
     <script defer src="../js/checklogin.js"></script>
     <script defer src="../js/checkdoador.js"></script>
+    <script defer src="../js/loadblood.js"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,7 +49,46 @@
     <div class="container-left">
         <h2>Indicadores</h2>
         <p>Nossos indicadores sanguíneos.</p>
-        <img class="leftImg" src="../img/estoque-de-sangue.png" alt="blank-img">
+        <!-- Grid dos Estoques -->
+        <container-estoque>
+            <!-- Linhas e Colunas com os Níveis Sanguíneos Dinâmicos -->
+            <section-1>
+                <div><img class="card-blood" id="blood01">
+                    <h4>A+</h4>
+                </div>
+                <div><img class="card-blood" id="blood02" alt="carregando...">
+                    <h4>A-</h4>
+                </div>
+                <div><img class="card-blood" id="blood03" alt="carregando...">
+                    <h4>B+</h4>
+                </div>
+                <div><img class="card-blood" id="blood04" alt="carregando...">
+                    <h4>B-</h4>
+                </div>
+                <div><img class="card-blood" id="blood05" alt="carregando...">
+                    <h4>AB+</h4>
+                </div>
+                <div><img class="card-blood" id="blood06" alt="carregando...">
+                    <h4>AB-</h4>
+                </div>
+                <div><img class="card-blood" id="blood07" alt="carregando...">
+                    <h4>O+</h4>
+                </div>
+                <div><img class="card-blood" id="blood08" alt="carregando...">
+                    <h4>O-</h4>
+                </div>
+            </section-1>
+            <!-- Colunas de legenda -->
+            <section-2>
+                <img class="card-blood-leg blood03" alt="carregando...">
+                <h4>Nível Adequado</h4>
+                <img class="card-blood-leg blood02" alt="carregando...">
+                <h4>Nível Regular</h4>
+                <img class="card-blood-leg blood01" alt="carregando...">
+                <h4>Nível Crítico</h4>
+            </section-2>
+
+        </container-estoque>
     </div>
 
     <div class="container-right">

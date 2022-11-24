@@ -6,7 +6,7 @@ function checkdoador() {
         window.location.href = "././login.html"
         return false;
     }
-    if (usurLogado.includes('Hemocentro')) {
+    else if (usurLogado.includes('Hemocentro')) {
         window.location.href = "././centralhemo.html"
     }
 }
