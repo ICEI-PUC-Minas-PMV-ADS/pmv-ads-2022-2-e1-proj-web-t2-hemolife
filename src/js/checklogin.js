@@ -1,8 +1,9 @@
 function verifyLogin() {
-    usurLogadoAtivo = JSON.parse(localStorage.getItem("usurLogadoAtivo"))
-    usurLogado = JSON.parse(localStorage.getItem("usurLogado"))
+    usurLogadoAtivo = JSON.parse(localStorage.getItem("usurLogadoAtivo"));
+    usurLogado = localStorage.getItem("usurLogado");
     if (typeof usurLogadoAtivo == undefined || usurLogadoAtivo == false) {
-        usurLogadoAtivo = false;      
+        logado.outerHTML = "<div id='logado' class='logo'><a class='icon' href='https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/index.html'><img src='https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/img/logo.png' alt='logo'></a><a href='https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/index.html'>Hemo Life</a></div><ul class='nav-links'><li><a href='https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/pages/sobre.html'>Sobre</a></li><li><a href='https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/pages/prerequisitos.html'>Pré-Requisitos</a></li><a href='https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/pages/login.html'><button class='nav-btn'>Login</button></a></ul><div class='burger'><div class='line1'></div><div class='line2'></div><div class='line3'></div></div>";     
+        usurLogadoAtivo = false;
         return false;
     }
     logado = document.getElementById("logado");
