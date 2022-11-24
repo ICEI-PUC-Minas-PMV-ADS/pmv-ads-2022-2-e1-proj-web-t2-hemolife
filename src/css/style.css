@@ -862,3 +862,38 @@ main.cards section.card.mercado {
     font-size: 70%;
   }
 }
+
+/* Cores dos cards JavaScript */
+
+#academia {
+  background: linear-gradient(135deg, #ccc, #fafafa, #949494);
+  background-size: 220% 220%;
+  animation: gradient 15s ease infinite;
+  transition: 150ms ease-in-out;
+}
+
+#academia:hover {
+  transform: scale(1.05);
+}
+
+#farmacia {
+  background: linear-gradient(135deg, #ccc, #fafafa, #949494);
+  background-size: 220% 220%;
+  animation: gradient 15s ease infinite;
+  transition: 150ms ease-in-out;
+}
+
+#farmacia:hover {
+  transform: scale(1.05);
+}
+
+#mercado {
+  background: linear-gradient(135deg, #ccc, #fafafa, #949494);
+  background-size: 220% 220%;
+  animation: gradient 15s ease infinite;
+  transition: 150ms ease-in-out;
+}
+
+#mercado:hover {
+  transform: scale(1.05);
+}
