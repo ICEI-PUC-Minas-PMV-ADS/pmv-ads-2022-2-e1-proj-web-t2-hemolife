@@ -2,7 +2,7 @@ function verifyLogin() {
     usurLogadoAtivo = JSON.parse(localStorage.getItem("usurLogadoAtivo"))
     usurLogado = JSON.parse(localStorage.getItem("usurLogado"))
     if (typeof usurLogadoAtivo == undefined || usurLogadoAtivo == false) {
-        usurLogadoAtivo = false;        
+        usurLogadoAtivo = false;      
         return false;
     }
     logado = document.getElementById("logado");
