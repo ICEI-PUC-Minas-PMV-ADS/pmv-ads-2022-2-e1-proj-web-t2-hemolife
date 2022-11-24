@@ -19,6 +19,7 @@ var caracteresEspeciais = /[!|@|#|$|%|^|&|*|(|)|-|_]/;
 var msgLog = document.querySelector('#msgLog')
 usurLogado = [];
 usurLista = JSON.parse(localStorage.getItem('usurLista') || '[]')
+
 //Verifica Nome
 function verificaNome() {
     if (usurLista) {

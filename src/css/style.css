@@ -48,7 +48,7 @@ p {
 
 /* Nome da empresa */
 
-.logo {
+#logado,.logo {
   align-items: center;
   display: flex;
   font-size: 28px;
@@ -57,7 +57,7 @@ p {
   justify-content: center;
 }
 
-.logo a {
+#logado,.logo a {
   color: #fafafa;
   display: flex;
   font-family: "Poiret One";

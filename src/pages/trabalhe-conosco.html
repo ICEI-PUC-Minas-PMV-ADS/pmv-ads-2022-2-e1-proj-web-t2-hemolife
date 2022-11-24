@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/form.css">
     <!-- JavaScript -->
     <script src="../js/index.js" defer></script>
+    <script defer src="../js/checklogin.js"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,92 +27,81 @@
 
     <!-- Navbar -->
     <nav>
-        <div class="logo">
-            <a class="icon" href="../index.html"><img src="../img/logo.png" alt="logo"></a>
-            <a href="../index.html">Hemo Life</a>
-        </div>
-        <ul class="nav-links">
-            <li><a href="../pages/sobre.html">Sobre</a></li>
-              <!-- link referente a parte de Campanhas feita por Natan Fonseca -->
-            <li><a href="prerequisitos.html">Pré-Requisitos</a></li>
-            <a href="../pages/login.html"><button class="nav-btn">Login</button></a>
-        </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+        <div id="logado" class="logo">
+
         </div>
     </nav>
 
     <!-- body -->
-    
-        <!-- Botão para voltar uma guia -->
-        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
+
+    <!-- Botão para voltar uma guia -->
+    <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
 
     <div class="trabalhe">
         <input type="hidden" name="Subject" value="Curriculo">
         <input type="hidden" name="Body" value="">
         <h2 class="h2-form">Envie seu currículo</h2>
-        
-            <label for="nome" class="label-form">Nome</label>
-            <input name="nome" class="input-form" />
-        
-        
-            <label for="e-mail" class="label-form">E-mail</label>
-            <input name="e-mail" class="input-form"/>
-        
-        
-        
-           
-            <label for="número" class="label-form-inline">Número</label>
-            <input name="número" class="input-form-inline-menor"/>
-   
-            
-    
-            
-            <label for="currículo" class="label-form-anexar-curriculo">Currículo</label>
-            <input id="currículo" type="file" name="currículo" 
-             placeholder="Anexar currículo" class="input-form-anexar-curriculo" accept="image/pdf" />
-             <p class="p-form-anexar-curriculo">Todos os campos são obrigatórios <br/> Tamanho máximo para upload - 10mb<br/>
-                    Tipo do arquivo: .pdf</p>            
-        
+
+        <label for="nome" class="label-form">Nome</label>
+        <input name="nome" class="input-form" />
+
+
+        <label for="e-mail" class="label-form">E-mail</label>
+        <input name="e-mail" class="input-form" />
+
+
+
+
+        <label for="número" class="label-form-inline">Número</label>
+        <input name="número" class="input-form-inline-menor" />
+
+
+
+
+        <label for="currículo" class="label-form-anexar-curriculo">Currículo</label>
+        <input id="currículo" type="file" name="currículo" placeholder="Anexar currículo"
+            class="input-form-anexar-curriculo" accept="image/pdf" />
+        <p class="p-form-anexar-curriculo">Todos os campos são obrigatórios <br /> Tamanho máximo para upload -
+            10mb<br />
+            Tipo do arquivo: .pdf</p>
+
     </div>
 
 
 
-  <!-- Rodapé da página -->
+    <!-- Rodapé da página -->
 
-  <footer>
-    <div class="footer-conteudo">
-        <a href="prerequisitos.html">Dúvidas frequentes</a>
-        <a href="apoie.html">Apoie o nosso projeto</a>
-        <a href="trabalhe-conosco.html">Trabalhe conosco</a>
-    </div>
-
-    <div class="footer-bottom">
-        <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
-                href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
-        </p>
-        <div>
-            <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+    <footer>
+        <div class="footer-conteudo">
+            <a href="prerequisitos.html">Dúvidas frequentes</a>
+            <a href="apoie.html">Apoie o nosso projeto</a>
+            <a href="trabalhe-conosco.html">Trabalhe conosco</a>
         </div>
-        <div>
-            <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+
+        <div class="footer-bottom">
+            <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
+                    href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
+            </p>
+            <div>
+                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+            </div>
+            <div>
+                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+            </div>
         </div>
-    </div>
-</footer>
-    
+    </footer>
+
     <!-- Api Libras -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
-          <div class="vw-plugin-top-wrapper"></div>
+            <div class="vw-plugin-top-wrapper"></div>
         </div>
-      </div>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
-      </script>
+    </script>
 
 </body>
 

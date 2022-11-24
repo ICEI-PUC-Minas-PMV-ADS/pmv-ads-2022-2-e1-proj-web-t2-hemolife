@@ -1,120 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Hemo Life</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/cartao.css">    
-    <!-- JavaScript -->
-    <script src="js/index.js" defer></script>
-    <script src="https://kit.fontawesome.com/e903379512.js" crossorigin="anonymous"></script>
-    <script defer src="../js/loadlogin.js"></script>
-    <script defer src="../js/checklogin.js"></script>
-    <script defer src="../js/checkdoador.js"></script>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Quicksand:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <!-- Fav icon -->
-    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
-    
-  </head>
-  <body>
 
-    <!-- Navbar -->
-    <nav>
-      <div class="logo">
-          <a class="icon" href="index.html"><img src="../img/logo.png" alt="logo"></a>
-          <a href="index.html">Hemo Life</a>
-      </div>
-      <ul class="nav-links">
-          <li><a href="sobre.html">Sobre</a></li>
-          <!-- link referente a parte de Campanhas feita por Natan Fonseca -->
-          <li><a href="prerequisitos.html">Pré-Requisitos</a></li>
-          <a href="pages/login.html"><button class="nav-btn">Login</button></a>
-      </ul>
-      <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-      </div>
-    </nav>
-    
-    
-        <!-- Botão para voltar uma guia -->
-        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Hemo Life</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/cartao.css">
+  <!-- JavaScript -->
+  <script src="js/index.js" defer></script>
+  <script src="https://kit.fontawesome.com/e903379512.js" crossorigin="anonymous"></script>
+  <script defer src="../js/loadlogin.js"></script>
+  <script defer src="../js/checklogin.js"></script>
+  <script defer src="../js/checkdoador.js"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- Fav icon -->
+  <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
 
-    <!-- cartão -->
-    <div class="mockupCartao">
-      <img class="iconCartao" src="../img/cartaohemolife.svg" alt="Cartão de benefícios">      
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div id="logado" class="logo">
+
+    </div>
+  </nav>
+
+
+  <!-- Botão para voltar uma guia -->
+  <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
+
+  <!-- cartão -->
+  <div class="mockupCartao">
+    <img class="iconCartao" src="../img/cartaohemolife.svg" alt="Cartão de benefícios">
+  </div>
+
+
+  <!-- partes referentes a parcerias -->
+
+  <main class="cards">
+
+    <!-- card 1 -->
+    <div class="card">
+      <img class="iconCard" src="../img/academia.logo.png" alt="Contact us.">
+      <h3> Force academy </h3>
+      <span class="resume">taxa de matricula gratis , avaliação 5% de desconto e 10% na mensalidade .</span>
+    </div>
+
+    <!-- card 2 -->
+    <div class="card">
+      <img class="iconCard" src="../img/nutri.logo.png" alt="Shop here.">
+      <h3> Nutri Life.</h3>
+      <span class="resume">primeira consulta gratis e desconto de 8% nas demais consultas .</span>
+    </div>
+
+    <!-- card 3 -->
+    <div class="card">
+      <img class="iconCard" src="../img/logo.farmacia.png"" alt=" About us.">
+      <h3> farma + </h3>
+      <span class="resume"> desconto de 10% em todos medicamentos e outros produtos. </span>
     </div>
 
 
-    <!-- partes referentes a parcerias -->
-
-    <main class="cards">
-
-      <!-- card 1 -->
-      <div class="card">
-            <img class="iconCard" src="../img/academia.logo.png" alt="Contact us.">
-          <h3> Force academy </h3>
-          <span class="resume">taxa de matricula gratis , avaliação 5% de desconto e 10% na mensalidade .</span>
-      </div>
-
-      <!-- card 2 -->
-      <div class="card">
-          <img class="iconCard" src="../img/nutri.logo.png" alt="Shop here.">
-          <h3> Nutri Life.</h3>
-          <span class="resume">primeira consulta gratis e desconto de 8% nas demais consultas .</span>
-      </div>
-
-      <!-- card 3 -->
-      <div class="card">
-          <img class="iconCard" src="../img/logo.farmacia.png"" alt="About us.">
-          <h3> farma + </h3>
-          <span class="resume"> desconto de 10% em todos medicamentos e outros produtos. </span>  
-      </div>
-      
-
-    </main>
+  </main>
 
   <!-- Rodapé da página -->
   <footer>
     <div class="footer-conteudo">
-        <a href="pages/prerequisitos.html">Dúvidas frequentes</a>
-        <a href="pages/apoie.html">Apoie o nosso projeto</a>
-        <a href="pages/trabalhe-conosco.html">Trabalhe conosco</a>
+      <a href="pages/prerequisitos.html">Dúvidas frequentes</a>
+      <a href="pages/apoie.html">Apoie o nosso projeto</a>
+      <a href="pages/trabalhe-conosco.html">Trabalhe conosco</a>
     </div>
 
     <div class="footer-bottom">
-        <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
-                href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
-        </p>
-        <div>
-            <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
-        </div>
-        <div>
-            <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
-        </div>
-    </div>
-  </footer>
-  
-  <!-- Api Libras -->
-    <div vw class="enabled">
-      <div vw-access-button class="active"></div>
-      <div vw-plugin-wrapper>
-        <div class="vw-plugin-top-wrapper"></div>
+      <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
+          href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
+      </p>
+      <div>
+        <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+      </div>
+      <div>
+        <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
       </div>
     </div>
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>
-      new window.VLibras.Widget('https://vlibras.gov.br/app');
-    </script>
+  </footer>
+
+  <!-- Api Libras -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
 
 </body>
-

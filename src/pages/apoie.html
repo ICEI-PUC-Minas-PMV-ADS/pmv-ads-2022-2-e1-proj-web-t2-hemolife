@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <!-- JavaScript -->
     <script src="../pages/index.js" defer></script>
+    <script defer src="../js/checklogin.js"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,42 +24,30 @@
 <body>
     <!-- Navbar -->
     <nav>
-        <div class="logo">
-            <a class="icon" href="../index.html"><img src="../img/logo.png" alt="logo"></a>
-            <a href="../index.html">Hemo Life</a>
-        </div>
-        <ul class="nav-links">
-            <li><a href="../pages/sobre.html">Sobre</a></li>
-              <!-- link referente a parte de Campanhas feita por Natan Fonseca -->
-            <li><a href="../pages/prerequisitos.html">Pré-Requisitos</a></li>
-            <a href="../pages/login.html"><button class="nav-btn">Login</button></a>
-        </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+        <div id="logado" class="logo">
+
         </div>
     </nav>
-<!-- corpo -->
-    
-        <!-- Botão para voltar uma guia -->
-        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
+    <!-- corpo -->
 
-<div class="about">
-    <h2 class="about-title">Apoie nosso Projeto</h2>
-    <p>Banco do Brasil<br> Agencia: xxxxx-x <br> Conta Corrente: xxxxxx-x <br> Chave Pix CNPJ: 000.000/0001-00 </p>
+    <!-- Botão para voltar uma guia -->
+    <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
+
+    <div class="about">
+        <h2 class="about-title">Apoie nosso Projeto</h2>
+        <p>Banco do Brasil<br> Agencia: xxxxx-x <br> Conta Corrente: xxxxxx-x <br> Chave Pix CNPJ: 000.000/0001-00 </p>
     </div>
-   <!-- Api Libras -->
+    <!-- Api Libras -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
-          <div class="vw-plugin-top-wrapper"></div>
+            <div class="vw-plugin-top-wrapper"></div>
         </div>
-      </div>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
-      </script>
+    </script>
 </body>
 
 
@@ -82,7 +71,7 @@
         </div>
     </div>
 </footer>
-    
- 
+
+
 
 </html>

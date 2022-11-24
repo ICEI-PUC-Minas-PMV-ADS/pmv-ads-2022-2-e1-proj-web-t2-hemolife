@@ -16,6 +16,12 @@ localStorage.setItem('usurLogadoAtivo', JSON.stringify(usurLogadoAtivo))
 if (localStorage.getItem("usurLogado") === null) {
     localStorage.setItem('usurLogado', '');
 }
+if (usurLogado.includes('Doador')) {
+    window.location.href = "https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/pages/paineldoador.html"
+}
+if (usurLogado.includes('Hemocentro')) {
+    window.location.href = "https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/pages/centralhemo.html"
+}
 // Verifica se o login do usuário está ok e, se positivo, direciona para área logado
 function loginUsuario(login, senha) {
 

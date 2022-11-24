@@ -1,4 +1,4 @@
-usurLogadoAtivo = localStorage.getItem('usurLogadoAtivo');    
-    if (usurLogadoAtivo.includes('Doador')) {
-        window.location.href = "../405.html"
-    }
+usurLogado = JSON.parse(localStorage.getItem("usurLogado"))
+if (usurLogado.includes('Doador')) {
+    window.location.href = "../405.html"
+}
