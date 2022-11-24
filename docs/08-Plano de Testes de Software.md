@@ -1,19 +1,28 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+| Caso de teste         | CT-01 - HomePage                                                                                                                                                                                                                                                           |
+| --------------------- | -----------------|
+| Requisitos Associados | RF-01 	O site deve oferecer uma funcionalidade para permitir ao usuário acessar o contato e a localização do hemocentro próximo de sua região.                                                                                                                             |
+| Requisitos Associados | RF-05 	O site deve permitir a visualização de notícias publicadas pelos hemocentros.                                                                                                                                                                                       |
+| Requisisos Associados | RF-07 	O site deve conter em sua página inicial um gráfico informando o estoque disponível para cada tipo sanguíneo.                                                                                                                                                       |
+| Passos                | Acessar o site através da página <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/">https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/</a> visualizar ou clicar na funcinalidade pretendida. |
+| Objetivo do teste     | Verificar se as funcionalidades podem ser acessadas e estão chegando às páginas correspondentes.                                                                                                                                                                           |
+| Critérios de êxito    | Ao clicar em Busca Hemocentro ou no banner de notícias, o usuário deve ser direcionado para a página de busca de hemocentro por regiões e para a notícias, respecitivamente. Apresentação dos nívels dos estoques de sangue.                                               |
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+| Caso de teste         | CT-02 - Busca por hemocentro                                                                                                                   |
+| --------------------- | ------ |
+| Requisitos Associados | RF-01 	O site deve oferecer uma funcionalidade para permitir ao usuário acessar o contato e a localização do hemocentro próximo de sua região. |
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
+| Passos                | Clicar no botão Busca Hemocentro na HomePage |
+| Objetivo do teste     | Verificar se os botãoes de correspondente a cada Estado estão apresentando os hemocentros.|
+| Critérios de êxito    | Ao clicar no botão da região apenas os hemocentros correspondentes a região são exibitos.|
+| Objetivo do teste     | Verificar se as funcionalidades podem ser acessadas e estão chegando às páginas correspondentes.                                                                                                                                                                           |
+| Critérios de êxito    | Ao clicar em Busca Hemocentro ou no banner de notícias, o usuário deve ser direcionado para a página de busca de hemocentro por regiões e para a notícias, respecitivamente. Apresentação dos nívels dos estoques de sangue.                                               |
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+| Caso de teste         | CT-02 - Busca por hemocentro                                                                                                                   |
+| --------------------- | ------ |
+| Requisitos Associados | RF-01 	O site deve oferecer uma funcionalidade para permitir ao usuário acessar o contato e a localização do hemocentro próximo de sua região. |
+
+| Passos                | Clicar no botão Busca Hemocentro na HomePage |
+| Objetivo do teste     | Verificar se os botãoes de correspondente a cada Estado estão apresentando os hemocentros.|
+| Critérios de êxito    | Ao clicar no botão da região apenas os hemocentros correspondentes a região são exibitos.|

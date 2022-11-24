@@ -16,23 +16,15 @@ localStorage.setItem('usurLogadoAtivo', JSON.stringify(usurLogadoAtivo))
 if (localStorage.getItem("usurLogado") === null) {
     localStorage.setItem('usurLogado', '');
 }
-if (usurLogado.includes('Doador')) {
-    window.location.href = "https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/pages/paineldoador.html"
-}
-if (usurLogado.includes('Hemocentro')) {
-    window.location.href = "https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/pages/centralhemo.html"
-}
 // Verifica se o login do usuário está ok e, se positivo, direciona para área logado
-function loginUsuario(login, senha) {
-
-    /* if (NomeOk && SenhaOk) {*/
+function loginUsuario(login, senha) {   
     // Verifica os inputs no banco de dados
     for (var i = 0; i < usurLista.length; i++) {
         var usuario = usurLista[i];
-        // Se encontrou carrega e salva no Local Storage
+        //passa pela lista de usuarios procurando o usuario infomado no login
         if (login == usuario.email && senha == usuario.senha) {
             usurLogadoAtivo = true;
-            localStorage.setItem('usurLogadoAtivo', JSON.stringify(usurLogadoAtivo))
+            localStorage.setItem('usurLogadoAtivo', JSON.stringify(usurLogadoAtivo));                  
             usurLogado.push({
                 id: usuario.id,
                 nome: usuario.nome,
@@ -40,7 +32,7 @@ function loginUsuario(login, senha) {
                 senha: usuario.senha,
                 tipousur: usuario.tipousur
             })
-            // Salva os dados no Local Storage em string
+            // Salva os dados no Local Storage em string            
             localStorage.setItem('usurLogado', JSON.stringify(usurLogado));
             // Retorna true para input válido
             return true;
@@ -62,18 +54,26 @@ function processaFormLogin() {
     // Valida login    
     const resultadoLogin = loginUsuario(username, password);
     if (resultadoLogin) {
-
+        
         setTimeout(() => {
             //verifica o tipo de usuario
-            if (usurLista.includes('Hemocentro')) {
+            //passa pela lista de usuarios procurando o usuario infomado no login
+            for (let index = 0; index < usurLista.length; index++) {
+                const emailLogin = document.querySelector('#nome').value
+                var usur = usurLista[index];
+                // Verifica se tem o usuario na lista de usuarios
+                if ((usur.includes('Hemocentro') == emailLogin)) {
 
-                window.location.href = '../pages/centralhemo.html';;
-            }
-            else if (usurLista.includes('Doador')) {
-                window.location.href = '../pages/paineldoador.html';
+                    window.location.href = '../pages/centralhemo.html';;
+                }
+                else if (usur.includes('Doador') == emailLogin) {
+                    window.location.href = '../pages/paineldoador.html';
 
+                }
             }
+
         }, 1500);
+
     }
     else {
         msgLog.setAttribute('style', 'display: block')
@@ -103,6 +103,6 @@ usurLista.push(
         senha: 'admin',
         tipousur: 'Doador'
     })
-    localStorage.setItem('usurLista', JSON.stringify(usurLista))
+localStorage.setItem('usurLista', JSON.stringify(usurLista))
 //Chamador Button
 btnLogin.addEventListener('click', processaFormLogin)
