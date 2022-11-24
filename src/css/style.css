@@ -18,7 +18,6 @@ body {
   width: 100vw;
 }
 
-
 /* Navbar */
 
 nav {
@@ -236,12 +235,10 @@ footer p {
   text-align: center;
 }
 
-
 /* Conteúdo da esquerda */
 
 .container-left {
   grid-area: "container-left";
-  
 }
 
 .left-img {
@@ -250,7 +247,7 @@ footer p {
   height: auto;
   margin-top: 1.5rem;
   width: auto;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 /*Conteúdo na linha toda */
@@ -274,7 +271,7 @@ footer p {
   height: auto;
   margin-top: 2.5rem;
   width: auto;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 /* Animação conteúdos img */
@@ -282,7 +279,6 @@ footer p {
 .right-img:hover,
 .left-img:hover {
   scale: 1.01;
-
 }
 
 /* Termos */
@@ -488,9 +484,7 @@ p#nomerequisito {
   .about-title2 {
     width: 70vw;
   }
-
 }
-
 
 @media screen and (max-width: 768px) {
   body {
@@ -539,7 +533,6 @@ p#nomerequisito {
     width: 80vw;
     margin: 5vh 10vw;
   }
-
 }
 
 @media screen and (max-width: 590px) {
@@ -564,7 +557,7 @@ p#nomerequisito {
     justify-content: space-around;
     transform: scale(0.8);
   }
-  .container-full-line {    
+  .container-full-line {
     margin: 5rem 2rem 2rem 2rem;
   }
 }
@@ -645,12 +638,9 @@ p#nomerequisito {
   border-radius: 10px 10px 70px 10px;
 }
 
-
-
 /* Início Card Responsivo */
 
 @media (max-width: 1165px) {
-
   /* termos resposividade */
 
   #btn-voltar {
@@ -676,7 +666,6 @@ p#nomerequisito {
 }
 
 @media (max-width: 570px) {
-
   /* termos resposividade */
   .termos {
     background-color: #fafafa;
@@ -734,7 +723,7 @@ p#nomerequisito {
   color: #dd4a48;
   font-size: 20px;
   font-weight: 600;
-  margin: auto;  
+  margin: auto;
   padding: 1.3rem;
   text-decoration: none;
   transition: 150ms ease-in-out;
@@ -742,4 +731,169 @@ p#nomerequisito {
 
 .formulario a:hover {
   box-shadow: 0px 0px 15px #fafafa;
+}
+
+/* Página Cupons */
+
+.title-cupom {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+  font-weight: 600;
+  color: #fafafa;
+  letter-spacing: 2px;
+}
+
+main.cards {
+  display: flex;
+  padding: 32px;
+  justify-content: center;
+  margin-bottom: -3rem;
+}
+
+main.cards section.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #fafafa;
+  padding: 3rem 1.5rem;
+  border-radius: 8px;
+  max-height: 468px;
+  margin-left: 32px;
+}
+
+main.cards section.card:first-child {
+  margin-left: 0;
+}
+
+main.cards section.card img {
+  width: 64px;
+  height: 64px;
+}
+
+main.cards section.card h3 {
+  margin: 16px 0;
+  font-weight: 600;
+  font-size: 100%;
+}
+
+main.cards section.card span {
+  font-weight: 300;
+  max-width: 240px;
+  margin-bottom: 16px;
+}
+
+main.cards section.card em {
+  color: #dd4a48;
+  font-weight: 600;
+}
+
+main.cards section.card button {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  border-radius: 32px;
+  border: 0;
+  cursor: pointer;
+  font-size: 80%;
+  font-weight: 500;
+  margin: 1.5rem 0 -1rem;
+}
+
+main.cards section.card.academia button {
+  background: linear-gradient(to right, #dd4a48, #dd4a48, #4f091d);
+  background-size: 170%;
+  color: #fafafa;
+  transition: 150ms ease-in-out;
+}
+
+main.cards section.card.academia button:hover {
+  box-shadow: 0px 0px 8px #4f091d;
+}
+
+main.cards section.card.academia {
+  box-shadow: 20px 20px 50px -30px #121212;
+}
+
+main.cards section.card.farmacia button {
+  background: linear-gradient(to right, #dd4a48, #dd4a48, #4f091d);
+  background-size: 170%;
+  color: #fafafa;
+  transition: 150ms ease-in-out;
+}
+
+main.cards section.card.farmacia button:hover {
+  box-shadow: 0px 0px 8px #4f091d;
+}
+
+main.cards section.card.farmacia {
+  box-shadow: 20px 20px 50px -30px #121212;
+}
+
+main.cards section.card.mercado button {
+  background: linear-gradient(to right, #dd4a48, #dd4a48, #4f091d);
+  background-size: 170%;
+  color: #fafafa;
+  transition: 150ms ease-in-out;
+}
+
+main.cards section.card.mercado button:hover {
+  box-shadow: 0px 0px 8px #4f091d;
+}
+
+main.cards section.card.mercado {
+  box-shadow: 20px 20px 50px -30px #121212;
+}
+
+/* Responsivo Cupons */
+
+@media screen and (max-width: 720px) {
+  main.cards {
+    flex-direction: column;
+  }
+  main.cards section.card {
+    margin-left: 0;
+    margin-bottom: 32px;
+  }
+  main.cards section.card:last-child {
+    margin-bottom: 0;
+  }
+  main.cards section.card button {
+    font-size: 70%;
+  }
+}
+
+/* Cores dos cards JavaScript */
+
+#academia {
+  background: linear-gradient(135deg, #ccc, #fafafa, #949494);
+  background-size: 220% 220%;
+  animation: gradient 15s ease infinite;
+  transition: 150ms ease-in-out;
+}
+
+#academia:hover {
+  transform: scale(1.05);
+}
+
+#farmacia {
+  background: linear-gradient(135deg, #ccc, #fafafa, #949494);
+  background-size: 220% 220%;
+  animation: gradient 15s ease infinite;
+  transition: 150ms ease-in-out;
+}
+
+#farmacia:hover {
+  transform: scale(1.05);
+}
+
+#mercado {
+  background: linear-gradient(135deg, #ccc, #fafafa, #949494);
+  background-size: 220% 220%;
+  animation: gradient 15s ease infinite;
+  transition: 150ms ease-in-out;
+}
+
+#mercado:hover {
+  transform: scale(1.05);
 }
