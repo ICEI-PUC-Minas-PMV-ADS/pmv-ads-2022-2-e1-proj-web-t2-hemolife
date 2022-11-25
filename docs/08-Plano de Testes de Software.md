@@ -28,7 +28,7 @@
 | Critérios de êxito    | Ao clicar no banner da notícia ser direcionado para notícia selecionada.|
 
 | Caso de teste         | CT-04 - Cartão de Hemolife |    
-|
+
 | --------------------- | ------ |
 | Passos                | Acessar o site através da página Home e clicar na imagem do cartão Hemolife, ou através do painel do doador na área logada do usuário.|
 | Objetivo do teste     | Verificar se as funcionalidades podem ser acessadas e estão chegando às páginas correspondentes.|
