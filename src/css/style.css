@@ -316,10 +316,10 @@ footer p {
   background-color: #fafafa;
   text-decoration: none;
   color: #dd4a48;
-  height: 5vh;
+  height: auto; 
   width: 8vw;
   cursor: pointer;
-  background: fafafa;
+  background: #fafafa;
   border: none;
   border-radius: 10px;
   color: #dd4a48;
@@ -340,7 +340,7 @@ footer p {
   text-decoration: none;
   color: #dd4a48;
   font-weight: 600;
-  height: 5vh;
+  height: auto;
   width: 7vw;
 }
 
@@ -646,7 +646,7 @@ p#nomerequisito {
     background-color: #fafafa;
     text-decoration: none;
     color: #dd4a48;
-    height: 5vh;
+    height: fit-content;
     width: 15vw;
     cursor: pointer;
     background: fafafa;

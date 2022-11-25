@@ -1,21 +1,13 @@
 /* Configuração do Grid */
 .conteudo{
     display: grid;
-    justify-content:space-around;
-    grid-template-rows: 20vh 1fr;
+    justify-content: space-evenly;
     grid-template-areas: 
-    'botoes botoes'
+    'btn-white1 btn-white2'
     'container-left container-right';
-
     text-align: center;
+    grid-row-gap: 4em;
 }
-
-.botoes{
-    grid-area: botoes;
-    display: flex;
-    justify-content:space-around;
-}
-
 .container-left{
     grid-area: container-left;
 }
@@ -25,7 +17,23 @@
 }
 
 /* botões da 1a row */
-.btn-white{
+.btn-white1{
+    grid-area:btn-white1;
+    background-color: #fafafa;
+    color: #dd4a48;
+    text-decoration: none;
+    height: auto; 
+    min-height: 7vh;
+    width: auto;
+    border-radius: 30px;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 2vh 1vw;
+    transition: all .35s;
+    margin: 5vh auto auto;
+}
+.btn-white2{
+    grid-area:btn-white2;
     background-color: #fafafa;
     color: #dd4a48;
     text-decoration: none;

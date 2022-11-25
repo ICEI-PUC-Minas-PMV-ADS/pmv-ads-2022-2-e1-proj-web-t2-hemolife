@@ -1,8 +1,8 @@
 container-estoque {
     margin: 20px;
     height: auto;
-    width: fit-content;
-    display: grid;
+    width: 470px;
+    display: grid; 
     grid-template-areas: "section section";
     grid-template-columns: subgrid;
     transition: all .5s;

@@ -2,30 +2,46 @@
 :root {
   --ver: #dd4a48;
 }
+
 h2 {
-  color:var(--ver)
+  color: var(--ver)
 }
+
 /* Congigurações do botão */
 button {
+  display:flex; 
+  text-decoration: none;  
+  height: auto;
+  cursor: pointer;
+  background: #fafafa;
   border: none;
   border-radius: 10px;
   color: #dd4a48;
-  cursor: pointer;
-  display: flex;
   font-size: 16px;
-  font-weight: bolder;
   justify-content: center;
+  outline: none;
+  padding: 5px 25px;
+  transform: scale(1.02);
+  transition: box-shadow 0.1s;
+  transition: all 1.02s;
+}
+button:hover{
+  box-shadow: 0px 0px 15px #fafafa;
+}
 
+
+#login h2 {
+  color: var(--ver)
 }
-#login h2{  
-    color:var(--ver)
-}
-#login a{  
+
+#login a {
   font-size: 14px;
 }
-#cadastro h2{  
-  color:var(--ver)
+
+#cadastro h2 {
+  color: var(--ver)
 }
+
 .btn {
   color: #fafafa;
   margin: 1rem auto 0;
@@ -35,7 +51,7 @@ button {
   width: auto;
   position: relative;
   padding: 8px;
-  
+
 }
 
 /* .btn:hover span {
@@ -86,8 +102,9 @@ button {
 .form-signin-heading {
   text-align: center;
 }
+
 .form-signin-heading h2 {
-  color:var(--ver)
+  color: var(--ver)
 }
 
 .checkbox {
@@ -134,6 +151,7 @@ button {
 .cadastro h3 {
   font-weight: 600;
   margin-bottom: 1vh;
+  color: #fff;
 }
 
 .limit {
