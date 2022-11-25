@@ -2,18 +2,17 @@
   p, aside{
     color: #000000;
     font-size: 18px;
-    font-style: italic;
   }
 
   b, a{
     font-weight: 800;
     color: #dd4a48;
     font-size: 18px;
-    font-style: italic;
     text-decoration: none;
   }
 
   main{
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
   }
@@ -27,8 +26,8 @@
     'midia'
     'descricao';
 
-    width: 80vw ;
-    margin: 0 10vw 5vh;
+    width: 70vw ;
+    margin: 0 15vw 5vh;
     background-color: #fafafa;
     border-radius: 23px;
   }
@@ -38,13 +37,14 @@
     grid-area: titulo;
     text-align: center;
     font-weight: 600; 
+    font-size: 1.5em;
   }
   
   .midia {
     grid-area: midia;
     height: auto;
     width: 50vw;
-    margin: 7vh 15vw 2vh;
+    margin: 7vh 10vw 2vh;
     border-radius: 23px;
   }
 
@@ -57,7 +57,7 @@ p,li{
   margin-bottom: 1.5vh;
 }
 
-i{
+em{
   font-weight: 500;
 }
 
@@ -66,6 +66,7 @@ i{
   .titulo, h1{
     font-size: 30px;
   }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -74,8 +75,8 @@ i{
   }
 
   .midia {
-    width: 70vw;
-    margin: 7vh 5vw 2vh;
+    width: 55vw;
+    margin: 7vh 8vw 2vh;
     border-radius: 13px;
   }
 
@@ -83,9 +84,25 @@ i{
     grid-area: descricao;
     margin: 2vh 5vw 5vh;
   }
+
+  #btn-voltar{
+    margin-left: 15vw;
+    text-align: center;
+    padding: 0 ;
+  }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 570px){
+  #btn-voltar{
+    margin-left: 15vw;
+    text-align: center;
+    padding: 0 5vw ;
+    height: 5vh;
+    width: auto;
+}
+}
+
+@media screen and (max-width: 390px){
   .noticia{
     width: 90vw ;
     margin: 0 5vw 5vh;
@@ -110,4 +127,6 @@ i{
     margin: 4vh 5vw 1vh;
     border-radius: 13px;
   }
+
+  
 }
