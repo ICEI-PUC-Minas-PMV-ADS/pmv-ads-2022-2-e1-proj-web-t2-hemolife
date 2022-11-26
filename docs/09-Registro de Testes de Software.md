@@ -68,3 +68,15 @@ Direciona para às respectivas noticias.
 <img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086501-23395c37-88a1-4b11-97ac-1ff1bda73e7b.png"></div><p></p>
 <div>
 <img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086519-4f988812-d6cf-4be1-bca0-692a1e69c90c.png"></div><p></p>
+
+- CT-05 - Teste da página Doadores.
+<div>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086956-fcc17c34-bbb9-4863-b815-dce0997cd71d.png"></div><p></p>
+<div>
+  <div>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086977-710e7182-3ca1-4453-97d1-5b8cc1da9e85.png"></div><p></p>
+<div>
+  <div>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204087007-c59bdfad-75bd-46b8-b082-19dbdef7874b.png"></div><p></p>
+<div>
+
