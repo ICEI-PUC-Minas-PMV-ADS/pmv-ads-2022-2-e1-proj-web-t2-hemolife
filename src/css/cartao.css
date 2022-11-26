@@ -10,7 +10,9 @@
     box-shadow: 5px 5px 15px #2b2a2a41;
     transition: all .6s;
 }
-
+.iconCartao img{
+    width: 100%; 
+}
 .iconCartão:hover{
     scale: 1.0;
     box-shadow: 0px 0px 15px #fafafa81;
@@ -32,7 +34,9 @@
 }
 
 .card{
-    background-color: #fafafa;
+    background: linear-gradient(135deg, #ccc, #fafafa, #949494);
+    background-size: 220% 220%;
+    animation: gradient 15s ease infinite;
     width: 20vw;
     height: 15vw;
     border-radius: 35px;
