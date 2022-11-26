@@ -25,7 +25,7 @@ Casos de Testes (CT-01, CT-02, CT-02)
 </div>
 <p></p>
 <div>
-<img align="center"  height="600px" width="411px" src="https://user-images.githubusercontent.com/114194318/203874169-5a3700c5-fe64-4319-b194-eb0d15c3b287.png">
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/203874169-5a3700c5-fe64-4319-b194-eb0d15c3b287.png">
 </div>
 <p></p>
 <div>
@@ -33,28 +33,28 @@ Casos de Testes (CT-01, CT-02, CT-02)
 </div>
 <p></p>
 - CT-03 - Testa acesso às notícias atráves do banner de notícias da homepage.
-1
+<h3>1.</h3>
 <div>
 <img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204066596-35f326be-b3b9-4bdc-9625-d53197a1cbdf.png">
 </div>
-2
+<h3>2.</h3>
 <div>
 <img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/203874294-723f6ae3-d0b7-43f3-8d9b-5aea8e8bc920.png">
 </div>
-3
+<h3>3.</h3>
 <div>
 <img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/203874357-465dd8f8-f7d9-416d-b413-c42f7be252f9.png">
 </div>
-4
+<h3>4.</h3>
 <div>
 <img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/203874394-2d5bea72-37cf-4a48-9f35-ab3178099b9a.png">
 </div>
-5
+<h3>5.</h3>
 <div>
 <img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/203874406-72249e66-bd92-4215-b8ec-27adc44ef52e.png">
 </div>
 <p></p>
-Direciona para ás páginas
+Direciona para às respectivas noticias.
 <div>
-<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/203874486-e629c43a-c505-4dd6-b45c-f09f35f4c0ec.png">
+<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204067096-3d4bd79c-b513-4d40-b14a-55aca38a4667.png">
 </div>
