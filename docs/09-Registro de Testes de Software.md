@@ -61,10 +61,10 @@ Direciona para às respectivas noticias.
 
 - CT-04 - Teste de acesso ao Cartão de Hemolife.
 <div>
-<img align="center"  width="411px" src="![cartao home](https://user-images.githubusercontent.com/111004815/204086443-b9573459-b198-42a6-bf3d-ac8c72c1d6ef.png)"></div><p></p>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086443-b9573459-b198-42a6-bf3d-ac8c72c1d6ef.png"></div><p></p>
 <div>
-<img align="center"  width="411px" src="![cartão informativo](https://user-images.githubusercontent.com/111004815/204086490-b3e87769-47b9-476b-9367-d63ee52b7646.png)"></div><p></p>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086490-b3e87769-47b9-476b-9367-d63ee52b7646.png"></div><p></p>
 <div>
-<img align="center"  width="411px" src="![cartao painel doador](https://user-images.githubusercontent.com/111004815/204086501-23395c37-88a1-4b11-97ac-1ff1bda73e7b.png)"></div><p></p>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086501-23395c37-88a1-4b11-97ac-1ff1bda73e7b.png"></div><p></p>
 <div>
-<img align="center"  width="411px" src="![encaminhamento do cartao na areaa do doador](https://user-images.githubusercontent.com/111004815/204086519-4f988812-d6cf-4be1-bca0-692a1e69c90c.png)"></div><p></p>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086519-4f988812-d6cf-4be1-bca0-692a1e69c90c.png"></div><p></p>
