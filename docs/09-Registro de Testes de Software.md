@@ -25,7 +25,7 @@ Casos de Testes (CT-01, CT-02, CT-02)
 </div>
 <p></p>
 <div>
-<img align="center"  height="600px" width="411px" src="https://user-images.githubusercontent.com/114194318/203874169-5a3700c5-fe64-4319-b194-eb0d15c3b287.png">
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/203874169-5a3700c5-fe64-4319-b194-eb0d15c3b287.png">
 </div>
 <p></p>
 <div>
