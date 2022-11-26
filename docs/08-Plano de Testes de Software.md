@@ -45,7 +45,7 @@
 | Critérios de êxito    | Deslogar da conta do Hemocentro e não conseguir mais ter acesso aos dados dos usuários.|
 
 
-| Caso de teste         | CT-03 - Cadastro e Login.                                                                                                                                                                                                                                                           |
+| Caso de teste         | CT-06 - Cadastro e Login.                                                                                                                                                                                                                                                           |
 | --------------------- | -----------------|
 | Requisitos Associados | RF-03 - O site deve permitir ao usuário cadastrar e manifestar o interesse em se tornar um doador por meio de um formulário.                                                                                                                    |
 | Requisitos Associados | RF-06 - O site deve permitir a emissão do Cartão HemoLife, cartão de benefício para doadores do grupo Hemo Life.                                                                                                                                                                                   |
