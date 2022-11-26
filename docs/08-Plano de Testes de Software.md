@@ -43,3 +43,14 @@
 | Critérios de êxito    | Ao clicar em cada item da página, o usuário deve ter o encaminhamento correto para todas as outras páginas.|
 | Objetivo do teste     | Verificar que todos os usuários cadastrados estão com seus dados acessíveis apenas para os Hemocentros.|
 | Critérios de êxito    | Deslogar da conta do Hemocentro e não conseguir mais ter acesso aos dados dos usuários.|
+
+
+| Caso de teste         | CT-03 - Cadastro e Login.                                                                                                                                                                                                                                                           |
+| --------------------- | -----------------|
+| Requisitos Associados | RF-03 - O site deve permitir ao usuário cadastrar e manifestar o interesse em se tornar um doador por meio de um formulário.                                                                                                                    |
+| Requisitos Associados | RF-06 - O site deve permitir a emissão do Cartão HemoLife, cartão de benefício para doadores do grupo Hemo Life.                                                                                                                                                                                   |
+| Requisisos Associados | RF-07 - O site deve conter em sua página inicial um gráfico informando o estoque disponível para cada tipo sanguíneo.                                                                                                                                                       |
+| Requisisos Associados | RF-04 O site deve permitir visualizar as informações de contato dos doadores pelos Hemocentros.                                                                                                                                                     |
+| Passos                | Acessar a sessão de login na aba de navegação em qualquer uma das páginas disponíveis ![HomePage - Hemo Life](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/pages/login.html) visualizar ou clicar na funcinalidade pretendida. |
+| Objetivo do teste     | Verificar se é possível cadastrar um usuário, seja ele hemocentro ou doador e em seguida, acessar todas as funcionalidades exclusivas ao usuário correspondente.                                                                                                                                                                           |
+| Critérios de êxito    | Ao efetuar o login, o usuário, seja ele hemocentro ou doador. Deverá visualizar a sua respectiva sessão com funcionalidades exclusivas                                               |
