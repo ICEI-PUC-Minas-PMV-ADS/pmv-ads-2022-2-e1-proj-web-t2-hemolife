@@ -46,7 +46,7 @@
 
 
 <!-- CT - 06 -->
-
+<br>
 | Caso de teste         | CT-06 - Cadastro e Login.                                                                                                                                                                                                                                                           |
 | --------------------- | -----------------|
 | Requisitos Associados | RF-03 - O site deve permitir ao usuário cadastrar e manifestar o interesse em se tornar um doador por meio de um formulário.                                                                                                                    |
@@ -58,7 +58,7 @@
 | Critérios de êxito    | Ao efetuar o login, o usuário, seja ele hemocentro ou doador. Deverá visualizar a sua respectiva sessão com funcionalidades exclusivas                                               |
 
 <!-- CT - 07 -->
-
+<br>
 | Caso de teste         | CT-07 - Painel Doador.                                                                                                                                                                                                                                                           |
 | --------------------- | -----------------|
 | Requisitos Associados | RF-04 O site deve permitir visualizar as informações de contato dos doadores pelos Hemocentros.|
@@ -67,7 +67,7 @@
 | Critérios de êxito    | Ao efetuar o login, o usuário, seja ele hemocentro ou doador. Deverá visualizar a sua respectiva sessão com funcionalidades exclusivas                                               |
 
 <!-- CT - 07 -->
-
+<br>
 | Caso de teste         | CT-08 - Painel Hemocentro.                                                                                                                                                                                                                                                           |
 | --------------------- | -----------------|
 | Requisitos Associados | RF-03 - O site deve permitir ao usuário cadastrar e manifestar o interesse em se tornar um doador por meio de um formulário.                                                                                                                    |
