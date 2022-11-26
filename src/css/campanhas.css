@@ -10,6 +10,8 @@ body{
     'footer';
 }
 
+
+
 nav{
     grid-area: nav;
 }
