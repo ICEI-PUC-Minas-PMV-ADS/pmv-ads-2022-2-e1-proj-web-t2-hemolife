@@ -53,17 +53,16 @@
     scale: 1.02;
 }
 
-.rightImg, .leftImg{
-    height: 20em;
-    transition: all .5s;
+
+#rightImg img{
+    height: 18em;
+    width: auto;
     margin-top: 1em;
+    transition: all .5s;
 }
+
 
 .rightImg:hover{
-    scale: 1.02;
-}
-
-.leftImg:hover{
     scale: 1.02;
 }
 

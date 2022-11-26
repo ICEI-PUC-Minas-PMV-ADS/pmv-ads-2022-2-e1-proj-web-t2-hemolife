@@ -58,3 +58,29 @@ Direciona para às respectivas noticias.
 <div>
 <img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204067096-3d4bd79c-b513-4d40-b14a-55aca38a4667.png">
 </div>
+
+- CT-04 - Teste de acesso ao Cartão de Hemolife.
+<div>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086443-b9573459-b198-42a6-bf3d-ac8c72c1d6ef.png"></div><p></p>
+<div>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086490-b3e87769-47b9-476b-9367-d63ee52b7646.png"></div><p></p>
+<div>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086501-23395c37-88a1-4b11-97ac-1ff1bda73e7b.png"></div><p></p>
+<div>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086519-4f988812-d6cf-4be1-bca0-692a1e69c90c.png"></div><p></p>
+
+-Ct-05 - teste a página de informaçoes para novos doadores 
+<div>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/49421282/204087612-aec8bc03-22d0-464f-9aab-588d1b9e6710.png"></div><p></p>
+<div>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/49421282/204087210-c81cf622-4fe0-4029-bc86-7d8e13e70ed3.png"></div><p></p>
+<div>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/49421282/204087655-29c72161-1b70-4d94-afbc-5e4bae40377c.png"></div><p></p>
+<div>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/49421282/204087700-b5b75258-a08a-476d-b365-b4dca991dc26.png"></div><p></p>
+<div>
+
+
+
+
+
