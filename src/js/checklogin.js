@@ -13,9 +13,7 @@ function verifyLogin() {
     if (usurLogadoAtivo === true && usurLogado.includes('Hemocentro')) {
         logado.outerHTML = "<div id='logado' class='logo'><a class='icon' href='../index.html'><img src='../img/logo.png' alt='logo'></a><a href='../index.html'>Hemo Life</a></div><ul class='nav-links'><li><a href='././centralhemo.html'>Central</a></li><li><a href='././sobre.html'>Sobre</a></li><li><a href='././campanhas.html'>Campanhas</a></li><<li><a href='././prerequisitos.html'>Pré-Requisitos</a></li><button class='nav-btn-logout' onclick='logoutUser()'>Logout</button></ul><div class='burger'><div class='line1'></div><div class='line2'></div><div class='line3'></div></div>";
     }
-    else {
-        logado.outerHTML = "<div id='logado' class='logo'><a class='icon' href='../index.html'><img src='../img/logo.png' alt='logo'></a><a href='../index.html'>Hemo Life</a></div><ul class='nav-links'><li><a href='././sobre.html'>Sobre</a></li><li><a href='././campanhas.html'>Campanhas</a></li><<li><a href='././prerequisitos.html'>Pré-Requisitos</a></li><a href='././login.html'><button class='nav-btn'>Login</button></a></ul><div class='burger'><div class='line1'></div><div class='line2'></div><div class='line3'></div></div>";
-    }
+    
 }  
 verifyLogin()
 function logoutUser() {   
