@@ -9,7 +9,7 @@
 | Objetivo do teste     | Verificar se as funcionalidades podem ser acessadas e estão chegando às páginas correspondentes.                                                                                                                                                                           |
 | Critérios de êxito    | Ao clicar em Busca Hemocentro ou no banner de notícias, o usuário deve ser direcionado para a página de busca de hemocentro por regiões e para a notícias, respecitivamente. Apresentação dos nívels dos estoques de sangue.                                               |
 
-| Caso de teste         | CT-02 - Busca por hemocentro                                                                                                                   |
+| Caso de teste         | CT-02 - Busca por hemocentro |
 | --------------------- | ------ |
 | Requisitos Associados | RF-01 - O site deve oferecer uma funcionalidade para permitir ao usuário acessar o contato e a localização do hemocentro próximo de sua região. |
 | Passos                | 1 - Acessar o site através da página ![HomePage - Hemo Life](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/)|
@@ -19,7 +19,7 @@
 | Objetivo do teste     | Verificar se as funcionalidades podem ser acessadas e estão chegando às páginas correspondentes.|
 | Critérios de êxito    | Ao clicar em Busca Hemocentro ou no banner de notícias, o usuário deve ser direcionado para a página de busca de hemocentro por regiões e para a notícias, respecitivamente. Apresentação dos nívels dos estoques de sangue.|
 
-| Caso de teste         | CT-03 - Notícias|
+| Caso de teste         | CT-03 - Notícias |
 | --------------------- | ------ |
 | Requisitos Associados | RF-05 - O site deve permitir a visualização de notícias publicadas pelos hemocentros. |
 | Passos                | 1 - Acessar o site através da página ![HomePage - Hemo Life](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/)|
