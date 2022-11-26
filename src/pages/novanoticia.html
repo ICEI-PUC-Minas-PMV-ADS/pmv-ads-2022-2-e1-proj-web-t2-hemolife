@@ -27,23 +27,29 @@
 <body>
     <!-- Navbar -->
     <nav>
-        <div id="logado"class="logo">            
+        <div id="logado" class="logo">
         </div>
     </nav>
     <!-- corpo da pagina -->
-    
-        <!-- Botão para voltar uma guia -->
-        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
-    
+
+    <!-- Botão para voltar uma guia -->
+    <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
+
     <main-noticias>
         <div class="nav-noticias nv01">
-            <a href="../pages/novanoticia.html"> <h2>Notícias</h2></a>
+            <a href="../pages/novanoticia.html">
+                <h2>Notícias</h2>
+            </a>
         </div>
         <div class="nav-noticias nv02">
-            <a href="../pages/campanhas1.html"> <h2>Doadores</h2></a>
+            <a href="../pages/campanhas1.html">
+                <h2>Doadores</h2>
+            </a>
         </div>
         <div class="nav-noticias nv03">
-            <a href=".../pages/bloodlevel.html"> <h2>Estoque de Sangue</h2></a>
+            <a href=".../pages/bloodlevel.html">
+                <h2>Estoque de Sangue</h2>
+            </a>
         </div>
     </main-noticias>
     <main>
@@ -85,18 +91,38 @@
             <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
         </div>
     </div>
-</footer>
+    <!-- Rodapé da página -->
+    <footer>
+        <div class="footer-conteudo">
+            <a href="prerequisitos.html">Dúvidas frequentes</a>
+            <a href="apoie.html">Apoie o nosso projeto</a>
+            <a href="trabalhe-conosco.html">Trabalhe conosco</a>
+        </div>
 
-<!-- Api Libras -->
+        <div class="footer-bottom">
+            <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
+                    href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
+            </p>
+            <div>
+                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+            </div>
+            <div>
+                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Api Libras -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
-          <div class="vw-plugin-top-wrapper"></div>
+            <div class="vw-plugin-top-wrapper"></div>
         </div>
-      </div>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
-      </script>
+    </script>
+    </body>
 
 </html>

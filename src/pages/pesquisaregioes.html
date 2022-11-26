@@ -25,14 +25,14 @@
 <body>
     <!-- Navbar -->
     <nav>
-        <div id="logado"class="logo">            
+        <div id="logado" class="logo">
         </div>
     </nav>
 
     <!-- corpo da pagina -->
-    
-        <!-- Botão para voltar uma guia -->
-        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
+
+    <!-- Botão para voltar uma guia -->
+    <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
 
     <main-map class="maprow" name="filtro_regiao" id="filtro_regiao">
         <div class="mapas norte" onclick="ListaHemocentros('Região Norte')">
@@ -81,7 +81,7 @@
                          <p>${hemoc.nomehemo}<br>${hemoc.localhemo}
                          <br> ${hemoc.contatohemo}</p></div>`
                     );
-                }      
+                }
                 //Scroll da página do botões até o conteúdo impresso.          
                 var target_offset = $("#posicaoscroll").offset();
                 var target_top = target_offset.top;
@@ -92,36 +92,56 @@
     </script>
     <!-- Rodapé da página -->
 
-<footer>
-    <div class="footer-conteudo">
-        <a href="prerequisitos.html">Dúvidas frequentes</a>
-        <a href="apoie.html">Apoie o nosso projeto</a>
-        <a href="trabalhe-conosco.html">Trabalhe conosco</a>
-    </div>
+    <footer>
+        <div class="footer-conteudo">
+            <a href="prerequisitos.html">Dúvidas frequentes</a>
+            <a href="apoie.html">Apoie o nosso projeto</a>
+            <a href="trabalhe-conosco.html">Trabalhe conosco</a>
+        </div>
 
-    <div class="footer-bottom">
-        <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
-                href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
-        </p>
-        <div>
-            <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+        <div class="footer-bottom">
+            <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
+                    href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
+            </p>
+            <div>
+                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+            </div>
+            <div>
+                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+            </div>
         </div>
-        <div>
-            <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
-        </div>
-    </div>
-</footer>
+        <!-- Rodapé da página -->
+        <footer>
+            <div class="footer-conteudo">
+                <a href="prerequisitos.html">Dúvidas frequentes</a>
+                <a href="apoie.html">Apoie o nosso projeto</a>
+                <a href="trabalhe-conosco.html">Trabalhe conosco</a>
+            </div>
 
-<!-- Api Libras -->
-    <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-          <div class="vw-plugin-top-wrapper"></div>
+            <div class="footer-bottom">
+                <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
+                        href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
+                </p>
+                <div>
+                    <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+                </div>
+                <div>
+                    <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Api Libras -->
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
         </div>
-      </div>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script>
-        new window.VLibras.Widget('https://vlibras.gov.br/app');
-      </script>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
 </body>
+
 </html>

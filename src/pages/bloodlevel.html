@@ -10,14 +10,14 @@
     <link defer rel="stylesheet" href="../css/bloodlevel.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/slider.css">
-    
+
     <!-- JavaScript -->
     <script defer src="../js/loadlogin.js"></script>
     <script defer src="../js/checklogin.js"></script>
     <script defer src="../js/checkhemo.js"></script>
     <script defer src="../js/loadblood.js"></script>
     <script defer src="../js/bloodlevel.js"></script>
-    
+
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,7 +32,7 @@
 <body>
     <!-- Navbar -->
     <nav>
-        <div id="logado"class="logo">            
+        <div id="logado" class="logo">
         </div>
     </nav>
     <!-- Botão para voltar uma guia -->
@@ -192,6 +192,18 @@
             </div>
         </div>
     </footer>
+
+    <!-- Api Libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
 
 </html>
