@@ -29,7 +29,7 @@
 
 | Caso de teste         | CT-04 - Cartão de Hemolife |    
 | --------------------- | ------ |
-| Passos                | 1- Acessar o site através da página ![HomePage - Hemo Life] (https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/) 
+| Passos                | 1- Acessar o site através da página ![HomePage - Hemo Life](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/)|
 | Passos                | 2- clicar na imagem do cartão Hemolife, ou através do painel do doador na área logada do usuário.|
 | Objetivo do teste     | Verificar se as funcionalidades podem ser acessadas e estão chegando às páginas correspondentes.|
 | Critérios de êxito    | Ao clicar no cartão Hemolife, o usuário deverá ser encaminhado para a página informativa do cartão, onde apresenta alguns dos nossos parceiros. Já na área logada, o usuário terá acesso aos cupons de descontos de todos os nossos parceiros.|
