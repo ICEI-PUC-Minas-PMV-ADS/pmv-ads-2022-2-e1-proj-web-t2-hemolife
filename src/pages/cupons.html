@@ -1,217 +1,139 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-    />
-    <title>Hemo Life</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="../css/estoque.css" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/carrossel.css" />
-    <link rel="stylesheet" href="../css/bloodlevel.css" />
-    <!-- JavaScript -->
-    <script src="../js/index.js" defer></script>
-    <script
-      src="https://kit.fontawesome.com/e903379512.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="../js/loadblood.js" defer></script>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Quicksand:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Fav icon -->
-    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" />
-  </head>
 
-  <body>
-    <!-- Navbar -->
-    <nav>
-      <div class="logo">
-        <a class="icon" href="index.html"
-          ><img src="../img/logo.png" alt="logo"
-        /></a>
-        <a href="index.html">Hemo Life</a>
-      </div>
-      <ul class="nav-links">
-        <li><a href="sobre.html">Sobre</a></li>
-        <!-- link referente a parte de Campanhas feita por Natan Fonseca -->
-        <li><a href="prerequisitos.html">Pré-Requisitos</a></li>
-        <a href="login.html"><button class="nav-btn">Login</button></a>
-      </ul>
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Hemo Life</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/estoque.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/carrossel.css" />
+  <link rel="stylesheet" href="../css/bloodlevel.css" />  
+  <!-- JavaScript -->
+  <script src="../js/index.js" defer></script>
+  <script src="https://kit.fontawesome.com/e903379512.js" crossorigin="anonymous"></script>
+  <script src="../js/loadblood.js" defer></script>
+  <script src="../js/cupons.js" defer></script>
+  <script src="../js/checklogin.js" defer></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <!-- Fav icon -->
+  <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" />
+</head>
 
-    <!-- Conteúdo do Corpo -->
-    <div class="title-cupom">
-      <h2>Clube de benefícios</h2>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div id="logado" class="logo">
+
     </div>
-    <main class="cards">
-      <section class="card academia">
-        <div class="cupom">
-          <img src="../img/academia.png" alt="Academias" />
-        </div>
-        <h3>Academias</h3>
-        <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
-        <button>Ver mais</button>
-      </section>
-      <section class="card farmacia">
-        <div class="cupom">
-          <img src="../img/farmacia.png" alt="Farmácias" />
-        </div>
-        <h3>Farmácias</h3>
-        <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
-        <button>Ver mais</button>
-      </section>
-      <section class="card mercado">
-        <div class="cupom">
-          <img src="../img/mercado.png" alt="Supermercados" />
-        </div>
-        <h3>Supermercados</h3>
-        <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
-        <button>Ver mais</button>
-      </section>
-    </main>
+  </nav>
 
-    <!-- Cupons Academia do JavaScript -->
-
-    <main class="cards">
-      <section class="card academia" id="academia">
-        <div class="cupom">
-          <img src="../img/academia.png" alt="Academia" />
-        </div>
-        <h3>20% de desconto</h3>
-        <span>Código para validação: <em>20DESCONTO</em></span>
-        <button>Validar cupom</button>
-      </section>
-      <section class="card academia" id="academia">
-        <div class="cupom">
-          <img src="../img/academia.png" alt="Academia" />
-        </div>
-        <h3>Matrícula grátis</h3>
-        <span>Código para validação: <em>MATRICULAFREE</em></span>
-        <button>Validar cupom</button>
-      </section>
-      <section class="card academia" id="academia">
-        <div class="cupom">
-          <img src="../img/academia.png" alt="Academia" />
-        </div>
-        <h3>Kit Whey e Creatina</h3>
-        <span>Código para validação: <em>KITWHEYCREATINA</em></span>
-        <button>Validar cupom</button>
-      </section>
-    </main>
-
-     <!-- Cupons Farmácia do JavaScript -->
-
-     <main class="cards">
-      <section class="card farmacia" id="farmacia">
-        <div class="cupom">
-          <img src="../img/farmacia.png" alt="Farmácia" />
-        </div>
-        <h3>30% de desconto</h3>
-        <span>Código para validação: <em>30DESCONTO</em></span>
-        <button>Validar cupom</button>
-      </section>
-      <section class="card farmacia" id="farmacia">
-        <div class="cupom">
-          <img src="../img/farmacia.png" alt="Farmácia" />
-        </div>
-        <h3>1 ano frete grátis</h3>
-        <span>Código para validação: <em>FRETEGRATIS</em></span>
-        <button>Validar cupom</button>
-      </section>
-      <section class="card farmacia" id="farmacia">
-        <div class="cupom">
-          <img src="../img/farmacia.png" alt="Farmácia" />
-        </div>
-        <h3>15% Dermocosméticos</h3>
-        <span>Código para validação: <em>15DERMO</em></span>
-        <button>Validar cupom</button>
-      </section>
-    </main>
-
-    <!-- Cupons Supermercado do JavaScript -->
-
-    <main class="cards">
-      <section class="card mercado" id="mercado">
-        <div class="cupom">
-          <img src="../img/mercado.png" alt="Mercado" />
-        </div>
-        <h3>15% de desconto</h3>
-        <span>Código para validação: <em>15DESCONTO</em></span>
-        <button>Validar cupom</button>
-      </section>
-      <section class="card mercado" id="mercado">
-        <div class="cupom">
-          <img src="../img/mercado.png" alt="Mercado" />
-        </div>
-        <h3>30% desconto Hortifruti</h3>
-        <span>Código para validação: <em>FRETEGRATIS</em></span>
-        <button>Validar cupom</button>
-      </section>
-      <section class="card mercado" id="mercado">
-        <div class="cupom">
-          <img src="../img/mercado.png" alt="Mercado" />
-        </div>
-        <h3>Vale 300 reais</h3>
-        <span>Código para validação: <em>VALECOMPRAS300</em></span>
-        <button>Validar cupom</button>
-      </section>
-    </main>
-
-
-    <!-- Rodapé da página -->
-    <footer>
-      <div class="footer-conteudo">
-        <a href="prerequisitos.html">Dúvidas frequentes</a>
-        <a href="apoie.html">Apoie o nosso projeto</a>
-        <a href="trabalhe-conosco.html">Trabalhe conosco</a>
+  <!-- Conteúdo do Corpo -->
+  <div class="title-cupom">
+    <h2>Clube de benefícios</h2>
+  </div>
+  <main class="cards" >
+    <section class="card academia" onclick="cuponshemolife('academia')">
+      <div class="cupom">
+        <img src="../img/academia.png" alt="Academias" />
       </div>
+      <h3>Academiaas</h3>
+      <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
+      <button>Ver mais</button>
+    </section>
+    <section class="card farmacia" onclick="cuponshemolife('farmacia')">
+      <div class="cupom">
+        <img src="../img/farmacia.png" alt="Farmácias" />
+      </div>
+      <h3>Farmácias</h3>
+      <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
+      <button>Ver mais</button>
+    </section>
+    <section class="card mercado" onclick="cuponshemolife('mercado')">
+      <div class="cupom">
+        <img src="../img/mercado.png" alt="Supermercados" />
+      </div>
+      <h3>Supermercados</h3>
+      <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
+      <button>Ver mais</button>
+    </section>
+  </main>
+  <main class="cards">
+  <div id="cupons" class="title-cupom">
+    
+  </div>
+</main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script>
+    // Obtem os cupoons
+    var cup = document.querySelector(".cards");
+    function cuponshemolife(cup) {
+      // limpa a lista de cupons apresentados
+      $("#cupons").empty();
+      // Popula a tabela com os registros do banco de dados
+      for (let index = 0; index < db.dados.length; index++) {
+        const desc = db.dados[index];
+        // Verifica se os dados dos cupons batem com os filtros
+        if ((desc.id == cup) || (cup == '')) {
+          $("#cupons").append(
+            `<section class="card ${desc.id}" id="${desc.id}">
+              <div class="cupom">
+              <img src="${desc.src}" alt="${desc.id}" />
+              </div>
+              <h3>${desc.beneficio}</h3>
+              <span>Código para validação: <em>${desc.cupom}</em></span>
+        <button>Validar cupom</button>
+      </section>`
 
-      <div class="footer-bottom">
+          );
+      }
+    }
+  }
+  </script>
+
+
+  <!-- Rodapé da página -->
+  <footer>
+    <div class="footer-conteudo">
+      <a href="prerequisitos.html">Dúvidas frequentes</a>
+      <a href="apoie.html">Apoie o nosso projeto</a>
+      <a href="trabalhe-conosco.html">Trabalhe conosco</a>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        Copyright &copy;2022 Hemo Life. designed by
+        <a class="puc" href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
+      </p>
+      <div>
+        <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+      </div>
+      <div>
         <p>
-          Copyright &copy;2022 Hemo Life. designed by
-          <a
-            class="puc"
-            href="https://www.pucminas.br/destaques/Paginas/default.aspx"
-            >PUC Minas</a
-          >
+          Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a>
         </p>
-        <div>
-          <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
-        </div>
-        <div>
-          <p>
-            Email:<a href="mailto:hemolifepuc@gmail.com"
-              >hemolifepuc@gmail.com</a
-            >
-          </p>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Api Libras -->
-    <div vw class="enabled">
-      <div vw-access-button class="active"></div>
-      <div vw-plugin-wrapper>
-        <div class="vw-plugin-top-wrapper"></div>
       </div>
     </div>
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>
-      new window.VLibras.Widget("https://vlibras.gov.br/app");
-    </script>
-  </body>
+  </footer>
+
+  <!-- Api Libras -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget("https://vlibras.gov.br/app");
+  </script>
+</body>
+
 </html>

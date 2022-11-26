@@ -799,6 +799,7 @@ main.cards section.card.academia button {
   background-size: 170%;
   color: #fafafa;
   transition: 150ms ease-in-out;
+  
 }
 
 main.cards section.card.academia button:hover {
@@ -859,38 +860,17 @@ main.cards section.card.mercado {
 
 /* Cores dos cards JavaScript */
 
-#academia {
+#academia, #farmacia, #mercado {
   background: linear-gradient(135deg, #ccc, #fafafa, #949494);
   background-size: 220% 220%;
   animation: gradient 15s ease infinite;
   transition: 150ms ease-in-out;
 }
 
-#academia:hover {
+#academia:hover, #farmacia:hover,#mercado:hover {
   transform: scale(1.05);
 }
 
-#farmacia {
-  background: linear-gradient(135deg, #ccc, #fafafa, #949494);
-  background-size: 220% 220%;
-  animation: gradient 15s ease infinite;
-  transition: 150ms ease-in-out;
-}
-
-#farmacia:hover {
-  transform: scale(1.05);
-}
-
-#mercado {
-  background: linear-gradient(135deg, #ccc, #fafafa, #949494);
-  background-size: 220% 220%;
-  animation: gradient 15s ease infinite;
-  transition: 150ms ease-in-out;
-}
-
-#mercado:hover {
-  transform: scale(1.05);
-}
 .nodecoration{
   text-decoration: none;  
 }
