@@ -78,6 +78,7 @@ function processaFormLogin() {
         msgLog.innerHTML = 'Preencha os dados corretamente'
         return false;
     }
+    
 }
 // Apaga os dados do usuário corrente no LocalStorage
 function logoutUser() {

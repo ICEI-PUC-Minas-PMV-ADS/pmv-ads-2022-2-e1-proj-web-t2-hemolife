@@ -1,20 +1,19 @@
 container-estoque {
-    margin: 20px;
+    background: #e5e5e5;
+    border-radius: 30px;
+    width: 25vw;
+    padding: 2vh 1vw;
+    margin: 30px;
     height: auto;
-    width: 470px;
+    width: 460px;
     display: grid; 
     grid-template-areas: "section section";
     grid-template-columns: subgrid;
     transition: all .5s;
-    background: rgb(166, 164, 165);
-    background: -moz-linear-gradient(90deg, rgba(166, 164, 165, 1) 0%, rgba(227, 227, 227, 1) 48%, rgba(166, 164, 165, 1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(166, 164, 165, 1) 0%, rgba(227, 227, 227, 1) 48%, rgba(166, 164, 165, 1) 100%);
-    background: linear-gradient(90deg, rgba(166, 164, 165, 1) 0%, rgba(227, 227, 227, 1) 48%, rgba(166, 164, 165, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a6a4a5", endColorstr="#a6a4a5", GradientType=1);
-    border-radius: 10%;
+    border-radius: 15px;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 1px 5px #121212;
+    box-shadow: 0px 10px 10px #0000005b;
 }
 
 container-estoque:hover {
@@ -32,7 +31,7 @@ section-1 {
 
 section-2 {
     border: none;
-    border-left: 1px solid #000;
+    border-left: 1px solid #dd4a48;
     padding-left: 10px;
     margin: 15px;
     grid-area: "section";

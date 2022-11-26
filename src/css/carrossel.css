@@ -2,14 +2,14 @@
   margin-top: 1rem;
   height: 28rem;
   width: 935px;
-  border-radius: 40px;
+  border-radius: 15px;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
 }
 
 .content img {
-  width: 50%;
+  width: 100%;
 }
 
 .navigate {
@@ -49,8 +49,8 @@ input {
 .slide img {
   width: 100%;
   height: auto;
-  max-height: 70%;
-  border-radius: 20px;
+  max-height: 80%;
+  border-radius: 15px;
 }
 
 /* botões do carrossel */
@@ -81,7 +81,7 @@ input {
     margin-top: 10vh;
     height: 20rem;
     width: 680px;
-    border-radius: 20px;
+    border-radius: 15px;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;

@@ -9,11 +9,14 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/centralhemo.css">
+    <link rel="stylesheet" href="../css/bloodlevel.css">
+    <link rel="stylesheet" href="../css/estoque.css">
     <!-- JavaScript -->
     <script src="../js/index.js"></script>
     <script defer src="../js/loadlogin.js"></script>
     <script defer src="../js/checklogin.js"></script>
     <script defer src="../js/checkhemo.js"></script>
+    <script defer src="../js/loadblood.js"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,14 +26,15 @@
     <!-- Fav icon -->
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
 </head>
+
 <body>
     <!-- Navbar -->
     <nav>
-        <div id="logado"class="logo">            
+        <div id="logado" class="logo">
         </div>
     </nav>
     <!-- corpo da pagina -->
-    <main-nav>
+    <!-- <main-nav>
         <div class="nav-noticias nv01">
             <a href="../pages/novanoticia.html">
                 <h2>Notícias</h2>
@@ -46,16 +50,56 @@
                 <h2>Estoque de Sangue</h2>
             </a>
         </div>
-    </main-nav>
-    <main>
-        <h3 class="h2-01">Agendamento</h3>
-        <div class="card1 cardg">
-            <a href="agendamento.html"> <img src="../img/centralhemo/clock.svg" alt="Agendamento"></a>
+    </main-nav> -->
+    <main class="container">
+        <div class="container-left">
+            <h3>Doadores</h3>
+            <div class="card1 cardg">
+                <a  href="doadores.html"> <img src="../img/centralhemo/doadores.svg" alt="Agendamento"></a>
+            </div>
         </div>
-        <h3 lass="h2-02">Estoque de Sangue</h3>
-        <div class="card2 cardg">
-            <a href="bloodlevel.html"> <img src="../img/estoque-de-sangue.png" alt="Estoque de Sangue"></a>
-        </div>
+        <div class="container-right">
+        <h3 >Estoque de Sangue</h3>
+        <!-- Grid dos Estoques -->
+        <container-estoque class="espaco">
+            <!-- Linhas e Colunas com os Níveis Sanguíneos Dinâmicos -->
+            <section-1>
+                <div><img class="card-blood" id="blood01" alt="carregando...">
+                    <h4>A+</h4>
+                </div>
+                <div><img class="card-blood" id="blood02" alt="carregando...">
+                    <h4>A-</h4>
+                </div>
+                <div><img class="card-blood" id="blood03" alt="carregando...">
+                    <h4>B+</h4>
+                </div>
+                <div><img class="card-blood" id="blood04" alt="carregando...">
+                    <h4>B-</h4>
+                </div>
+                <div><img class="card-blood" id="blood05" alt="carregando...">
+                    <h4>AB+</h4>
+                </div>
+                <div><img class="card-blood" id="blood06" alt="carregando...">
+                    <h4>AB-</h4>
+                </div>
+                <div><img class="card-blood" id="blood07" alt="carregando...">
+                    <h4>O+</h4>
+                </div>
+                <div><img class="card-blood" id="blood08" alt="carregando...">
+                    <h4>O-</h4>
+                </div>
+            </section-1>
+            <!-- Colunas de legenda -->
+            <section-2>
+                <img class="card-blood-leg blood03" alt="carregando...">
+                <h4>Nível Adequado</h4>
+                <img class="card-blood-leg blood02" alt="carregando...">
+                <h4>Nível Regular</h4>
+                <img class="card-blood-leg blood01" alt="carregando...">
+                <h4>Nível Crítico</h4>
+            </section-2>
+        </container-estoque>
+    </div>
     </main>
     <!-- Rodapé da página -->
 </body>
