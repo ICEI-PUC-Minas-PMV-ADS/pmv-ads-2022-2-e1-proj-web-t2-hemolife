@@ -1,0 +1,81 @@
+:root {
+    --ver: #dd4a48;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fafafa;
+    margin: 1rem auto 0;
+    transition: 500ms ease-in-out;
+    background-color: var(--ver);
+    height: 40px;
+    width: auto;
+    position: relative;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    transition: 100ms ease;
+    box-shadow: 0px 0px 3px #0c0c0c;
+}
+
+.form-signin-heading {
+    text-align: center;
+    color: var(--ver)
+}
+
+.input {
+    color: #8f2d2b;
+}
+
+.form-control {
+    margin: 10px;
+    font-size: 16px;
+    width: 99%;
+    height: auto;
+    padding: 15px;
+    border: 0;
+    border-bottom: 1px solid #8f2d2b;
+    transition: all 1.05s;
+    background: none;
+    color: #929292;
+}
+
+.form-control:focus {
+    border-bottom: 1px solid var(--ver);
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+    color: var(--ver);
+    border-bottom: 1px solid #dd4a48;
+}
+
+.limit {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: -75px;
+}
+
+/* formulário */
+
+.formCadastro {
+    align-items: center;
+    max-width: 400px;
+    padding: 15px 35px 45px;
+    margin: 0 5vw;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+a {
+    margin-top: 1vh;
+    text-decoration: none;
+    color: #dd4a48;
+}
+.check{
+    margin:10px;
+}

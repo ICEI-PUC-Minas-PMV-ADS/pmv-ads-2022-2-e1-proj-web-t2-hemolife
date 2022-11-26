@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Criar Conta Hemocentro</title>
+    <title>Formulário para doação</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/stylelogin.css">
-    <link rel="stylesheet" href="../css/criarConta.css">
+    <link rel="stylesheet" href="../css/formulario.css">
     <!-- JavaScript -->
     <script src="../js/index.js" defer></script>
     <script defer src="../js/checklogin.js"></script>
@@ -38,21 +37,19 @@
 
         <form class="formCadastro">
 
-            <h2 class="form-signin-heading">Formulário</h2>
+            <h2 class="form-signin-heading">Formulário de doação</h2>
 
 
             <div class="limitf">
                 <!-- Nome -->
-                <label>Nome Completo</label>
-                <input type="text" placeholder="Nome completo" required>
+                <input class="form-control" type="text" placeholder="Nome completo" required>
 
                 <!-- Cadastro Nacional de Estabelecimentos de Saúde -->
-                <label>Data de Nascimento</label>
-                <input type="text" placeholder="Data de nascimento" minlength="11" maxlength="11" required>
+                <input class="form-control" type="date" placeholder="Data de nascimento" minlength="11" maxlength="11"
+                    required>
 
                 <!-- Gênero -->
-                <label>Gênero</label>
-                <select name="" id="">
+                <select class="form-control" name="" id="">
                     <option selected>Gênero</option>
                     <option value="">Masculino</option>
                     <option value="">Feminino</option>
@@ -60,8 +57,7 @@
                 </select>
 
                 <!-- Endereço -->
-                <label>Estado</label>
-                <select class="região" required>
+                <select class="form-control" required>
                     <option selected>Estado</option>
                     <option value="AC">Acre</option>
                     <option value="AL">Alagoas</option>
@@ -91,12 +87,8 @@
                     <option value="SE">Sergipe</option>
                     <option value="TO">Tocantins</option>
                 </select>
-
-                <label>Cidade</label>
-                <input type="text" name="" id="" placeholder="Cidade">
-
-                <label>Tipo sanguíneo</label>
-                <select class="tipoSangue" required>
+                <input class="form-control" type="text" name="" id="" placeholder="Cidade">
+                <select class="tipoSangue form-control" required>
                     <option selected>Tipo sanguíneo</option>
                     <option>O+</option>
                     <option>O-</option>
@@ -107,36 +99,28 @@
                     <option>A+</option>
                     <option>A-</option>
                 </select>
-
-                <label>Telefone</label>
-                <input type="text" placeholder="Telefone" maxlength="12">
-
-                <label>Celular</label>
-                <input type="text" placeholder="Celular" maxlength="12" required>
-
-                <label>Possui alguma doença venérea?</label>
-                <select class="OPT" required>
-                    <option selected>selecione</option>
-                    <option>sim</option>
-                    <option>não</option>
+                <input class="form-control" type="text" placeholder="Telefone" maxlength="12">
+                <input class="form-control" type="text" placeholder="Celular" maxlength="12" required>
+                <select class="form-control OPT" required>
+                    <option selected>Possui alguma doença venérea?</option>
+                    <option>Sim</option>
+                    <option>Não</option>
                 </select>
 
                 <!-- Termos e condições -->
                 <div class="check">
-                    <label class="checkbox">
-                        <input type="checkbox" required>
-                        <a href="termos.html">concordo com os termos e condições</a>
-                    </label>
+                    <input type="checkbox" required>
+                    <a href="termos.html">Concordo com os termos e condições de uso da aplicação.</a>
+
                 </div>
 
-                <div class="check"></div>
-                <label class="checkbox">
+                <div class="check">
                     <input type="checkbox" required>
-                    <a href="termos.html">Aceito receber o boletim informativo</a>
-                </label>
+                    <a href="termos.html">Quero receber boletins informativos.</a>
+                </div>
             </div>
 
-            <button type="submit" id="btn-login" type="submit" onclick="logar(); return false">Criar conta</button>
+            <button class="btn" type="submit" onclick="">Criar conta</button>
 
         </form>
 
@@ -153,10 +137,10 @@
 
         <div class="footer-bottom">
             <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
-                    href="https://www.pucminas.br/vestibular/Paginas/default.aspx?utm_source=google_search&utm_medium=cpc&utm_campaign=vestibular_presencial&gclid=CjwKCAjw-rOaBhA9EiwAUkLV4k8SyGJreEHkgRrE85BYs7qT3IhcdzOxB4js6D4alA1Bk8h0ee6k7hoCkrcQAvD_BwE">PucMinas</a>
+                    href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
             </p>
             <div>
-                <p>Contato:<a href="tel:+5531984548460">(xx)xxxxx-xxxx</a></p>
+                <p>Contato:<a href="">(xx)xxxxx-xxxx</a></p>
             </div>
 
             <div>

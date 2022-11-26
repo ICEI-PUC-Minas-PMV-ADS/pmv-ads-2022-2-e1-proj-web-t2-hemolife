@@ -341,7 +341,6 @@ footer p {
   color: #dd4a48;
   font-weight: 600;
   height: auto;
-  width: 7vw;
 }
 
 .about {
@@ -675,24 +674,21 @@ p#nomerequisito {
     justify-content: center;
     align-items: center;
     box-shadow: 0px 15px 15px #1212126b;
-  }
-
+  }  
   #btn-voltar {
-    margin: 10vh 7vw -20vh;
+    margin: 5vh 12vw 5vh;
     background-color: #fafafa;
     text-decoration: none;
     color: #dd4a48;
     height: fit-content;
-    width: 35vw;
-    cursor: pointer;
-    background: fafafa;
+    width: fit-content;
+    cursor: pointer;    
     border: none;
     border-radius: 10px;
     color: #dd4a48;
     font-size: 16px;
     justify-content: center;
     outline: none;
-    padding: 5px 25px;
     transform: scale(1.08);
     transition: box-shadow 0.1s;
     transition: all 1.02s;
