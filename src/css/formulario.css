@@ -3,19 +3,31 @@
 }
 
 .btn {
+    display: flex;
+    margin: 0.5rem auto 0;
+    padding: 0.5em;
     text-decoration: none;
+    height: auto;
+    cursor: pointer;
+    background: var(--ver);
+    border: none;
+    border-radius: 10px;
     color: #fafafa;
-    margin: 1rem auto 0;
-    transition: 500ms ease-in-out;
-    background-color: var(--ver);
-    height: 40px;
-    width: auto;
+    font-size: 16px;
+    outline: none;
+    transition: box-shadow 0.1s;
+    transition: all 1.02s;
     position: relative;
-    padding: 8px;
-    border-radius: 15px;
+}
+.limit h4{
+    margin: 0.5rem;
+    font-size: 12px;
+    color: var(--ver);
+    padding-left: 15px;
 }
 
 .btn:hover {
+
     transition: 100ms ease;
     box-shadow: 0px 0px 3px #0c0c0c;
 }
@@ -50,13 +62,20 @@
     color: var(--ver);
     border-bottom: 1px solid #dd4a48;
 }
+.form-control-anexo {
+    margin: 10px;
+    width: 99%;
+    height: auto;
+    padding-left: 15px;
+    transition: all 1.05s;
+    background: none;
+    color: #929292;
+}
 
 .limit {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 100px;
-    margin-bottom: -75px;
 }
 
 /* formulário */
@@ -66,7 +85,9 @@
     max-width: 400px;
     padding: 15px 35px 45px;
     margin: 0 5vw;
-    background-color: #fff;
+    background: linear-gradient(135deg, #ccc, #fafafa, #949494);
+    background-size: 220% 220%;
+    animation: gradient 15s ease infinite;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 25px;
 }
@@ -76,6 +97,10 @@ a {
     text-decoration: none;
     color: #dd4a48;
 }
-.check{
-    margin:10px;
+
+.check {
+    margin: 10px;
+}
+.DataN{    
+    padding-left: 10px;
 }

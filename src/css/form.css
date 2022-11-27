@@ -4,46 +4,40 @@ input[type="text"] {
     margin-bottom: 0px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-  }
-  
-  input[type="password"] {
+}
+
+input[type="password"] {
     margin-bottom: 0px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-  }
+}
+
 /* default */
 
-  .limit{
-    display: flex;
+.limit {
     justify-content: center;
     align-items: center;
-    background-color: #fafafa;
-    border-radius: 70px;
-    height: 90vh;
+    background: linear-gradient(135deg, #ccc, #fafafa, #949494);
+    background-size: 220% 220%;
+    animation: gradient 15s ease infinite;
+    border-radius: 20px;
+    height: auto;
     width: 40vw;
     margin: 10vh 30vw;
-  }
+}
 
 /* formulário Grid */
 
-.formCadastro{
+.formCadastro {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    'nome nome'
-    'esquerda direita'
-    'check1 check2'
-    'btn btn';
-
-    margin: 2em;
-    height: 90vh;
-    width: 40vw;
-
-    flex-wrap: wrap;
+    grid-template-areas:
+        'nome nome'
+        'esquerda direita'
+        'check1 check2'
+        'btn btn';
 }
 
-.nome{
+.nome {
     grid-area: nome;
     display: flex;
     align-items: center;
@@ -52,34 +46,29 @@ input[type="text"] {
     margin-bottom: -5vh;
 }
 
-.esquerda{
+.h2-form {
+    margin: 1rem;
+}
+
+.esquerda {
     grid-area: esquerda;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
 
-.direita{
+.direita {
     grid-area: direita;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
-.check1{
+.check1 {
     grid-area: check1;
-    display: flex;
     margin-top: 2vh;
 }
 
-.check2{
+.check2 {
     grid-area: check2;
-    display: flex;
     margin-top: 2vh;
 }
 
-.btn-form{
+.btn-form {
     grid-area: btn;
     margin-bottom: 5vh;
     height: 5vh;
@@ -88,63 +77,88 @@ input[type="text"] {
 
 /* Config Elementos */
 
-.esquerda,.direita{
+.esquerda,
+.direita {
     margin-top: -3vh;
 }
 
-label{
-    margin-top: 1vh;
-    font-weight: 900;
-    text-align: center;
-    margin-bottom: 1vh;
+label {
+    margin-top: -15px;
+    text-align: left;
 }
 
-input,select{
+.input-form {
+    margin: 1rem;
+    border: 0;
+    border-bottom: 1px solid #8f2d2b;
+    transition: all 1.05s;
+    background: none;
+    color: #929292;
+}
+
+#currículo {
+    align-items: left;
+    margin: 1rem;
+    border: 0;
+    background: none;
+    color: #929292;
+    place-content: left;
+    height: auto;
+}
+
+.p-form-anexar-curriculo {
+    color: #8f2d2b;
+    margin: 1rem;
+}
+
+input,
+select {
     width: 90%;
     height: 4vh;
     border: solid .5px;
     transition: all .5s;
-    text-align: center;
+    text-align: left;
+
 }
 
 /* configurações de hover e focus */
-select:focus:hover{
+select:focus:hover {
     scale: 1.05;
     border-radius: 25px;
 }
 
-input:focus:hover{
+input:focus:hover {
     scale: 1.05;
     border-radius: 25px;
 }
 
-.btn-form{
+.btn-form {
     text-align: center;
     height: 5vh;
     margin-bottom: 150px;
 }
 
-.check1 input{
+.check1 input {
     height: 2vh;
 }
 
-.check2 input{
+.check2 input {
     height: 2vh;
 }
 
-.checkbox{
+.checkbox {
     display: flex;
     align-items: center;
     margin-left: 30px;
 }
 
-.checkbox a{
+.checkbox a {
     margin-left: -30px;
 }
 
-@media (max-width: 1247px){
+@media (max-width: 1247px) {
 
-    .limit{
+    .limit {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -153,38 +167,38 @@ input:focus:hover{
         height: 110vh;
         width: 70vw;
         margin: 10vh 15vw;
-      }
+    }
 
-    .formCadastro{
+    .formCadastro {
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr;
-        grid-template-areas: 
-        'nome'
-        'esquerda'
-        'direita'
-        'check1'
-        'check2'
-        'btn';
-    
+        grid-template-areas:
+            'nome'
+            'esquerda'
+            'direita'
+            'check1'
+            'check2'
+            'btn';
+
         margin: 5vh;
         height: 100vh;
         width: 50vw;
-    
+
         flex-wrap: wrap;
     }
 
-    .nome{
+    .nome {
         margin: 3vh 0;
         margin-top: 10vh;
     }
 
-    .direita{
+    .direita {
         margin-top: 1vh;
         margin-bottom: 2vh;
     }
 
-    .check1{
+    .check1 {
         grid-area: check1;
         display: flex;
         text-align: center;
@@ -192,59 +206,59 @@ input:focus:hover{
         justify-content: center;
         margin-bottom: -2vh;
     }
-    
-    .check2{
+
+    .check2 {
         grid-area: check2;
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-    
 
-    .checkbox{
+
+    .checkbox {
         margin-left: -5vw;
-   
+
     }
-    
-    .checkbox a{
+
+    .checkbox a {
         margin-left: -5vw;
     }
 }
 
-@media (max-width: 425px){
-    .limit{
+@media (max-width: 425px) {
+    .limit {
         height: 110vh;
         width: 80vw;
         margin: 10vh 10vw;
-      }
+    }
 
-      .formCadastro{
+    .formCadastro {
         width: 90%;
-      }
+    }
 }
 
-@media (max-width: 320px){
-    .limit{
+@media (max-width: 320px) {
+    .limit {
         height: 110vh;
         width: 80vw;
         margin: 10vh 10vw;
         border-radius: 25px;
-      }
+    }
 
-      .formCadastro{
+    .formCadastro {
         width: 90%;
-      }
+    }
 
-    .btn-form{
+    .btn-form {
         margin-top: 2vh;
-    }  
+    }
 
-    .checkbox{
+    .checkbox {
         margin-left: -30px;
     }
 
-    .checkbox a{
+    .checkbox a {
         margin-left: -40px;
         font-size: 13px;
     }
@@ -257,9 +271,9 @@ input:focus:hover{
     justify-content: center;
     width: 35%;
     margin: 3rem auto -5rem;
-    
 
-    
-    
 
-  }
+
+
+
+}

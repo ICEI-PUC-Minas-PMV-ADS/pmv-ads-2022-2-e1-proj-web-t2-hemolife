@@ -9,8 +9,8 @@ h2 {
 
 /* Congigurações do botão */
 button {
-  display:flex; 
-  text-decoration: none;  
+  display: flex;
+  text-decoration: none;
   height: auto;
   cursor: pointer;
   background: #fafafa;
@@ -25,10 +25,16 @@ button {
   transition: box-shadow 0.1s;
   transition: all 1.02s;
 }
-button:hover{
+
+button:hover {
   box-shadow: 0px 0px 15px #fafafa;
 }
-
+.limitf{
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
 
 #login h2 {
   color: var(--ver)
@@ -43,15 +49,16 @@ button:hover{
 }
 
 .btn {
+  vertical-align: center;
+  display: flex;
   color: #fafafa;
-  margin: 1rem auto 0;
+  margin: 0rem auto 0;
   transition: 500ms ease-in-out;
   background-color: var(--ver);
-  height: 40px;
+  height: auto;
   width: auto;
   position: relative;
-  padding: 8px;
-
+  margin: 1rem auto;
 }
 
 /* .btn:hover span {
@@ -81,8 +88,10 @@ button:hover{
   max-width: 380px;
   padding: 15px 35px 45px;
   margin: 0 5vw;
-  background-color: #fff;
-  border-radius: 25px;
+  background: linear-gradient(135deg, #ccc, #fafafa, #949494);
+  background-size: 220% 220%;
+  animation: gradient 15s ease infinite;
+  border-radius: 20px;
   border: 0;
   border-bottom: 1px solid #dd4a48;
   margin-top: 10vh;
@@ -166,17 +175,19 @@ button:hover{
 
 
 input[type="text"] {
+  background-color: transparent;
   margin-bottom: -1px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
 
 input[type="password"] {
+  background-color: transparent;
+  background: none;
   margin-bottom: 20px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   outline: 0;
-
 }
 
 h1 {

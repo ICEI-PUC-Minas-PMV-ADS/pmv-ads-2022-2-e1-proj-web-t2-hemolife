@@ -32,14 +32,13 @@
     </nav>
 
     <!-- Conteúdo do Corpo -->
-
+    <div>
+        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
+    </div>
     <div class="limit">
-
+        
         <form class="formCadastro">
-
             <h2 class="form-signin-heading">Formulário de doação</h2>
-
-
             <div class="limitf">
                 <!-- Nome -->
                 <input class="form-control" type="text" placeholder="Nome completo" required>
@@ -47,7 +46,6 @@
                 <!-- Cadastro Nacional de Estabelecimentos de Saúde -->
                 <input class="form-control" type="date" placeholder="Data de nascimento" minlength="11" maxlength="11"
                     required>
-
                 <!-- Gênero -->
                 <select class="form-control" name="" id="">
                     <option selected>Gênero</option>
@@ -55,7 +53,6 @@
                     <option value="">Feminino</option>
                     <option value="">Prefiro não informar</option>
                 </select>
-
                 <!-- Endereço -->
                 <select class="form-control" required>
                     <option selected>Estado</option>

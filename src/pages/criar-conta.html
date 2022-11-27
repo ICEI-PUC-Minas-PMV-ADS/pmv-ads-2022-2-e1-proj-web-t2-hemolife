@@ -8,8 +8,7 @@
     <title>Criar conta doador</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/stylelogin.css">
-    <link rel="stylesheet" href="../css/criarConta.css">
+    <link rel="stylesheet" href="../css/formulario.css">
 
     <!-- JavaScript -->
     <script src="../js/index.js" defer></script>
@@ -34,55 +33,42 @@
         </div>
     </nav>
     <!-- Conteúdo do Corpo -->
-    <div class="limit">
-        <form id="cadastro">
+    <div>
+        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
+    </div>
+    <div class="limit">        
+        <form id="formCadastro" class="formCadastro">
             <h2 class="form-signin-heading">Cadastro</h2>
-            <div id="msgLog"></div>
-            <select class="form-control" name="" id="tipousur" required>
-                <option selected value="Doador">Doador</option>
-                <option value="Hemocentro">Hemocentro</option>
-            </select>
-            <div class="form-group">
-                <input class="form-control" type="text" id="nome" placeholder="Nome de usuário" required maxlength="16">
-                <label id="labelNome" for="nome"></label>
-            </div>
-            <!-- Nasciemento -->
-            <label class="DataN">Data de nascimento</label>
-            <input class="form-control data" type="date">
+            <div class="limitf">
+                <div id="msgLog">
+                    <select class="form-control" name="" id="tipousur" required>
+                        <option selected value="Doador">Doador</option>
+                        <option value="Hemocentro">Hemocentro</option>
+                    </select>
+                    <input class="form-control" type="text" id="nome" placeholder="Nome de usuário" required
+                        maxlength="16">
+                    <!-- Nasciemento -->
+                    <label class="DataN">Data de nascimento</label>
+                    <input class="form-control data" type="date">
+                    <!-- Checagem de impedimentos -->
+                    <select class="form-control" name="" id="" required>
+                        <option selected disabled value="">Já doou antes?</option>
+                        <option value="">Sim</option>
+                        <option value="">Não</option>
+                    </select>
+                    <!-- CPF -->
 
-            <!-- Checagem de impedimentos -->
-            <select class="form-control" name="" id="" required>
-                <option selected disabled value="">Já doou antes?</option>
-                <option value="">Sim</option>
-                <option value="">Não</option>
-            </select>
-
-            <!-- CPF -->
-
-            <input class="form-control" type="text" placeholder="CPF" maxlength="11" required>
-            <div class="form-group">
-                <input class="form-control" type="text" id="email" placeholder="E-mail" required>
-                <label id="labelEmail" for="email"></label>
-            </div>
-
-
-            <div class="form-group">
-                <input class="form-control" type="password" id="senha" placeholder="Senha" required>
-                <label id="labelSenha" for="senha"></label>
-            </div>
-
-            <div class="form-group">
-                <input class="form-control" type="password" id="confirmSenha" placeholder="Confirmar senha" required>
-                <label id="labelConfirmSenha" for="confirmSenha"></label>
-            </div>
-
-
-            <div>
-                <button class="btn" id="btnCadastro">Cadastrar</button>
+                    <input class="form-control" type="text" placeholder="CPF" maxlength="11" required>
+                    <input class="form-control" type="text" id="email" placeholder="E-mail" required>
+                    <input class="form-control" type="password" id="senha" placeholder="Senha" required>
+                    <input class="form-control" type="password" id="confirmSenha" placeholder="Confirmar senha"
+                        required>
+                </div>
+                <div>
+                    <button class="btn" id="btnCadastro">Cadastrar</button>
+                </div>
             </div>
         </form>
-
-
     </div>
     <!-- Rodapé da página -->
     <footer>

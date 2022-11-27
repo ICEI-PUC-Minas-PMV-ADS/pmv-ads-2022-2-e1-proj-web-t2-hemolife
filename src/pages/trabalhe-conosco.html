@@ -5,12 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Criar Conta Hemocentro</title>
+    <title>Trabalhe Conosco</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/stylelogin.css">
-    <link rel="stylesheet" href="../css/form.css">
-    <!-- JavaScript -->
+    <link rel="stylesheet" href="../css/formulario.css">
     <script src="../js/index.js" defer></script>
     <script defer src="../js/checklogin.js"></script>
     <!-- Google Fonts -->
@@ -37,34 +35,24 @@
     <!-- Botão para voltar uma guia -->
     <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
 
-    <div class="trabalhe">
-        <input type="hidden" name="Subject" value="Curriculo">
-        <input type="hidden" name="Body" value="">
-        <h2 class="h2-form">Envie seu currículo</h2>
-
-        <label for="nome" class="label-form">Nome</label>
-        <input name="nome" class="input-form" />
-
-
-        <label for="e-mail" class="label-form">E-mail</label>
-        <input name="e-mail" class="input-form" />
-
-
-
-
-        <label for="número" class="label-form-inline">Número</label>
-        <input name="número" class="input-form-inline-menor" />
-
-
-
-
-        <label for="currículo" class="label-form-anexar-curriculo">Currículo</label>
-        <input id="currículo" type="file" name="currículo" placeholder="Anexar currículo"
-            class="input-form-anexar-curriculo" accept="image/pdf" />
-        <p class="p-form-anexar-curriculo">Todos os campos são obrigatórios <br /> Tamanho máximo para upload -
-            10mb<br />
-            Tipo do arquivo: .pdf</p>
-
+    <div class="limit">
+        <form class="formCadastro">
+            <h2 class="form-signin-heading">Envie seu currículo</h2>
+            <div class="limitf">
+                <input name="nome" class="input-form form-control" placeholder="Nome">
+                <input name="e-mail" class="input-form form-control" placeholder="E-mail">
+                <input name="número" class="input-form form-control" placeholder="Número">
+                <label for="file" class="label-form-anexar-curriculo form-control-anexo">Anexe seu currículo:</label>
+                <input class="form-control-anexo" id="currículo" type="file" name="currículo" placeholder="Anexar currículo"
+                 accept="image/pdf" />
+                
+                <h4 class="p-form-anexar-curriculo">Todos os campos são obrigatórios <br />
+                    Tamanho máximo para upload - 10mb<br />
+                    Tipo do arquivo: .pdf
+                </h4>
+                <button class="btn" id="btnCadastro">Enviar</button>
+            </div>
+        </form>
     </div><!-- Rodapé da página -->
     <footer>
         <div class="footer-conteudo">
