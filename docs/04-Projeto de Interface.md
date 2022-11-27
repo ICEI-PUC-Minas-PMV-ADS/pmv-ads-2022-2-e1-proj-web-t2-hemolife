@@ -33,63 +33,100 @@ descritos a seguir. São eles:
 
 A tela inicial contém informações que abrangem todas as camadas e funcionalidades de nosso site, nas quais pela integração do usuário é possível que ele execute diversas ações, como:
 
-Na barra de navegação (cabeçalho/navbar) é possível que ele saiba quem é a Hemo Life ao clicar no botão, é possível também entrar em contato conosco, se antenar sobre as campanhas e fazer seu login.
+Na barra de navegação (cabeçalho/navbar) é possível que ele saiba quem é a Hemo Life ao clicar no botão Sobre, visualizar as solicitações de sangue através do botão Campanhas e fazer seu login.
 
 No conteúdo (body) é onde nossos usuários poderão solicitar o seu cartão clube de benefícios, localizar o hemocentro mais próximo, verificar nossos indicadores de estoque sanguíneo, receber as mais recentes notícias referentes aos fatos relacionados a doações de sangue e também solicitar através de um formulário a possibilidade de ser um doador sanguíneo.
 
-No rodapé (footer) é possível que o usuário solucione suas dúvidas, que ele também possa ajudar o projeto com incentivos financeiros tanto como publicitários, é totalmente possível que esse usuário possa se candidatar para uma vaga de trabalho, seja ela efetiva como também de forma voluntária (sem fins lucrativos) e por fim, contém nossos direitos autorais pelas informações prestadas e pelo funcionamento do nosso site.
+No rodapé (footer) é possível que o usuário solucione suas dúvidas, que ele também possa ajudar o projeto com incentivos financeiros tanto como publicitários, é totalmente possível que esse usuário possa se candidatar para uma vaga de trabalho, seja ela efetiva como também de forma voluntária (sem fins lucrativos), visualize nossos contato em caso de suporte à aplicação e por fim, contém nossos direitos autorais pelas informações prestadas e pelo funcionamento do nosso site.
 
 
 <div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/1-Landin%20Page%20Hemo%20Life%20definitiva.png">
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/204161475-cb2a886f-139d-462c-9dc8-95e7a88dd336.png")
+>
 </div>
 
-## Tela - Campanhas
+## Tela - Pré-Requisitos
 
-A tela de campanhas do Hemo Life é o lugar no qual o usuário poderá se informar qualificadamente sobre o que é uma doação sanguínea, o porquê essa atitude é tão importante e o impacto causado por essa boa ação para uma sociedade de modo geral. Essa tela também informará os usuários sobre quem pode se tornar um doador sanguíneo, as condições básicas que esse doador(a) precisa atender para que o processo seja efetivado, também é informado as orientações que as pessoas devem respeitar para que o processo ocorra de forma correta e saudável. Essa tela de campanhas também é responsável por informar como serão todas as etapas do processo de doação e também os locais que são feitos as coletas através de um link que redireciona para a página de pesquisa do hemocentro.
+A tela de Pré-Requisitos do Hemo Life é o lugar no qual o usuário poderá se informar qualificadamente sobre o que é uma doação sanguínea, o porquê essa atitude é tão importante e o impacto causado por essa boa ação para uma sociedade de modo geral. Essa tela também informará os usuários sobre quem pode se tornar um doador sanguíneo, as condições básicas que esse doador(a) precisa atender para que o processo seja efetivado, também é informado as orientações que as pessoas devem respeitar para que o processo ocorra de forma correta e saudável. Essa tela de campanhas também é responsável por informar como serão todas as etapas do processo de doação e também os locais que são feitos as coletas através de um link que redireciona para a página de pesquisa do hemocentro.
 
 <div>
-<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/CampanhasCampanhas.png">
+<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204161547-30f764db-0b4d-4054-b853-ad8955a08505.png">
+</div>
+<div>
+<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204161560-d55ebe9d-386c-4730-ad12-2245661c5f7e.png">
+</div>
+<div>
+<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204161573-fdd4de84-6273-43c3-93e2-372afbd36d3f.png">
 </div>
 
-## Tela - A HemoLife - Quem Somos
+## Tela - Sobre
 
-Nesta tela descrevemos a missão da HemoLife
+Nesta tela descrevemos a missão da HemoLife.
 
 <div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Quem%20somosquem%20somos.png">
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/204161718-2f494eea-3cb1-400e-be54-eeccb841c269.png">
 </div>
+## Tela - Cartão HemoLife
+
+Nesta tela o usuário "não logado" poderá visualizar os benefícios de se cadastrar e torna-se doador.
+
+<div>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/204162599-039910e9-4059-4cb2-9eb1-02d8da6cf14e.png">
+</div>
+
+## Tela - Clube Benefícios
+
+Nesta tela o usuário logado acessar os benefícios da aplicação após completar seu cadastro e logar.
+<div>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/204162683-34b1220b-3ef3-4961-99d4-a38d02b2f567.png">
+</div>
+
+Cupons Academias
+<div>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/204162701-7a477a86-5867-493e-bff9-7e4706e29c02.png">
+</div>
+
+Cupons Farmácias
+<div>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/204162746-5b56a94f-b50b-4d4a-addc-9c7de5ef83ad.png">
+</div>
+
+Cupons Mercado
+<div>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/204162781-22ef616c-ed7c-4b9a-9bb8-bd715ea49dd2.png">
+</div>
+
 
 ## Tela - Notícias
 
-Esta tela é o modelo template de uma notícia, apenas usuários logados podem comentar nas notícias.
+Esta tela é o modelo template de uma notícia.
 
 <div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Tela%20de%20not%C3%ADciasPublicar%20not%C3%ADcia.png">
+<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204161749-917174f5-10e0-4316-92a1-12c127d1676f.png">
 </div>
 
-## Tela - Login Doador ou Hemocentro
+## Tela - Login
 
-A tela de login será dividida entre o tipo de conta a ser acessada, conta de doador, como também a conta do hemocentro, já que cada tipo de conta conterá informações distintas. 
+A tela de login pode ser acessada como um doador e como um hemocentro e onde um novo usuário pode acessar o botão Criar Conta para realizar seu cadastro. 
 
 <div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Tipo%20de%20conta.png">
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/204161763-cc09c2ea-2d78-4b40-9133-7d6da3c774bd.png">
 </div>
 
 
-## Tela - Login e criar conta - Doador 
+## Tela - Criar conta
 
-Página de login, onde será criado o cadastro do doador e futuramente a será também a sua área de acesso.
+Página de Criar conta, onde será criado o cadastro de doador ou hemocentro.
 
 <div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/2-Logindoador.png">
+<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204161786-a7752ee4-d21b-4a95-b27d-62134e0a8a18.png">
 </div><br>
 
 Crie a sua conta como doador, é necessário preencher o Nome completo, data de nascimento, tipo sanguíneo, E-mail, criar uma senha, confirmar a senha, 
 e concordar com todos os termos. 
 
 <div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Cadastro%20doador.png">
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Cadastro%20doador.png">
 </div>
 
 
@@ -130,122 +167,34 @@ Caso o seu cadastro não atender todos os critérios para ser doador, será exib
 <img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Recuperar%20senha2retorno%20para%20recupera%C3%A7%C3%A3o%20de%20senha-%20ambos.png">
 </div>
 
-## Tela - Resultado da Pesquisa por Hemocentros
+## Tela - Pesquisa por Hemocentros
 
-A tela dos resultados das pesquisas será dividido em duas telas, a primeira conterá todas as regiões do país, onde o usuário escolherá a sua região e será redirecionado para a segunda tela. 
+A tela pesquisa hemocentro por região conterá todas as regiões do país, onde o usuário escolherá a sua região e será exibido todos os hemocentro da região escolhida. 
 
 <div>
-<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/BuscaPesquisa%20por%20hemocentros.png">
+<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204161952-9caa7350-19f6-471e-aed1-ead7f92706dc.png">
 </div><br>
 
-A segunda tela será o resultado do filtro aplicado na tela anterior, onde o usuário terá acesso aos endereços, telefones e estoque(Overlay) dos hemocentros da região selecionada, como na imagem a seguir.
+O resultado do filtro aplicado no menu da página exibe para o usuário os endereços e telefones dos hemocentros da região selecionada, como na imagem a seguir.
 
 <div>
-<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Busca%20-%20Regi%C3%A3o%20Gen%C3%A9ricoResultado%20da%20pesquisa%20por%20hemocentro.png">
+<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204162035-d1276758-1a75-483f-9557-d0c1ca1caf22.png">
 </div>
-
 
 ## Tela - Formulário
 
-A tela de formulário é bem simples e objetiva no qual está dividida em duas telas. A primeira é o formulário no qual o usuário demonstra interesse em se tornar um doador ou continuar sendo um doador recorrente através da Hemo Life, no qual temos vários campos de preenchimento para o usuário registrar seus dados pessoais com o objetivo de ser contatado por algum hemocentro mais próximo que também está em busca de reposição sanguínea.
+A tela de formulário é bem simples e objetiva no qual o usuário demonstra interesse em se tornar um doador ou continuar sendo um doador recorrente através da Hemo Life, no qual temos vários campos de preenchimento para o usuário registrar seus dados pessoais com o objetivo de ser contatado por algum hemocentro mais próximo que também está em busca de reposição sanguínea.
 
 <div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Formul%C3%A1rioFOrmul%C3%A1rio%20para%20doador.png">
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/204162106-fb4f34dd-900b-4f21-8854-3fdd77b4bc74.png">
 </div>
-
-
-## Tela - Formulário Aprovado
-
-A segunda tela de formulário é onde está contida a sucessão do preenchimento do formulário, no qual é visível para o usuário que preencheu todos os dados corretamente em seus respectivos campos pré-determinados.
-
-<div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Frame%2030Formul%C3%A1rio%20enviado.png">
-</div>
-
-## Tela - Cadastro Hemocentros
-
-A tela de cadastro de hemocentros é composta por alguns campos de preenchimentos necessários, no qual, o hemocentro preencherá respectivamente todas as informações necessárias, para que assim possamos manter a organização necessária para garantir um bom funcionamento e efetividade de nossos projetos e campanhas acerca de doações sanguíneas.
-
-<div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/CadastroCadastro%20hemocentro.png">
-</div>
-<br>
-
-Logo após o preenchimento de todas as informações necessárias, o hemocentro deverá aceitar os nosso termos de uso. Caso o hemocentro aceite, aparecerá para o mesmo a imagem informativa abaixo.
-
-<div>
-<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Component%201Termos%20de%20uso%20hemocentro.png">
-</div>
-
-Logo após aceitar os termos de uso, o hemocentro visualizará uma nova tela de cadastro efetuado com sucesso, caso há concordância em todas as informações no momento do cadastro.
-<br>
-
-<div>
-<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/%C3%81rea%20de%20loginLogin%20doador%20efetuado.png">
-</div>
-
-E caso há divergência nas informações prestadas no momento do cadastro, o hemocentro visualizará a tela abaixo como informativo sobre a recusa do cadastro.
-<br>
-<div>
-<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/%C3%81rea%20de%20loginLogin%20Doador%20rejeitado.png">
-</div>
-
-## Tela - Login Hemocentros
-
-A tela de login de hemocentros se caracteriza por apenas dois campos de preenchimento, no qual é requisitado apenas o e-mail e a senha de cadastro do hemocentro em questão. Logo abaixo dos dois campos, é possível notar o botão de login, no qual após clicado, o hemocentro será direcionado para uma nova página de acesso.
-
-<div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/2-Logindoador.png">
-</div><br>
-
-Logo abaixo do botão de login podemos observar que temos dois links, um para recuperar senha e um para criar uma conta, caso o hemocentro solicite recuperar senha ele será redirecionado para uma nova tela de recuperação, no qual possui apenas o campo de preenchimento com e-mail e o botão para enviar a solicitação de redefinição de senha.
-
-<div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Recuperar%20senharecuperar%20senha-ambos.png">
-</div><br>
-
-Caso o e-mail de recuperação conste em nossos sistemas, o hemocentro visualizará a tela a seguir confirmando que foi encaminhado para o e-mail dele um link para redefinir a senha, conforme vemos no wireframe abaixo.
-
-<div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Recuperar%20senha2retorno%20para%20recupera%C3%A7%C3%A3o%20de%20senha-%20ambos.png">
-</div>
-
 
 ## Tela - Painel do Hemocentro
 
-Essa tela será apresentada após o funcionário do hemocentro tiver feito o cadastro, para que então o mesmo possa fazer o acompanhamento dos agendamentos de doação de sangue, atualizar o estoque atual de sangue por tipo sanguíneo, ver os doadores cadastrados e por fim, poderá publicar alguma notícia relacionada a doação de sangue. 
+Essa tela será apresentada após o funcionário do hemocentro tiver feito o cadastro, para que então o mesmo possa atualizar o estoque atual de sangue por tipo sanguíneo, ver os doadores cadastrados. 
 
 <div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Central%20do%20hemocentropainel%20Hemocentro.png">
-</div>
-
-## Tela - Central de Notícias
-
-Nesta tela será possível criar, editar e excluir notícias.
-<div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Central%20do%20hemocentro%20-%20Central%20de%20Not%C3%ADciasPublicar%20not%C3%ADciav2.png">
-</div><br>
-
-## Tela - Publicação de Notícias
-
-A tela a seguir mostra o painel de publicação de notícias que o funcionário do hemocentro terá acesso, com os campos já organizados para facilitar a publicação e manter um padrão nas notícias publicadas.
-
-<div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Central%20do%20hemocentroPublicar%20not%C3%ADcia.png">
-</div><br>
-
-Após a publicação da notícia, irá apresentar a tela "Notícia Enviada", como forma de confirmar a publicação.
-
-<div>
-<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Noticia%20publicada.png">
-</div>
-
-## Tela - Agendamentos
-
-O Usuário logado poderá acessar a aba de "agendamentos" onde encontrará detalhadamente todo o seu cronograma de doadores.
-
-<div>
-<img align="center"  height="500px" width="411px" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/3a92b627e608131e33caba3d4d983db6cc9796e5/docs/img/IMGS%20HL/Hemocentro/Central%20do%20hemocentro%20-%20Agendamento.png">
+<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204162213-4f6dadc2-665b-4ff7-9049-cf767e35c16c.png">
 </div>
 
 ## Tela - Estoque
@@ -253,22 +202,13 @@ O Usuário logado poderá acessar a aba de "agendamentos" onde encontrará detal
 O Usuário também terá acesso à aba "estoque", onde o mesmo poderá visualizar o estoque de sangue em tempo real e atualizá-lo conforme a demanda. 
 
 <div>
-<img align="center" width="411px" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/efeda7b3aea52cf6161c5cf4c9bc357856f06b67/docs/img/IMGS%20HL/Hemocentro/Estoque%20Doador.png">
+<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204162229-65e36e70-bd71-4839-9845-4b5acb65bdd5.png">
 </div>
 
+## Tela - Doadores
 
-## Tela - Pesquisa de Doadores
-
-Após o login do hemocentro, o funcionário poderá acessar a aba “doadores” e encontrará a seguinte tela, com as opções de doadores cadastrados por região, facilitando a busca de determinado tipo sanguíneo próximo ao seu hemocentro.
-
-<div>
-<img align="center"  height="500px" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Central%20do%20hemocentroPesquisa%20de%20doadores.png">
-</div>
-
-## Tela - Resultado da pesquisa de Doadores
-
-O resultado da pesquisa por doadores da região norte será apresentado como na imagem abaixo, onde conterá os seguintes dados: Nome, tipo sanguíneo, idade, última doação e telefone para contato. Desta forma, o funcionário do hemocentro terá a possibilidade de entrar em contato diretamente com o doador do tipo sanguíneo especifico que eles esteja precisando. 
+O tela de doadores será apresentada como na imagem abaixo, onde conterá os seguintes dados: Nome, tipo sanguíneo, última doação e telefone para contato. Desta forma, o funcionário do hemocentro terá a possibilidade de entrar em contato diretamente com o doador do tipo sanguíneo especifico que eles esteja precisando. 
 
 <div>
-<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Hemocentro/Resultado%20da%20pesquisa%20de%20doadores.png">
+<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204162380-990b5c23-407b-4cec-89ec-d5dca78c0c6f.png">
 </div>
