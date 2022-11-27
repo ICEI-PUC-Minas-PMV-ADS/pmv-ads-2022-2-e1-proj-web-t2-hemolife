@@ -375,7 +375,9 @@ footer p {
 
 p.balao,
 p.balao1 {
-  background-color: #fafafa;
+  background: linear-gradient(135deg, #ccc, #fafafa, #949494);
+  background-size: 220% 220%;
+  animation: gradient 15s ease infinite;
   border-radius: 30px;
   box-shadow: 0px 15px 15px #1212126b;
   color: #000000;
