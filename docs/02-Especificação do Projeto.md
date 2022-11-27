@@ -32,7 +32,7 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |Luiza Almeida|Contatar doadores pelo tipo sanguíneo.|Para regular os níveis dos estoques sanguíneos pela tipagem sanguínea.|
 |Akemi Toryama|Acesso de qualquer tipo de dispositivo móvel, afim de facilitar o acesso a plataforma digital|Facilitar o acesso à informação, cadastro e agendamento independente do aparelho usado.|
 |Akemi Toryama|Ter uma sessão informativa onde discriminam requisitos para ser doador.|Orientar novos doadores quanto à sistemática da doação de sangue.|
-|Tadeu Júnior|Comentar as notícias postadas pelos hemocentros.|Discutir com outros usuários que estão consumindo o conteúdo.|
+|Tadeu Júnior|Visualizar notícias sobre doação.|Acompanhar campanhas de doações através de notícias.|
 |Akemi Toryama|Manifestar interesse em me tornar doador e realizar um cadastro.|Em possível baixa de estoque de sangue do meu tipo, o hemocentro já esteja sabendo da disponibilidade e entre em contato comigo.|
 |Akemi Toryama|Gostaria de avaliar a aplicação.|Deixar um feedback a respeito do serviço prestado pelo grupo Hemo Life.|
 |Luiza Almeida|Ter acesso a uma lista de doadores recorrentes.|Entrar em contato com doadores cadastrados que tenham manifestado interesse em doar.|
