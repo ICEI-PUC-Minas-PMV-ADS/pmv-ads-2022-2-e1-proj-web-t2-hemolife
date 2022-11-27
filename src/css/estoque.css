@@ -63,6 +63,10 @@ h4 {
     margin-bottom: 8px
 }
 
+.linkBloodLevel{
+    text-decoration: none;
+}
+
 @media screen and (max-width: 1024px) {
     container-estoque {
         width: auto;
