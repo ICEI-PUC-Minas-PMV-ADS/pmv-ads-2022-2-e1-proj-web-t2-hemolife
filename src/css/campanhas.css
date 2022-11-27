@@ -35,8 +35,11 @@ h2{
 }
 
 .solicitacao{
-    background-color: #e5e5e5;
-    border-radius: 30px;
+    background: linear-gradient(135deg, #ccc, #fafafa, #949494);
+    background-size: 220% 220%;
+    animation: gradient 15s ease infinite;
+    border-radius: 20px;
+    height: auto;
     width: 25vw;
     padding: 2vh 1vw;
     margin: .5em .5em;
