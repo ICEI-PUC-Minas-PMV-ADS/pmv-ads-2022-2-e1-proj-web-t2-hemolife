@@ -27,12 +27,12 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |--------------------|------------------------------------|----------------------------------------|
 |Tadeu Júnior| Encontrar os Hemocentros mais próximos do local onde eu me encontro.|Tornar a busca mais objetiva, sem ter que pesquisar manualmente.|
 |Tadeu Júnior| Visualizar o estoque de disponível de todos os tipos sanguíneos.|Estar atualizado quanto a quais tipos sanguíneos estão em baixa.|
-|Luiza Almeida|Gostaria de fornecer um cartão de benefícios para cada doador recorrente.|Incentivar e atrair mais doadores.|
+|Luiza Almeida|Gostaria de fornecer benefícios para cada doador recorrente.|Incentivar e atrair mais doadores.|
 |Luiza Almeida|Estabelecer contato com o doador.|Tornar o contato entre ambas as partes mais dinâmico. Sem a necessidade de realizar chamadas telefônicas. 
 |Luiza Almeida|Contatar doadores pelo tipo sanguíneo.|Para regular os níveis dos estoques sanguíneos pela tipagem sanguínea.|
 |Akemi Toryama|Acesso de qualquer tipo de dispositivo móvel, afim de facilitar o acesso a plataforma digital|Facilitar o acesso à informação, cadastro e agendamento independente do aparelho usado.|
 |Akemi Toryama|Ter uma sessão informativa onde discriminam requisitos para ser doador.|Orientar novos doadores quanto à sistemática da doação de sangue.|
-|Tadeu Júnior|Comentar as notícias postadas pelos hemocentros.|Discutir com outros usuários que estão consumindo o conteúdo.|
+|Tadeu Júnior|Visualizar notícias sobre doação.|Acompanhar campanhas de doações através de notícias.|
 |Akemi Toryama|Manifestar interesse em me tornar doador e realizar um cadastro.|Em possível baixa de estoque de sangue do meu tipo, o hemocentro já esteja sabendo da disponibilidade e entre em contato comigo.|
 |Akemi Toryama|Gostaria de avaliar a aplicação.|Deixar um feedback a respeito do serviço prestado pelo grupo Hemo Life.|
 |Luiza Almeida|Ter acesso a uma lista de doadores recorrentes.|Entrar em contato com doadores cadastrados que tenham manifestado interesse em doar.|
@@ -53,7 +53,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-03 |O site deve permitir ao usuário cadastrar e efetuar login.|Alta|
 |RF-04 |O site deve permitir ao usuário doador manifestar o interesse em se tornar um doador por meio de um formulário.|Alta|
 |RF-05 |O site deve permitir visualizar as informações de contato dos doadores pelos Hemocentros. |Alta |
-|RF-06 |O site deve permitir a visualização de notícias publicadas pelos hemocentros.|Média |
+|RF-06 |O site deve permitir a visualização de notícias.|Média |
 |RF-07 |O site deve permitir ao doador cadastrado acesso à uma sessão com descontos em redes parceiras. |Média |
 |RF-08 |O site deve conter em sua página inicial um gráfico informando o estoque disponível para cada tipo sanguíneo. |Alta |
 |RF-09 |O site deve permitir ao usuário doador manifestar o interesse em se tornar um doador por meio de um formulário.|Alta|
