@@ -1,32 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
   <title>Hemo Life</title>
   <!-- CSS -->
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/cartao.css">
+  <link rel="stylesheet" href="../css/estoque.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/carrossel.css" />
+  <link rel="stylesheet" href="../css/bloodlevel.css" />
   <!-- JavaScript -->
-  <script defer src="../js/checklogin.js"></script>
-  <script src="js/index.js" defer></script>
+  <script src="../js/index.js" defer></script>
   <script src="https://kit.fontawesome.com/e903379512.js" crossorigin="anonymous"></script>
-  <script defer src="../js/loadlogin.js"></script>
+  <script src="../js/loadblood.js" defer></script>
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Quicksand:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
+    rel="stylesheet" />
   <!-- Fav icon -->
-  <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
-
+  <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" />
 </head>
 
 <body>
-
   <!-- Navbar -->
   <nav>
     <div id="logado" class="logo">
@@ -34,42 +33,43 @@
     </div>
   </nav>
 
-
-  <!-- Botão para voltar uma guia -->
-  <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
-
-  <!-- cartão -->
-  <div class="mockupCartao">
-    <img class="iconCartao" src="../img/cartaohemolife.svg" alt="Cartão de benefícios">
+  <!-- Conteúdo do Corpo -->
+  <div class="title-cupom">
+    <h2>Clube de benefícios</h2>
   </div>
-
-
-  <!-- partes referentes a parcerias -->
-
   <main class="cards">
+    <section class="card academia" onclick="cuponshemolife('academia')">
+      <div class="cupom">
+        <img src="../img/academia.png" alt="Academias" />
+      </div>
+      <h3>Academiaas</h3>
+      <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
+      <a href="cupons.html"><button>Ver mais</button></a>
+    </section>
 
-    <!-- card 1 -->
-    <div class="card">
-      <img class="iconCard" src="../img/academia.logo.png" alt="Contact us.">
-      <h3> Force academy </h3>
-      <span class="resume">taxa de matricula gratis , avaliação 5% de desconto e 10% na mensalidade .</span>
+    <section class="card farmacia" onclick="cuponshemolife('farmacia')">
+      <div class="cupom">
+        <img src="../img/farmacia.png" alt="Farmácias" />
+      </div>
+      <h3>Farmácias</h3>
+      <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
+      <a href="cupons.html"><button>Ver mais</button></a>
+    </section>
+
+    <section class="card mercado" onclick="cuponshemolife('mercado')">
+      <div class="cupom">
+        <img src="../img/mercado.png" alt="Supermercados" />
+      </div>
+      <h3>Supermercados</h3>
+      <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
+      <a href="cupons.html"><button>Ver mais</button></a>
+    </section>
+
+  </main>
+  <main class="cards">
+    <div id="cupons" class="title-cupom">
+
     </div>
-
-    <!-- card 2 -->
-    <div class="card">
-      <img class="iconCard" src="../img/nutri.logo.png" alt="Shop here.">
-      <h3> Nutri Life.</h3>
-      <span class="resume">primeira consulta gratis e desconto de 8% nas demais consultas .</span>
-    </div>
-
-    <!-- card 3 -->
-    <div class="card">
-      <img class="iconCard" src="../img/logo.farmacia.png" alt=" About us.">
-      <h3> farma + </h3>
-      <span class="resume"> desconto de 10% em todos medicamentos e outros produtos. </span>
-    </div>
-
-
   </main>
 
   <!-- Rodapé da página -->
