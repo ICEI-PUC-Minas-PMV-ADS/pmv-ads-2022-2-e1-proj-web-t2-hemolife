@@ -8,7 +8,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 Os componentes que fazem parte da solução são apresentados na Figura 01 abaixo.
 
-![Diagrama de componentes](https://user-images.githubusercontent.com/111004815/197079147-6eb9bbcd-eda4-4a0f-85d4-12de4ac88c76.png)
+![Diagrama de componentes](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/1df38489ec1d8a816f18a7bd809e7d312dcb9917/docs/img/Diagrama%20de%20componentes.svg)
 
 <center>Figura 01 - Arquitetura da Solução</center>
 
@@ -16,8 +16,7 @@ A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Cadastro de Hemocentro e Doador** - seções de cadastro de doares, hemocentro e formularias de doação 
-     - **Notícias e Comentários** - registro de notícias pelos hemocentros e opiniões dos usuários sobre as notícias
+     - **Cadastro de Hemocentro e Doador** - seções de cadastro de doares, hemocentro
      - **Estoque de sangue** - informações sobre os níveis dos estoques
  - **API** - plataforma que permite o acesso às notícias exibidas no site.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
@@ -25,12 +24,11 @@ A solução implementada conta com os seguintes módulos:
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+As tecnologias utilizadas na implementação da solução foram:
 
-IDE: Vs Code
+IDE: VsCode
 Linguagem: HTML, CSS, JavaScript
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+Serviços: GitHub Pages
 
 ## Hospedagem
 ![GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife)
