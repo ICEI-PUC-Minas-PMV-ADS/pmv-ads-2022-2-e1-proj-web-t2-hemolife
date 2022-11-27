@@ -61,7 +61,7 @@
 | Requisitos Associados | RF-09 - O site deve permitir ao usuário cadastrar e manifestar o interesse em se tornar um doador por meio de um formulário. |
 | Requisitos Associados | RF-01 -	O site deve oferecer uma funcionalidade para permitir ao usuário acessar o contato e a localização do hemocentro próximo de sua região. |
 | Requisitos Associados | RF-07 -	O site deve permitir ao doador cadastrado acesso à uma sessão com descontos em redes parceiras. |
-| Passos                | Acessar a <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/pages/centralhemo.html">Painel do Doador</a> e explorar as funcionalidades.  
+| Passos                | Acessar a <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/pages/paineldoador.html">Painel do Doador</a> e explorar as funcionalidades.  
 | Objetivo do teste     | Verificar se todas as funcionalidades estão acessíveis ao usuário doador.|
 | Critérios de êxito    | O usuário autenticado como doador, deverá acessar a aba de busca por hemocentro, formulário de doador, clube de benefícios e demais sessões.|
 
