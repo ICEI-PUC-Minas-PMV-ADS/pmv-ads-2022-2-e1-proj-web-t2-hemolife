@@ -1,6 +1,7 @@
 /* Configuração do Grid */
 .conteudo{
     display: grid;
+    place-items: center;
     justify-content: space-evenly;
     grid-template-areas: 
     'btn-white1 btn-white2'
@@ -67,32 +68,19 @@
 }
 
 @media screen and (max-width: 1024px){
-    .conteudo{        
-        grid-template-rows: 15vh 1fr 1fr 1fr;
+    .conteudo{
         grid-template-areas: 
-        'botoes'
-        'container-left'
-        'container-right';
-    
+        "btn-white1"
+        "btn-white2"
+        "container-left"
+        "container-right";    
         text-align: center;
+        grid-row-gap: 1em;
     }
 }
 
 @media screen and (max-width: 642px){
-    .conteudo{
-        grid-template-columns: 1fr;
-        grid-template-rows: 25vh 1fr 1fr 1fr;
-        grid-template-areas: 
-        'botoes'
-        'container-left'
-        'container-right';
-    
-        text-align: center;
-    }
-
-    .botoes{
-        flex-direction: column;
-    }
+/*     
 
     .btn-white{
         height: 5vh;
@@ -113,5 +101,5 @@
     .rightImg, .leftImg{
         width: 100%;
         height: auto;
-    }
+    } */
 }
