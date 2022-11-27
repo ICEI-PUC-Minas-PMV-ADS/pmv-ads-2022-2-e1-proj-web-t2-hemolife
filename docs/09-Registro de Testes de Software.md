@@ -80,6 +80,52 @@ Direciona para às respectivas noticias.
 <img align="center"  width="411px" src="https://user-images.githubusercontent.com/49421282/204087700-b5b75258-a08a-476d-b365-b4dca991dc26.png"></div><p></p>
 <div>
 
+-Ct-06 - teste de cadastro e login
+
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/login%20e%20cadastro/login.png"></div><p>Página de login</p>
+<div>
+  
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/login%20e%20cadastro/cadastro-form-preenchido.png"></div><p>Criação de conta</p>
+<div>
+
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/login%20e%20cadastro/efetuando-login.png"></div><p>Efetuando login</p>
+<div>
+
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/doador/painel-doador.png"></div><p>Usuário logado</p>
+<div>
+
+  -Ct-07 - teste do painel do doador
+
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/doador/painel-doador.png"></div><p>Painel exclusivo para o doador cadastrado</p>
+<div>
+  
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/doador/funcionalidade-1-formulario-doador.png"></div><p>Formulário para doar sangue</p>
+<div>
+
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/doador/cuponsDiscount.png"></div><p>Benefícios do doador - Cupons de desconto</p>
+<div>
+
+    -Ct-08 - teste do painel do hemocentro
+
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/hemocentro/hemocenter-pannel.png"></div><p>Painel exclusivo para o hemocentro</p>
+<div>
+  
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/hemocentro/hemocenter-doadores-disponiveis.png"></div><p>Doadores disponíveis que manifestaram seu interesse</p>
+<div>
+
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/hemocentro/blood-level.png"></div><p>Sessão de sjustes nos níveis reguladores de sangue do gráfico dinâmico</p>
+<div>
+
 
 
 

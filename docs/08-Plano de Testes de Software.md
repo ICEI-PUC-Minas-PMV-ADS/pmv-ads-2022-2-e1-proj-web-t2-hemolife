@@ -50,20 +50,20 @@
 | Caso de teste         | CT-06 - Cadastro e Login.                                                                                                                                                                                                                                                           |
 | --------------------- | -----------------|
 | Requisitos Associados | RF-03 - O site deve permitir ao usuário cadastrar e efetuar login.|
-| Requisitos Associados | RF-07 - O site deve conter em sua página inicial um gráfico informando o estoque disponível para cada tipo sanguíneo.|
-| Requisitos Associados | RF-04 O site deve permitir visualizar as informações de contato dos doadores pelos Hemocentros.|
 | Passos                | Acessar a <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/pages/login.html">Sessão de login</a> na aba de navegação em qualquer uma das páginas disponíveis  
 | Objetivo do teste     | Verificar se é possível cadastrar um usuário, seja ele hemocentro ou doador e em seguida, acessar todas as funcionalidades exclusivas ao usuário correspondente.|
-| Critérios de êxito    | Ao efetuar o login, o usuário, seja ele hemocentro ou doador. Deverá visualizar a sua respectiva sessão com funcionalidades exclusivas.|
+| Critérios de êxito    | Efetuar cadastro como um novo usuário e conseguir efetuar o login com os dados informados.|
 
 <!-- CT - 07 -->
 
 | Caso de teste         | CT-07 - Painel Doador.                                                                                                                                                                                                                                                           |
 | --------------------- | -----------------|
 | Requisitos Associados | RF-09 - O site deve permitir ao usuário cadastrar e manifestar o interesse em se tornar um doador por meio de um formulário. |
-| Passos                | Acessar a <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/pages/centralhemo.html">Painel do DOador</a> e explorar as funcionalidades.  
-| Objetivo do teste     | Verificar se é possível cadastrar um usuário, seja ele hemocentro ou doador e em seguida, acessar todas as funcionalidades exclusivas ao usuário correspondente.                                                                                                                                                                           |
-| Critérios de êxito    | Ao efetuar o login, o usuário, seja ele hemocentro ou doador. Deverá visualizar a sua respectiva sessão com funcionalidades exclusivas                                               |
+| Requisitos Associados | RF-01 -	O site deve oferecer uma funcionalidade para permitir ao usuário acessar o contato e a localização do hemocentro próximo de sua região. |
+| Requisitos Associados | RF-07 -	O site deve permitir ao doador cadastrado acesso à uma sessão com descontos em redes parceiras. |
+| Passos                | Acessar a <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/pages/paineldoador.html">Painel do Doador</a> e explorar as funcionalidades.  
+| Objetivo do teste     | Verificar se todas as funcionalidades estão acessíveis ao usuário doador.|
+| Critérios de êxito    | O usuário autenticado como doador, deverá acessar a aba de busca por hemocentro, formulário de doador, clube de benefícios e demais sessões.|
 
 <!-- CT - 07 -->
 
