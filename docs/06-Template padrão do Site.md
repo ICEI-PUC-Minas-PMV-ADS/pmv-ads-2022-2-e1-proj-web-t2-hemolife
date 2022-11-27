@@ -28,4 +28,4 @@ A responsividade foi definida usando media query, grid e flex-box.
 
 Tela que abrange todas as visualizações iniciais do sistema nos diversos locais
 
-![telaPrincipal](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/interface.jpg)
+![telaPrincipal](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/5a3f66d060a32f3a69e42f3df22daee167a2c032/docs/img/index.svg)
