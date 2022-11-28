@@ -148,7 +148,7 @@ function cadastroCom() {
         msgLog.innerHTML = ''
     }
     else {
-        msgLog.innerHTML = 'Preencha todos os campos para realizar o cadastro.'
+        msgLog.innerHTML = 'Verifique e preencha todos os campos para realizar o cadastro.'
     }
 }
 usurLista.push(
