@@ -59,13 +59,17 @@ Direciona para às respectivas noticias com sucesso.
 <img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204067096-3d4bd79c-b513-4d40-b14a-55aca38a4667.png">
 </div>
 
-- CT-04 - Benefícios Hemolife - Teste de acesso ao Cartão de Hemolife.
+- CT-04 - Benefícios Hemolife - Teste de acesso ao Benefícios Hemolife.
+Tela inicial com acesso ao cartão 
 <div>
 <img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086443-b9573459-b198-42a6-bf3d-ac8c72c1d6ef.png"></div><p></p>
+Tela benefícios parcial - Tela usuário deslogado
 <div>
-<img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086490-b3e87769-47b9-476b-9367-d63ee52b7646.png"></div><p></p>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/204174450-c551faae-4e75-43b3-9055-5ffb095097f6.png"></div><p></p>
+Tela Painel doador com acesso ao cartão 
 <div>
 <img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086501-23395c37-88a1-4b11-97ac-1ff1bda73e7b.png"></div><p></p>
+Tela benefícios completa - Tela usuário logado
 <div>
 <img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086519-4f988812-d6cf-4be1-bca0-692a1e69c90c.png"></div><p></p>
 
@@ -97,7 +101,7 @@ Direciona para às respectivas noticias com sucesso.
 <img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/doador/painel-doador.png"></div><p>Usuário logado</p>
 </div>
  -CT-07 - Teste de cadastro e login sem sucesso
-  Senhas não atinge os requisitos mínimos
+  <p>Senhas não atinge os requisitos mínimos</p>
   <div>
 <img align="center"  width="411px" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/b6de6adaf5f085e49b0f492f052856f3a99d313e/docs/img/cadastroerr.svg"></div><p>Página de login</p>
 </div>
