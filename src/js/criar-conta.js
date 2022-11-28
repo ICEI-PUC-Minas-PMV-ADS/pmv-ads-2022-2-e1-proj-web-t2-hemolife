@@ -88,6 +88,7 @@ function verificaTudo(event) {
                 if (numeros.test(senha.value)) {
                     if (caracteresEspeciais.test(senha.value)) {
                         reqSenha = true;
+                        labelSenha.innerHTML = ''
                     } else {
                         minReq();
                     }
@@ -98,22 +99,23 @@ function verificaTudo(event) {
         }
     } else { minReq(); }
     function minReq() {
-        msgLog.innerHTML = 'Senha não atinge os resquisitos mínimos'
+        labelSenha.innerHTML = 'Senha não atinge os resquisitos mínimos'
         reqSenha = false;
     }
     if (confirmSenha.value === senha.value) {
         confirmaSenha = true;
-        msgLog.innerHTML = ''
+        labelConfirmSenha.innerHTML = ''
     }
     else {
-        msgLog.innerHTML = 'As senhas não coincidem'
+        labelConfirmSenha.innerHTML = 'As senhas não coincidem'
         confirmaSenha = false;
     }
     if (!verificaEmail()) {
         unicoEmail = true;
+        labelEmail.innerHTML = '';
     }
     else {
-        lmsgLog.innerHTML = 'Já possuímos uma conta com este e-mail. Tente realizar o login.';
+        labelEmail.innerHTML = 'Já possuímos uma conta com este e-mail. Tente realizar o login.';
         unicoEmail = false;
 
     }
@@ -146,12 +148,7 @@ function cadastroCom() {
         msgLog.innerHTML = ''
     }
     else {
-        // Teste de senha
-        // labelNome.innerHTML = unicoNome
-        // labelSenha.innerHTML = reqSenha
-        // labelEmail.innerHTML = unicoEmail
-        // labelConfirmSenha.innerHTML = confirmaSenha
-        //G81nc0^q^
+        msgLog.innerHTML = 'Preencha todos os campos para realizar o cadastro.'
     }
 }
 usurLista.push(

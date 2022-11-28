@@ -36,34 +36,37 @@
     <div>
         <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
     </div>
-    <div class="limit">        
+    <div class="limit">
         <form id="formCadastro" class="formCadastro">
             <h2 class="form-signin-heading">Cadastro</h2>
+            <div id="msgLog"></div>
             <div class="limitf">
-                <div id="msgLog">
-                    <select class="form-control" name="" id="tipousur" required>
-                        <option selected value="Doador">Doador</option>
-                        <option value="Hemocentro">Hemocentro</option>
-                    </select>
-                    <input class="form-control" type="text" id="nome" placeholder="Nome de usuário" required
-                        maxlength="16">
-                    <!-- Nasciemento -->
-                    <label class="DataN">Data de nascimento</label>
-                    <input class="form-control data" type="date">
-                    <!-- Checagem de impedimentos -->
-                    <select class="form-control" name="" id="" required>
-                        <option selected disabled value="">Já doou antes?</option>
-                        <option value="">Sim</option>
-                        <option value="">Não</option>
-                    </select>
-                    <!-- CPF -->
 
-                    <input class="form-control" type="text" placeholder="CPF" maxlength="11" required>
-                    <input class="form-control" type="text" id="email" placeholder="E-mail" required>
-                    <input class="form-control" type="password" id="senha" placeholder="Senha" required>
-                    <input class="form-control" type="password" id="confirmSenha" placeholder="Confirmar senha"
-                        required>
-                </div>
+                <select class="form-control" name="" id="tipousur" required>
+                    <option selected value="Doador">Doador</option>
+                    <option value="Hemocentro">Hemocentro</option>
+                </select>
+                <label id="labelNome" class="DataN"></label>
+                <input class="form-control" type="text" id="nome" placeholder="Nome de usuário" required maxlength="16">
+                <!-- Nasciemento -->
+                <label class="DataN">Data de nascimento</label>
+                <input class="form-control data" type="date">
+                <!-- Checagem de impedimentos -->
+                <select class="form-control" name="" id="" required>
+                    <option selected disabled value="">Já doou antes?</option>
+                    <option value="">Sim</option>
+                    <option value="">Não</option>
+                </select>
+                <!-- CPF -->
+
+                <input class="form-control" type="text" placeholder="CPF" minlength="11" maxlength="11" required>
+                <label id="labelEmail" class="DataN"></label>
+                <input class="form-control" type="text" id="email" placeholder="E-mail" required>
+                <label id="labelSenha" class="DataN"></label>
+                <input class="form-control" type="password" id="senha" placeholder="Senha" required>
+                <label id="labelConfirmSenha" class="DataN"></label>
+                <input class="form-control" type="password" id="confirmSenha" placeholder="Confirmar senha" required>
+
                 <div>
                     <button class="btn" id="btnCadastro">Cadastrar</button>
                 </div>
