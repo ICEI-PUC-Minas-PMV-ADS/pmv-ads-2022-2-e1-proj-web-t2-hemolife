@@ -56,10 +56,9 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-06 |O site deve permitir a visualização de notícias.|Média |
 |RF-07 |O site deve permitir ao doador cadastrado acesso à uma sessão com descontos em redes parceiras. |Média |
 |RF-08 |O site deve conter em sua página inicial um gráfico informando o estoque disponível para cada tipo sanguíneo. |Alta |
-|RF-09 |O site deve permitir ao usuário doador manifestar o interesse em se tornar um doador por meio de um formulário.|Alta|
-|RF-10 |O site deve permitir ao usuário hemocentro realizar ajustes nos níveis de sangue em seu painel.|Alta|
-|RF-11 |O site deve possuir um campo no qual a pessoa possa se candidatar a trabalhar conosco.|Média|
-|RF-12 |O site deve conter uma página onde qualquer pessoa possa efetuar uma doação financeira a organização HemoLife.|Média|
+|RF-09 |O site deve permitir ao usuário hemocentro realizar ajustes nos níveis de sangue em seu painel.|Alta|
+|RF-10 |O site deve possuir um campo no qual a pessoa possa se candidatar a trabalhar conosco.|Média|
+|RF-11 |O site deve conter uma página onde qualquer pessoa possa efetuar uma doação financeira a organização HemoLife.|Média|
 
 
 
