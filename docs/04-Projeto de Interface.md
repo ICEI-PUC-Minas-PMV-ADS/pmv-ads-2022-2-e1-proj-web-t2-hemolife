@@ -11,7 +11,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 O fluxograma representa o fluxo de acesso do usuário ao sistema.
 No modelo abaixo temos um fluxo que se ramifica em dois, sendo o fluxo do usuário representado pelas setas azuis e o fluxo do hemocentro representado pelas setas vermelhas e nos campos com setas cinzas, temos àreas acessíveis a todos, sem a necessidade de um login prévio.<br>
 
-![Fluxo usuário 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/FluxoDeTelas1.png) 
+![Fluxo usuário 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/fluxo2.0.png) 
 
 
 ## Wireframes
