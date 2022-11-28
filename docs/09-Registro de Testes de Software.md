@@ -33,28 +33,28 @@ Casos de Testes (CT-01, CT-02, CT-03, CT-04, CT-05, CT-06, CT-07, CT-08, CT-09)
 </div>
 <p></p>
 - CT-03 - Notícias - Testa acesso às notícias atráves do banner de notícias da homepage.
-<h3>1.</h3>
+<h3>1. Banner 01</h3>
 <div>
 <img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204066596-35f326be-b3b9-4bdc-9625-d53197a1cbdf.png">
 </div>
-<h3>2.</h3>
+<h3>2. Banner 02</h3>
 <div>
-<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/203874294-723f6ae3-d0b7-43f3-8d9b-5aea8e8bc920.png">
+<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204174053-d6371739-8696-4b91-be76-19128f6fd2ba.png">
 </div>
-<h3>3.</h3>
+<h3>3. Banner 03</h3>
 <div>
-<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/203874357-465dd8f8-f7d9-416d-b413-c42f7be252f9.png">
+<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204174080-3fa5d15d-0f13-4e29-b66a-d2acb36adbc1.png">
 </div>
-<h3>4.</h3>
+<h3>4. Banner 04</h3>
 <div>
 <img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/203874394-2d5bea72-37cf-4a48-9f35-ab3178099b9a.png">
 </div>
-<h3>5.</h3>
+<h3>5. Banner 05</h3>
 <div>
 <img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/203874406-72249e66-bd92-4215-b8ec-27adc44ef52e.png">
 </div>
 <p></p>
-Direciona para às respectivas noticias.
+Direciona para às respectivas noticias com sucesso.
 <div>
 <img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204067096-3d4bd79c-b513-4d40-b14a-55aca38a4667.png">
 </div>
