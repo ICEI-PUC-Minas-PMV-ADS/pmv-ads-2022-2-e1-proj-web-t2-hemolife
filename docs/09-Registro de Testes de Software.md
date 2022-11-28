@@ -60,7 +60,7 @@ Direciona para às respectivas noticias com sucesso.
 </div>
 
 - CT-04 - Benefícios Hemolife - Teste de acesso ao Benefícios Hemolife.
-Tela inicial com acesso ao cartão 
+<p>Tela inicial com acesso ao cartão</p>
 <div>
 <img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086443-b9573459-b198-42a6-bf3d-ac8c72c1d6ef.png"></div><p></p>
 Tela benefícios parcial - Tela usuário deslogado
@@ -122,7 +122,7 @@ Dados de login ou senha inválidos
 <img align="center"  width="411px" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/b6de6adaf5f085e49b0f492f052856f3a99d313e/docs/img/loginsenha.svg"></div><p>Página de login</p>
 </div>
  
--CT-08 - teste do painel do doador
+-CT-08 - Teste do painel do doador
 
 <div>
 <img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/doador/painel-doador.png"></div><p>Painel exclusivo para o doador cadastrado</p>
@@ -136,7 +136,7 @@ Dados de login ou senha inválidos
 <img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/doador/cuponsDiscount.png"></div><p>Benefícios do doador - Cupons de desconto</p>
 </div>
 
--CT-09 - teste do painel do hemocentro
+-CT-09 - Teste do painel do hemocentro
 
 <div>
 <img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/hemocentro/hemocenter-pannel.png"></div><p>Painel exclusivo para o hemocentro</p>
