@@ -56,7 +56,16 @@
 
 <!-- CT - 07 -->
 
-| Caso de teste         | CT-07 - Painel Doador.                                                                                                                                                                                                                                                           |
+| Caso de teste         | CT-07 - Cadastro e Login sem sucesso.|
+| --------------------- | -----------------|
+| Requisitos Associados | RF-03 - O site deve permitir ao usuário cadastrar e efetuar login.|
+| Passos                | Acessar a <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/pages/login.html">Sessão de login</a> na aba de navegação em qualquer uma das páginas disponíveis  
+| Objetivo do teste     | Verificar se a partir dos dados inseridos inválidos não é possível realizar do cadastro ou login.|
+| Critérios de êxito    | Não conseguir efetuar cadastro como um novo usuário e não conseguir efetuar o login com os dados informados apresentando uma mensagem de erro para os dados incorretos.|
+
+<!-- CT - 08 -->
+
+| Caso de teste         | CT-08 - Painel Doador.                                                                                                                                                                                                                                                           |
 | --------------------- | -----------------|
 | Requisitos Associados | RF-09 - O site deve permitir ao usuário cadastrar e manifestar o interesse em se tornar um doador por meio de um formulário. |
 | Requisitos Associados | RF-01 -	O site deve oferecer uma funcionalidade para permitir ao usuário acessar o contato e a localização do hemocentro próximo de sua região. |
@@ -65,9 +74,9 @@
 | Objetivo do teste     | Verificar se todas as funcionalidades estão acessíveis ao usuário doador.|
 | Critérios de êxito    | O usuário autenticado como doador, deverá acessar a aba de busca por hemocentro, formulário de doador, clube de benefícios e demais sessões.|
 
-<!-- CT - 07 -->
+<!-- CT - 09 -->
 
-| Caso de teste         | CT-08 - Painel Hemocentro.                                                                                                                                                                                                                                                           |
+| Caso de teste         | CT-09 - Painel Hemocentro.                                                                                                                                                                                                                                                           |
 | --------------------- | -----------------|
 | Requisitos Associados | RF-04 O site deve permitir visualizar as informações de contato dos doadores pelos Hemocentros.|
 | Requisitos Associados | RF-10 O site deve permitir ao usuário hemocentro realizar ajustes nos níveis de sangue em seu painel.|

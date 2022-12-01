@@ -33,39 +33,43 @@ Casos de Testes (CT-01, CT-02, CT-03, CT-04, CT-05, CT-06, CT-07, CT-08, CT-09)
 </div>
 <p></p>
 - CT-03 - Notícias - Testa acesso às notícias atráves do banner de notícias da homepage.
-<h3>1.</h3>
+<h3>1. Banner 01</h3>
 <div>
 <img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204066596-35f326be-b3b9-4bdc-9625-d53197a1cbdf.png">
 </div>
-<h3>2.</h3>
+<h3>2. Banner 02</h3>
 <div>
-<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/203874294-723f6ae3-d0b7-43f3-8d9b-5aea8e8bc920.png">
+<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204174053-d6371739-8696-4b91-be76-19128f6fd2ba.png">
 </div>
-<h3>3.</h3>
+<h3>3. Banner 03</h3>
 <div>
-<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/203874357-465dd8f8-f7d9-416d-b413-c42f7be252f9.png">
+<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204174080-3fa5d15d-0f13-4e29-b66a-d2acb36adbc1.png">
 </div>
-<h3>4.</h3>
+<h3>4. Banner 04</h3>
 <div>
 <img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/203874394-2d5bea72-37cf-4a48-9f35-ab3178099b9a.png">
 </div>
-<h3>5.</h3>
+<h3>5. Banner 05</h3>
 <div>
 <img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/203874406-72249e66-bd92-4215-b8ec-27adc44ef52e.png">
 </div>
 <p></p>
-Direciona para às respectivas noticias.
+Direciona para às respectivas noticias com sucesso.
 <div>
 <img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204067096-3d4bd79c-b513-4d40-b14a-55aca38a4667.png">
 </div>
 
-- CT-04 - Benefícios Hemolife - Teste de acesso ao Cartão de Hemolife.
+- CT-04 - Benefícios Hemolife - Teste de acesso ao Benefícios Hemolife.
+<p>Tela inicial com acesso ao cartão</p>
 <div>
 <img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086443-b9573459-b198-42a6-bf3d-ac8c72c1d6ef.png"></div><p></p>
+Tela benefícios parcial - Tela usuário deslogado
 <div>
-<img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086490-b3e87769-47b9-476b-9367-d63ee52b7646.png"></div><p></p>
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/204174450-c551faae-4e75-43b3-9055-5ffb095097f6.png"></div><p></p>
+Tela Painel doador com acesso ao cartão 
 <div>
 <img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086501-23395c37-88a1-4b11-97ac-1ff1bda73e7b.png"></div><p></p>
+Tela benefícios completa - Tela usuário logado
 <div>
 <img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086519-4f988812-d6cf-4be1-bca0-692a1e69c90c.png"></div><p></p>
 
@@ -97,7 +101,7 @@ Direciona para às respectivas noticias.
 <img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/doador/painel-doador.png"></div><p>Usuário logado</p>
 </div>
  -CT-07 - Teste de cadastro e login sem sucesso
-  Senhas não atinge os requisitos mínimos
+  <p>Senhas não atinge os requisitos mínimos</p>
   <div>
 <img align="center"  width="411px" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/b6de6adaf5f085e49b0f492f052856f3a99d313e/docs/img/cadastroerr.svg"></div><p>Página de login</p>
 </div>
@@ -118,7 +122,7 @@ Dados de login ou senha inválidos
 <img align="center"  width="411px" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/b6de6adaf5f085e49b0f492f052856f3a99d313e/docs/img/loginsenha.svg"></div><p>Página de login</p>
 </div>
  
--CT-08 - teste do painel do doador
+-CT-08 - Teste do painel do doador
 
 <div>
 <img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/doador/painel-doador.png"></div><p>Painel exclusivo para o doador cadastrado</p>
@@ -132,7 +136,7 @@ Dados de login ou senha inválidos
 <img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/doador/cuponsDiscount.png"></div><p>Benefícios do doador - Cupons de desconto</p>
 </div>
 
--CT-09 - teste do painel do hemocentro
+-CT-09 - Teste do painel do hemocentro
 
 <div>
 <img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/hemocentro/hemocenter-pannel.png"></div><p>Painel exclusivo para o hemocentro</p>

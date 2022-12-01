@@ -11,7 +11,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 O fluxograma representa o fluxo de acesso do usuário ao sistema.
 No modelo abaixo temos um fluxo que se ramifica em dois, sendo o fluxo do usuário representado pelas setas azuis e o fluxo do hemocentro representado pelas setas vermelhas e nos campos com setas cinzas, temos àreas acessíveis a todos, sem a necessidade de um login prévio.<br>
 
-![Fluxo usuário 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/FluxoDeTelas1.png) 
+![Fluxo usuário 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/fluxo2.0.png) 
 
 
 ## Wireframes
@@ -66,12 +66,13 @@ Nesta tela descrevemos a missão da HemoLife.
 <div>
 <img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/204161718-2f494eea-3cb1-400e-be54-eeccb841c269.png">
 </div>
-## Tela - Cartão HemoLife
+
+## Tela - Benefícios HemoLife
 
 Nesta tela o usuário "não logado" poderá visualizar os benefícios de se cadastrar e torna-se doador.
 
 <div>
-<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/204162599-039910e9-4059-4cb2-9eb1-02d8da6cf14e.png">
+<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/204175526-94b05e3b-f270-467a-b87f-f8a471a96831.png">
 </div>
 
 ## Tela - Clube Benefícios
@@ -125,47 +126,18 @@ Página de Criar conta, onde será criado o cadastro de doador ou hemocentro.
 Crie a sua conta como doador, é necessário preencher o Nome completo, data de nascimento, tipo sanguíneo, E-mail, criar uma senha, confirmar a senha, 
 e concordar com todos os termos. 
 
-<div>
-<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Cadastro%20doador.png">
-</div>
-
-
 ## Tela - Termos de uso
 
 <div>
-<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Doador/Termos%20de%20aceite%20do%20servi%C3%A7o.png">
+<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204175354-ebb40c6a-0a4c-4b7f-a2e1-3ac4936d9ee0.png">
 </div>
-
-## Tela -  Cadastro realizado com sucesso 
-
-Com seu cadastro feito e atendendo todos os requisitos pedidos, seu cadastro será feito com sucesso.
-
-<div>
-<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/%C3%81rea%20de%20loginLogin%20doador%20efetuado.png">
-</div>
-
-## Tela- Cadastro negado 
-
-Caso o seu cadastro não atender todos os critérios para ser doador, será exibida uma página com a seguinte mensagem: 
-"Infelizmente você não atende aos requisitos mínimos para se tornar um doador no momento, sentimos muito!" 
-
-<div>
-<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/%C3%81rea%20de%20loginLogin%20Doador%20rejeitado.png">
-</div>
-
 
 ## Tela - Recuperação de senha 
  Se o usuário já tiver feito o cadastro mas tiver esquecido a senha será possível recuperar a mesma por um e-mail que lhe será enviado. 
  
 <div>
-<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Recuperar%20senharecuperar%20senha-ambos.png">
-</div><br>
- 
- logo em seguida ira aparecer a seguinte mensagem 
- 
-<div>
-<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/IMGS%20HL/Ambos/Recuperar%20senha2retorno%20para%20recupera%C3%A7%C3%A3o%20de%20senha-%20ambos.png">
-</div>
+<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204175437-3039d78f-1ce9-42ef-8016-fa1a5bb90826.png">
+</div><br> 
 
 ## Tela - Pesquisa por Hemocentros
 
