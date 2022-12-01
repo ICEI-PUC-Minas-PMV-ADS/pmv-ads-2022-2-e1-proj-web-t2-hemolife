@@ -143,7 +143,7 @@ function cadastroCom() {
         localStorage.setItem('usurLista', JSON.stringify(usurLista))
         setTimeout(() => {
             /*Cadastro Efetuado*/
-            window.location.pathname = "login.html";
+            window.location.pathname = "././login.html";
         }, 2000);
         msgLog.innerHTML = ''
     }
