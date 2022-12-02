@@ -36,7 +36,7 @@ nome.addEventListener('keyup', () => {
         labelNome.innerHTML = ''
     }
     else {
-        labelNome.innerHTML = 'Nome já existe'
+        labelNome.innerHTML = '*Nome já existe'
     }
 })
 function validarEmail(email) {
@@ -58,7 +58,7 @@ function verificaEmail() {
 email.addEventListener('keyup', () => {
     labelEmail.innerHTML = '';
     if (!validarEmail(email.value)) {
-        labelEmail.innerHTML = 'E-mail inválido';
+        labelEmail.innerHTML = '*E-mail inválido';
     }
 })
 senha.addEventListener('keyup', () => {
@@ -99,7 +99,7 @@ function verificaTudo(event) {
         }
     } else { minReq(); }
     function minReq() {
-        labelSenha.innerHTML = 'Senha não atinge os resquisitos mínimos'
+        labelSenha.innerHTML = '*Senha não atinge os resquisitos mínimos'
         reqSenha = false;
     }
     if (confirmSenha.value === senha.value) {
@@ -107,7 +107,7 @@ function verificaTudo(event) {
         labelConfirmSenha.innerHTML = ''
     }
     else {
-        labelConfirmSenha.innerHTML = 'As senhas não coincidem'
+        labelConfirmSenha.innerHTML = '*As senhas não coincidem'
         confirmaSenha = false;
     }
     if (!verificaEmail()) {
@@ -115,7 +115,7 @@ function verificaTudo(event) {
         labelEmail.innerHTML = '';
     }
     else {
-        labelEmail.innerHTML = 'Já possuímos uma conta com este e-mail. Tente realizar o login.';
+        labelEmail.innerHTML = '*Já possuímos uma conta com este e-mail. Tente realizar o login.';
         unicoEmail = false;
 
     }
@@ -148,7 +148,7 @@ function cadastroCom() {
         msgLog.innerHTML = ''
     }
     else {
-        msgLog.innerHTML = 'Verifique e preencha todos os campos para realizar o cadastro.'
+        msgLog.innerHTML = '*Verifique e preencha todos os campos para realizar o cadastro.'
     }
 }
 usurLista.push(
