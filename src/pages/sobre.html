@@ -9,7 +9,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- JavaScript -->
-    <script src="../pages/index.js" defer></script>
+    <script src="../js/index.js" defer></script>
     <script defer src="../js/checklogin.js"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,59 +28,59 @@
 
         </div>
     </nav>
-
     <!-- Conteúdo do Corpo -->
+    <general class="conteudo">
+        <!-- Botão para voltar uma guia -->
+        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</a></button>
+        <div class="about">
+            <h2 class="about-title">Institucional</h2>
+            <p>A HemoLife é uma aplicação de iniciativa privada sem qualquer relação com qualquer projeto
+                estatal. Este Projeto se originou para reunir informações de pessoas dispostas a doar sobe a demanda da
+                conexão dos
+                dados de estoque de sangue dos bancos de sangue dentre os hemocentros e da conexão dos interessados em
+                realizar doações com os hemocentros.
 
-    <!-- Botão para voltar uma guia -->
-    <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
+                Criada em 2022, a Hemolife tem como principal missão permitir o maior contato do doador e os
+                hemocentros,
+                permitindo assim manter os níveis regulares dos estoques de sangue.</p>
+        </div>
 
-    <div class="about">
-        <h2 class="about-title">Institucional</h2>
-        <p>A HemoLife é uma aplicação de iniciativa privada sem qualquer relação com qualquer projeto
-            estatal. Este Projeto se originou para reunir informações de pessoas dispostas a doar sobe a demanda da
-            conexão dos
-            dados de estoque de sangue dos bancos de sangue dentre os hemocentros e da conexão dos interessados em
-            realizar doações com os hemocentros.
+        <!-- time -->
+        <h2 class="team-title">Equipe</h2>
+        <div class="team">
 
-            Criada em 2022, a Hemolife tem como principal missão permitir o maior contato do doador e os hemocentros,
-            permitindo assim manter os níveis regulares dos estoques de sangue.</p>
-    </div>
+            <a href="https://www.linkedin.com/in/gabriel-olivr-dev/">
 
-    <!-- time -->
-    <h2 class="team-title">Equipe</h2>
-    <div class="team">
+                <img src="../img/gabriel.jpg" alt="Gabriel"><br>
 
-        <a href="https://www.linkedin.com/in/gabriel-olivr-dev/">
+                Gabriel</a>
 
-            <img src="../img/gabriel.jpg" alt="Gabriel"><br>
+            <a href="https://www.linkedin.com/in/jansem-wallemberg-torquetti-maia-33040a166/">
 
-            Gabriel</a>
+                <img src="../img/jansem.jpg" alt="Jansem"><br>
 
-        <a href="https://www.linkedin.com/in/jansem-wallemberg-torquetti-maia-33040a166/">
+                Jansem</a>
 
-            <img src="../img/jansem.jpg" alt="Jansem"><br>
+            <a href="https://www.linkedin.com/in/lucasreisf/">
 
-            Jansem</a>
+                <img src="../img/lucas.jpg" alt="Lucas"><br>
 
-        <a href="https://www.linkedin.com/in/lucasreisf/">
+                Lucas</a>
 
-            <img src="../img/lucas.jpg" alt="Lucas"><br>
+            <a href="https://www.linkedin.com/in/natan-c%C3%A2ndido-fonseca-a93417186/">
 
-            Lucas</a>
+                <img src="../img/natan.jpg" alt="Natan"><br>
 
-        <a href="https://www.linkedin.com/in/natan-c%C3%A2ndido-fonseca-a93417186/">
+                Natan</a>
 
-            <img src="../img/natan.jpg" alt="Natan"><br>
+            <a href="https://www.linkedin.com/in/wellington-andrade-10184051/">
 
-            Natan</a>
+                <img src="../img/wellington.jpg" alt="Wellington"><br>
 
-        <a href="https://www.linkedin.com/in/wellington-andrade-10184051/">
+                Wellington</a>
 
-            <img src="../img/wellington.jpg" alt="Wellington"><br>
-
-            Wellington</a>
-
-    </div>
+        </div>
+    </general>
     <!-- Rodapé da página -->
     <footer>
         <div class="footer-conteudo">
@@ -88,20 +88,16 @@
             <a href="apoie.html">Apoie o nosso projeto</a>
             <a href="trabalhe-conosco.html">Trabalhe conosco</a>
         </div>
-
         <div class="footer-bottom">
+            <div class="footer-contatos">
+                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+            </div>
             <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
                     href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
             </p>
-            <div>
-                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
-            </div>
-            <div>
-                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
-            </div>
         </div>
     </footer>
-
     <!-- Api Libras -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>

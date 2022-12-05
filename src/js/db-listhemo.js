@@ -957,3 +957,26 @@ var db = {
 
     ]
 }
+// Obtem os hemocentro informados pelo usuário nos filtros
+var fr = document.querySelector("filtro_regiao");
+function ListaHemocentros(fr) {
+    // limpa a lista de hemocentros apresentados
+    $("#lista-hemocentros").empty();
+    // Popula a tabela com os registros do banco de dados
+    document.getElementById('nomereg').innerHTML = fr;
+    for (let index = 0; index < db.dados.length; index++) {
+        const hemoc = db.dados[index];
+        // Verifica se os dados dos hemocentros batem com os filtros
+        if ((hemoc.regiao == fr) || (fr == '')) {
+            $("#lista-hemocentros").append(
+                `<div class="card"><h3>${hemoc.estadohemo}</h3>
+                 <p>${hemoc.nomehemo}<br>${hemoc.localhemo}
+                 <br> ${hemoc.contatohemo}</p></div>`
+            );
+        }
+        //Scroll da página do botões até o conteúdo impresso.          
+        var target_offset = $("#posicaoscroll").offset();
+        var target_top = target_offset.top;
+        $('html, body').stop().animate({ scrollTop: target_top }, 1500);
+    }
+}

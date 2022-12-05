@@ -1,40 +1,89 @@
 /* grid principal */
 
-body{
+grid-container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
-    grid-template-areas: 
-    'nav'
-    'content'
-    'footer';
+    grid-template-areas:
+        'voltar'
+        'nav'
+        'filtros'
+        'content'
+        'footer';
 }
 
-
-
-nav{
+nav {
     grid-area: nav;
 }
 
-footer{
+#btn-voltar {
+    grid-area: voltar;
+}
+
+.filtros {
+    grid-area: filtros;
+    margin: 3vh auto;
+    padding: 2vh;
+    width: 78vw;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5%;
+    background: linear-gradient(135deg, #ccc, #fafafa, #949494);
+    background-size: 220% 220%;
+    animation: gradient 15s ease infinite;
+    transition: all .4s;
+}
+
+h3 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.filtro {
+    border-bottom: 1px solid #dd4a48;
+    margin: 1vh;
+    transition: all .4s;
+}
+
+.filtro:focus {
+    color: #dd4a48;
+    border-bottom: 1px solid #fc0400;
+}
+
+.filtro:hover {
+    scale: 1.02;
+}
+
+select {
+    border: none;
+    background: none;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid #dd4a48;
+}
+
+footer {
     grid-area: footer;
 }
 
 /* corpo */
-.limit{
+.limit {
     grid-area: content;
 }
 
-b{
+b {
     font-weight: 900;
 }
 
-h2{
+h2 {
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 2vh;
 }
 
-.solicitacao{
+.solicitacao {
     background: linear-gradient(135deg, #ccc, #fafafa, #949494);
     background-size: 220% 220%;
     animation: gradient 15s ease infinite;
@@ -43,18 +92,15 @@ h2{
     width: 25vw;
     padding: 2vh 1vw;
     margin: .5em .5em;
-    box-shadow: 0px 10px 10px #0000005b;
     transition: all .4s;
 }
 
-.solicitacao:hover{
+.solicitacao:hover {
     scale: 1.02;
-    box-shadow: 0px 2px 15px #000000d3;
+    box-shadow: 0px 0px 5px #000000d3;
 }
 
-
-
-.solicitacao a{
+.solicitacao a {
     text-decoration: none;
     color: #dd4a48;
     font-weight: 600;
@@ -64,27 +110,27 @@ h2{
     margin-top: .5em;
 }
 
-.solicitacao a:hover{
+.solicitacao a:hover {
     font-weight: 900;
 }
 
-.solicitacoes{
+.solicitacoes {
     width: 100vw;
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
-@media screen and (max-width: 1108px){
-    .solicitacao{
+@media screen and (max-width: 1108px) {
+    .solicitacao {
         width: 40vw;
     }
 }
 
-@media screen and (max-width: 830px){
-    .solicitacao{
+@media screen and (max-width: 830px) {
+    .solicitacao {
         width: 90vw;
         padding: 20px;
     }

@@ -14,6 +14,7 @@
   <script src="../js/cupons.js" defer></script>
   <script src="../js/checklogin.js" defer></script>
   <script src="../js/checkdoador.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,69 +32,44 @@
 
     </div>
   </nav>
-
-  <!-- Conteúdo do Corpo -->
-  <div class="title-cupom">
-    <h2>Clube de benefícios</h2>
-  </div>
-  <main class="cards">
-    <section class="card academia" onclick="cuponshemolife('academia')">
-      <div class="cupom">
-        <img src="../img/academia.png" alt="Academias" />
-      </div>
-      <h3>Academias</h3>
-      <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
-      <button>Ver mais</button>
-    </section>
-    <section class="card farmacia" onclick="cuponshemolife('farmacia')">
-      <div class="cupom">
-        <img src="../img/farmacia.png" alt="Farmácias" />
-      </div>
-      <h3>Farmácias</h3>
-      <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
-      <button>Ver mais</button>
-    </section>
-    <section class="card mercado" onclick="cuponshemolife('mercado')">
-      <div class="cupom">
-        <img src="../img/mercado.png" alt="Supermercados" />
-      </div>
-      <h3>Supermercados</h3>
-      <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
-      <button>Ver mais</button>
-    </section>
-  </main>
-  <main class="cards">
-    <div id="cupons" class="title-cupom">
-
+  <general class="conteudo">
+    <!-- Botão para voltar uma guia -->
+    <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</a></button>
+    <!-- Conteúdo do Corpo -->
+    <div class="title-cupom">
+      <h2>Clube de benefícios</h2>
     </div>
-  </main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script>
-    // Obtem os cupoons
-    var cup = document.querySelector(".cards");
-    function cuponshemolife(cup) {
-      // limpa a lista de cupons apresentados
-      $("#cupons").empty();
-      // Popula a tabela com os registros do banco de dados
-      for (let index = 0; index < db.dados.length; index++) {
-        const desc = db.dados[index];
-        // Verifica se os dados dos cupons batem com os filtros
-        if ((desc.id == cup) || (cup == '')) {
-          $("#cupons").append(
-            `<section class="card ${desc.id}" id="${desc.id}">
-              <div class="cupom">
-              <img src="${desc.src}" alt="${desc.id}" />
-              </div>
-              <h3>${desc.beneficio}</h3>
-              <span>Código para validação: <em>${desc.cupom}</em></span>
-        <button>Validar cupom</button>
-      </section>`
-
-          );
-        }
-      }
-    }
-  </script>
+    <main class="cards">
+      <section class="card academia" onclick="cuponshemolife('academia')">
+        <div class="cupom">
+          <img src="../img/academia.png" alt="Academias" />
+        </div>
+        <h3>Academias</h3>
+        <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
+        <button>Ver mais</button>
+      </section>
+      <section class="card farmacia" onclick="cuponshemolife('farmacia')">
+        <div class="cupom">
+          <img src="../img/farmacia.png" alt="Farmácias" />
+        </div>
+        <h3>Farmácias</h3>
+        <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
+        <button>Ver mais</button>
+      </section>
+      <section class="card mercado" onclick="cuponshemolife('mercado')">
+        <div class="cupom">
+          <img src="../img/mercado.png" alt="Supermercados" />
+        </div>
+        <h3>Supermercados</h3>
+        <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
+        <button>Ver mais</button>
+      </section>
+    </main>
+    <main class="cards">
+      <div id="cupons" class="cupom-base">
+      </div>
+    </main>
+  </general>
   <!-- Rodapé da página -->
   <footer>
     <div class="footer-conteudo">
@@ -101,20 +77,16 @@
       <a href="apoie.html">Apoie o nosso projeto</a>
       <a href="trabalhe-conosco.html">Trabalhe conosco</a>
     </div>
-
     <div class="footer-bottom">
+      <div class="footer-contatos">
+        <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+        <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+      </div>
       <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
           href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
       </p>
-      <div>
-        <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
-      </div>
-      <div>
-        <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
-      </div>
     </div>
   </footer>
-
   <!-- Api Libras -->
   <div vw class="enabled">
     <div vw-access-button class="active"></div>
@@ -128,4 +100,4 @@
   </script>
 </body>
 
-</html>
+</html>F

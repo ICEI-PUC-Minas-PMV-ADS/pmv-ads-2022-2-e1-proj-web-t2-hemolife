@@ -19,29 +19,19 @@
 
 /* botões da 1a row */
 .btn-white1{
-    grid-area:btn-white1;
-    background-color: #fafafa;
-    color: #dd4a48;
-    text-decoration: none;
-    height: auto; 
-    min-height: 7vh;
-    width: auto;
-    border-radius: 30px;
-    font-weight: 900;
-    font-size: 20px;
-    padding: 2vh 1vw;
-    transition: all .35s;
-    margin: 5vh auto auto;
+    grid-area:btn-white1;  
 }
 .btn-white2{
     grid-area:btn-white2;
+}
+.btn-white1,.btn-white2{
     background-color: #fafafa;
     color: #dd4a48;
     text-decoration: none;
     height: auto; 
     min-height: 7vh;
     width: auto;
-    border-radius: 30px;
+    border-radius: 15px;
     font-weight: 900;
     font-size: 20px;
     padding: 2vh 1vw;
@@ -50,8 +40,9 @@
 }
 
 /* animações dos botões */
-.btn-white:hover{
+.btn-white1:hover,.btn-white2:hover{
     scale: 1.02;
+    box-shadow: 0px 0px 15px #fafafa;
 }
 
 
@@ -77,29 +68,4 @@
         text-align: center;
         grid-row-gap: 1em;
     }
-}
-
-@media screen and (max-width: 642px){
-/*     
-
-    .btn-white{
-        height: 5vh;
-        width: auto;
-        border-radius: 30px;
-        font-weight: 900;
-        font-size: 17px;
-        padding: 1vh 4vw;
-        transition: all .35s;
-        margin: 0 auto 0;
-    }
-
-    .container-left,.container-right{
-        width: 70vw;
-        margin: auto 15vw;
-    }
-
-    .rightImg, .leftImg{
-        width: 100%;
-        height: auto;
-    } */
 }

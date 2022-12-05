@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Tipo de conta</title>
+    <title>Hemo Life</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/stylelogin.css">
@@ -31,29 +31,26 @@
 
         </div>
     </nav>
-
     <!-- Conteúdo do Corpo -->
+    <general class="conteudo">
+        <!-- Botão para voltar uma guia -->
+        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</a></button>
+        <h2 class="title">Contato</h2>
 
+        <div class="form-contato">
 
-    <!-- Botão para voltar uma guia -->
-    <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="text" name="name" placeholder="Nome">
+                <input type="text" name="email" placeholder="E-mail" />
+                <textarea name="message" placeholder="Mensagem"></textarea>
+                <input type="text" name="honeypot" style="display:none">
+                <input type="hidden" name="accessKey" value="4f5e9800-5afe-41de-a638-f6fcc9fa191f">
+                <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+                <button class="btnRed" type="submit" value="Submit">Enviar</button>
+            </form>
 
-    <h2 class="title">Contato</h2>
-
-    <div class="form-contato">
-
-        <form action="https://api.staticforms.xyz/submit" method="post">
-            <input type="text" name="name" placeholder="Nome">
-            <input type="text" name="email" placeholder="E-mail" />
-            <textarea name="message" placeholder="Mensagem"></textarea>
-            <input type="text" name="honeypot" style="display:none">
-            <input type="hidden" name="accessKey" value="4f5e9800-5afe-41de-a638-f6fcc9fa191f">
-            <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
-            <button class="btnRed" type="submit" value="Submit">Enviar</button>
-        </form>
-
-    </div>
-
+        </div>
+    </general>
     <!-- Rodapé da página -->
     <footer>
         <div class="footer-conteudo">
@@ -61,20 +58,16 @@
             <a href="apoie.html">Apoie o nosso projeto</a>
             <a href="trabalhe-conosco.html">Trabalhe conosco</a>
         </div>
-
         <div class="footer-bottom">
+            <div class="footer-contatos">
+                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+            </div>
             <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
                     href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
             </p>
-            <div>
-                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
-            </div>
-            <div>
-                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
-            </div>
         </div>
     </footer>
-
     <!-- Api Libras -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>

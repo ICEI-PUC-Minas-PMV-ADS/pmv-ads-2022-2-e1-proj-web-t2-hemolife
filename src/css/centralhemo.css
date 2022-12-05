@@ -22,8 +22,7 @@ main div {
   margin: 30px 30px 30px 30px;
   width: auto;
   height: auto;
-  background-color: #e5e5e5;
-  box-shadow: 0px 15px 15px #1212126b;
+  background-color: #e5e5e5; 
   border-radius: 15px;
   position: relative;
   transition: all .5s;
@@ -31,6 +30,7 @@ main div {
 
 .cardg:hover {
   scale: 1.02;
+  box-shadow: 0px 15px 15px #1212126b;
 }
 
 .cardg img {
@@ -124,6 +124,7 @@ main-nav {
   main {
     padding: auto;
     margin: auto;
+    place-content: center;
     grid-template-areas: "h2-01" "card1" "h2-02" "card2";
   }
 
@@ -132,7 +133,6 @@ main-nav {
   }
 
   .cardg {
-    height: 180.5px;
     margin: 30px 30px 30px 30px;
     width: auto;
     height: auto;

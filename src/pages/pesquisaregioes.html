@@ -12,6 +12,7 @@
     <!-- JavaScript -->
     <script src="../js/db-listhemo.js"></script>
     <script defer src="../js/checklogin.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,97 +31,67 @@
     </nav>
 
     <!-- corpo da pagina -->
-
-    <!-- Botão para voltar uma guia -->
-    <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
-
-    <main-map class="maprow" name="filtro_regiao" id="filtro_regiao">
-        <div class="mapas norte" onclick="ListaHemocentros('Região Norte')">
-            <h2>Norte</h2>
-            <img src="../img/norte.png" alt="">
-            </button>
+    <general class="conteudo">
+        <!-- Botão para voltar uma guia -->
+        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</a></button>
+        <main-map class="maprow" name="filtro_regiao" id="filtro_regiao">
+            <div class="mapas norte" onclick="ListaHemocentros('Região Norte')">
+                <h2>Norte</h2>
+                <img src="../img/norte.png" alt="">
+                </button>
+            </div>
+            <div class="mapas nordeste" onclick="ListaHemocentros('Região Nordeste')">
+                <h2>Nordeste</h2>
+                <img src="../img/nordeste.png" alt="">
+            </div>
+            <div class="mapas centro" onclick="ListaHemocentros('Região Centro-Oeste')">
+                <h2>Centro-Oeste</h2>
+                <img src="../img/centro-oeste.png" alt="">
+            </div>
+            <div class="mapas sudeste" onclick="ListaHemocentros('Região Sudeste')">
+                <h2>Sudeste</h2>
+                <img src="../img/sudeste.png" alt="">
+            </div>
+            <div class="mapas sul" onclick="ListaHemocentros('Região Sul')">
+                <h2>Sul</h2>
+                <img src="../img/sul.png" alt="">
+            </div>
+        </main-map>
+        <!-- Ânconra para dar 'scroll' até o conteúdo impresso -->
+        <main id="posicaoscroll">
+            <h2 id="nomereg"></h2>
+            <div id="lista-hemocentros">
+            </div>
+        </main>
+    </general>
+    <!-- Rodapé da página -->
+    <footer>
+        <div class="footer-conteudo">
+            <a href="prerequisitos.html">Dúvidas frequentes</a>
+            <a href="apoie.html">Apoie o nosso projeto</a>
+            <a href="trabalhe-conosco.html">Trabalhe conosco</a>
         </div>
-        <div class="mapas nordeste" onclick="ListaHemocentros('Região Nordeste')">
-            <h2>Nordeste</h2>
-            <img src="../img/nordeste.png" alt="">
+        <div class="footer-bottom">
+            <div class="footer-contatos">
+                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+            </div>
+            <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
+                    href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
+            </p>
         </div>
-        <div class="mapas centro" onclick="ListaHemocentros('Região Centro-Oeste')">
-            <h2>Centro-Oeste</h2>
-            <img src="../img/centro-oeste.png" alt="">
+    </footer>
+    <!-- Api Libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
         </div>
-        <div class="mapas sudeste" onclick="ListaHemocentros('Região Sudeste')">
-            <h2>Sudeste</h2>
-            <img src="../img/sudeste.png" alt="">
-        </div>
-        <div class="mapas sul" onclick="ListaHemocentros('Região Sul')">
-            <h2>Sul</h2>
-            <img src="../img/sul.png" alt="">
-        </div>
-    </main-map>
-    <!-- Ânconra para dar 'scroll' até o conteúdo impresso -->
-    <main id="posicaoscroll">
-        <h2 id="nomereg"></h2>
-        <div id="lista-hemocentros">
-        </div>
-    </main>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
     <script>
-        // Obtem os hemocentro informados pelo usuário nos filtros
-        var fr = document.querySelector("filtro_regiao");
-        function ListaHemocentros(fr) {
-            // limpa a lista de hemocentros apresentados
-            $("#lista-hemocentros").empty();
-            // Popula a tabela com os registros do banco de dados
-            document.getElementById('nomereg').innerHTML = fr;
-            for (let index = 0; index < db.dados.length; index++) {
-                const hemoc = db.dados[index];
-                // Verifica se os dados dos hemocentros batem com os filtros
-                if ((hemoc.regiao == fr) || (fr == '')) {
-                    $("#lista-hemocentros").append(
-                        `<div class="card"><h3>${hemoc.estadohemo}</h3>
-                         <p>${hemoc.nomehemo}<br>${hemoc.localhemo}
-                         <br> ${hemoc.contatohemo}</p></div>`
-                    );
-                }
-                //Scroll da página do botões até o conteúdo impresso.          
-                var target_offset = $("#posicaoscroll").offset();
-                var target_top = target_offset.top;
-                $('html, body').stop().animate({ scrollTop: target_top }, 1500);
-            }
-        }
-    </script>    
-        <!-- Rodapé da página -->
-        <footer>
-            <div class="footer-conteudo">
-                <a href="prerequisitos.html">Dúvidas frequentes</a>
-                <a href="apoie.html">Apoie o nosso projeto</a>
-                <a href="trabalhe-conosco.html">Trabalhe conosco</a>
-            </div>
-
-            <div class="footer-bottom">
-                <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
-                        href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
-                </p>
-                <div>
-                    <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
-                </div>
-                <div>
-                    <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
-                </div>
-            </div>
-        </footer>
-
-        <!-- Api Libras -->
-        <div vw class="enabled">
-            <div vw-access-button class="active"></div>
-            <div vw-plugin-wrapper>
-                <div class="vw-plugin-top-wrapper"></div>
-            </div>
-        </div>
-        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-        <script>
-            new window.VLibras.Widget('https://vlibras.gov.br/app');
-        </script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
 
 </html>

@@ -34,25 +34,19 @@
 
 
     <!-- Botão para voltar uma guia -->
-    <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
-
-    <div class="limit">
-
-        <form class="form-signin">
-
-            <h2 class="form-signin-heading">Recuperar a senha</h2>
-
-            <input type="email" class="form-control" id="login" name="username" placeholder="Email" required=""
-                autofocus="" />
-
-            <button type="submit" id="btn-login" type="submit" onclick="logar(); return false"> Recuperar </button>
-
-
-
-        </form>
-
-    </div>
-
+    <general class="conteudo">
+        <!-- Botão para voltar uma guia -->
+        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</a></button>
+        <div class="limit">
+            <form class="form-signin">
+                <h2 class="form-signin-heading">Recuperar a senha</h2>
+                <input type="email" class="form-control" id="login" name="username" placeholder="Email" required=""
+                    autofocus="" />
+                <button class="btn btn-primary" type="submit" id="btn" type="submit" onclick="logar(); return false">
+                    Recuperar </button>
+            </form>
+        </div>
+    </general>
     <!-- Rodapé da página -->
     <footer>
         <div class="footer-conteudo">
@@ -60,20 +54,16 @@
             <a href="apoie.html">Apoie o nosso projeto</a>
             <a href="trabalhe-conosco.html">Trabalhe conosco</a>
         </div>
-
         <div class="footer-bottom">
+            <div class="footer-contatos">
+                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+            </div>
             <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
                     href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
             </p>
-            <div>
-                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
-            </div>
-            <div>
-                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
-            </div>
         </div>
     </footer>
-
     <!-- Api Libras -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>

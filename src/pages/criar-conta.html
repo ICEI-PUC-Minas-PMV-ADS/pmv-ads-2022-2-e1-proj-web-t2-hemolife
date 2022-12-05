@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Criar conta doador</title>
+    <title>Hemo Life</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/formulario.css">
@@ -33,50 +33,54 @@
         </div>
     </nav>
     <!-- Conteúdo do Corpo -->
-    <div>
-        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
-    </div>
-    <div class="limit">
-        <form id="formCadastro" class="formCadastro">
-            <h2 class="form-signin-heading">Cadastro</h2>
-            <div id="msgLog" class="DataN"></div>
-            <div class="limitf">
+    <general class="conteudo">
+        <!-- Botão para voltar uma guia -->
+        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</a></button>
+        <div class="limit">
+            <form id="formCadastro" class="formCadastro">
+                <h2 class="form-signin-heading">Cadastro</h2>
+                <div id="msgLog" class="DataN"></div>
+                <div class="limitf">
 
-                <select class="form-control" name="" id="tipousur" required>
-                    <option selected value="Doador">Doador</option>
-                    <option value="Hemocentro">Hemocentro</option>
-                </select>
-                <label id="labelNome" class="DataN"></label>
-                <input class="form-control" type="text" id="nome" placeholder="Nome de usuário" required maxlength="16">
-                <!-- Nasciemento -->
-                <label class="Data">Data de nascimento</label>
-                <input class="form-control data" type="date">
-                <!-- Checagem de impedimentos -->
-                <select class="form-control" name="" id="" required>
-                    <option selected disabled value="">Já doou antes?</option>
-                    <option value="">Sim</option>
-                    <option value="">Não</option>
-                </select>
-                <!-- CPF -->
+                    <select class="form-control" name="" id="tipousur" required>
+                        <option selected value="Doador">Doador</option>
+                        <option value="Hemocentro">Hemocentro</option>
+                    </select>
+                    <label id="labelNome" class="DataN"></label>
+                    <input class="form-control" type="text" id="nome" placeholder="Nome de usuário" required
+                        maxlength="16">
+                    <!-- Nasciemento -->
+                    <label class="Data">Data de nascimento</label>
+                    <input class="form-control data" type="date">
+                    <!-- Checagem de impedimentos -->
+                    <select class="form-control" name="" id="" required>
+                        <option selected disabled value="">Já doou antes?</option>
+                        <option value="">Sim</option>
+                        <option value="">Não</option>
+                    </select>
+                    <!-- CPF -->
 
-                <input class="form-control" type="text" placeholder="CPF" minlength="11" maxlength="11" required>
-                <label id="labelEmail" class="DataN"></label>
-                <input class="form-control" type="text" id="email" placeholder="E-mail" required>
-                <label id="labelSenha" class="DataN"></label>
-                <input class="form-control" type="password" id="senha" placeholder="Senha" required>
-                <label id="labelConfirmSenha" class="DataN"></label>
-                <input class="form-control" type="password" id="confirmSenha" placeholder="Confirmar senha" required>
-                <div class="check">
-                    <input type="checkbox" required>
-                    <a href="termos.html">Concordo com os termos e condições de uso da aplicação.</a>
+                    <input class="form-control" type="text" placeholder="CPF" minlength="11" maxlength="11" required>
+                    <label id="labelEmail" class="DataN"></label>
+                    <input class="form-control" type="text" id="email" placeholder="E-mail" required>
+                    <label id="labelSenha" class="DataN"></label>
+                    <input class="form-control" type="password" id="senha" placeholder="Senha" required>
+                    <p class="reqPass">Use oito ou mais caracteres com uma combinação de letras, números e símbolos</p>
+                    <label id="labelConfirmSenha" class="DataN"></label>
+                    <input class="form-control" type="password" id="confirmSenha" placeholder="Confirmar senha"
+                        required>
+                    <div class="check">
+                        <input type="checkbox" required>
+                        <a href="termos.html">Concordo com os termos e condições de uso da aplicação.</a>
 
+                    </div>
+                    <div>
+                        <button class="btn" id="btnCadastro">Cadastrar</button>
+                    </div>
                 </div>
-                <div>
-                    <button class="btn" id="btnCadastro">Cadastrar</button>
-                </div>
-            </div>
-        </form>
-    </div>
+            </form>
+        </div>
+    </general>
     <!-- Rodapé da página -->
     <footer>
         <div class="footer-conteudo">
@@ -84,20 +88,16 @@
             <a href="apoie.html">Apoie o nosso projeto</a>
             <a href="trabalhe-conosco.html">Trabalhe conosco</a>
         </div>
-
         <div class="footer-bottom">
+            <div class="footer-contatos">
+                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+            </div>
             <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
                     href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
             </p>
-            <div>
-                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
-            </div>
-            <div>
-                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
-            </div>
         </div>
     </footer>
-
     <!-- Api Libras -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>

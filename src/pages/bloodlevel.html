@@ -35,143 +35,145 @@
         <div id="logado" class="logo">
         </div>
     </nav>
-    <!-- Botão para voltar uma guia -->
-    <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
-    <!-- Conteúdo do Corpo -->
-    <grid-container class="mastergrid">
-        <div class="grid-principal" id="h2Master">
-            <h2>Estoque de Sangue</h2>
-        </div>
-        <!-- Níveis de Sangue -->
-        <div class="nivel" id="A1">
-            <p>Tipo A+</p>
-            <div class="image" id="sliderImages" name="Hemo01">
-                <img id="blood01" src="" class="" width="400" height="100">
+    <general class="conteudo">
+        <!-- Botão para voltar uma guia -->
+        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</a></button>
+        <!-- Conteúdo do Corpo -->
+        <grid-container class="mastergrid">
+            <div class="grid-principal" id="h2Master">
+                <h2>Estoque de Sangue</h2>
             </div>
-            <br>
-            <div class="rangeslider">
-                <input type="range" min="1" max="3" value="3" class="myslider" id="sliderRange1">
+            <!-- Níveis de Sangue -->
+            <div class="nivel" id="A1">
+                <p>Tipo A+</p>
+                <div class="image" id="sliderImages" name="Hemo01">
+                    <img id="blood01" src="" class="" width="400" height="100">
+                </div>
+                <br>
+                <div class="rangeslider">
+                    <input type="range" min="1" max="3" value="3" class="myslider" id="sliderRange1">
+                </div>
+                <span class="nivelleg">
+                    <h4 class="nivel1">Baixo</h4>
+                    <h4 class="nivel1">Regular</h4>
+                    <h4 class="nivel1">Adequado</h4>
+                </span>
             </div>
-            <span class="nivelleg">
-                <h4 class="nivel1">Baixo</h4>
-                <h4 class="nivel1">Regular</h4>
-                <h4 class="nivel1">Adequado</h4>
-            </span>
-        </div>
-        <div class="nivel" id="A1">
-            <p>Tipo A-</p>
-            <div class="image" id="sliderImages2">
-                <img id="blood02" class="" width="400" height="100">
+            <div class="nivel" id="A1">
+                <p>Tipo A-</p>
+                <div class="image" id="sliderImages2">
+                    <img id="blood02" class="" width="400" height="100">
+                </div>
+                <br>
+                <div class="rangeslider">
+                    <input type="range" min="1" max="3" value="3" class="myslider" id="sliderRange2">
+                </div>
+                <span class="nivelleg">
+                    <h4 class="nivel1">Baixo</h4>
+                    <h4 class="nivel1">Regular</h4>
+                    <h4 class="nivel1">Adequado</h4>
+                </span>
             </div>
-            <br>
-            <div class="rangeslider">
-                <input type="range" min="1" max="3" value="3" class="myslider" id="sliderRange2">
+            <div class="nivel" id="A1">
+                <p>Tipo B+</p>
+                <div class="image" id="sliderImages3">
+                    <img id="blood03" class="" width="400" height="100">
+                </div>
+                <br>
+                <div class="rangeslider">
+                    <input type="range" min="1" max="3" value="3" class="myslider" id="sliderRange3">
+                </div>
+                <span class="nivelleg">
+                    <h4 class="nivel1">Baixo</h4>
+                    <h4 class="nivel1">Regular</h4>
+                    <h4 class="nivel1">Adequado</h4>
+                </span>
             </div>
-            <span class="nivelleg">
-                <h4 class="nivel1">Baixo</h4>
-                <h4 class="nivel1">Regular</h4>
-                <h4 class="nivel1">Adequado</h4>
-            </span>
-        </div>
-        <div class="nivel" id="A1">
-            <p>Tipo B+</p>
-            <div class="image" id="sliderImages3">
-                <img id="blood03" class="" width="400" height="100">
-            </div>
-            <br>
-            <div class="rangeslider">
-                <input type="range" min="1" max="3" value="3" class="myslider" id="sliderRange3">
-            </div>
-            <span class="nivelleg">
-                <h4 class="nivel1">Baixo</h4>
-                <h4 class="nivel1">Regular</h4>
-                <h4 class="nivel1">Adequado</h4>
-            </span>
-        </div>
-        <div class="nivel" id="A1">
-            <p>Tipo B-</p>
-            <div class="image" id="sliderImages4">
-                <img id="blood04" class="" width="400" height="100">
-            </div>
-            <br>
-            <div class="rangeslider">
-                <input type="range" min="1" max="3" value="3" class="myslider" id="sliderRange4">
-            </div>
-            <span class="nivelleg">
-                <h4 class="nivel1">Baixo</h4>
-                <h4 class="nivel1">Regular</h4>
-                <h4 class="nivel1">Adequado</h4>
-            </span>
-        </div>
-
-        <div class="nivel" id="A1">
-            <p>Tipo AB+</p>
-            <div class="image" id="sliderImages5">
-                <img id="blood05" class="" width="400" height="100">
-            </div>
-            <br>
-            <div class="rangeslider">
-                <input type="range" min="1" max="3" value="3" class="myslider" id="sliderRange5">
-            </div>
-            <span class="nivelleg">
-                <h4 class="nivel1">Baixo</h4>
-                <h4 class="nivel1">Regular</h4>
-                <h4 class="nivel1">Adequado</h4>
-            </span>
-        </div>
-        <div class="nivel" id="A1">
-            <p>Tipo AB-</p>
-
-            <div class="image" id="sliderImages6">
-                <img id="blood06" class="" width="400" height="100">
-            </div>
-            <br>
-            <div class="rangeslider">
-                <input type="range" min="1" max="3" value="3" class="myslider" id="sliderRange6">
-            </div>
-            <span class="nivelleg">
-                <h4 class="nivel1">Baixo</h4>
-                <h4 class="nivel1">Regular</h4>
-                <h4 class="nivel1">Adequado</h4>
-            </span>
-        </div>
-
-        <div class="nivel" id="A1">
-            <p>Tipo O+</p>
-
-            <div class="image" id="sliderImages7">
-                <img id="blood07" class="" width="400" height="100">
-
-            </div>
-            <br>
-            <div class="rangeslider">
-                <input type="range" min="1" max="3" value="" class="myslider" id="sliderRange7">
+            <div class="nivel" id="A1">
+                <p>Tipo B-</p>
+                <div class="image" id="sliderImages4">
+                    <img id="blood04" class="" width="400" height="100">
+                </div>
+                <br>
+                <div class="rangeslider">
+                    <input type="range" min="1" max="3" value="3" class="myslider" id="sliderRange4">
+                </div>
+                <span class="nivelleg">
+                    <h4 class="nivel1">Baixo</h4>
+                    <h4 class="nivel1">Regular</h4>
+                    <h4 class="nivel1">Adequado</h4>
+                </span>
             </div>
 
-            <span class="nivelleg">
-                <h4 class="nivel1">Baixo</h4>
-                <h4 class="nivel1">Regular</h4>
-                <h4 class="nivel1">Adequado</h4>
-            </span>
-        </div>
-        <div class="nivel" id="A1">
-            <p>Tipo O-</p>
-
-            <div class="image" id="sliderImages8">
-                <img id="blood08" class="" width="400" height="100">
+            <div class="nivel" id="A1">
+                <p>Tipo AB+</p>
+                <div class="image" id="sliderImages5">
+                    <img id="blood05" class="" width="400" height="100">
+                </div>
+                <br>
+                <div class="rangeslider">
+                    <input type="range" min="1" max="3" value="3" class="myslider" id="sliderRange5">
+                </div>
+                <span class="nivelleg">
+                    <h4 class="nivel1">Baixo</h4>
+                    <h4 class="nivel1">Regular</h4>
+                    <h4 class="nivel1">Adequado</h4>
+                </span>
             </div>
-            <br>
-            <div class="rangeslider">
-                <input type="range" min="1" max="3" value="" class="myslider" id="sliderRange8">
+            <div class="nivel" id="A1">
+                <p>Tipo AB-</p>
+
+                <div class="image" id="sliderImages6">
+                    <img id="blood06" class="" width="400" height="100">
+                </div>
+                <br>
+                <div class="rangeslider">
+                    <input type="range" min="1" max="3" value="3" class="myslider" id="sliderRange6">
+                </div>
+                <span class="nivelleg">
+                    <h4 class="nivel1">Baixo</h4>
+                    <h4 class="nivel1">Regular</h4>
+                    <h4 class="nivel1">Adequado</h4>
+                </span>
             </div>
 
-            <span class="nivelleg">
-                <h4 class="nivel1">Baixo</h4>
-                <h4 class="nivel1">Regular</h4>
-                <h4 class="nivel1">Adequado</h4>
-            </span>
-        </div>
-    </grid-container>
+            <div class="nivel" id="A1">
+                <p>Tipo O+</p>
+
+                <div class="image" id="sliderImages7">
+                    <img id="blood07" class="" width="400" height="100">
+
+                </div>
+                <br>
+                <div class="rangeslider">
+                    <input type="range" min="1" max="3" value="" class="myslider" id="sliderRange7">
+                </div>
+
+                <span class="nivelleg">
+                    <h4 class="nivel1">Baixo</h4>
+                    <h4 class="nivel1">Regular</h4>
+                    <h4 class="nivel1">Adequado</h4>
+                </span>
+            </div>
+            <div class="nivel" id="A1">
+                <p>Tipo O-</p>
+
+                <div class="image" id="sliderImages8">
+                    <img id="blood08" class="" width="400" height="100">
+                </div>
+                <br>
+                <div class="rangeslider">
+                    <input type="range" min="1" max="3" value="" class="myslider" id="sliderRange8">
+                </div>
+
+                <span class="nivelleg">
+                    <h4 class="nivel1">Baixo</h4>
+                    <h4 class="nivel1">Regular</h4>
+                    <h4 class="nivel1">Adequado</h4>
+                </span>
+            </div>
+        </grid-container>
+    </general>
     <!-- Rodapé da página -->
     <footer>
         <div class="footer-conteudo">
@@ -179,20 +181,16 @@
             <a href="apoie.html">Apoie o nosso projeto</a>
             <a href="trabalhe-conosco.html">Trabalhe conosco</a>
         </div>
-
         <div class="footer-bottom">
+            <div class="footer-contatos">
+                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+            </div>
             <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
                     href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
             </p>
-            <div>
-                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
-            </div>
-            <div>
-                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
-            </div>
         </div>
     </footer>
-
     <!-- Api Libras -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>

@@ -202,3 +202,9 @@ button a {
   font-weight: 600;
   color: #dd4a48;
 }
+.cria-conta{
+  display: flex;
+  flex-direction: column;
+  margin: 1vh;
+  padding: 1px;  
+}

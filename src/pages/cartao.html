@@ -29,46 +29,48 @@
 
     </div>
   </nav>
-
-  <!-- Conteúdo do Corpo -->
-  <div class="title-cupom">
-    <h2>Clube de benefícios</h2>
-  </div>
-  <main class="cards">
-    <section class="card academia" onclick="cuponshemolife('academia')">
-      <div class="cupom">
-        <img src="../img/academia.png" alt="Academias" />
-      </div>
-      <h3>Academias</h3>
-      <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
-      <a href="cupons.html"><button>Ver mais</button></a>
-    </section>
-
-    <section class="card farmacia" onclick="cuponshemolife('farmacia')">
-      <div class="cupom">
-        <img src="../img/farmacia.png" alt="Farmácias" />
-      </div>
-      <h3>Farmácias</h3>
-      <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
-      <a href="cupons.html"><button>Ver mais</button></a>
-    </section>
-
-    <section class="card mercado" onclick="cuponshemolife('mercado')">
-      <div class="cupom">
-        <img src="../img/mercado.png" alt="Supermercados" />
-      </div>
-      <h3>Supermercados</h3>
-      <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
-      <a href="cupons.html"><button>Ver mais</button></a>
-    </section>
-
-  </main>
-  <main class="cards">
-    <div id="cupons" class="title-cupom">
-
+  <general class="conteudo">
+    <!-- Botão para voltar uma guia -->
+    <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</a></button>
+    <!-- Conteúdo do Corpo -->
+    <div class="title-cupom">
+      <h2>Clube de benefícios</h2>
     </div>
-  </main>
+    <main class="cards">
+      <section class="card academia" onclick="cuponshemolife('academia')">
+        <div class="cupom">
+          <img src="../img/academia.png" alt="Academias" />
+        </div>
+        <h3>Academias</h3>
+        <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
+        <a href="cupons.html"><button>Ver mais</button></a>
+      </section>
 
+      <section class="card farmacia" onclick="cuponshemolife('farmacia')">
+        <div class="cupom">
+          <img src="../img/farmacia.png" alt="Farmácias" />
+        </div>
+        <h3>Farmácias</h3>
+        <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
+        <a href="cupons.html"><button>Ver mais</button></a>
+      </section>
+
+      <section class="card mercado" onclick="cuponshemolife('mercado')">
+        <div class="cupom">
+          <img src="../img/mercado.png" alt="Supermercados" />
+        </div>
+        <h3>Supermercados</h3>
+        <span>Confira abaixo nossos cupons de <em>10%</em> a <em>30%</em> de desconto e muito mais!</span>
+        <a href="cupons.html"><button>Ver mais</button></a>
+      </section>
+
+    </main>
+    <main class="cards">
+      <div id="cupons" class="title-cupom">
+
+      </div>
+    </main>
+  </general>
   <!-- Rodapé da página -->
   <footer>
     <div class="footer-conteudo">
@@ -76,20 +78,16 @@
       <a href="apoie.html">Apoie o nosso projeto</a>
       <a href="trabalhe-conosco.html">Trabalhe conosco</a>
     </div>
-
     <div class="footer-bottom">
+      <div class="footer-contatos">
+        <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+        <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+      </div>
       <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
           href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
       </p>
-      <div>
-        <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
-      </div>
-      <div>
-        <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
-      </div>
     </div>
   </footer>
-
   <!-- Api Libras -->
   <div vw class="enabled">
     <div vw-access-button class="active"></div>

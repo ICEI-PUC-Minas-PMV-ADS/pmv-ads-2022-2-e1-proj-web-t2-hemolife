@@ -13,6 +13,8 @@
     <script src="../js/index.js" defer></script>
     <script defer src="../js/loadlogin.js"></script>
     <script defer src="../js/checklogin.js"></script>
+    <script defer src="../js/db-listsol.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,68 +33,99 @@
         </div>
     </nav>
     <!-- Conteúdo do Corpo -->
+    <grid-container class="conteudo">
+        <!-- Botão para voltar uma guia -->
+        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</a></button>
 
-
-    <!-- Botão para voltar uma guia -->
-    <div>
-        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
-    </div>
-    <div class="limit">
-
+        <div class="limit"></div>
         <h2>Últimas solicitações</h2>
 
-        <div class="solicitacoes">
-            <div class="solicitacao">
-                <h4><b>Solicitante: </b> Maria Luiza Fonseca</h4>
-                <aside><b>Típo sanguíneo: </b>B+</aside>
-                <aside><b>Cidade: </b>Belo Horizonte</aside>
-                <aside><b>Solicitado em: </b>01/11/2022</aside>
-                <aside><b>Contato: </b>(31)12345-1234</aside>
-            </div>
-
-            <div class="solicitacao">
-                <h4><b>Solicitante: </b>Gusttavo Aluízio Gonçalves</h4>
-                <aside><b>Típo sanguíneo: </b>O-</aside>
-                <aside><b>Cidade: </b>Humaitá</aside>
-                <aside><b>Solicitado em: </b>14/11/2022</aside>
-                <aside><b>Contato: </b>(31)12345-1234</aside>
-            </div>
-
-            <div class="solicitacao">
-                <h4><b>Solicitante: </b>Antônio albuquerque</h4>
-                <aside><b>Típo sanguíneo: </b>B-</aside>
-                <aside><b>Cidade: </b>Salvador</aside>
-                <aside><b>Solicitado em: </b>02/09/2022</aside>
-                <aside><b>Contato: </b>(31)12345-1234</aside>
-            </div>
-
-            <div class="solicitacao">
-                <h4><b>Solicitante: </b>George Pascoal da Silva</h4>
-                <aside><b>Típo sanguíneo: </b>AB+</aside>
-                <aside><b>Cidade: </b>Mossoró</aside>
-                <aside><b>Solicitado em: </b>02/06/2022</aside>
-                <aside><b>Contato: </b>(31)12345-1234</aside>
-            </div>
-
-            <div class="solicitacao">
-                <h4><b>Solicitante: </b>Luíza Antonella Fagundes</h4>
-                <aside><b>Típo sanguíneo: </b>O-</aside>
-                <aside><b>Cidade: </b>Teóflio Otoni</aside>
-                <aside><b>Solicitado em: </b>12/03/2022</aside>
-                <aside><b>Contato: </b>(31)12345-1234</aside>
-            </div>
-
-            <div class="solicitacao">
-                <h4><b>Solicitante: </b>Margareth Aparecida D'ávila</h4>
-                <aside><b>Típo sanguíneo: </b>A-</aside>
-                <aside><b>Cidade: </b>Curitiba</aside>
-                <aside><b>Solicitado em: </b>31/10/2022</aside>
-                <aside><b>Contato: </b>(31)12345-1234</aside>
-            </div>
+        <section class="filtros">
+            <h3>Busca</h3>
+            <select class="filtro" name="filtro" id="filtro_tiposan" placeholder="Selecione o Tipo Sanguíneo"
+                onchange="FiltroCadastro()">
+                <option value="">Selecione o Tipo Sanguíneo</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select>
+            <select class="filtro" name="filtro" id="filtro_regiao" onchange="FiltroCadastro()">
+                <option value="">Selecione a Região</option>
+                <option value="Norte">Norte</option>
+                <option value="Nordeste">Nordeste</option>
+                <option value="Centro-Oeste">Centro-Oeste</option>
+                <option value="Suldeste">Suldeste</option>
+                <option value="Sul">Sul</option>
+            </select>
+            <select class="filtro" name="filtro" id="filtro_estado" onchange="FiltroCadastro()">
+                <option value="">Selecione o estado</option>
+                <option value="Acre">Acre</option>
+                <option value="Alagoas">Alagoas</option>
+                <option value="Amapá">Amapá</option>
+                <option value="Amazonas">Amazonas</option>
+                <option value="Bahia">Bahia</option>
+                <option value="Ceara">Ceara</option>
+                <option value="Distrito Federal">Distrito Federal</option>
+                <option value="Espírito Santo">Espírito Santo</option>
+                <option value="Goiás">Goiás</option>
+                <option value="Maranhão">Maranhão</option>
+                <option value="Mato Grosso">Mato Grosso</option>
+                <option value="Mato Grosso do Sul">MatoGrosso do Sul</option>
+                <option value="Minas Gerais">Minas Gerais</option>
+                <option value="Pará">Pará</option>
+                <option value="Paraíba">Paraíba</option>
+                <option value="Paraná">Paraná</option>
+                <option value="Pernambuco">Pernambuco</option>
+                <option value="Piauí">Piauí</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                <option value="Rondônia">Rondônia</option>
+                <option value="Roraima">Roraima</option>
+                <option value="Santa Catarina">Santa Catarina</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Sergipe">Sergipe</option>
+                <option value="Tocantins">Tocantins</option>
+            </select>
+            <select class="filtro" name="filtro" id="filtro_cidade" onchange="FiltroCadastro()">
+                <option value="">Selecione a Cidade</option>
+                <option value="Aracajú">Aracajú</option>
+                <option value="Belém">Belém</option>
+                <option value="Belo Horizonte">Belo Horizonte</option>
+                <option value="Boa Vista">Boa Vista</option>
+                <option value="Brasília">Brasília</option>
+                <option value="Campo Grande">Campo Grande</option>
+                <option value="Cuiabá">Cuiabá</option>
+                <option value="Curitiba">Curitiba</option>
+                <option value="Florianópolis">Florianópolis</option>
+                <option value="Fortaleza">Fortaleza</option>
+                <option value="Goiânia">Goiânia</option>
+                <option value="João Pessoa">João Pessoa</option>
+                <option value="Macapá">Macapá</option>
+                <option value="Maceió">Maceió</option>
+                <option value="Manaus">Manaus</option>
+                <option value="Natal">Natal</option>
+                <option value="Palmas">Palmas</option>
+                <option value="Porto Alegre">Porto Alegre</option>
+                <option value="Porto Velho">Porto Velho</option>
+                <option value="Recife">Recife</option>
+                <option value="Rio Branco">Rio Branco</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="Salvador">Salvador</option>
+                <option value="São Luiz">São Luiz</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Terezina">Terezina</option>
+                <option value="Vitória">Vitória</option>
+            </select>
+        </section>
+        <div id="filtro" class="solicitacoes">
         </div>
-
-    </div>
-
+    </grid-container>
     <!-- Rodapé da página -->
     <footer>
         <div class="footer-conteudo">
@@ -100,31 +133,27 @@
             <a href="apoie.html">Apoie o nosso projeto</a>
             <a href="trabalhe-conosco.html">Trabalhe conosco</a>
         </div>
-
         <div class="footer-bottom">
+            <div class="footer-contatos">
+                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+            </div>
             <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
                     href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
             </p>
-            <div>
-                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
-            </div>
-            <div>
-                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
-            </div>
         </div>
     </footer>
-
-   <!-- Api Libras -->
-   <div vw class="enabled">
-    <div vw-access-button class="active"></div>
-    <div vw-plugin-wrapper>
-        <div class="vw-plugin-top-wrapper"></div>
+    <!-- Api Libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
     </div>
-</div>
-<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-<script>
-    new window.VLibras.Widget('https://vlibras.gov.br/app');
-</script>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
 
 </html>

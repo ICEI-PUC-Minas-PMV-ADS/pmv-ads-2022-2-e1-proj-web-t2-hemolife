@@ -1,6 +1,6 @@
 .content {
   margin-top: 1rem;
-  height: 28rem;
+  height: 450px;
   width: 935px;
   border-radius: 20px;
   overflow: hidden;
@@ -8,19 +8,20 @@
   margin-right: auto;
 }
 
-.content img {
+.slide img {
   width: 100%;
+  filter: brightness(0.9);
 }
 
 .navigate {
   display: flex;
   justify-content: center;
   margin: 1em 40vw;
-  gap: 15px;
+  gap: 15px; 
 }
 
 .bar {
-  height: 30px;
+ height: 30px;
   width: 30px;
   background-color: #ffffff;
   border-radius: 50%;
@@ -28,13 +29,13 @@
 }
 
 .bar:hover,
-:focus {
+:focus{
   scale: 1.1;
 }
 
-input {
+ input {
   display: none;
-}
+} 
 
 .slides {
   display: flex;
@@ -43,15 +44,21 @@ input {
 
 .slide {
   width: 20%;
+  transition: 1s ease-in;
+}
+.slide img {
   transition: 1s;
 }
+.slide img:hover {  
+  scale: 1.05;
+}
 
-.slide img {
+/* .slide img {
   width: 100%;
   height: auto;
   max-height: 80%;
   border-radius: 15px;
-}
+} */
 
 /* botões do carrossel */
 
@@ -61,6 +68,9 @@ input {
 
 #slide2:checked~.s1 {
   margin-left: -20%;
+}
+#slide2:checked~.bar {
+  background-color: green;
 }
 
 #slide3:checked~.s1 {
@@ -135,4 +145,20 @@ input {
     border-radius: 50%;
     cursor: pointer;
   }
+}
+.divcar{
+  display: inline-block;
+  position: relative;
+}
+
+.divcar figcaption{
+  margin-left: 5%;
+  margin-right: 5%;
+  position: absolute;  
+  top:68%;
+  font-size: 36px;
+  color: #fff !important;
+  text-shadow: 0 1px 3px #000008ce;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

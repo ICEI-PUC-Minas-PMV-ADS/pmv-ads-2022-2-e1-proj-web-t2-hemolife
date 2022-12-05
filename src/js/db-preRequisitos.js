@@ -29,3 +29,24 @@ var db = {
 
     ]
 }
+// Obtem os hemocentro informados pelo usuário nos filtros
+var fr = document.querySelector(".name");
+function PreRequisitos(fr) {
+
+    // limpa a lista
+    $("#Pre-Requisitos").empty();
+
+    // Popula a tabela com os registros do banco de dados
+    document.getElementById('nomerequisito').innerHTML = fr;
+    for (let index = 0; index < db.dados.length; index++) {
+        const indice = db.dados[index];
+        if ((indice.paragrafo == fr) || (fr == '')) {
+            $("#Pre-Requisitos").append(
+                `<div class="card">
+                 <p>${indice.text}<br>
+                </div>`
+            );
+        }
+    };
+
+}

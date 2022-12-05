@@ -9,15 +9,16 @@
 }
 
 html,
-body {
+body {  
   background: linear-gradient(135deg, #4f091d, #dd4a48, #121212);
   background-size: 220% 220%;
   animation: gradient 15s ease infinite;
   /* min-height: 100vh; */
   overflow-x: hidden;
-  width: 100vw;
+  margin:0;
+  min-width: 100vw;
+  min-height: 100vh;
 }
-
 /* Navbar */
 
 nav {
@@ -25,9 +26,13 @@ nav {
   display: flex;
   margin: 10px 0;
   min-height: 8vh;
-  justify-content: space-around;
+  justify-content: space-around;  
 }
-
+.conteudo {
+  margin: auto;
+  display: block;
+  min-height:90vh;  
+}
 div a img {
   width: 45px;
 }
@@ -72,11 +77,14 @@ p {
   align-items: center;
   display: flex;
   justify-content: space-around;
-  width: 45%;
+  width: 50%;
 }
 
 .nav-links li {
   list-style: none;
+  padding: 1%;
+  padding-left: 4%;
+  border-left: 1px solid #acacac59;
 }
 
 .nav-links a {
@@ -142,14 +150,23 @@ p {
 footer {
   background-color: #fafafa;
   height: auto;
-  margin-top: 230px;
-  max-height: 100vh;
+  margin-top: 5vh;
   padding: 20px 0 0 0;
   width: 100vw;
+  bottom: 0;
+  align-items: baseline;
+  justify-content:baseline;
+  text-align: center;  
 }
 
 .footer-conteudo {
-  align-items: center;
+  display: flex;
+  align-items: center;  
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.footer-contatos{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -201,8 +218,7 @@ footer p {
 
 .footer-bottom p {
   font-size: 14px;
-  margin-bottom: 2rem;
-  text-transform: capitalize;
+  margin: 1rem;
   word-spacing: 2px;
 }
 
@@ -225,6 +241,7 @@ footer p {
 
 .container {
   display: grid;
+  align-content: center;
   place-content: center;
   grid-template-areas: "container-left container-right";
   justify-content: space-evenly;
@@ -236,12 +253,12 @@ footer p {
 /* Conteúdo da esquerda */
 
 .container-left {
-  grid-area: "container-left";
+  grid-area: container-left;
 }
 
 .left-img {
   border-radius: 10%;
-  box-shadow: 0px 1px 15px #121212;
+  box-shadow: 0px 0px 5px #121212;
   height: auto;
   margin-top: 1.5rem;
   width: auto;
@@ -260,12 +277,11 @@ footer p {
 /* Conteúdo da direita */
 
 .container-right {
-  grid-area: "container-right";
+  grid-area: container-right;
 }
 
 .right-img {
-  border-radius: 20px;
-  box-shadow: 0px 1px 5px #121212;
+  border-radius: 20px;  
   height: auto;
   margin-top: 30px;
   width: auto;
@@ -277,6 +293,7 @@ footer p {
 .right-img:hover,
 .left-img:hover {
   scale: 1.01;
+  filter:drop-shadow(0px 0px 5px #121212)
 }
 
 /* Termos */
@@ -290,7 +307,7 @@ footer p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 15px 15px #1212126b;
+  box-shadow: 0px 0px 5px #121212;
 }
 
 .termos p,
@@ -378,13 +395,18 @@ p.balao1 {
   background: linear-gradient(135deg, #ccc, #fafafa, #949494);
   background-size: 220% 220%;
   animation: gradient 15s ease infinite;
-  border-radius: 30px;
-  box-shadow: 0px 15px 15px #1212126b;
+  border-radius: 10px;
   color: #000000;
   padding: 30px;
   width: 80vw;
-  margin: 5vh 10vw;
+  margin: 3vh 10vw;
   text-align: center;
+  transition: all 1.02s;
+}
+p.balao:hover,
+p.balao1:hover {
+  scale:1.01;
+  box-shadow: 0px 0px 5px #121212
 }
 
 p.balao1 {
@@ -394,7 +416,11 @@ p.balao1 {
 p#nomerequisito {
   display: none;
 }
-
+.corpo-prerequisitos{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
 .about-title2 {
   background-color: #fafafa;
   text-decoration: none;
@@ -431,6 +457,7 @@ p#nomerequisito {
 
   .container-left {
     width: auto;
+    align-items: center;
   }
 
   .container-right {
@@ -438,7 +465,7 @@ p#nomerequisito {
   }
 
   .nav-links {
-    width: 60%;
+    width: 60%;    
   }
 
   .container {
@@ -454,14 +481,6 @@ p#nomerequisito {
   }
 
   /* Conteúdo da direita */
-
-  .right-img {
-    border-radius: 20px;
-    box-shadow: 0px 1px 15px #121212;
-    height: auto;
-    margin-top: 2.5rem;
-    width: 50vw;
-  }
 
   .about {
     padding: 1em;
@@ -617,7 +636,7 @@ p#nomerequisito {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 4rem 5vw -8rem;
+  margin: 4rem 5vw;
   flex-wrap: wrap;
   gap: 25px;
 }
@@ -697,7 +716,12 @@ p#nomerequisito {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 376px) {
+  .container-right{
+    margin: 0 auto;
+    width: 375px;
+    align-content: center;
+  }
   .about-title2 {
     width: 70vw;
     margin: 2vh auto;
@@ -715,7 +739,7 @@ p#nomerequisito {
 
 .formulario a {
   background-color: #fafafa;
-  border-radius: 75px;
+  border-radius: 20px;
   color: #dd4a48;
   font-size: 20px;
   font-weight: 600;
@@ -737,9 +761,20 @@ p#nomerequisito {
   margin: 3rem 0;
   font-weight: 600;
   color: #fafafa;
-  letter-spacing: 2px;
+  letter-spacing: 2px;  
 }
-
+/* .cupom-base{
+display: flex;
+justify-content: center;
+margin: 3rem 0;
+font-weight: 600;
+color: #fafafa;
+letter-spacing: 2px;
+border: 1px solid green;
+border-radius: 10px;
+box-shadow: 0px 0px 17px green;
+padding: 10px;
+} */
 main.cards {
   display: flex;
   padding: 32px;
@@ -751,7 +786,7 @@ main.cardsg {
   grid-template-areas: "cardg" "cardg" "cardg";
 }
 main.cardg {
-  grid-area: "cardg";
+  grid-area: cardg;
 }
 
 main.cards section.card {
@@ -815,10 +850,6 @@ main.cards section.card.academia button:hover {
   box-shadow: 0px 0px 8px #4f091d;
 }
 
-main.cards section.card.academia {
-  box-shadow: 20px 20px 50px -30px #121212;
-}
-
 main.cards section.card.farmacia button {
   background: linear-gradient(to right, #dd4a48, #dd4a48, #4f091d);
   background-size: 170%;
@@ -830,10 +861,6 @@ main.cards section.card.farmacia button:hover {
   box-shadow: 0px 0px 8px #4f091d;
 }
 
-main.cards section.card.farmacia {
-  box-shadow: 20px 20px 50px -30px #121212;
-}
-
 main.cards section.card.mercado button {
   background: linear-gradient(to right, #dd4a48, #dd4a48, #4f091d);
   background-size: 170%;
@@ -843,10 +870,6 @@ main.cards section.card.mercado button {
 
 main.cards section.card.mercado button:hover {
   box-shadow: 0px 0px 8px #4f091d;
-}
-
-main.cards section.card.mercado {
-  box-shadow: 20px 20px 50px -30px #121212;
 }
 
 /* Responsivo Cupons */
@@ -873,12 +896,13 @@ main.cards section.card.mercado {
   background: linear-gradient(135deg, #ccc, #fafafa, #949494);
   background-size: 220% 220%;
   animation: gradient 15s ease infinite;
-  transition: 150ms ease-in-out;
+  transition: .4s ease-in-out;
   color: #000;
 }
 
 #academia:hover, #farmacia:hover,#mercado:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
+  box-shadow: 0px 0px 15px #1212129d;
 }
 
 .nodecoration{

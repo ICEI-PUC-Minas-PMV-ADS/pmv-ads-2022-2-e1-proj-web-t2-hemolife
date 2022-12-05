@@ -106,3 +106,12 @@ a {
     color:#dd4a48;
     font-weight: bold;
 }
+.Data{    
+    padding-left: 10px;
+}
+.reqPass{
+    margin:0;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #0c0c0c;
+}

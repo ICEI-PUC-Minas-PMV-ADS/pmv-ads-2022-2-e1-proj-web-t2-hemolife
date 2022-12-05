@@ -56,3 +56,28 @@ var db = {
         }
     ]
 }
+// Obtem os cupoons
+var cup = document.querySelector(".cards");
+var cupom_cor = document.querySelector("")
+function cuponshemolife(cup) {
+  // limpa a lista de cupons apresentados
+  $("#cupons").empty();
+  // Popula a tabela com os registros do banco de dados
+  for (let index = 0; index < db.dados.length; index++) {
+    const desc = db.dados[index];
+    // Verifica se os dados dos cupons batem com os filtros
+    if ((desc.id == cup) || (cup == '')) {
+      $("#cupons").append(
+        `<section class="card ${desc.id}" id="${desc.id}">
+          <div class="cupom">
+          <img src="${desc.src}" alt="${desc.id}" />
+          </div>
+          <h3>${desc.beneficio}</h3>
+          <span>Código para validação: <em>${desc.cupom}</em></span>
+    <button>Validar cupom</button>
+  </section>`
+
+      );
+    }
+  }
+}

@@ -12,6 +12,7 @@
     <script src="../js/index.js"></script>
     <script src="../js/db-preRequisitos.js"></script>
     <script defer src="../js/checklogin.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,59 +29,34 @@
         <div id="logado" class="logo">
         </div>
     </nav>
-    <!-- corpo da pagina -->
+    <div class="conteudo">
 
-    <!-- Botão para voltar uma guia -->
-    <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
+        <!-- Botão para voltar uma guia -->
+        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
+        <div-content class="corpo-prerequisitos">
+            <!-- corpo da pagina -->
+            <main-map id="filtroRequisito" name="filtroRequisito">
+                <div class="balaoRequisito" onclick="PreRequisitos('1')">
+                    <h2 class="about-title2">Quem pode doar</h2>
+                    </button>
+                </div>
 
-    <main-map id="filtroRequisito" name="filtroRequisito">
+                <div class="balaoRequisito" onclick="PreRequisitos('2')">
+                    <h2 class="about-title2">Condições básicas para doar</h2>
+                </div>
 
-        <div class="balaoRequisito" onclick="PreRequisitos('1')">
-            <h2 class="about-title2">Quem pode doar</h2>
-            </button>
-        </div>
+                <div class="balaoRequisito" onclick="PreRequisitos('3')">
+                    <h2 class="about-title2">Etapas da doação</h2>
+                </div>
 
-        <div class="balaoRequisito" onclick="PreRequisitos('2')">
-            <h2 class="about-title2">Condições básicas para doar</h2>
-        </div>
-
-        <div class="balaoRequisito" onclick="PreRequisitos('3')">
-            <h2 class="about-title2">Etapas da doação</h2>
-        </div>
-
-    </main-map>
-    <!-- Ânconra para dar 'scroll' até o conteúdo impresso -->
-    <main>
-        <p id="nomerequisito"></p>
-        <div id="Pre-Requisitos">
-        </div>
-    </main>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script>
-        // Obtem os hemocentro informados pelo usuário nos filtros
-        var fr = document.querySelector(".name");
-        function PreRequisitos(fr) {
-
-            // limpa a lista
-            $("#Pre-Requisitos").empty();
-
-            // Popula a tabela com os registros do banco de dados
-            document.getElementById('nomerequisito').innerHTML = fr;
-            for (let index = 0; index < db.dados.length; index++) {
-                const indice = db.dados[index];
-                if ((indice.paragrafo == fr) || (fr == '')) {
-                    $("#Pre-Requisitos").append(
-                        `<div class="card">
-                         <p>${indice.text}<br>
-                        </div>`
-                    );
-                }
-            };
-
-        }
-
-
-    </script>
+            </main-map>
+            <!-- Ânconra para dar 'scroll' até o conteúdo impresso -->
+            <main>
+                <p id="nomerequisito"></p>
+                <div id="Pre-Requisitos">
+                </div>
+            </main>
+    </div>
     <!-- Rodapé da página -->
     <footer>
         <div class="footer-conteudo">
@@ -88,20 +64,16 @@
             <a href="apoie.html">Apoie o nosso projeto</a>
             <a href="trabalhe-conosco.html">Trabalhe conosco</a>
         </div>
-
         <div class="footer-bottom">
+            <div class="footer-contatos">
+                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+            </div>
             <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
                     href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
             </p>
-            <div>
-                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
-            </div>
-            <div>
-                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
-            </div>
         </div>
     </footer>
-
     <!-- Api Libras -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>

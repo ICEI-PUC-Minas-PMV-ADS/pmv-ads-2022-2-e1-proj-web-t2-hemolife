@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Trabalhe Conosco</title>
+    <title>Hemo Life</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/formulario.css">
@@ -26,54 +26,51 @@
     <!-- Navbar -->
     <nav>
         <div id="logado" class="logo">
-
         </div>
     </nav>
-
     <!-- body -->
-
     <!-- Botão para voltar uma guia -->
-    <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
+    <general class="conteudo">
+        <!-- Botão para voltar uma guia -->
+        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</a></button>
+        <div class="limit">
+            <form class="formCadastro">
+                <h2 class="form-signin-heading">Envie seu currículo</h2>
+                <div class="limitf">
+                    <input name="nome" class="input-form form-control" placeholder="Nome">
+                    <input name="e-mail" class="input-form form-control" placeholder="E-mail">
+                    <input name="número" class="input-form form-control" placeholder="Número">
+                    <label for="file" class="label-form-anexar-curriculo form-control-anexo">Anexe seu
+                        currículo:</label>
+                    <input class="form-control-anexo" id="currículo" type="file" name="currículo"
+                        placeholder="Anexar currículo" accept="image/pdf" />
 
-    <div class="limit">
-        <form class="formCadastro">
-            <h2 class="form-signin-heading">Envie seu currículo</h2>
-            <div class="limitf">
-                <input name="nome" class="input-form form-control" placeholder="Nome">
-                <input name="e-mail" class="input-form form-control" placeholder="E-mail">
-                <input name="número" class="input-form form-control" placeholder="Número">
-                <label for="file" class="label-form-anexar-curriculo form-control-anexo">Anexe seu currículo:</label>
-                <input class="form-control-anexo" id="currículo" type="file" name="currículo" placeholder="Anexar currículo"
-                 accept="image/pdf" />
-                
-                <h4 class="p-form-anexar-curriculo">Todos os campos são obrigatórios <br />
-                    Tamanho máximo para upload - 10mb<br />
-                    Tipo do arquivo: .pdf
-                </h4>
-                <button class="btn" id="btnCadastro">Enviar</button>
-            </div>
-        </form>
-    </div><!-- Rodapé da página -->
+                    <h4 class="p-form-anexar-curriculo">Todos os campos são obrigatórios <br />
+                        Tamanho máximo para upload - 10mb<br />
+                        Tipo do arquivo: .pdf
+                    </h4>
+                    <button class="btn" id="btnCadastro">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </general>
+    <!-- Rodapé da página -->
     <footer>
         <div class="footer-conteudo">
             <a href="prerequisitos.html">Dúvidas frequentes</a>
             <a href="apoie.html">Apoie o nosso projeto</a>
             <a href="trabalhe-conosco.html">Trabalhe conosco</a>
         </div>
-
         <div class="footer-bottom">
+            <div class="footer-contatos">
+                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+            </div>
             <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
                     href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
             </p>
-            <div>
-                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
-            </div>
-            <div>
-                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
-            </div>
         </div>
     </footer>
-
     <!-- Api Libras -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>

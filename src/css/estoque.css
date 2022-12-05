@@ -10,23 +10,22 @@ container-estoque {
     height: auto;
     width: 460px;
     display: grid;
-    grid-template-areas: "section section";
+    grid-template-areas: "section1 section2";
     grid-template-columns: subgrid;
     transition: all .5s;
     border-radius: 20px;
     justify-content: center;
-    align-items: center;
-    box-shadow: 0px 10px 10px #0000005b;
+    align-items: center;    
 }
 
 container-estoque:hover {
-    scale: 1.02;
+    scale: 1.01;
+    box-shadow: 0px 0px 15px #0000005b;
 }
 
 section-1 {
     margin: 1rem 5px 5px 5px;
-
-    grid-area: "section";
+    grid-area: section1;
     display: grid;
     grid-template-areas: "card-blood card-blood card-blood card-blood";
     grid-row-gap: 15px;
@@ -37,19 +36,20 @@ section-2 {
     border-left: 1px solid #dd4a48;
     padding-left: 10px;
     margin: 15px;
-    grid-area: "section";
+    grid-area: section2;
     display: grid;
     grid-template-areas: "card-blood-leg";
     justify-items: center;
 }
 
 .card-blood {
-    grid-area: "card-blood";
+    grid-area: card-blood;
     width: auto;
     max-width: 70px;
 }
 
 .card-bloodleg {
+    grid-area: card-blood-leg;
     width: auto;
     max-width: 70px;
 }

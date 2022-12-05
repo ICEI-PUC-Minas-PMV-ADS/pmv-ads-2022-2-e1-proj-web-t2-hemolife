@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Login - Hemo Life</title>
+    <title>Hemo Life</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/stylelogin.css">
@@ -32,48 +32,49 @@
 
         </div>
     </nav>
-    <!-- Botão para voltar uma guia -->
-    <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</button></a>
-    <!-- Conteúdo do Corpo -->
+    <general class="conteudo">
+        <!-- Botão para voltar uma guia -->
+        <button id="btn-voltar"><a href="javascript: history.go(-1)">Voltar</a></button>
+        <!-- Conteúdo do Corpo -->
 
-    <main>
-        <section class="limit">
-            <div class="form-signin">
-                <div id="login">
-                    <h2 class="form-signin-heading">Login</h2>
+        <main>
+            <section class="limit">
+                <div class="form-signin">
+                    <div id="login">
+                        <h2 class="form-signin-heading">Login</h2>
 
-                    <div id="msgLogin"></div>
+                        <div id="msgLogin"></div>
 
-                    <div class="form-group">
-                        <label for="username" id="labelEmailLogin"></label>
-                        <input type="text" class="form-control" id="nome" placeholder="Email" required>
+                        <div class="form-group">
+                            <label for="username" id="labelEmailLogin"></label>
+                            <input type="text" class="form-control" id="nome" placeholder="Email" required>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="password" id="labelSenhaLogin"></label>
+                            <input type="password" class="form-control" id="senha" placeholder="Senha" required>
+                        </div>
+                        <label class="checkbox">
+                            <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Permanecer
+                            conectado?
+                        </label>
+
+                        <br><a href="../pages/forgot.html">Esqueceu sua senha?</a>
+                        <label>
+                            <button class="btn btn-primary" onclick="processaFormLogin()"
+                                id="btnLogin"><span>Entrar</span></button>
+                        </label>
 
                     </div>
-                    <div class="form-group">
-                        <label for="password" id="labelSenhaLogin"></label>
-                        <input type="password" class="form-control" id="senha" placeholder="Senha" required>
-                    </div>
-                    <label class="checkbox">
-                        <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Permanecer
-                        conectado?
-                    </label>
-
-                    <br><a href="../pages/forgot.html">Esqueceu sua senha?</a>
-                    <label>
-                        <button class="btn btn-primary" onclick="processaFormLogin()"
-                            id="btnLogin"><span>Entrar</span></button>
-                    </label>
 
                 </div>
-
-            </div>
-            <div class="cadastro">
-                <h3>Não tem conta?</h3>
-                <button><a href="../pages/criar-conta.html">Criar conta</a></button>
-
-            </div>
-        </section>
-    </main>
+                <div class="cadastro cria-conta">
+                    <h3>Não tem conta?</h3>
+                    <button><a href="../pages/criar-conta.html">Criar conta</a></button>
+                </div>
+            </section>
+        </main>
+    </general>
     <!-- Rodapé da página -->
     <footer>
         <div class="footer-conteudo">
@@ -81,20 +82,16 @@
             <a href="apoie.html">Apoie o nosso projeto</a>
             <a href="trabalhe-conosco.html">Trabalhe conosco</a>
         </div>
-
         <div class="footer-bottom">
+            <div class="footer-contatos">
+                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
+                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
+            </div>
             <p>Copyright &copy;2022 Hemo Life. designed by <a class="puc"
                     href="https://www.pucminas.br/destaques/Paginas/default.aspx">PUC Minas</a>
             </p>
-            <div>
-                <p>Contato:<a href="#">(xx)xxxxx-xxxx</a></p>
-            </div>
-            <div>
-                <p>Email:<a href="mailto:hemolifepuc@gmail.com">hemolifepuc@gmail.com</a></p>
-            </div>
         </div>
     </footer>
-
     <!-- Api Libras -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
