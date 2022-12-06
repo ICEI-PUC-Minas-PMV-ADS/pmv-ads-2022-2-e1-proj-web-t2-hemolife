@@ -9,16 +9,17 @@
 }
 
 html,
-body {  
+body {
   background: linear-gradient(135deg, #4f091d, #dd4a48, #121212);
   background-size: 220% 220%;
   animation: gradient 15s ease infinite;
   /* min-height: 100vh; */
   overflow-x: hidden;
-  margin:0;
+  margin: 0;
   min-width: 100vw;
   min-height: 100vh;
 }
+
 /* Navbar */
 
 nav {
@@ -26,13 +27,15 @@ nav {
   display: flex;
   margin: 10px 0;
   min-height: 8vh;
-  justify-content: space-around;  
+  justify-content: space-around;
 }
+
 .conteudo {
   margin: auto;
   display: block;
-  min-height:90vh;  
+  min-height: 90vh;
 }
+
 div a img {
   width: 45px;
 }
@@ -52,7 +55,8 @@ p {
 
 /* Nome da empresa */
 
-#logado,.logo {
+#logado,
+.logo {
   align-items: center;
   display: flex;
   font-size: 28px;
@@ -61,7 +65,8 @@ p {
   justify-content: center;
 }
 
-#logado,.logo a {
+#logado,
+.logo a {
   color: #fafafa;
   display: flex;
   font-family: "Poiret One";
@@ -84,7 +89,6 @@ p {
   list-style: none;
   padding: 1%;
   padding-left: 4%;
-  border-left: 1px solid #acacac59;
 }
 
 .nav-links a {
@@ -155,18 +159,19 @@ footer {
   width: 100vw;
   bottom: 0;
   align-items: baseline;
-  justify-content:baseline;
-  text-align: center;  
+  justify-content: baseline;
+  text-align: center;
 }
 
 .footer-conteudo {
   display: flex;
-  align-items: center;  
+  align-items: center;
   flex-direction: row;
   justify-content: center;
   text-align: center;
 }
-.footer-contatos{
+
+.footer-contatos {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -281,7 +286,7 @@ footer p {
 }
 
 .right-img {
-  border-radius: 20px;  
+  border-radius: 20px;
   height: auto;
   margin-top: 30px;
   width: auto;
@@ -293,7 +298,7 @@ footer p {
 .right-img:hover,
 .left-img:hover {
   scale: 1.01;
-  filter:drop-shadow(0px 0px 5px #121212)
+  filter: drop-shadow(0px 0px 5px #121212)
 }
 
 /* Termos */
@@ -333,7 +338,7 @@ footer p {
   background-color: #fafafa;
   text-decoration: none;
   color: #dd4a48;
-  height: auto; 
+  height: auto;
   width: 8vw;
   cursor: pointer;
   background: #fafafa;
@@ -403,9 +408,10 @@ p.balao1 {
   text-align: center;
   transition: all 1.02s;
 }
+
 p.balao:hover,
 p.balao1:hover {
-  scale:1.01;
+  scale: 1.01;
   box-shadow: 0px 0px 5px #121212
 }
 
@@ -416,11 +422,13 @@ p.balao1 {
 p#nomerequisito {
   display: none;
 }
-.corpo-prerequisitos{
+
+.corpo-prerequisitos {
   display: flex;
   flex-direction: column;
   margin: 0;
 }
+
 .about-title2 {
   background-color: #fafafa;
   text-decoration: none;
@@ -465,7 +473,7 @@ p#nomerequisito {
   }
 
   .nav-links {
-    width: 60%;    
+    width: 60%;
   }
 
   .container {
@@ -478,6 +486,7 @@ p#nomerequisito {
     height: auto;
     margin-top: 2.5rem;
     width: auto;
+    scale: 1.001;
   }
 
   /* Conteúdo da direita */
@@ -540,17 +549,6 @@ p#nomerequisito {
     transform: translateX(0%);
     z-index: 1;
   }
-
-  footer {
-    position: sticky;
-    top: 100%;
-  }
-
-  .about {
-    padding: 1em;
-    width: 80vw;
-    margin: 5vh 10vw;
-  }
 }
 
 @media screen and (max-width: 590px) {
@@ -563,10 +561,6 @@ p#nomerequisito {
     transform: scale(1.3);
   }
 
-  footer {
-    position: sticky;
-    top: 100%;
-  }
 
   .team {
     align-items: center;
@@ -575,6 +569,7 @@ p#nomerequisito {
     justify-content: space-around;
     transform: scale(0.8);
   }
+
   .container-full-line {
     margin: 5rem 2rem 2rem 2rem;
   }
@@ -684,6 +679,7 @@ p#nomerequisito {
 }
 
 @media (max-width: 570px) {
+
   /* termos resposividade */
   .termos {
     background-color: #fafafa;
@@ -695,7 +691,8 @@ p#nomerequisito {
     justify-content: center;
     align-items: center;
     box-shadow: 0px 15px 15px #1212126b;
-  }  
+  }
+
   #btn-voltar {
     margin: 5vh 12vw 5vh;
     background-color: #fafafa;
@@ -703,7 +700,7 @@ p#nomerequisito {
     color: #dd4a48;
     height: fit-content;
     width: fit-content;
-    cursor: pointer;    
+    cursor: pointer;
     border: none;
     border-radius: 10px;
     color: #dd4a48;
@@ -717,11 +714,12 @@ p#nomerequisito {
 }
 
 @media (max-width: 376px) {
-  .container-right{
+  .container-right {
     margin: 0 auto;
     width: 375px;
     align-content: center;
   }
+
   .about-title2 {
     width: 70vw;
     margin: 2vh auto;
@@ -761,8 +759,9 @@ p#nomerequisito {
   margin: 3rem 0;
   font-weight: 600;
   color: #fafafa;
-  letter-spacing: 2px;  
+  letter-spacing: 2px;
 }
+
 /* .cupom-base{
 display: flex;
 justify-content: center;
@@ -779,12 +778,14 @@ main.cards {
   display: flex;
   padding: 32px;
   justify-content: center;
-  margin-bottom: -3rem;  
+  margin-bottom: -3rem;
 }
+
 main.cardsg {
   display: grid;
   grid-template-areas: "cardg" "cardg" "cardg";
 }
+
 main.cardg {
   grid-area: cardg;
 }
@@ -843,7 +844,7 @@ main.cards section.card.academia button {
   background-size: 170%;
   color: #fafafa;
   transition: 150ms ease-in-out;
-  
+
 }
 
 main.cards section.card.academia button:hover {
@@ -878,13 +879,16 @@ main.cards section.card.mercado button:hover {
   main.cards {
     flex-direction: column;
   }
+
   main.cards section.card {
     margin-left: 0;
     margin-bottom: 32px;
   }
+
   main.cards section.card:last-child {
     margin-bottom: 0;
   }
+
   main.cards section.card button {
     font-size: 70%;
   }
@@ -892,7 +896,9 @@ main.cards section.card.mercado button:hover {
 
 /* Cores dos cards JavaScript */
 
-#academia, #farmacia, #mercado {
+#academia,
+#farmacia,
+#mercado {
   background: linear-gradient(135deg, #ccc, #fafafa, #949494);
   background-size: 220% 220%;
   animation: gradient 15s ease infinite;
@@ -900,78 +906,50 @@ main.cards section.card.mercado button:hover {
   color: #000;
 }
 
-#academia:hover, #farmacia:hover,#mercado:hover {
+#academia:hover,
+#farmacia:hover,
+#mercado:hover {
   transform: scale(1.02);
   box-shadow: 0px 0px 15px #1212129d;
 }
 
-.nodecoration{
-  text-decoration: none;  
-}
-.nodecoration:visited{
-  text-decoration: none;  
-}
-.nodecoration:link{
-  text-decoration: none;  
-}
-.nodecoration:active{
-  text-decoration: none;  
-}
-/* style do load */
-.loader {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  overflow: hidden;
-  height: 80px;
-  width: 80px;
-  border: 1px solid transparent;
-  box-shadow:  0 0 0 0.5px #dd4a48;
-  transform: rotate(45deg);
-  border-radius: 50%;
+.nodecoration {
+  text-decoration: none;
 }
 
-.waves {
-transform: rotate(-45deg);
-  position: relative;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background: #dd4a48;
-  box-shadow: inset 0 0 50px rgb(0,0,0,.3);
+.nodecoration:visited {
+  text-decoration: none;
 }
 
-.waves::before,
-.waves::after {
-  content: '';
-  position: absolute;
-  width: 200%;
-  height: 200%;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -75%);
-  background: #000;
+.nodecoration:link {
+  text-decoration: none;
 }
 
-.waves::before {
-  border-radius: 45%;
-  background: rgb(248, 248, 248);
-  animation: onda 5s linear infinite;
+.nodecoration:active {
+  text-decoration: none;
 }
 
-.waves::after {
-  border-radius: 40%;
-  background: rgb(255,255,255,.5);
-  animation: onde 10s linear infinite;
+#myBtn {
+  display: flex;
+  border:none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.349);
+  text-decoration: none;
 }
-
-@keyframes onde {
-  0% {
-    transform: translate(-50%, -75%) rotate(0deg);
-  }
-
-  100% {
-    transform: translate(-50%, -75%) rotate(360deg);
-  }
+#myBtn::after {
+  place-content: center;
+  content: "↑";
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  transition: margin-top 250ms;
+}
+#myBtn:hover::after {
+  margin-top:-8px;
 }

@@ -79,5 +79,9 @@ function cuponshemolife(cup) {
 
       );
     }
+    //Scroll da página do botões até o conteúdo impresso.          
+    var target_offset = $("#cupons").offset();
+    var target_top = target_offset.top;
+    $('html, body').stop().animate({ scrollTop: target_top }, 500);
   }
 }

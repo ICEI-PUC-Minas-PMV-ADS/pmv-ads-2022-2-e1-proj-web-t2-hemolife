@@ -13,130 +13,129 @@
     <link rel="stylesheet" href="../css/bloodlevel.css">
     <!-- JavaScript -->
     <script src="../js/checklogin.js" defer></script>
-    <script src="../js/index.js" defer></script>
     <script src="https://kit.fontawesome.com/e903379512.js" crossorigin="anonymous"></script>
     <script src="../js/loadblood.js" defer></script>
-
+    <script src="../js/index.js" defer></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   <link
         href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Quicksand:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <!-- Fav icon -->
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
 </head>
 
-<body>
+<body>    
     <!-- Navbar -->
     <nav>
         <div id="logado" class="logo">
         </div>
-    </nav>
+    </nav>    
     <!-- Conteúdo do Corpo -->
-    <div class="container-full-line formulario buscahemo">
-        <a href="../pages/pesquisaregioes.html">Busca Hemocentro</a>
-    </div>
-    <!-- Carrosel -->
-    <div class="content">
-        <div class="slides">
-            <input type="radio" name="slide" id="slide1" checked>
-            <input type="radio" name="slide" id="slide2">
-            <input type="radio" name="slide" id="slide3">
-            <input type="radio" name="slide" id="slide4">
-            <input type="radio" name="slide" id="slide5">
+    <general class="conteudo">
+        <div class="container-full-line formulario buscahemo">
+            <a href="../pages/pesquisaregioes.html">Busca Hemocentro</a>
+        </div>
+        <!-- Carrosel -->
+        <div class="content">
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+                <input type="radio" name="slide" id="slide5">
 
-            <div class="slide s1">                
-                <a href="../pages/noticias.html#noticia1"><img src="../img/noticias/noticia01.svg" alt=""></a>
-            </div>
-            <div class="slide divcar">                
-                <a href="../pages/noticias.html#noticia2"> <img src="../img/noticias/noticia02.svg" alt=""></a>
-                <figcaption id="textocar">HEMOCENTROS PEDEM DOAÇÕES DE SANGUE POR CAUSA DOS NÍVEIS BAIXOS DE ESTOQUE
-                </figcaption>
-            </div>
+                <div class="slide s1 divcar">
+                    <a href="../pages/noticias.html#noticia1"><img src="../img/noticias/noticia01.svg" alt=""></a>
+                    <figcaption id="textocar">UMA ÚNICA DOAÇÃO PODE SALVAR ATÉ 4 VIDAS!
+                    </figcaption>
+                </div>
+                <div class="slide divcar">
+                    <a href="../pages/noticias.html#noticia2"> <img src="../img/noticias/noticia02.svg" alt=""></a>
+                    <figcaption id="textocar">HEMOCENTROS PEDEM DOAÇÕES DE SANGUE POR CAUSA DOS NÍVEIS BAIXOS DE ESTOQUE
+                    </figcaption>
+                </div>
 
-            <div class="slide divcar">
-                <a href="../pages/noticias.html#noticia3"> <img
-                        src="../img/noticias/noticia03.svg"
-                        alt=""></a>
-                        <figcaption id="textocar">HEMOCENTROS BUSCAM FAZER MUTIRÃO DE DOAÇÃO DE SANGUE
-                        </figcaption>
-            </div>
+                <div class="slide divcar">
+                    <a href="../pages/noticias.html#noticia3"> <img src="../img/noticias/noticia03.svg" alt=""></a>
+                    <figcaption id="textocar">HEMOCENTROS BUSCAM FAZER MUTIRÃO DE DOAÇÃO DE SANGUE
+                    </figcaption>
+                </div>
 
-            <div class="slide divcar">
-                <a href="../pages/noticias.html#noticia4"> <img
-                        src="../img/noticias/noticia04.svg" alt=""></a>
-                        <figcaption id="textocar">“SOMOS TODOS DO MESMO SANGUE”: 25/11 – DIA NACIONAL DO DOADOR DE SANGUE
-                        </figcaption>
-            </div>
+                <div class="slide divcar">
+                    <a href="../pages/noticias.html#noticia4"> <img src="../img/noticias/noticia04.svg" alt=""></a>
+                    <figcaption id="textocar">“SOMOS TODOS DO MESMO SANGUE”: 25/11 – DIA NACIONAL DO DOADOR DE SANGUE
+                    </figcaption>
+                </div>
 
-            <div class="slide divcar">
-                <a href="../pages/noticias.html#noticia5"> <img
-                        src="../img/noticias/noticia05.svg" alt=""></a>
-                        <figcaption id="textocar">DOAR SANGUE – GESTO SOLIDÁRIO QUE SALVA VIDAS TODOS OS DIAS
-                        </figcaption>
+                <div class="slide divcar">
+                    <a href="../pages/noticias.html#noticia5"> <img src="../img/noticias/noticia05.svg" alt=""></a>
+                    <figcaption id="textocar">DOAR SANGUE – GESTO SOLIDÁRIO QUE SALVA VIDAS TODOS OS DIAS
+                    </figcaption>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="navigate">
-        <label class="bar" for="slide1"></label>
-        <label class="bar" for="slide2"></label>
-        <label class="bar" for="slide3"></label>
-        <label class="bar" for="slide4"></label>
-        <label class="bar" for="slide5"></label>
-    </div>
-
-    <div class="container">
-        <div class="container-left">
-            <h2>Indicadores</h2>
-            <p>Nossos indicadores sanguíneos.</p>
-            <!-- Grid dos Estoques -->
-            <container-estoque>
-                <!-- Linhas e Colunas com os Níveis Sanguíneos Dinâmicos -->
-                <section-1>
-                    <div><img class="card-blood" id="blood01" alt="carregando...">
-                        <h4>A+</h4>
-                    </div>
-                    <div><img class="card-blood" id="blood02" alt="carregando...">
-                        <h4>A-</h4>
-                    </div>
-                    <div><img class="card-blood" id="blood03" alt="carregando...">
-                        <h4>B+</h4>
-                    </div>
-                    <div><img class="card-blood" id="blood04" alt="carregando...">
-                        <h4>B-</h4>
-                    </div>
-                    <div><img class="card-blood" id="blood05" alt="carregando...">
-                        <h4>AB+</h4>
-                    </div>
-                    <div><img class="card-blood" id="blood06" alt="carregando...">
-                        <h4>AB-</h4>
-                    </div>
-                    <div><img class="card-blood" id="blood07" alt="carregando...">
-                        <h4>O+</h4>
-                    </div>
-                    <div><img class="card-blood" id="blood08" alt="carregando...">
-                        <h4>O-</h4>
-                    </div>
-                </section-1>
-                <!-- Colunas de legenda -->
-                <section-2>
-                    <img class="card-blood-leg blood03" alt="carregando...">
-                    <h4>Nível Adequado</h4>
-                    <img class="card-blood-leg blood02" alt="carregando...">
-                    <h4>Nível Regular</h4>
-                    <img class="card-blood-leg blood01" alt="carregando...">
-                    <h4>Nível Crítico</h4>
-                </section-2>
-
-            </container-estoque>
+        <div class="navigate">
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+            <label class="bar" for="slide5"></label>
         </div>
-        <div class="container-right">
-            <h2>Clube de benefícios</h2>
-            <p>Veja os benefícios de se tornar um doador Hemo Life!</p>
-            <a href="cartao.html"><img class="right-img" src="../img/cartao-beneficio.png" alt="blank-img"></a>
+
+        <div class="container">
+            <div class="container-left">
+                <h2>Indicadores</h2>
+                <p>Nossos indicadores sanguíneos.</p>
+                <!-- Grid dos Estoques -->
+                <container-estoque>
+                    <!-- Linhas e Colunas com os Níveis Sanguíneos Dinâmicos -->
+                    <section-1>
+                        <div><img class="card-blood" id="blood01" alt="carregando...">
+                            <h4>A+</h4>
+                        </div>
+                        <div><img class="card-blood" id="blood02" alt="carregando...">
+                            <h4>A-</h4>
+                        </div>
+                        <div><img class="card-blood" id="blood03" alt="carregando...">
+                            <h4>B+</h4>
+                        </div>
+                        <div><img class="card-blood" id="blood04" alt="carregando...">
+                            <h4>B-</h4>
+                        </div>
+                        <div><img class="card-blood" id="blood05" alt="carregando...">
+                            <h4>AB+</h4>
+                        </div>
+                        <div><img class="card-blood" id="blood06" alt="carregando...">
+                            <h4>AB-</h4>
+                        </div>
+                        <div><img class="card-blood" id="blood07" alt="carregando...">
+                            <h4>O+</h4>
+                        </div>
+                        <div><img class="card-blood" id="blood08" alt="carregando...">
+                            <h4>O-</h4>
+                        </div>
+                    </section-1>
+                    <!-- Colunas de legenda -->
+                    <section-2>
+                        <img class="card-blood-leg blood03" alt="carregando...">
+                        <h4>Nível Adequado</h4>
+                        <img class="card-blood-leg blood02" alt="carregando...">
+                        <h4>Nível Regular</h4>
+                        <img class="card-blood-leg blood01" alt="carregando...">
+                        <h4>Nível Crítico</h4>
+                    </section-2>
+                </container-estoque>
+            </div>
+            <div class="container-right">
+                <h2>Clube de benefícios</h2>
+                <p>Veja os benefícios de se tornar um doador Hemo Life!</p>
+                <a href="cartao.html"><img class="right-img" src="../img/cartao-beneficio.png" alt="blank-img"></a>
+            </div>
         </div>
-    </div>
+    </general>    
     <!-- Rodapé da página -->
     <footer>
         <div class="footer-conteudo">
@@ -154,6 +153,7 @@
             </p>
         </div>
     </footer>
+    
     <!-- Api Libras -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>

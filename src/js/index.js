@@ -1,57 +1,50 @@
 const navSlide = () => {
-    const burger = document.querySelector('.burger');
-    const nav = document.querySelector('.nav-links');
-    const navLinks = document.querySelectorAll('.nav-links li');
+  const burger = document.querySelector('.burger');
+  const nav = document.querySelector('.nav-links');
+  const navLinks = document.querySelectorAll('.nav-links li');
 
-    
-    burger.addEventListener('click', () => {
 
-        // Gaveta Responsiva
+  burger.addEventListener('click', () => {
 
-        nav.classList.toggle('nav-active');
+    // Gaveta Responsiva
 
-        // Links Animados
+    nav.classList.toggle('nav-active');
 
-        navLinks.forEach((link, index) => {
-            if (link.style.animation) {
-                link.style.animation = '';
-            } else {
-                link.style.animation = 'navLinkFade 0.5s ease forwards ${index / 7 + 1.5}s';
-            }
-        });
+    // Links Animados
 
-        // Animação da Gaveta
-        burger.classList.toggle('toggle');
-
+    navLinks.forEach((link, index) => {
+      if (link.style.animation) {
+        link.style.animation = '';
+      } else {
+        link.style.animation = 'navLinkFade 0.5s ease forwards ${index / 7 + 1.5}s';
+      }
     });
-    
-}   
+
+    // Animação da Gaveta
+    burger.classList.toggle('toggle');
+
+  });
+
+}
 
 navSlide();
 
-//Login 
+// pegar botão
+var mybutton = document.getElementById("myBtn");
 
-function logar(){
+// quando rolar a página 20px do topo para baixo, o botão será exibido
+window.onscroll = function () { scrollFunction() };
 
-    var login = document.getElementById('login').value;
-    var senha = document.getElementById('senha').value;
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "flex";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
 
-    if(login == "admin" && senha == "admin"){        
-            location.href = "acesso-autorizado.html"        
-    }
-
-    else{        
-            location.href = "acesso-negado.html"        
-    }
-
-    }
-
-    // Carrossel Script
-    
-    const carouselSlide = document.querySelector('.carousel-slide');
-    const carouselImages = document.querySelectorAll('.carousel-slide img');
-
-    // Botoes Carrosel
-
-    const prevBtn = document.querySelector('#prevBtn');
-    const nextBtn = document.querySelector('#nextBtn');
+// // quando clicar no botão, a página rola para o topo do documento
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
