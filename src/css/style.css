@@ -54,7 +54,31 @@ p {
 }
 
 /* Nome da empresa */
-
+#top {
+  border-radius: 50%;
+  display: flex;
+  border:none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.349);
+  text-decoration: none;
+}
+#top::after {
+  place-content: center;
+  content: "↑";
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  transition: margin-top 250ms;
+}
+#top:hover::after {
+  margin-top:-8px;=
+}
 #logado,
 .logo {
   align-items: center;
@@ -927,29 +951,4 @@ main.cards section.card.mercado button:hover {
 
 .nodecoration:active {
   text-decoration: none;
-}
-
-#myBtn {
-  display: flex;
-  border:none;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  width: 50px;
-  height: 50px;
-  background-color: rgba(0, 0, 0, 0.349);
-  text-decoration: none;
-}
-#myBtn::after {
-  place-content: center;
-  content: "↑";
-  font-size: 32px;
-  font-weight: bold;
-  color: #fff;
-  transition: margin-top 250ms;
-}
-#myBtn:hover::after {
-  margin-top:-8px;
 }
