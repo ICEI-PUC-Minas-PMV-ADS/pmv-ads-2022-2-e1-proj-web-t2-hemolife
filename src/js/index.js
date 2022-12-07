@@ -28,14 +28,21 @@ const navSlide = () => {
 }
 
 navSlide()
+window.addEventListener('resize', function () {
+  const title = document.querySelector('.hemotitle');
+  const largura = window.screen.width;
 
-const title = document.querySelector('.hemotitle');
-const largura = window.screen.width;
-if (pagindex.value = 1) {
   if (largura <= 810) {
-    title.style.display = "none";
+    if (pagindex.value = 1) {
+      title.style.display = "none";
+    }
+    else if (pagindex.value = undefined) {
+      title.style.display = "flex";
+    }
+
   }
-  else if (pagindex = undefined){
+  else {
     title.style.display = "flex";
   }
-}
+
+})
