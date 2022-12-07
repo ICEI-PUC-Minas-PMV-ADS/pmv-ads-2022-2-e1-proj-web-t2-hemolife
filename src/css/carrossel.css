@@ -108,7 +108,7 @@ input {
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
-    
+
   }
 
   .navigate {
@@ -124,22 +124,22 @@ input {
 
 }
 
-@media (max-width: 968px) {
+@media (max-width: 810px) {
   .content {
-    margin-top: 10vh;
-    height: 13rem;
-    width: 426px;
+    margin: 2em 5vw auto 5vw;
+    height: auto;
+    width: auto;
   }
 
   .navigate {
-    margin-top: -5vh;
-    height: 2rem;
+    margin-top: 5px;
   }
 
   .bar {
     height: 20px;
     width: 20px;
   }
+
   .divcar figcaption {
     font-size: 20px;
   }
@@ -147,7 +147,7 @@ input {
 
 @media (max-width: 580px) {
   .content {
-    margin-top: 8rem;
+    margin-top: 5vh;
     height: auto;
     width: 20rem;
     border-radius: 20px;
@@ -157,7 +157,7 @@ input {
   }
 
   .navigate {
-    margin: 2rem;
+    margin: 1vh;
     justify-content: center;
   }
 
@@ -168,6 +168,7 @@ input {
     border-radius: 50%;
     cursor: pointer;
   }
+
   .divcar figcaption {
     font-size: 16px;
   }

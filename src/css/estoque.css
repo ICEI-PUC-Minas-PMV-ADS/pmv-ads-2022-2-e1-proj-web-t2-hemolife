@@ -1,22 +1,19 @@
 container-estoque {
-    float: right;
+    position: relative;
     background: linear-gradient(135deg, #ccc, #fafafa, #949494);
     background-size: 220% 220%;
     animation: gradient 15s ease infinite;
     transition: 150ms ease-in-out;
-    border-radius: 30px;
-    width: 25vw;
+    border-radius: 20px;
+    width: max-content;
     padding: 2vh 1vw;
     margin: 30px;
     height: auto;
-    width: 460px;
     display: grid;
     grid-template-areas: "section1 section2";
     grid-template-columns: subgrid;
-    transition: all .5s;
-    border-radius: 20px;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
 container-estoque:hover {
@@ -43,6 +40,18 @@ section-2 {
     justify-items: center;
 }
 
+section-1 h4,
+section-2 h4 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+section-2 h2 {
+    font-size: 18px;
+    color: #dd4a48
+}
+
+
 .card-blood {
     grid-area: card-blood;
     width: auto;
@@ -53,6 +62,7 @@ section-2 {
     grid-area: card-blood-leg;
     width: auto;
     max-width: 70px;
+    font-weight: 400;
 }
 
 container-estoque img {
@@ -64,17 +74,37 @@ h4 {
     margin-bottom: 8px
 }
 
-.linkBloodLevel{
+.linkBloodLevel {
     text-decoration: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1550px) {
     container-estoque {
-        width: auto;
+        min-width: 395px;
     }
+}
+
+@media (max-width: 1024px) {
+    container-estoque {
+        align-items: center;
+        width: max-content;
+        min-width: auto;
+        margin: 0 auto;
+        padding: 0 auto;
+        height: fit-content;
+        animation: none;
+        background: linear-gradient(225deg, #ccc);
+        background-size: 220% 220%;
+    }
+
     container-estoque:hover {
         scale: 0.81;
         box-shadow: 0px 1px 15px #0000005b;
+    }
+
+    section-2 {
+        margin: 0;
+        margin-right: 2%;
     }
 
     .card-blood {
@@ -86,10 +116,14 @@ h4 {
         max-width: auto;
     }
 }
+@media (max-width: 810px) {
 
-@media screen and (max-width: 520px) {
-    
     container-estoque {
+        margin: 1px;
         scale: .8;
-}
+    }
+    container-estoque:hover {
+        scale: 0.81;
+        box-shadow: 0px 1px 15px #0000005b;
+    }
 }
