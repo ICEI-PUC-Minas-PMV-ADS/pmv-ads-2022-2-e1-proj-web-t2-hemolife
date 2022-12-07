@@ -173,3 +173,8 @@ input {
     font-size: 16px;
   }
 }
+@media (max-width: 375px){
+  .content{
+    margin-top: 7vh;
+  }
+}
