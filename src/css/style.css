@@ -33,7 +33,7 @@ nav {
 .conteudo {
   margin: auto;
   display: block;
-  min-height: fit-content;
+  min-height: 90vh;
 }
 
 div a img {
@@ -286,6 +286,7 @@ footer p {
 
 .container-left {
   grid-area: container-left;
+  margin: 0 auto;
 }
 
 .left-img {
