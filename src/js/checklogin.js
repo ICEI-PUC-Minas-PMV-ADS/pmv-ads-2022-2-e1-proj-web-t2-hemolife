@@ -1,3 +1,7 @@
+//Verificador puxa o localStorage e se tiver vazio manda logar
+if (localStorage.getItem("usurLogadoAtivo") === null) {
+  localStorage.setItem('usurLogadoAtivo', '');
+}
 function verifyLogin() {
     usurLogadoAtivo = JSON.parse(localStorage.getItem("usurLogadoAtivo"));
     usurLogado = localStorage.getItem("usurLogado");
@@ -5,6 +9,7 @@ function verifyLogin() {
         logado.outerHTML = "<top onclick='topFunction()' id='top'></top><div id='logado' class='logo'><a class='icon' href='../index.html'><img src='../img/logo.png' alt='logo'></a><a class='hemotitle' href='../index.html'>Hemo Life</a></div><ul class='nav-links'><li><a href='././sobre.html'>Sobre</a></li><li><a href='././campanhas.html'>Campanhas</a></li><li><a href='././prerequisitos.html'>Pré-Requisitos</a></li><a href='././login.html'><button class='nav-btn'>Login</button></a></ul><div class='burger'><div class='line1'></div><div class='line2'></div><div class='line3'></div></div>";
         usurLogadoAtivo = false;
         return false;
+        
     }
     logado = document.getElementById("logado");
     if (usurLogadoAtivo === true && usurLogado.includes('Doador')) {

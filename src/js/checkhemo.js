@@ -1,5 +1,4 @@
 function checkhemo() {
-    setTimeout(() => {
         usurLogadoAtivo = localStorage.getItem("usurLogadoAtivo");
         usurLogado = localStorage.getItem("usurLogado")
         if (typeof usurLogadoAtivo == undefined || usurLogadoAtivo == false) {
@@ -11,6 +10,5 @@ function checkhemo() {
             window.location.href = "././paineldoador.html"
 
         }
-    }, 1500);
 }
 checkhemo()
