@@ -143,7 +143,7 @@ function cadastroCom() {
         localStorage.setItem('usurLista', JSON.stringify(usurLista))
         setTimeout(() => {
             /*Cadastro Efetuado*/
-            window.location.pathname = "https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/pages/login.html";
+            window.location.pathname = "pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/pages/login.html";
         }, 2000);
         msgLog.innerHTML = ''
     }
