@@ -1,6 +1,6 @@
 //Verificador puxa o localStorage e se tiver vazio manda logar
 if (localStorage.getItem("usurLogadoAtivo") === null) {
-  localStorage.setItem('usurLogadoAtivo', '');
+  localStorage.setItem('usurLogadoAtivo', false);
 }
 function verifyLogin() {
     usurLogadoAtivo = JSON.parse(localStorage.getItem("usurLogadoAtivo"));
