@@ -24,9 +24,11 @@ window.onload = function () {
     if (localStorage.getItem("hemoNivel8") === null) {
         localStorage.setItem('hemoNivel8', '1');
     }
+    
     //nivel01
     var nivel01 = localStorage.getItem('hemoNivel1')
-    bloodType1 = document.getElementById("blood01");
+    var bloodType1 = document.getElementById("blood01");    
+    var rangeslider1 = document.getElementById("sliderRange1");
     if (nivel01 === '1') {
         bloodType1.classList.remove("blood02");
         bloodType1.classList.add("blood01");
@@ -44,7 +46,8 @@ window.onload = function () {
 
     //nivel02
     var nivel02 = localStorage.getItem('hemoNivel2')
-    bloodType2 = document.getElementById("blood02");
+    var bloodType2 = document.getElementById("blood02");
+    var rangeslider2 = document.getElementById("sliderRange2");
     if (nivel02 === '1') {
         bloodType2.classList.remove("blood02");
         bloodType2.classList.add("blood01");
@@ -58,10 +61,11 @@ window.onload = function () {
         bloodType2.classList.remove("blood02");
         bloodType2.classList.add("blood03");
     };
-
+   
     //nivel03
     var nivel03 = localStorage.getItem('hemoNivel3')
-    bloodType3 = document.getElementById("blood03");
+    var bloodType3 = document.getElementById("blood03");
+    var rangeslider3 = document.getElementById("sliderRange3");
     if (nivel03 === '1') {
         bloodType3.classList.remove("blood02");
         bloodType3.classList.add("blood01");
@@ -78,7 +82,8 @@ window.onload = function () {
 
     //nivel04
     var nivel04 = localStorage.getItem('hemoNivel4')
-    bloodType4 = document.getElementById("blood04");
+    var bloodType4 = document.getElementById("blood04");
+    var rangeslider4 = document.getElementById("sliderRange4");
     if (nivel04 === '1') {
         bloodType4.classList.remove("blood02");
         bloodType4.classList.add("blood01");
@@ -96,7 +101,8 @@ window.onload = function () {
 
     //nivel05
     var nivel05 = localStorage.getItem('hemoNivel5')
-    bloodType5 = document.getElementById("blood05");
+    var bloodType5 = document.getElementById("blood05");
+    var rangeslider5 = document.getElementById("sliderRange5");
     if (nivel05 === '1') {
         bloodType5.classList.remove("blood02");
         bloodType5.classList.add("blood01");
@@ -113,7 +119,8 @@ window.onload = function () {
 
     //nivel06
     var nivel06 = localStorage.getItem('hemoNivel6')
-    bloodType6 = document.getElementById("blood06");
+    var bloodType6 = document.getElementById("blood06");
+    var rangeslider6 = document.getElementById("sliderRange6");
     if (nivel06 === '1') {
         bloodType6.classList.remove("blood02");
         bloodType6.classList.add("blood01");
@@ -129,7 +136,8 @@ window.onload = function () {
     };
     //nivel07
     var nivel07 = localStorage.getItem('hemoNivel7')
-    bloodType7 = document.getElementById("blood07");
+    var bloodType7 = document.getElementById("blood07");
+    var rangeslider7 = document.getElementById("sliderRange7");
     if (nivel07 === '1') {
         bloodType7.classList.remove("blood02");
         bloodType7.classList.add("blood01");
@@ -145,7 +153,8 @@ window.onload = function () {
     };
     //nivel 08
     var nivel08 = localStorage.getItem('hemoNivel8')
-    bloodType8 = document.getElementById("blood08");
+    var bloodType8 = document.getElementById("blood08");
+    var rangeslider8 = document.getElementById("sliderRange8");
     if (nivel08 === '1') {
         bloodType8.classList.remove("blood02");
         bloodType8.classList.add("blood01");
@@ -159,4 +168,12 @@ window.onload = function () {
         bloodType8.classList.remove("blood02");
         bloodType8.classList.add("blood03");
     };
+    rangeslider1.value = nivel01;
+    rangeslider2.value = nivel02;
+    rangeslider3.value = nivel03;
+    rangeslider4.value = nivel04;
+    rangeslider5.value = nivel05;
+    rangeslider6.value = nivel06;
+    rangeslider7.value = nivel07;
+    rangeslider8.value = nivel08;
 }
