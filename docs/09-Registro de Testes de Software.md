@@ -3,12 +3,11 @@
 Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
 Casos de Testes (CT-01, CT-02, CT-03, CT-04, CT-05, CT-06, CT-07, CT-08, CT-09)
-- CT-01 - HomePage - Testar acesso a Busca por Hemocentro. Testar acesso às notícias. Testar visualização de níveis sanguíneos.
+##- CT-01 - HomePage - Testar acesso a Busca por Hemocentro. Testar acesso às notícias. Testar visualização de níveis sanguíneos.
 <div>
 <img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/index.png">
 </div>
 - CT-02 - Busca por hemocentro - Testar as botões de busca da tela de Busca Hemocentro por Região.
-
 <div>
 <img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/busca.png">
 </div><p></p>
@@ -62,11 +61,12 @@ Direciona para às respectivas noticias com sucesso.
 - CT-04 - Benefícios Hemolife - Teste de acesso ao Benefícios Hemolife.
 <p>Tela inicial com acesso ao cartão</p>
 <div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/index.png"></div><p></p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/index.png"></div>
+<p></p>
 Tela benefícios parcial - Tela usuário deslogado
 <div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cupons-logado.png"></div><p></p>
-Tela Painel doador com acesso ao cartão 
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cartao.png"></div><p></p>
+Tela Painel doador com acesso ao Clube de Benefícios
 <div>
 <img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cupons-logado.png"></div><p></p>
 Tela benefícios completa - Tela usuário logado
@@ -125,35 +125,28 @@ Dados de login ou senha inválidos
  
 -CT-08 - Teste do painel do doador
 
-<div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/paineldoador.png"></div><p>Painel exclusivo para o doador cadastrado</p>
+<div><p>Painel exclusivo para o doador cadastrado</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/paineldoador.png"></div>
 </div>
   
-<div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/formdoa%C3%A7%C3%A3o.png"></div><p>Formulário para doar sangue</p>
-</div>
-
-<div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cupons-academia.png"</div><p>Benefícios do doador - Cupons de desconto</p>
+<div><p>Formulário para doar sangue</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/formdoa%C3%A7%C3%A3o.png"></div>
 </div>
 <div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cupons-farmacia.png"</div><p>Benefícios do doador - Cupons de desconto</p>
+<p>Benefícios do doador - Cupons de desconto</p>
+<img align="center"  width="411px" src="[https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cupons-academia.png](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cupons-logado.png)"</div>
 </div>
-<div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cupons-mercado.png"</div><p>Benefícios do doador - Cupons de desconto</p>
-</div>
-
 
 -CT-09 - Teste do painel do hemocentro
 
-<div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/painel-hemocentro.png"></div><p>Painel exclusivo para o hemocentro</p>
+<div><p>Painel exclusivo para o hemocentro</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/painel-hemocentro.png"></div>
 </div>
   
-<div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/doadores.png"></div><p>Doadores disponíveis que manifestaram seu interesse</p>
+<div><p>Doadores disponíveis que manifestaram seu interesse</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/doadores.png"></div>
 </div>
 
-<div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/configuracao-niveis-sanguineos.png"></div><p>Sessão de sjustes nos níveis reguladores de sangue do gráfico dinâmico</p>
+<div><p>Sessão de sjustes nos níveis reguladores de sangue do gráfico dinâmico</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/configuracao-niveis-sanguineos.png"></div>
 </div>
