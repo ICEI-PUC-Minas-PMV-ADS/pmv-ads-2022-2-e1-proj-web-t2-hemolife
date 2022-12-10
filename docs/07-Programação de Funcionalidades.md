@@ -2,7 +2,7 @@
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema.
 
 ## 1. Contato e pesquisa de hemocentro por região (RF-01)
-![Colocar Imagem ](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/e054dd24c86442a69acae906e195703bdc8e6a01/docs/img/PesquisaPorRegiao.svg)
+![Colocar Imagem ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/busca.png)
 
 Nesta sessão, o usuário poderá acessar o contato e a localização do hemocentro próximo de sua região.
 ### 1.1 Requisitos atendidos:
@@ -17,9 +17,9 @@ Nesta sessão, o usuário poderá acessar o contato e a localização do hemocen
 * checklogin.js
 
 ## 2. Sessão informativa (RF-02)
-![Pré-Requisitos](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/448abbb79351394c7da2d7cee543d55d50f0d62f/docs/img/rereqpt1.svg)
-![Pré-Requisitos](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/448abbb79351394c7da2d7cee543d55d50f0d62f/docs/img/rereqpt2.svg)
-![Pré-Requisitos](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/448abbb79351394c7da2d7cee543d55d50f0d62f/docs/img/rereqpt3.svg)
+![Pré-Requisitos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/pre-requisistos-part1.png)
+![Pré-Requisitos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/pre-requisistos-part2.png)
+![Pré-Requisitos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/pre-requisistos-part3.png)
 
 Nesta sessão, o usuário poderá consultar os requisitos necessários para se tornar um doador e sanar eventuais dúvidas mais recorrentes.
 
@@ -37,7 +37,7 @@ Nesta sessão, o usuário poderá consultar os requisitos necessários para se t
 
 ## 3. Cadastro de doadores (RF-03)
 
-![Cadastro de doadores](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/b3669d33efb5b998604b044ee8bac001fe1b1254/docs/img/cadastro.svg)
+![Cadastro de doadores](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cadastro.png)
 
 Nesta sessão, o usuário novo poderá manifestar o seu interesse em se tornar um doador realizando seu cadastro como doador.
 
@@ -68,7 +68,7 @@ Nesta sessão, o usuário novo poderá manifestar o seu interesse em se tornar u
 * checklogin.js
 
 ## 5. Doadores (RF-05)
-![Doadores](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/739ebb373701c6a9c55f3d3a1ab9e9c2753839fd/docs/img/doadores.svg)
+![Doadores](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/doadores.png)
 Nesta sessão, o hemocentro poderá visualizar as informações dos usuários que se cadastraram e estão disponíveis para doação.
 
 ### 5.1 Requisitos atendidos:
@@ -85,7 +85,7 @@ Nesta sessão, o hemocentro poderá visualizar as informações dos usuários qu
 * checkhemo.js
 
 ## 6. Visualização de notícias (RF-06)
-![Notícias](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/00bc8da1e99e247558517ac3fd20c65f3d191de7/docs/img/noticias.svg)
+![Notícias](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/noticias.png)
 Nesta sessão, o usuário poderá visualizar notícias publicadas pelos hemocentros.
 
 ### 6.1 Requisitos atendidos:
@@ -100,7 +100,7 @@ Nesta sessão, o usuário poderá visualizar notícias publicadas pelos hemocent
 * checklogin.js
  
 ## 7. Benefícios HemoLife (RF-07)
-![Benefícios HemoLife](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/839fa533d71fe541810b5ce9edd280365802ac67/docs/img/beneficios.svg)
+![Benefícios HemoLife](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cupons-logado.png)
 Nesta sessão, o usuário poderá visualizar os benefícios de manifestar interesse em ser um doador através do formulário de doação.
 
 ### 7.1 Requisitos atendidos:
@@ -116,7 +116,7 @@ Nesta sessão, o usuário poderá visualizar os benefícios de manifestar intere
 
 ## 8. Gráfico de estoque disponível (RF-08)
 
-![Gráfico de estoque por tipo sanguíneo](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/7906eb65e261728fd27194f4590093554e7ac571/docs/img/index.svg)
+![Gráfico de estoque por tipo sanguíneo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/index.png)
 
 Nesta sessão, o usuário novo poderá visualizar um gráfico informando o estoque disponível para cada tipo sanguíneo.
 
@@ -130,26 +130,33 @@ Nesta sessão, o usuário novo poderá visualizar um gráfico informando o estoq
 * bloodlevel.css
 * index.js
 * loadblood.js
+* checklogin.js
 
 ## 9. Alteração gráfico de estoque (RF-09)
 
-![Card para alterar estoque poo tipo sanguíneo](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/7cc9c4863c20d9a284590220395190bf0fe62e6d/docs/img/altgraficoestoque.svg)
+![Card para alterar estoque poo tipo sanguíneo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/configuracao-niveis-sanguineos.png)
 Nesta sessão, o hemocentro poderá alterar estoque disponível por tipo sanguíneo.
 
 ### 9.1 Requisitos atendidos:
 * RF-09 	O site deve permitir ao usuário hemocentro realizar ajustes nos níveis de sangue em seu painel.
 
-### 8.2 Artefatos da funcionalidade:
+### 9.2 Artefatos da funcionalidade:
 
 * style.css
 * estoque.css
 * bloodlevel.css
 * index.js
 * loadbload.js
+* checklogin.js
 
 ## 10. Doação financeira (RF-10)
-![Apoie nosso projeto](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/c88eee98273be3fff835bfc209d7019385a8d6a1/docs/img/apoie.svg)
+![Apoie nosso projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/doacao-financeira.png)
 Nessa sessão, os usuários podem fazer uma doação financeira para o projeto HemoLife.
 
 ### 10.1 Requisitos atendidos:
 * RF-10 O site deve conter uma página onde qualquer pessoa possa efetuar uma doação financeira a organização HemoLife.
+
+### 10.2 Artefatos da funcionalidade:
+* style.css
+* index.js
+* checklogin.js
