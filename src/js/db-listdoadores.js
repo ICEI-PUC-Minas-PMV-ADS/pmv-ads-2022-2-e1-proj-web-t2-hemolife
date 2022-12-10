@@ -3,9 +3,9 @@ var db = {
         {
             doador: "Maria Luiza Fonseca",
             tiposan: "B+",
-            regiao: "Norte",
+            regiao: "Nordeste",
             estado: "Paraíba",
-            cidade: "Belo Horizonte",
+            cidade: "João Pessoa",
             cadastrado: "01/11/2022",
             contato: "(31)12345-1234"
         },
