@@ -75,7 +75,7 @@ function processaFormLogin() {
     }
     else {
         msgLog.setAttribute('style', 'display: block')
-        msgLog.innerHTML = 'Preencha os dados corretamente'
+        msgLog.innerHTML = '*Preencha os dados corretamente'
         return false;
     }
     

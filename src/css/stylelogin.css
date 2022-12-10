@@ -151,7 +151,10 @@ button:hover {
 #nome {
   margin-bottom: 12px;
 }
-
+#msgLogin{
+  color: #dd4a48;
+  font-weight: bold;
+}
 .cadastro {
   margin-top: 4vh;
   display: flex;

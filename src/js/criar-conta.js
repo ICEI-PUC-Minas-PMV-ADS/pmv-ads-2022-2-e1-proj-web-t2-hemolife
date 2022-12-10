@@ -21,10 +21,10 @@ usurLogado = [];
 usurLista = JSON.parse(localStorage.getItem('usurLista') || '[]')
 
 //Verifica Nome
-function verificaNome() {
+function verificaEmailExiste() {
     if (usurLista) {
         for (let i = 0; i < usurLista.length; i++) {
-            if (nome.value == usurLista[i].nome) {
+            if (email.value == usurLista[i].email) {
                 return true;
             }
         }
@@ -110,7 +110,7 @@ function verificaTudo(event) {
         labelConfirmSenha.innerHTML = '*As senhas não coincidem'
         confirmaSenha = false;
     }
-    if (!verificaEmail()) {
+    if (!verificaEmailExiste())  {
         unicoEmail = true;
         labelEmail.innerHTML = '';
     }
@@ -122,10 +122,10 @@ function verificaTudo(event) {
     if (!verificaNome()) {
         unicoNome = true;
     }
-    else {
+    else{
         unicoNome = false;
-
     }
+    
     cadastroCom();
 }
 
