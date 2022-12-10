@@ -3,9 +3,9 @@ var db = {
         {
             solicitante: "Maria Luiza Fonseca",
             tiposan: "B+",
-            regiao: "Norte",
+            regiao: "Nordeste",
             estado: "Paraíba",
-            cidade: "Belo Horizonte",
+            cidade: "João Pessoa",
             solicitado: "01/11/2022",
             contato: "(31)12345-1234"
         },
@@ -30,7 +30,7 @@ var db = {
         {
             solicitante: "Marlon Frederico",
             tiposan: "A+",
-            regiao: "Suldeste",
+            regiao: "Sudeste",
             estado: "Rio de Janeiro",
             cidade: "Rio de Janeiro",
             solicitado: "01/11/2022",
@@ -48,7 +48,7 @@ var db = {
         {
             solicitante: "Rosilene Clara da Silva",
             tiposan: "AB-",
-            regiao: "Suldeste",
+            regiao: "Sudeste",
             estado: "Espírito Santo",
             cidade: "Vitória",
             solicitado: "29/04/2022",
