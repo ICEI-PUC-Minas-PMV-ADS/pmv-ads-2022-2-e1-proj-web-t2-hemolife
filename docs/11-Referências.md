@@ -11,4 +11,4 @@
 
 >Título: Como fazer scroll da página utilizando JQuery. educoutinho blog, 2022. Disponível em: [link](https://educoutinho.com.br/javascript/como-fazer-scroll-da-pagina-utilizando-jquery/). Acesso em: (09/12/2022).
 
->>Chris, Kolade. Título: HTML Button onclick – JavaScript Click Event Tutorial. FreeCodeCamp, 2022. Disponível em: ([link](https://www.freecodecamp.org/news/html-button-onclick-javascript-click-event-tutorial/). Acesso em: (09/12/2022).
+>Chris, Kolade. Título: HTML Button onclick – JavaScript Click Event Tutorial. FreeCodeCamp, 2022. Disponível em: ([link](https://www.freecodecamp.org/news/html-button-onclick-javascript-click-event-tutorial/). Acesso em: (09/12/2022).
