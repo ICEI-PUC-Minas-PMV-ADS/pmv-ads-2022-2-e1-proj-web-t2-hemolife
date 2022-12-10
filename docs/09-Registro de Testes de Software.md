@@ -3,7 +3,7 @@
 Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
 Casos de Testes (CT-01, CT-02, CT-03, CT-04, CT-05, CT-06, CT-07, CT-08, CT-09)
-##- CT-01 - HomePage - Testar acesso a Busca por Hemocentro. Testar acesso às notícias. Testar visualização de níveis sanguíneos.
+- CT-01 - HomePage - Testar acesso a Busca por Hemocentro. Testar acesso às notícias. Testar visualização de níveis sanguíneos.
 <div>
 <img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/index.png">
 </div>
