@@ -147,6 +147,6 @@ Dados de login ou senha inválidos
 <img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/doadores.png"></div>
 </div>
 
-<div><p>Sessão de sjustes nos níveis reguladores de sangue do gráfico dinâmico</p>
+<div><p>Sessão de ajustes nos níveis reguladores de sangue do gráfico dinâmico</p>
 <img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/configuracao-niveis-sanguineos.png"></div>
 </div>
