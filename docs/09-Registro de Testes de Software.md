@@ -5,147 +5,155 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 Casos de Testes (CT-01, CT-02, CT-03, CT-04, CT-05, CT-06, CT-07, CT-08, CT-09)
 - CT-01 - HomePage - Testar acesso a Busca por Hemocentro. Testar acesso às notícias. Testar visualização de níveis sanguíneos.
 <div>
-<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/203873734-af34da0b-f431-4a0a-936a-454f8b64358b.png">
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/index.png">
 </div>
 - CT-02 - Busca por hemocentro - Testar as botões de busca da tela de Busca Hemocentro por Região.
 
 <div>
-<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/203874122-35693c3b-087a-49a0-b386-6a51e36fe7dd.png">
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/busca.png">
 </div><p></p>
 <div>
-<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/203874141-c9bd5884-0ba3-4bce-8622-2ca54a44ce5f.png">
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/busca-norte.png">
 </div>
 <p></p>
 <div>
-<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/203874147-448fb5f6-1caa-4784-9b84-509c9db3dd8f.png">
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/busca-nordeste.png">
 </div>
 <p></p>
 <div>
-<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/203874161-8f3b6f73-c49e-42e8-850c-b37f88024c0d.png">
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/busca-centro-oeste.png">
 </div>
 <p></p>
 <div>
-<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/203874169-5a3700c5-fe64-4319-b194-eb0d15c3b287.png">
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/busca-sudeste.png">
 </div>
 <p></p>
 <div>
-<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/203874186-bcff4fa4-915c-4281-a54b-eb95f9ccc751.png">
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/busca-sul.png">
 </div>
 <p></p>
 - CT-03 - Notícias - Testa acesso às notícias atráves do banner de notícias da homepage.
 <h3>1. Banner 01</h3>
 <div>
-<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204066596-35f326be-b3b9-4bdc-9625-d53197a1cbdf.png">
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/CT-03/banner01.png">
 </div>
 <h3>2. Banner 02</h3>
 <div>
-<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204174053-d6371739-8696-4b91-be76-19128f6fd2ba.png">
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/CT-03/banner02.png">
 </div>
 <h3>3. Banner 03</h3>
 <div>
-<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204174080-3fa5d15d-0f13-4e29-b66a-d2acb36adbc1.png">
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/CT-03/banner03.png">
 </div>
 <h3>4. Banner 04</h3>
 <div>
-<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/203874394-2d5bea72-37cf-4a48-9f35-ab3178099b9a.png">
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/CT-03/banner04.png">
 </div>
 <h3>5. Banner 05</h3>
 <div>
-<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/203874406-72249e66-bd92-4215-b8ec-27adc44ef52e.png">
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/CT-03/banner05.png">
 </div>
 <p></p>
 Direciona para às respectivas noticias com sucesso.
 <div>
-<img align="center" width="411px" src="https://user-images.githubusercontent.com/114194318/204067096-3d4bd79c-b513-4d40-b14a-55aca38a4667.png">
+<img align="center" width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/noticias.png">
 </div>
 
 - CT-04 - Benefícios Hemolife - Teste de acesso ao Benefícios Hemolife.
 <p>Tela inicial com acesso ao cartão</p>
 <div>
-<img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086443-b9573459-b198-42a6-bf3d-ac8c72c1d6ef.png"></div><p></p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/index.png"></div><p></p>
 Tela benefícios parcial - Tela usuário deslogado
 <div>
-<img align="center"  width="411px" src="https://user-images.githubusercontent.com/114194318/204174450-c551faae-4e75-43b3-9055-5ffb095097f6.png"></div><p></p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cupons-logado.png"></div><p></p>
 Tela Painel doador com acesso ao cartão 
 <div>
-<img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086501-23395c37-88a1-4b11-97ac-1ff1bda73e7b.png"></div><p></p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cupons-logado.png"></div><p></p>
 Tela benefícios completa - Tela usuário logado
 <div>
-<img align="center"  width="411px" src="https://user-images.githubusercontent.com/111004815/204086519-4f988812-d6cf-4be1-bca0-692a1e69c90c.png"></div><p></p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cupons-academia.png"></div><p></p>
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cupons-farmacia.png"></div><p></p>
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cupons-mercado.png"></div><p></p>
 
 -CT-05 - Teste a página de informaçoes para novos doadores 
 <div>
-<img align="center"  width="411px" src="https://user-images.githubusercontent.com/49421282/204087612-aec8bc03-22d0-464f-9aab-588d1b9e6710.png"></div><p></p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/pre-requisistos-part0.png"></div><p></p>
 <div>
-<img align="center"  width="411px" src="https://user-images.githubusercontent.com/49421282/204087210-c81cf622-4fe0-4029-bc86-7d8e13e70ed3.png"></div><p></p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/pre-requisistos-part1.png"></div><p></p>
 <div>
-<img align="center"  width="411px" src="https://user-images.githubusercontent.com/49421282/204087655-29c72161-1b70-4d94-afbc-5e4bae40377c.png"></div><p></p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/pre-requisistos-part2.png"></div><p></p>
 <div>
-<img align="center"  width="411px" src="https://user-images.githubusercontent.com/49421282/204087700-b5b75258-a08a-476d-b365-b4dca991dc26.png"></div><p></p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/pre-requisistos-part3.png"></div><p></p>
 
 -CT-06 - Teste de cadastro e login
 
 <div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/login%20e%20cadastro/login.png"></div><p>Página de login</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/login.png"></div><p>Página de login</p>
 </div>
   
 <div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/login%20e%20cadastro/cadastro-form-preenchido.png"></div><p>Criação de conta</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cadastro.png"></div><p>Criação de conta</p>
 </div>
 
 <div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/login%20e%20cadastro/efetuando-login.png"></div><p>Efetuando login</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/login%20e%20cadastro/teste-login.png"></div><p>Efetuando login</p>
 </div>
 
 <div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/doador/painel-doador.png"></div><p>Usuário logado</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/paineldoador.png"></div><p>Usuário logado</p>
 </div>
  -CT-07 - Teste de cadastro e login sem sucesso
   <p>Senhas não atinge os requisitos mínimos</p>
   <div>
-<img align="center"  width="411px" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/b6de6adaf5f085e49b0f492f052856f3a99d313e/docs/img/cadastroerr.svg"></div><p>Página de login</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro-senhas-nao-requisitos.png"></div><p>Página de login</p>
 </div>
 Senhas não coincidem e não atinge os requisitos mínimos
   <div>
-<img align="center"  width="411px" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/b6de6adaf5f085e49b0f492f052856f3a99d313e/docs/img/cadastroerrc.svg"></div><p>Página de login</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro-senhas-nao-coincidem-nao-requisitos.png"></div><p>Página de login</p>
 </div>
 E-mail inválido
   <div>
-<img align="center"  width="411px" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/b6de6adaf5f085e49b0f492f052856f3a99d313e/docs/img/cadastroerremail.svg"></div><p>Página de login</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro-email-invalido.png"></div><p>Página de login</p>
 </div>
-Nome já existe
-  <div>
-<img align="center"  width="411px" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/b6de6adaf5f085e49b0f492f052856f3a99d313e/docs/img/cadastroerrnome.svg"></div><p>Página de login</p>
-</div>
+
 Dados de login ou senha inválidos
   <div>
-<img align="center"  width="411px" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/b6de6adaf5f085e49b0f492f052856f3a99d313e/docs/img/loginsenha.svg"></div><p>Página de login</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/login-dados-invalidos.png"></div><p>Página de login</p>
 </div>
  
 -CT-08 - Teste do painel do doador
 
 <div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/doador/painel-doador.png"></div><p>Painel exclusivo para o doador cadastrado</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/paineldoador.png"></div><p>Painel exclusivo para o doador cadastrado</p>
 </div>
   
 <div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/doador/funcionalidade-1-formulario-doador.png"></div><p>Formulário para doar sangue</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/formdoa%C3%A7%C3%A3o.png"></div><p>Formulário para doar sangue</p>
 </div>
 
 <div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/doador/cuponsDiscount.png"></div><p>Benefícios do doador - Cupons de desconto</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cupons-academia.png"</div><p>Benefícios do doador - Cupons de desconto</p>
 </div>
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cupons-farmacia.png"</div><p>Benefícios do doador - Cupons de desconto</p>
+</div>
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/cupons-mercado.png"</div><p>Benefícios do doador - Cupons de desconto</p>
+</div>
+
 
 -CT-09 - Teste do painel do hemocentro
 
 <div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/hemocentro/hemocenter-pannel.png"></div><p>Painel exclusivo para o hemocentro</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/painel-hemocentro.png"></div><p>Painel exclusivo para o hemocentro</p>
 </div>
   
 <div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/hemocentro/hemocenter-doadores-disponiveis.png"></div><p>Doadores disponíveis que manifestaram seu interesse</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/doadores.png"></div><p>Doadores disponíveis que manifestaram seu interesse</p>
 </div>
 
 <div>
-<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/cadastro%20e%20login/hemocentro/blood-level.png"></div><p>Sessão de sjustes nos níveis reguladores de sangue do gráfico dinâmico</p>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/Projeto%20de%20Interface/configuracao-niveis-sanguineos.png"></div><p>Sessão de sjustes nos níveis reguladores de sangue do gráfico dinâmico</p>
 </div>
