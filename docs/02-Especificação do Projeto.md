@@ -6,16 +6,13 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Personas
 
-|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/a.png" width="100" title="Tadeu Júnior" align="left">|<h2 align="right"><b>Tadeu Júnior</b></h2></br></br></br> <p align="left">Idade: 27 <br/> Ocupação: Estudante de música e violonista de uma banda sertaneja. <br/> Tipo sanguíneo: Doador de sangue recorrente do tipo A-.</p>|
-|-|-|
-|<b>Motivações</b><br/>Contribuir com a melhora do sistema de saúde como doador recorrente.| Frustrações <br/> <ul><li>Dificuldade em encontrar hemocentros nas imediações.</li> <li>Falta de campanhas e divulgação para apoiar a causa.</li> <li>Falta de informação para novos doadores.</li> <li>Falta de benefícios para atrair novos doadores.</li></ul>|	
-|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/b.png" width="100" title="Luiza Almeida">|<h2 align="right"><b>Luiza Almeida</b></h2></br></br></br> <p align="left">Idade: 41 <br/>Ocupação: Coordenadora da Divisão de Hematologia em um hemocentro da região sul de Belo Horizonte.<br/> Tipo sanguíneo: Doadora assídua do tipo O-. </p>|
-|<b>Motivações</b><br/>Contribuir com a melhora do sistema de saúde como doador recorrente.| <br/>Frustrações <ul><li> Dificuldade extrema em atrair novos doadores.</li> <li>Ausência de um sistema eficiente que estabeleça uma comunicação entre o doador e o Hemocentro.</li> <li> Falta de campanhas.</li> </ul>|	
-|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/c.png" width="100" title="Akemi Toryama">|<h2 align="right"><b>Akemi Toryama</b></h2></br></br></br> <p align="left">Idade: 41 <br/> Ocupação: Coordenadora da Divisão de Hematologia em um hemocentro da região sul de Belo Horizonte. <br/>Tipo sanguíneo: Doadora assídua do tipo O-.</p>|	
-|<b>Motivações</b><br/>Contribuir com a melhora do sistema de saúde como doador recorrente.| Frustrações <ul><li> Dificuldade extrema em atrair novos doadores. </li><li> Ausência de um sistema eficiente que estabeleça uma comunicação entre o doador e o Hemocentro.</li> <li> Falta de campanhas. </li></ul>|	
-|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/d.jpg" width="100" title="Junior D’Ávila">|<h2 align="right"><b>Junior D’Ávila</b></h2></br></br></br> <p align="left">Idade: 48 <br/>Ocupação: trabalha com Análise de Risco na PreX que presta serviço para empresas no Brasil. <br/>Tipo sanguíneo: Doador de sangue eventual do tipo O-. </p>|
-|<b>Motivações</b><br/>Contribuir com a melhora do sistema de saúde como doador universal. | Frustrações <ul><li>Dificuldade em encontrar Hemocentros. </li><li>Ter que pesquisar os Hemocentros com maior necessidade de doação em sua região.</li></ul>
-
+| <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/a.png" width="100" title="Tadeu Júnior" align="left"> | <h2 align="right"><b>Tadeu Júnior</b></h2></br></br></br> <p align="left">Idade: 27 <br/> Ocupação: Estudante de música e violonista de uma banda sertaneja. <br/> Tipo sanguíneo: Doador de sangue recorrente do tipo A-.</p> |
+| --- | --- |
+| Motivações <ul><li>Contribuir com a melhora do sistema de saúde como doador recorrente.</li><li>Se informar sobre o processo de doação de sangue. </li><li>Ajudar a salvar vidas. </li><li>Doar para o Hemocentro mais próximo.</li></ul> | Frustrações <br/> <ul><li>Dificuldade em encontrar hemocentros nas imediações.</li> <li>Falta de campanhas e divulgação para apoiar a causa.</li> <li>Falta de informação para novos doadores.</li> <li>Falta de benefícios para atrair novos doadores.</li></ul> |
+| <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/b.png" width="100" title="Luiza Almeida"> | <h2 align="right"><b>Luiza Almeida</b></h2></br></br></br> <p align="left">Idade: 41 <br/>Ocupação: Coordenadora da Divisão de Hematologia em um hemocentro da região sul de Belo Horizonte.<br/> Tipo sanguíneo: Doadora assídua do tipo O-. </p> |
+| Motivações<ul><li>Encontrar soluções para aumentar os estoques de sangue. </li><li>Facilitar o processo de doação de sangue. </li><li> Incentivar pessoas a doarem sangue.</li></ul> | Frustrações <ul><li> Dificuldade extrema em atrair novos doadores.</li> <li>Ausência de um sistema eficiente que estabeleça uma comunicação entre o doador e o Hemocentro.</li> <li> Falta de campanhas.</li> </ul> |
+| <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/c.png" width="100" title="Akemi Toryama"> | <h2 align="right"><b>Akemi Toryama</b></h2></br></br></br> <p align="left">Idade: 41 <br/> Ocupação: Coordenadora da Divisão de Hematologia em um hemocentro da região sul de Belo Horizonte. <br/>Tipo sanguíneo: Doadora assídua do tipo O-.</p> |
+|<b>Motivações</b><ul><li>Ajudar os Hemocentros com seus estoques de sangue.</li><li>Incentivar outras pessoas a doarem sangue. </li><li>Se informar sobre o processo de doação de sangue.</li><ul>| Frustrações <ul><li>Não ter informações atualizadas sobre os estoques de sangue nos Hemocentros. </li><li> Não ter uma plataforma para se conectar com os Hemocentros. </li><li> Não ter um meio de divulgar as campanhas e informativos dos Hemocentros.</li></ul> |
 
 	
 
@@ -25,19 +22,19 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Tadeu Júnior| Encontrar os Hemocentros mais próximos do local onde eu me encontro.|Tornar a busca mais objetiva, sem ter que pesquisar manualmente.|
-|Tadeu Júnior| Visualizar o estoque de disponível de todos os tipos sanguíneos.|Estar atualizado quanto a quais tipos sanguíneos estão em baixa.|
-|Luiza Almeida|Gostaria de fornecer benefícios para cada doador recorrente.|Incentivar e atrair mais doadores.|
-|Luiza Almeida|Estabelecer contato com o doador.|Tornar o contato entre ambas as partes mais dinâmico. Sem a necessidade de realizar chamadas telefônicas. 
-|Luiza Almeida|Contatar doadores pelo tipo sanguíneo.|Para regular os níveis dos estoques sanguíneos pela tipagem sanguínea.|
-|Akemi Toryama|Acesso de qualquer tipo de dispositivo móvel, afim de facilitar o acesso a plataforma digital|Facilitar o acesso à informação, cadastro e agendamento independente do aparelho usado.|
-|Akemi Toryama|Ter uma sessão informativa onde discriminam requisitos para ser doador.|Orientar novos doadores quanto à sistemática da doação de sangue.|
-|Tadeu Júnior|Visualizar notícias sobre doação.|Acompanhar campanhas de doações através de notícias.|
-|Akemi Toryama|Manifestar interesse em me tornar doador e realizar um cadastro.|Em possível baixa de estoque de sangue do meu tipo, o hemocentro já esteja sabendo da disponibilidade e entre em contato comigo.|
-|Akemi Toryama|Gostaria de avaliar a aplicação.|Deixar um feedback a respeito do serviço prestado pelo grupo Hemo Life.|
-|Luiza Almeida|Ter acesso a uma lista de doadores recorrentes.|Entrar em contato com doadores cadastrados que tenham manifestado interesse em doar.|
-|Junior D’Ávila|Quero doar e preciso de uma forma centralizada de agendamento de doação para indicar nas redes sociais.|Para meu pai prestes a realizar cirurgia cardíaca, entre outros com a mesma necessidade.|
-|Junior D’Ávila|Viajo muito e quero manter o hábito de doar na cidade em que eu estiver.|Tem dificuldade em encontrar informação acerca dos hemocentros da região.|
+| Tadeu Júnior | Encontrar os Hemocentros mais próximos do local onde eu me encontro. | Tornar a busca mais objetiva, sem ter que pesquisar manualmente e economizando tempo. |
+| Tadeu Júnior | Visualizar o estoque de disponível de todos os tipos sanguíneos. | Estar atualizado quanto a quais tipos sanguíneos estão em baixa e poder se programar para doar. |
+| Luiza Almeida | Fornecer benefícios para cada doador recorrente. | Incentivar e atrair mais doadores para aumentar os estoques de sangue. |
+| Luiza Almeida | Estabelecer contato com o doador. | Tornar o contato entre ambas as partes mais dinâmico e prático. |
+| Luiza Almeida | Contatar doadores pelo tipo sanguíneo. | Para regular os níveis dos estoques sanguíneos pela tipagem sanguínea e manter o estoque em níveis adequados. |
+| Akemi Toryama | Acesso de qualquer tipo de dispositivo móvel, afim de facilitar o acesso a plataforma digital | Facilitar o acesso à informação, cadastro e agendamento independente do aparelho usado, aumentando a usabilidade da plataforma. |
+| Akemi Toryama | Ter uma sessão informativa onde discriminam requisitos para ser doador. | Orientar novos doadores quanto à sistemática da doação de sangue, assegurando a qualidade e segurança da doação. |
+| Tadeu Júnior | Visualizar notícias sobre doação. | Acompanhar campanhas de doações através de notícias e manter-se informado. |
+| Akemi Toryama | Manifestar interesse em me tornar doador e realizar um cadastro. | Em possível baixa de estoque de sangue do meu tipo, o hemocentro já esteja sabendo da disponibilidade e entre em contato comigo, aumentando a chance de salvar vidas. |
+| Akemi Toryama | Avaliar a aplicação. | Deixar um feedback a respeito do serviço prestado pelo grupo Hemo Life, com o objetivo de melhorar a experiência do usuário. |
+| Luiza Almeida | Ter acesso a uma lista de doadores recorrentes. | Entrar em contato com doadores cadastrados que tenham manifestado interesse em doar, aumentando o número de doações e consequentemente os estoques sanguíneos. |
+| Junior D’Ávila | Quero poder seguir a evolução dos estoques de sangue em tempo real.  | Para que eu possa fazer minha doação de sangue de maneira mais consciente, contribuindo para o aumento dos estoques nos Hemocentros. |
+| Junior D’Ávila | Viajo muito e quero manter o hábito de doar na cidade em que eu estiver. | Com a facilidade de encontrar informação acerca dos hemocentros da região, tornando a doação de sangue uma tarefa mais prática e simples. |
 
 ## Requisitos
 
