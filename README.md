@@ -10,8 +10,9 @@
 
 `2º/2022`
 
-A aplicação HemoLife aumenta o contato de doadores de sangue e os hemocentros, gerando melhor eficiência nas campanhas de doação
-Logo, a aplicação permite que os hemocentros posssam manter os níveis regulares dos estoques de sangue.
+A aplicação HemoLife aumenta o contato entre doadores de sangue e hemocentros, gerando maior eficiência nas campanhas de doação. Assim, ela permite que os hemocentros mantenham os níveis regulares dos estoques de sangue.
+
+ Além disso, a aplicação também incentivará os usuários a se tornarem doadores assíduos, fornecendo informações sobre as vantagens de se doar sangue. Por fim, também ajudará a divulgar campanhas e notícias publicadas pelos hemocentros.
 
 ## Integrantes
 
@@ -27,7 +28,13 @@ Logo, a aplicação permite que os hemocentros posssam manter os níveis regular
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+1. Acesse o site da HemoLife em ![HemoLife](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t2-hemolife/src/pages/index.html).
+2. Na página inicial, clique em Busca Hemocentro e você encontrará todas as informações necessárias para encontrar um hemocentro e doar sangue.
+3. Você também pode navegar pelas outras páginas da HemoLife para ler notícias sobre campanhas de doação, conferir o estoque de sangue dos hemocentros.
+4. Para usufruir das vantagens de ser um doador assíduo, clique no botão "Cadastrar-se" para criar uma conta.
+    1. Insira as informações necessárias para criar sua conta.
+    2. Após concluir o cadastro, faça login na sua conta.
+    3. Na página inicial, clique em **Clube de benefícios.**
 
 # Documentação
 
