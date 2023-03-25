@@ -31,6 +31,16 @@ function verificaEmailExiste() {
     }
     else { return false; }
 }
+function verificaNome() {
+    if (usurLista) {
+        for (let i = 0; i < usurLista.length; i++) {
+            if (nome.value == usurLista[i].nome) {
+                return true;
+            }
+        }
+    }
+    else { return false; }
+}
 nome.addEventListener('keyup', () => {
     if (!verificaNome()) {
         labelNome.innerHTML = ''
