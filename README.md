@@ -12,7 +12,7 @@
 
 A aplicação HemoLife aumenta o contato entre doadores de sangue e hemocentros, gerando maior eficiência nas campanhas de doação. Assim, ela permite que os hemocentros mantenham os níveis regulares dos estoques de sangue.
 
- Além disso, a aplicação também incentivará os usuários a se tornarem doadores assíduos, fornecendo informações sobre as vantagens de se doar sangue. Por fim, também ajudará a divulgar campanhas e notícias publicadas pelos hemocentros.
+Além disso, a aplicação também incentiva os usuários a se tornarem doadores assíduos, fornecendo informações sobre as vantagens de se doar sangue. Por fim, também ajuda a divulgar campanhas e notícias publicadas pelos hemocentros.
 
 ## Integrantes
 
@@ -62,4 +62,4 @@ A aplicação HemoLife aumenta o contato entre doadores de sangue e hemocentros,
 
 # Armazenamento da Apresentação
 
-* <a href="presentation/README.md">Apresentação da solução</a>
+* <a href="/presentation">Apresentação da solução</a>
