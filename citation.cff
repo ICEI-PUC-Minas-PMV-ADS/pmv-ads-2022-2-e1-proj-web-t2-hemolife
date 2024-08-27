@@ -1,0 +1,23 @@
+message: Please cite this software using these metadata.
+title:
+authors:
+  - family-names: Alisson dos Santos Oliveira
+    given-names:  Gabriel 
+  - family-names: Wallemberg Torquetti Maia
+    given-names: Jansem 
+  - family-names: Filipe dos Reis
+    given-names: Lucas 
+  - family-names: Cândido da Fonseca
+    given-names: Natan 
+  - family-names: Andrade Rolim
+    given-names: Wellington  
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Christina de Paiva Carvalho
+    given-names: Joyce  
+keywords:
+  - Doação
+  - Hemocentros
+  - Agendamento
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife
+date-released: 2022-12-11
